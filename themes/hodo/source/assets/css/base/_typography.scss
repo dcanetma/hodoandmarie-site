@@ -4,11 +4,11 @@ body {
 	@include meh-style-defaults();
 	@include meh-style-regular();
 }
-p {
-	@include meh-style-light();
+p, li {
+	@include meh-style-regular();
 }
 b, strong {
-	@include meh-style-semibold();
+	@include meh-style-bold();
 }
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
