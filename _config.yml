@@ -5,29 +5,18 @@
 # Site
 title: hodo&marie studio
 subtitle: Subtitle
-
-address: carrer Aragó 503, 5B · 08013 Barcelona
-email: hello@hodoandmarie.com
-
-tlf1: +34 653745522
-tlf2: +34 659853390
-
 description: 'We are a studio with focus on graphic design, illustration and motion graphics.
 Nice to meet you! <br> We would love to tell your story.'
-
 keywords:
-
 author: Hodo & Marie
-
 language: en
-
-timezone: +4024−00341 
+timezone:  
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://hodoandmarie.com
-root: /
-permalink: :year/:month/:day/:title/
+url: http://hodoandmarie.com/demo
+root: /demo/
+permalink: works/:title/
 permalink_defaults:
 
 # Directory
@@ -90,12 +79,22 @@ theme: hodo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+- type: git   
+  repo: git@bitbucket.org:factsandfictions/hodoandmarie-site.git 
+  branch: deploy
+  message: 
+- type: ftpsync
+  host: hodoandmarie.com
+  user: hodoandm
+  pass: uRB16K6f
+  remote: /web/demo
+  connections: 1
+  verbose: false
 
 include:
   - ".htaccess"
   - "media/**/*"
-  - "fonts/*"
+  - "fonts/**/*"
 
 exclude:
   - "credentials"
@@ -108,13 +107,13 @@ asset_pipeline:
   revisioning:
     enable: false
   clean_css:
-    enable: true
+    enable: false
   uglify_js:
     enable: false
   imagemin:
     enable: false
   html_minifier:
-    enable: true
+    enable: false
     ignore_error: true
     removeComments: true
     minifyJS: true
