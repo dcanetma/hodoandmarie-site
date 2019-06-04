@@ -4,11 +4,6 @@ email: hello@hodoandmarie.com
 tlf01: "+34 653745522"
 tlf02: "+34 659853390"
 
-# Header
-menu:
-  Work: /
-  About: /about-us
-
 # widget behavior
 # archive_type: 'monthly'
 # show_count: false
