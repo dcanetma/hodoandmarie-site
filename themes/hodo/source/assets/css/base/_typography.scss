@@ -11,22 +11,22 @@
 }
 
 @mixin meh-style-regular() {
-	font-family: 'Overpass Mono'; 
+	font-family: 'Overpass Mono', Monaco, Menlo, Consolas, "Courier New", monospace; 
 	font-weight: normal; 
 	font-style: normal;
 }
 @mixin meh-style-light() {
-	font-family: 'Overpass Mono'; 
+	font-family: 'Overpass Mono', Monaco, Menlo, Consolas, "Courier New", monospace; 
 	font-weight: 300; 
 	font-style: normal;
 }
 @mixin meh-style-semibold() {
-	font-family: 'Overpass Mono'; 
+	font-family: 'Overpass Mono', Monaco, Menlo, Consolas, "Courier New", monospace; 
 	font-weight: 600; 
 	font-style: normal;
 }
 @mixin meh-style-bold() {
-	font-family: 'Overpass Mono'; 
+	font-family: 'Overpass Mono', Monaco, Menlo, Consolas, "Courier New", monospace; 
 	font-weight: bold; 
 	font-style: normal;
 }
@@ -35,8 +35,12 @@ body {
 	@include meh-style-defaults();
 	@include meh-style-regular();
 }
-
-h1, h2, h3, h4, h5, h6,
+p {
+	@include meh-style-light();
+}
 b, strong {
 	@include meh-style-semibold();
+}
+h1, h2, h3, h4, h5, h6 {
+	@include meh-style-bold();
 }
