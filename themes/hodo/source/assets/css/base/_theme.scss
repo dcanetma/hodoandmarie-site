@@ -21,7 +21,7 @@ a {
 		text-decoration: underline;
 	}
 	&:visited {
-		color: lighten($black, 40%);
+		color: $black;
 		text-decoration: underline;
 	}
 	&:hover, &:active {

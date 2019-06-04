@@ -118,3 +118,22 @@ asset_pipeline:
     removeComments: true
     minifyJS: true
     minifyCSS: true
+
+# Responsive Images
+# @see: https://github.com/hexojs/hexo-filter-responsive-images
+# responsive_images:
+#   - pattern: media/**/*.+(png|jpg|jpeg)
+#     sizes:
+#       square:
+#         width: 800
+#         height: 800
+#         fit: inside
+#         withoutEnlargement: false
+#   - pattern: 'media/**/*.+(png|jpg|jpeg)'
+#     sizes:
+#       small:
+#         width: 800
+#       normal:
+#         width: 1200
+#       double:
+#         width: 2000

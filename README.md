@@ -13,7 +13,7 @@
 
 **Instalación paso a paso:**
 
-Es necesario disponer de hexo.
+Es necesario disponer del cliente 'hexo'.
 
 	$ npm install hexo-cli -g
 
