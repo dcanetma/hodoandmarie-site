@@ -3,21 +3,26 @@ header {}
 
 #main {}
 
+// Footer for all pages
 footer {	
+	// Set bg color
 	background-color: $white;
+	// Footer to separator
 	hr {
 		border-color: $black;
 		box-shadow: 0 0 1px $black;
 	}
-
+	// The text-lines on the address are treated as line blocks, 100% wiodth
 	.info {
 		span {
 			display: block;
 		}
 	}
+	// The © info is hidden 
 	.copy {
 		display: none;
 	}
+	// The social links theming	
 	.links {
 		li {
 			a {
