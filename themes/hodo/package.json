@@ -1,0 +1,14 @@
+{
+  "name": "hexo-theme-hodo",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-git": "~0.2.2",
+    "jquery-slim": "3.0.0",
+    "load-grunt-tasks": "~0.2.0",
+    "popper.js": "1.15.0"
+  }
+}

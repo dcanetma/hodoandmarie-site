@@ -2,14 +2,18 @@
 sandbox
 credentials.txt
 
+themes/sorry
+themes/landscape
+
+
 # asset pipeline
 /node_modules
 
 # Static site generation
-app/.sass-cache/
-app/*.asset-cache
-app/*.sass-cache
-build
+db.json
+*.log
+public/
+.deploy*/
 
 # Numerous always-ignore extensions
 *.diff
@@ -34,3 +38,6 @@ build
 *.esproj
 nbproject
 Thumbs.db
+
+
+

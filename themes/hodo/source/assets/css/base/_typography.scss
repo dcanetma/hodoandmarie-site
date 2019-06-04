@@ -1,0 +1,42 @@
+/* 1.2. Font Styles */
+@mixin meh-style-defaults() {
+  -moz-font-feature-settings:    "kern" 1; 
+  -ms-font-feature-settings:     "kern" 1; 
+  -o-font-feature-settings:      "kern" 1; 
+  -webkit-font-feature-settings: "kern" 1; 
+  font-feature-settings:         "kern" 1;
+  font-kerning: normal;
+  -webkit-font-smoothing: antialiased; /* Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale; /* Firefox */
+}
+
+@mixin meh-style-regular() {
+	font-family: 'Overpass Mono'; 
+	font-weight: normal; 
+	font-style: normal;
+}
+@mixin meh-style-light() {
+	font-family: 'Overpass Mono'; 
+	font-weight: 300; 
+	font-style: normal;
+}
+@mixin meh-style-semibold() {
+	font-family: 'Overpass Mono'; 
+	font-weight: 600; 
+	font-style: normal;
+}
+@mixin meh-style-bold() {
+	font-family: 'Overpass Mono'; 
+	font-weight: bold; 
+	font-style: normal;
+}
+
+body {
+	@include meh-style-defaults();
+	@include meh-style-regular();
+}
+
+h1, h2, h3, h4, h5, h6,
+b, strong {
+	@include meh-style-semibold();
+}

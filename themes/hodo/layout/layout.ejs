@@ -1,0 +1,10 @@
+<%- partial('_partial/head') %>
+
+  <%- partial('_partial/navigation', null, {cache: !config.relative_link}) %>
+  <main role="main">
+    <%- body %>          
+  </main>
+
+  <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
+
+<%- partial('_partial/closure') %>
