@@ -3,8 +3,13 @@ header {}
 
 #main {}
 
-footer {
+footer {	
 	background-color: $white;
+	hr {
+		border-color: $black;
+		box-shadow: 0 0 1px $black;
+	}
+
 	.info {
 		span {
 			display: block;
@@ -16,9 +21,11 @@ footer {
 	.links {
 		li {
 			a {
+				font-size: .825rem;
 				text-transform: uppercase;
 				text-decoration: none;
-				@include meh-style-semibold();
+				@include meh-style-bold();
+				letter-spacing: 0.125rem;
 			}
 		}
 	}

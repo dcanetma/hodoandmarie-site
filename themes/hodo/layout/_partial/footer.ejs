@@ -1,16 +1,31 @@
-<footer class="footer">
-	<p class="info">
-		<span><b><%= config.title %></b></span>
-		<span><%= theme.address %></span>
-		<span><a href="mailto:<%= theme.email %>"><%= theme.email %></a></span>
-		<span><%= theme.tlf01 %> / <%= theme.tlf02 %></span>
-	</p>
-  <ul class="links">
-  	<li><a href="#" title="Visit our Instagram page">Instagram</a></li>
-  	<li><a href="#" title="Visit our Vimeo page">Vimeo</a></li>
-  </ul>
-	<p class="copy">
-    &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
-  </p>
-
+<!-- .footer -->
+<footer class="footer" >
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 m-b-5">
+				<p class="info">
+					<span><b><%= config.title %></b></span>
+					<span><%= theme.address %></span>
+					<span><a href="mailto:<%= theme.email %>"><%= theme.email %></a></span>
+					<span><%= theme.tlf01 %> / <%= theme.tlf02 %></span>
+				</p>
+			</div>
+			<div class="col-12 m-b-5">
+			  <ul class="links list-inline">
+			  	<li class="list-inline-item"><a href="#" title="Visit our Instagram page">Instagram</a></li>
+			  	<li class="list-inline-item"><a href="#" title="Visit our Vimeo page">Vimeo</a></li>
+			  </ul>
+				<p class="copy">
+			    &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
+			  </p>			
+			</div>
+		</div>	
+	</div>
 </footer>
+<!-- !footer -->
+
