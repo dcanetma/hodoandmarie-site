@@ -1,3 +1,26 @@
-#header {}
+
+header {}
+
 #main {}
-#footer {}
+
+footer {
+	background-color: $white;
+	.info {
+		span {
+			display: block;
+		}
+	}
+	.copy {
+		display: none;
+	}
+	.links {
+		li {
+			a {
+				text-transform: uppercase;
+				text-decoration: none;
+				@include meh-style-semibold();
+			}
+		}
+	}
+
+}

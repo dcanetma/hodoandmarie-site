@@ -1,5 +1,16 @@
-		<footer id="footer">
-			<p>
-		      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
-		  </p>
-		</footer>
+<footer class="footer">
+	<p class="info">
+		<span><b><%= config.title %></b></span>
+		<span><%= theme.address %></span>
+		<span><a href="mailto:<%= theme.email %>"><%= theme.email %></a></span>
+		<span><%= theme.tlf01 %> / <%= theme.tlf02 %></span>
+	</p>
+  <ul class="links">
+  	<li><a href="#" title="Visit our Instagram page">Instagram</a></li>
+  	<li><a href="#" title="Visit our Vimeo page">Vimeo</a></li>
+  </ul>
+	<p class="copy">
+    &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
+  </p>
+
+</footer>

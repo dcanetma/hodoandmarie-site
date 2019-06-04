@@ -2,13 +2,14 @@
 
 @import "utilities/fonts";
 /* Configuration and helpers */
-// @import "utilities/variables";
+@import "utilities/variables";
 // @import "utilities/functions";
 // @import "utilities/mixins";
 
 @import "base/defaults";
 @import "base/typography";
 @import "base/layout";
+@import "base/theme";
 
 // @import "base/navigation";
 

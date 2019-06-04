@@ -49,5 +49,36 @@
     font-style: normal;
 }
 
+/* 1.2. Useful mixins */
+@mixin meh-style-defaults() {
+  -moz-font-feature-settings:    "kern" 1; 
+  -ms-font-feature-settings:     "kern" 1; 
+  -o-font-feature-settings:      "kern" 1; 
+  -webkit-font-feature-settings: "kern" 1; 
+  font-feature-settings:         "kern" 1;
+  font-kerning: normal;
+  -webkit-font-smoothing: antialiased; /* Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale; /* Firefox */
+}
 
+@mixin meh-style-regular() {
+    font-family: 'Overpass Mono', Monaco, Menlo, Consolas, "Courier New", monospace; 
+    font-weight: normal; 
+    font-style: normal;
+}
+@mixin meh-style-light() {
+    font-family: 'Overpass Mono', Monaco, Menlo, Consolas, "Courier New", monospace; 
+    font-weight: 300; 
+    font-style: normal;
+}
+@mixin meh-style-semibold() {
+    font-family: 'Overpass Mono', Monaco, Menlo, Consolas, "Courier New", monospace; 
+    font-weight: 600; 
+    font-style: normal;
+}
+@mixin meh-style-bold() {
+    font-family: 'Overpass Mono', Monaco, Menlo, Consolas, "Courier New", monospace; 
+    font-weight: bold; 
+    font-style: normal;
+}
 

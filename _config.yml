@@ -3,13 +3,24 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hodo & Marie
+title: hodo&marie studio
 subtitle: Subtitle
+
+address: carrer Aragó 503, 5B · 08013 Barcelona
+email: hello@hodoandmarie.com
+
+tlf1: +34 653745522
+tlf2: +34 659853390
+
 description: 'We are a studio with focus on graphic design, illustration and motion graphics.
 Nice to meet you! <br> We would love to tell your story.'
+
 keywords:
+
 author: Hodo & Marie
+
 language: en
+
 timezone: +4024−00341 
 
 # URL
