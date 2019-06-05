@@ -1,10 +1,27 @@
 <header>
-  <h1 id="logo-wrap">
-    <a href="<%- url_for() %>" id="logo"><%= config.title %></a>
-  </h1>
+
+<% if (1==2) { %>
   <% if (theme.subtitle){ %>
     <h2 id="subtitle-wrap">
       <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle %></a>
     </h2>
   <% } %>
+<% } %>
+
+	<nav class="navbar navbar-light py-4 navbar-expand ">
+	  <a class="navbar-brand align-top d-inline-block " href="<%- url_for() %>" title="<%= config.title %>">
+	    <img src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="<%= config.title %> logo">
+	  </a>
+		<% if(site.data.menu) {%>
+		  <div class="collapse navbar-collapse align-top d-inline-block ">
+			  <ul class="navbar-nav ml-auto">
+			  	<% for (link in site.data.menu) { %>
+				  	<li class="nav-item <%- is_current(site.data.menu[link]+'/index.html') ? 'active' : '' %>">
+				  		<a class="nav-link" href="<%= config.root %><%= site.data.menu[link] %>" title="Go to <%= link %> page"><%= link %><%- is_current(site.data.menu[link]+'/index.html') ? '<span class="sr-only">(current)</span>' : '' %></a>
+				  	</li>
+					<% } %>
+			  </ul>
+		 	</div>
+	  <% } %>
+	</nav>
 </header>

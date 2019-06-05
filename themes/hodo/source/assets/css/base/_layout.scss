@@ -3,6 +3,38 @@ header {}
 
 #main {}
 
+// Main NAVIGATION for all pages
+.navbar-nav {
+	// Align logo & menu elements to the top
+	.navbar-brand {
+		padding-top: 0 !important
+	}
+	// Align logo & menu elements to the top
+	.nav-link {
+		padding-top: 0 !important;
+	}	
+	// Links on the main navigation
+	ul.navbar-nav {
+		li.nav-item {
+			// Theme links
+			a.nav-link {
+				&:hover {
+
+				}
+			}
+			// Theme active link (current page)
+			&.active {
+				a.nav-link {
+					&:hover {
+
+					}
+				}
+			}
+		}
+	}
+}
+
+
 // Footer for all pages
 footer {	
 	// Set bg color
