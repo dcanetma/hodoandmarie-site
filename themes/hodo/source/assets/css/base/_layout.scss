@@ -10,21 +10,31 @@ header {}
 	// Align logo & menu elements to the top
 	.nav-link {
 		padding-top: 0 !important; 
+		padding-left: 0 !important;
+		padding-right: 0 !important;
 		line-height: 1;
 	}	
 	.navbar-nav {
 		// Links on the main navigation
 		li.nav-item {
+			padding-left: 1rem;
 			// Theme links
-			text-align: center;
 			a.nav-link {
+				color: $black;
 				// Font style
 				@include meh-style-bold();
 				text-transform: uppercase;
 				text-decoration: none;
-				letter-spacing: 0.175rem;
-				color: $black;
-				text-transform: uppercase;
+				// Font sizes
+				font-size: $font-size-nav-links;							
+				line-height: $line-height-nav-links; 					
+				letter-spacing: $letter-spacing-nav-links; 		
+				// Large devices (desktops, 992px and up)
+				// @include media-breakpoint-up(md) { ... }
+				@media (min-width: 767.98px) { 
+					font-size: $font-size-nav-links-xl;							
+					line-height: $line-height-nav-links-xl; 					
+				}
 				&:hover {
 					@include link-style-tachado();
 				}
@@ -34,7 +44,6 @@ header {}
 				a.nav-link {
 					@include link-style-tachado();
 					&:hover {
-
 					}
 				}
 			}
@@ -53,6 +62,13 @@ footer {
 	}
 	// The text-lines on the address are treated as line blocks, 100% wiodth
 	.info {
+		font-size: 1rem;
+		line-height: 1.625rem;
+		// @include media-breakpoint-down(md) { }
+		@media (max-width: 767.98px) { 
+			font-size: $font-size-default;
+			line-height: $line-height-default;			
+		}
 		a {
 			text-decoration: none;
 			&:hover {
@@ -74,7 +90,16 @@ footer {
 				text-transform: uppercase;
 				text-decoration: none;
 				@include meh-style-bold();
-				letter-spacing: 0.125rem;
+				// font-sizes
+				font-size: $font-size-nav-links;							
+				line-height: $line-height-nav-links; 					
+				letter-spacing: $letter-spacing-nav-links; 		
+				// Large devices (desktops, 992px and up)
+				// @include media-breakpoint-up(md) { ... }
+				@media (min-width: 767.98px) { 
+					font-size: $font-size-nav-links-xl;							
+					line-height: $line-height-nav-links-xl; 					
+				}
 				&:hover {
 					@include link-style-tachado();
 				}
