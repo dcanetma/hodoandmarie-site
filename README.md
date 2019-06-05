@@ -1,34 +1,27 @@
-# HodoAndMarie website
+# HodoAndMarie Official Website
 
 > url: https://hodoandmarie.com
 
-@todo
+The website for Hodo&Marie Studio.
 
-## Instalar entorno de desarollo
+## Getting started
 
-**Requerimientos:**
+Install dependencies:
 
-- Node
-- Git
+``` bash
+$ git clone https://XXXX.git
+$ cd site
+$ npm install
+```
 
-**Instalación paso a paso:**
+Generate:
 
-Es necesario disponer del cliente 'hexo'.
+``` bash
+$ hexo generate
+```
 
-	$ npm install hexo-cli -g
+Run server:
 
-Clonar este repositorio y ejecutar el siguiente comando desde la
-carpeta del proyecto.
-
-Se instalarán las dependencias necesarias.
-
-	$ npm install
-
-Los siguientes comandos sirven para trabajar con el proyecto. 
-Más información en la documentación de Hexo. (https://hexo.io/docs/commands)
-
-	$ hexo server
-
-
-	$ hexo deploy
-
+``` bash
+$ hexo server
+```

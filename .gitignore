@@ -1,9 +1,11 @@
 # custom
 sandbox
 credentials.txt
-
 themes/sorry
 themes/landscape
+
+# Environrment variables
+.env
 
 
 # asset pipeline

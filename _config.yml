@@ -137,3 +137,8 @@ asset_pipeline:
 #         width: 1200
 #       double:
 #         width: 2000
+
+# Amin
+# @see: https://github.com/jaredly/hexo-admin
+admin:
+  deployCommand: './hexo-deploy.sh'
