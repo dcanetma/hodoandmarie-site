@@ -27,7 +27,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: 
+skip_render: "**/*.txt"
 
 # Writing
 new_post_name: :project.md # File name of new posts
@@ -89,12 +89,14 @@ deploy:
   pass: uRB16K6f
   remote: /web/demo
   connections: 1
-  verbose: false
+  verbose: true
 
 include:
+  - "favicon.ico"
+  - "humans.txt"
+  - "robots.txt"
   - ".htaccess"
   - "media/**/*"
-  - "fonts/**/*"
 
 exclude:
   - "credentials"
