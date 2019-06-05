@@ -1,9 +1,7 @@
-
+// 2. LAYOUTS
 header {}
 
-#main {}
-
-// Main NAVIGATION for all pages
+// 2.1. MAIN NAVIGATION for all pages
 .navbar {
 	// Align logo & menu elements to the top
 	.navbar-brand {
@@ -44,8 +42,7 @@ header {}
 	}
 }
 
-
-// Footer for all pages
+// 2.2. FOOTER for all pages
 footer {	
 	// Set bg color
 	background-color: $white;
@@ -85,3 +82,12 @@ footer {
 		}
 	}
 }
+
+// 2.3. CONTENT
+// Hybrid layout
+// Set a max-width of 1440px to the fluid model, so on bigger screens 
+// the container will be fixed
+.container-fluid {
+	max-width: 1400px;
+}
+

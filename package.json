@@ -1,9 +1,18 @@
 {
   "name": "hodoandmarie-site",
+  "description": "Website for Hodo & Marie Studio",
+  "author": "facts & fictions <daniel@factsandfictions.net>",
   "version": "0.0.1",
-  "private": true,
   "hexo": {
     "version": "3.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git@bitbucket.org:factsandfictions/hodoandmarie-site.git"
+  },
+  "scripts": {
+    "start": "hexo server",
+    "deploy": "hexo deploy"
   },
   "dependencies": {
     "hexo": "^3.8.0",

@@ -6,15 +6,40 @@ body {
 	@include meh-style-regular();
 }
 
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	@include meh-style-bold();
+}
+
 p, li {
 	@include meh-style-light();
+	font-size: 1rem;
 }
+
+// Size & line-height: 24px/36px
+// On all pages
+article#page,
+// And on the homepage header
+article#homepage header {
+	p, li {
+		font-size: 1.5rem;
+		margin-bottom: 2.25rem;
+	}
+}
+// Lead property
+p.lead {
+	font-size: 1.5rem;
+	margin-bottom: 2.25rem;
+}
+
 
 b, strong {
 	@include meh-style-semibold();
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
-	@include meh-style-bold();
+
+// Large devices (desktops, 992px and up)
+// @include media-breakpoint-up(lg) { ... }
+@media (min-width: 992px) { 
 }
