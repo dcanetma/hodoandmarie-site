@@ -1,15 +1,19 @@
 /* 1.2. Font Styles */
+
 body {
   text-size-adjust: 100%;
 	@include meh-style-defaults();
 	@include meh-style-regular();
 }
+
 p, li {
-	@include meh-style-regular();
+	@include meh-style-light();
 }
+
 b, strong {
-	@include meh-style-bold();
+	@include meh-style-semibold();
 }
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
 	@include meh-style-bold();

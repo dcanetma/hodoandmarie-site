@@ -14,6 +14,12 @@ footer {
 	}
 	// The text-lines on the address are treated as line blocks, 100% wiodth
 	.info {
+		a {
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
 		span {
 			display: block;
 		}
@@ -30,6 +36,9 @@ footer {
 				text-decoration: none;
 				@include meh-style-bold();
 				letter-spacing: 0.125rem;
+				&:hover {
+					text-decoration: underline;
+				}
 			}
 		}
 	}

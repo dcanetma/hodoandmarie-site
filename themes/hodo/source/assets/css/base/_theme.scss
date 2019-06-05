@@ -18,13 +18,17 @@ a {
 	text-decoration: underline;
 	&:link {
 		color: $black;
-		text-decoration: none;
+		text-decoration: underline;
 	}
 	&:visited {
 		color: $black;
 		text-decoration: none;
 	}
-	&:hover, &:active {
+	&:hover {
+		color: $black;
+		text-decoration: none;
+	}
+	&:active {
 		color: $black;
 		text-decoration: underline;
 	}
