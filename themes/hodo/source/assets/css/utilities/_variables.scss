@@ -8,13 +8,24 @@ $black:   #000000;
 $white:   #FFFFFF;
 
 // Font-sizes
+// Default little size
 $font-size-default:   		0.75rem; 	// 12px
 $line-height-default: 		1.25rem;	// 20px
 $letter-spacing-default:  0;
 
+// Default large size
+$font-size-default-md:   		1rem; 			// 16px 
+$line-height-default-md: 		1.625rem; 	// 26px
+
+// Default large size
+$font-size-default-xl:   		1.5rem; 	// 24px
+$line-height-default-xl: 		2.25rem;	// 36px
+
+// Default little size for nav
 $font-size-nav-links:   		0.75rem;	// 12px
 $line-height-nav-links: 		1.25rem;	// 20px
 $letter-spacing-nav-links:  0.175rem;	// 200k
 
+// Large size for nav
 $font-size-nav-links-xl:   		1rem;	// 12px
 $line-height-nav-links-xl: 		1.625rem;	// 20px

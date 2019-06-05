@@ -20,26 +20,23 @@ b, strong {
 	@include meh-style-semibold();
 }
 
-
 // Size & line-height: 24px/36px
 // On all pages
 article#page,
 // And on the homepage header
 article#homepage header {
 	p, li {
-		font-size: 1.5rem;
-		margin-bottom: 2.25rem;
+		font-size: $font-size-default-xl;
+		margin-bottom: $line-height-default-xl;
 	}
 }
 // Lead property
 p.lead {
-	font-size: 1.5rem;
-	margin-bottom: 2.25rem;
+	font-size: $font-size-default-xl;
+	margin-bottom: $line-height-default-xl;
 }
 
-
-
-// Large devices (desktops, 992px and up)
-// @include media-breakpoint-up(lg) { ... }
-@media (min-width: 992px) { 
-}
+// // Large devices (desktops, 992px and up)
+// // @include media-breakpoint-up(lg) { ... }
+// @media (min-width: 992px) { 
+// }

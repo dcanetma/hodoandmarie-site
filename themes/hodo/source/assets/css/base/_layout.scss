@@ -62,12 +62,13 @@ footer {
 	}
 	// The text-lines on the address are treated as line blocks, 100% wiodth
 	.info {
-		font-size: 1rem;
-		line-height: 1.625rem;
+		font-size:   $font-size-default-md;
+		line-height: $line-height-default-md;
+
 		// @include media-breakpoint-down(md) { }
 		@media (max-width: 767.98px) { 
 			font-size: $font-size-default;
-			line-height: $line-height-default;			
+			line-height: $line-height-default;	
 		}
 		a {
 			text-decoration: none;

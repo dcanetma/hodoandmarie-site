@@ -10,7 +10,7 @@
 		<!-- Content: second row -->
 		<div class="row">
 			<!-- 1. Address block -->
-			<div class="col-12 col-md-8 mb-3">
+			<div class="col-12 col-sm-6 col-lg-8 ">
 				<p class="info">
 					<addresss class="vcard">
 						<span class="fn org"><b><%= config.title %></b></span>
@@ -21,18 +21,14 @@
 				</p>
 			</div>
 			<!--2.  Social links block -->
-			<div class="col-12 col-md-4 mb-1">
+			<div class="col-12 col-sm-6 col-lg-4 mb-1">
 				<% if(site.data.social) {%>
-				  <ul class="links list-inline float-right float-md-right">
+				  <ul class="links list-inline float-left float-sm-right">
 				  	<% for (link in site.data.social) { %>
-					  	<li class="list-inline-item ml-2"><a href="<%= site.data.social[link] %>" title="Visit our <%= link %> page"><%= link %></a></li>
+					  	<li class="list-inline-item ml-0 ml-sm-2"><a href="<%= site.data.social[link] %>" title="Visit our <%= link %> page"><%= link %></a></li>
 						<% } %>
 				  </ul>
 			  <% } %>
-			  <!-- © info is hidden by default -->
-				<p class="copy">
-			    &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
-			  </p>			
 			</div>
 		</div>	
 	</div>
