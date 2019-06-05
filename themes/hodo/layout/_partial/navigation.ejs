@@ -8,15 +8,15 @@
   <% } %>
 <% } %>
 
-	<nav class="navbar navbar-light py-4 navbar-expand ">
-	  <a class="navbar-brand align-top d-inline-block " href="<%- url_for() %>" title="<%= config.title %>">
-	    <img src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="<%= config.title %> logo">
+	<nav class="navbar navbar-light py-4 navbar-expand d-flex flex-row justify-content-between align-items-start">
+	  <a class="navbar-brand align-self-start" href="<%- url_for() %>" title="<%= config.title %>">
+	    <img src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" width="50" height="50" alt="<%= config.title %> logo">
 	  </a>
 		<% if(site.data.menu) {%>
-		  <div class="collapse navbar-collapse align-top d-inline-block ">
+		  <div class="collapse navbar-collapse align-self-start">
 			  <ul class="navbar-nav ml-auto">
 			  	<% for (link in site.data.menu) { %>
-				  	<li class="nav-item <%- is_current(site.data.menu[link]+'/index.html') ? 'active' : '' %>">
+				  	<li class="ml-3 nav-item <%- is_current(site.data.menu[link]+'/index.html') ? 'active' : '' %>">
 				  		<a class="nav-link" href="<%= config.root %><%= site.data.menu[link] %>" title="Go to <%= link %> page"><%= link %><%- is_current(site.data.menu[link]+'/index.html') ? '<span class="sr-only">(current)</span>' : '' %></a>
 				  	</li>
 					<% } %>

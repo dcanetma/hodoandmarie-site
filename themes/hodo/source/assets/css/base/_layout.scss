@@ -4,33 +4,43 @@ header {}
 #main {}
 
 // Main NAVIGATION for all pages
-.navbar-nav {
+.navbar {
 	// Align logo & menu elements to the top
 	.navbar-brand {
-		padding-top: 0 !important
+		padding: 0 !important;
 	}
 	// Align logo & menu elements to the top
 	.nav-link {
-		padding-top: 0 !important;
+		padding-top: 0 !important; 
+		line-height: 1;
 	}	
-	// Links on the main navigation
-	ul.navbar-nav {
+	.navbar-nav {
+		// Links on the main navigation
 		li.nav-item {
 			// Theme links
+			text-align: center;
 			a.nav-link {
+				// Font style
+				@include meh-style-bold();
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: 0.175rem;
+				color: $black;
+				text-transform: uppercase;
 				&:hover {
-
+					@include link-style-tachado();
 				}
 			}
 			// Theme active link (current page)
 			&.active {
 				a.nav-link {
+					@include link-style-tachado();
 					&:hover {
 
 					}
 				}
 			}
-		}
+		}		
 	}
 }
 
@@ -69,7 +79,7 @@ footer {
 				@include meh-style-bold();
 				letter-spacing: 0.125rem;
 				&:hover {
-					text-decoration: underline;
+					@include link-style-tachado();
 				}
 			}
 		}

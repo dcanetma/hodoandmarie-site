@@ -1,0 +1,17 @@
+// Mixins
+
+/* 1.2. Useful mixins */
+@mixin link-style-tachado() {
+	position: relative;
+	z-index: 0;
+	&::after {
+		position: absolute;
+		left: 7.5%;
+		top: .33em;
+		width: 87.5%;
+		height: 100%;
+		z-index: 1;
+		content: "";
+		border-top: 2px solid $black;
+	}
+}
