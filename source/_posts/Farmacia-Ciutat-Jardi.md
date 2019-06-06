@@ -33,7 +33,7 @@ We designed the logo and brand identity using old medical plants illustrations m
 
 	_Some more images here x1 column_ 
 
-### Credits
+## Credits
 
 * Client: Farmàcia Ciutat Jardí
 * Year: 2016

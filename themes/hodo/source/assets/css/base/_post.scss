@@ -3,6 +3,7 @@
  ***/
 
  article#post {
+ 	// Header
  	header {
  		position: relative;
  		.intro {
@@ -17,6 +18,8 @@
 
  		// Project Title
  		h1, h1 a {
+ 			font-size: 1.3125rem; // 21px/16
+ 			line-height: 1.5rem;	// 24px
 			text-decoration: none;
  			// @include media-breakpoint-up(lg) { ... }
  			@media (min-width: 992px) {
@@ -41,6 +44,25 @@
 			border-color: $white;
 			color: $white;
 		}
-
+ 	}
+ 	// Body
+ 	h2, .h2 {
+ 		margin-bottom: 1rem;
+ 		text-transform: uppercase;
+ 		letter-spacing: $letter-spacing-1;
+ 		font-size: $font-size-default-xs;
+ 		line-height: $line-height-default-xs;
+		// @include media-breakpoint-up(lg) { ... }
+		@media (min-width: 992px) {
+			font-size: $font-size-default-md;
+			line-height: $line-height-default-md;
+		}
+ 	}
+ 	ul {
+	  padding-left: 0;
+	  list-style: none;
+ 	}
+ 	p, li {
+ 		@include meh-style-regular();
  	}
  }
