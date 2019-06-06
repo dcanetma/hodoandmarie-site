@@ -4,7 +4,7 @@
 		<div class="col-12 ">
 			 <img src="<%= page.imageUrl %>" alt="<%= page.title %>"  class="img-fluid">  
 		</div> 			
-		<div class="intro py-4 py-lg-5  col-12 offset-0 col-lg-4 offset-lg-1">
+		<div class="intro col-12 offset-0 col-lg-5 ml-0 ml-lg-5 pl-lg-5 pt-4 pt-lg-5 ">
 			  <% if (page.title){ %>
 			    <h1><a href="<%= page.permalink %>"><%= page.title %></a></h1>
 			  <% } %>
@@ -18,7 +18,12 @@
 		</div> 			
   </header>
   
-  <%- page.content %>
+  <div class="row">
+  	<div class="col-12 pt-2 pt-lg-4">
+		  <%- page.content %>  		
+  	</div>
+  </div>
+
 
 </section>
 

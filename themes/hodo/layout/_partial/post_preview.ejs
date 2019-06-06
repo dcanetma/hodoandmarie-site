@@ -23,9 +23,16 @@
         <h3 class="post-preview-subtitle"><%= post.subTitle %></h3>
       <% } %>
       <div class="post-preview-cats">
-        <% post.tags.each(function(tag) { %>
-            <span><%- tag.name %></span>
+        <% post.tags.each(function(tag, j) { %>
+            <% if (post.tags.length==j+1){ %>
+              <span><%- tag.name %></span> 
+            <% } else { %>
+              <span><%- tag.name %>, </span> 
+            <% } %> 
+
         <% }); %> 
+
+
       </div>     
     </div>
   </a>
