@@ -33,3 +33,17 @@ a {
 		text-decoration: underline;
 	}
 }
+
+a.btn {
+	@include meh-style-semibold();
+	text-transform: uppercase;
+	text-decoration: none;			
+	letter-spacing: 0.2rem;
+
+
+	border-width: 2px;
+	padding: .825rem 3.25rem .825rem;
+	font-size: 1rem;
+	line-height: 1.625rem;
+	border-radius: 0;
+}

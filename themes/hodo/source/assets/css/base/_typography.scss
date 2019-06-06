@@ -14,11 +14,13 @@ h1, h2, h3, h4, h5, h6,
 // Defaults for paragraphs and lists
 p, li {
 	@include meh-style-light();
-	font-size: 1rem;
+	font-size: $font-size-default;
+	line-height: $line-height-default;
 }
 b, strong {
 	@include meh-style-semibold();
 }
+
 
 // Size & line-height: 24px/36px
 // On all pages
@@ -27,7 +29,7 @@ article#page,
 article#homepage header {
 	p, li {
 		font-size: $font-size-default-xl;
-		margin-bottom: $line-height-default-xl;
+		line-height: $line-height-default-xl;
 	}
 }
 // Lead property

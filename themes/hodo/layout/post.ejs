@@ -1,1 +1,24 @@
-<%- partial('_partial/article', {post: page, index: false}) %>
+<article id="<%= page.layout %>" class="container-fluid my-1 my-lg-3" >
+	<!-- Post header -->
+  <header class="row">  	
+		<div class="col-12 ">
+			 <img src="<%= page.thumbnailUrl %>" alt="<%= page.title %>"  class="img-fluid">  
+		</div> 			
+		<div class="intro py-3 py-lg-5  col-12 offset-0 col-lg-4 offset-lg-1">
+			  <% if (page.title){ %>
+			    <h1><a href="<%= page.permalink %>"><%= page.title %></a></h1>
+			  <% } %>
+			  <% if (page.intro){ %>
+			  	<%- markdown(page.intro) %>
+			  <% } %>
+			  <% if (page.videoUrl){ %>
+			  	<!-- Hide  on screens smaller than lg -->
+				  <a href="#" class="btn btn-outline-dark d-none d-lg-block">Play video</a>
+			  <% } %>			  
+		</div> 			
+  </header>
+  
+  <%- page.content %>
+
+</article>
+
