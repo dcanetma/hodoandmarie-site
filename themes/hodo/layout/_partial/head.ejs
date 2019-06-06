@@ -9,6 +9,7 @@
     %>
     <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
     <!-- Metas -->
+    <%- autoCanonical(config, page) %>
 
     <!-- Bootstrap CSS -->
     <%- css('assets/vendor/bs4/css/bootstrap.min') %>
