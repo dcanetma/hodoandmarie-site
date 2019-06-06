@@ -1,0 +1,36 @@
+<% if (post.path){ %>
+  <% var i = index+1; %>
+  <a id="post-<%= index+1 %>" href="<%- config.root %><%- post.path %> " class="post-preview d-block mb-4 col-12 col-md-6 col-xl-4" title="<%= post.title %>">
+    <div class="post-preview-media">
+      <% if (post.videoUrl){ %>
+        <video class="" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
+          <source src="<%= post.thumbnailUrl %>"  type="video/mp4">
+          <!---
+            <source src="inicio.webm" type="video/webm">
+            <source src="inicio.ogv"  type="video/ogg">
+          --->
+        </video>
+      <% } else {%>
+        <img src="<%= post.thumbnailUrl %>" class="img-fluid" alt="<%= post.title %>">
+      <% } %> 
+
+    </div>
+    <div class="post-preview-info">
+      <h2 class="post-preview-title">
+          <%= post.title %>
+      </h2>
+      <% if (post.subTitle){ %>
+        <h3 class="post-preview-subtitle"><%= post.subTitle %></h3>
+      <% } %>
+      <div class="post-preview-cats">
+        <% post.tags.each(function(tag) { %>
+            <span><%- tag.name %></span>
+        <% }); %> 
+      </div>     
+    </div>
+  </a>
+  
+
+
+
+<% } %>

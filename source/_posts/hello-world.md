@@ -9,13 +9,13 @@ tags:
   - Animation
   - Illustration
 
-thumbnailUrl: http://placekitten.com/700/700
+thumbnailUrl: media/sample/dog.mp4
 
-imageUrl: http://placekitten.com/1400/700
+imageUrl: https://placedog.net/1600/600
 
 videoUrl: 'https://vimeo.com/xxx'
 
-date: 2019-06-06 11:21:02
+date: 2020-06-06 11:21:02
 
 subTitle: Video Explainers
 ---

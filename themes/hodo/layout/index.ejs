@@ -9,8 +9,8 @@
 	<div class="row mt-2 mt-lg-5 mb-2">
 		<div class="col-12">
 			<div class="row">
-	      <% page.posts.reverse().limit(12).each(function(post, i) { %>
-		      <%- partial('_partial/post/post_preview.ejs', { post: post, index: i }) %>					
+	      <% page.posts.limit(12).each(function(post, i) { %>
+		      <%- partial('_partial/post_preview.ejs', { post: post, index: i }) %>					
 	      <% }) %>							
 			</div>
 		</div>

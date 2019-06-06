@@ -1,5 +1,5 @@
 ---
-title: Projecte altre altre
+title: El hiperregalo
 subTitle: Video Explainer
 client: Nom del client
 
@@ -10,11 +10,11 @@ tags:
   - Animation
   - Illustration
 
-thumbnailUrl: http://placekitten.com/920/920
-imageUrl: http://placekitten.com/1400/700
-videoUrl: 'https://vimeo.com/xxx'
+thumbnailUrl: https://placedog.net/910/910
+imageUrl: https://placedog.net/1920/600
+videoUrl: 
 
-date: 2019-06-06 11:21:02
+date: 2015-06-06 11:21:02
 
 
 ---

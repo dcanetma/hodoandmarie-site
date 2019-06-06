@@ -1,5 +1,5 @@
 ---
-title: Projecte1 22
+title: Xoko
 client: Nom del client
 year: 2020
 intro: > 
@@ -9,13 +9,13 @@ tags:
   - Animation
   - Illustration
 
-thumbnailUrl: http://placekitten.com/950/950
+thumbnailUrl: http://placekitten.com/910/910
 
-imageUrl: http://placekitten.com/1400/700
+imageUrl: http://placekitten.com/1920/700
 
-videoUrl: 'https://vimeo.com/xxx'
+videoUrl: 
 
-date: 2019-06-06 11:21:02
+date: 2021-06-06 11:21:02
 
 subTitle: Video Explainers
 ---
