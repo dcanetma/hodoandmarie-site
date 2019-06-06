@@ -58,6 +58,8 @@ footer {
 	hr {
 		border-color: $black;
 		box-shadow: 0 0 1px $black;
+		background-color: $black;
+		opacity: 1;
 	}
 	// The text-lines on the address are treated as line blocks, 100% wiodth
 	.info {
