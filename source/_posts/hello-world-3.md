@@ -9,7 +9,7 @@ tags:
   - Animation
   - Illustration
 
-thumbnailUrl: http://placekitten.com/650/650
+thumbnailUrl: http://placekitten.com/950/950
 
 imageUrl: http://placekitten.com/1400/700
 

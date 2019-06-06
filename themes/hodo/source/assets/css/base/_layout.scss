@@ -1,6 +1,16 @@
 // 2. LAYOUTS
 header {}
 
+// 2.0. CONTENT
+// Hybrid layout
+// Set a max-width of 1440px to the fluid model, so on bigger screens 
+// the container will be fixed
+.container-fluid {
+	max-width: $layout-max-width;
+}
+
+
+
 // 2.1. MAIN NAVIGATION for all pages
 .navbar {
 	// Align logo & menu elements to the top
@@ -106,13 +116,5 @@ footer {
 			}
 		}
 	}
-}
-
-// 2.3. CONTENT
-// Hybrid layout
-// Set a max-width of 1440px to the fluid model, so on bigger screens 
-// the container will be fixed
-.container-fluid {
-	max-width: 1400px;
 }
 
