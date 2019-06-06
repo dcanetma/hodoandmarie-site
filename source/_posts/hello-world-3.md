@@ -19,17 +19,38 @@ date: 2021-06-06 11:21:02
 
 subTitle: Video Explainers
 ---
-Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
-
-
-
-	>	_Some images here x2 and x3 columns_
 
 Graphic identity for a new pharmacy located in the city of Lleida, Catalunya.
 Ciutat Jardí means «Garden City» and it’s the name of the neighbourhood where the pharmacy is located.
 We designed the logo and brand identity using old medical plants illustrations mixed with a fresh looking image.
 
-	_Some more images here x1 column_ 
+<div class="gallery">
+
+![Kitten" class="img-fluid](http://placekitten.com/500/400 "x2")
+![Kitten" class="img-fluid](http://placekitten.com/600/400 "x2")
+</div>
+
+<div class="gallery">
+
+![Kitten](http://placekitten.com/1200/360 "x1")
+</div>
+
+Ciutat Jardí means «Garden City» and it’s the name of the neighbourhood where the pharmacy is located.
+We designed the logo and brand identity using old medical plants illustrations mixed with a fresh looking image.
+
+<div class="gallery">
+
+![Kitten" class="img-fluid](http://placekitten.com/500/400 "x2")
+![Kitten" class="img-fluid](http://placekitten.com/600/400 "x2")
+</div>
+
+
+<div class="gallery">
+
+![Kitten](http://placekitten.com/450/450 "x3")
+![Kitten](http://placekitten.com/400/400 "x3")
+![Kitten](http://placekitten.com/420/420 "x3")
+</div>
 
 ## Credits
 
