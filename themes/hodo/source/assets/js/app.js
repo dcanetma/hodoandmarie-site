@@ -1,3 +1,5 @@
 $(function() {
-	console.log("Hello World");
+	$('#post .btn-play').click(function(e){
+		$('#post iframe').show();
+	});
 });
