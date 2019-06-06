@@ -144,3 +144,9 @@ asset_pipeline:
 # @see: https://github.com/jaredly/hexo-admin
 admin:
   deployCommand: './hexo-deploy.sh'
+  
+# @see: https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap
+sitemap:
+    path: sitemap.xml
+    tag: false
+    category: false

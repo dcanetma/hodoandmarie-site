@@ -1,5 +1,5 @@
 title: About us
-permalink: /about-us/
+permalink: about-us/
 date: 2019-06-04 18:14:42
 ---
 We are a studio with focus on graphic design, illustration and motion graphics.
