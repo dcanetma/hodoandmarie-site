@@ -23,7 +23,7 @@ module.exports = function(grunt){
     copy: {
       jquery: {
         expand: true,
-        cwd: 'node_modules/jquery-slim/dist/',
+        cwd: 'node_modules/jquery/dist/',
         src: ['**'],
         dest: 'source/assets/vendor/'
       },

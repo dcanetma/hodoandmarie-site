@@ -12,6 +12,16 @@
 			display: block;
 		}
 	}
+	&.in-viewport-full {
+		@include media-breakpoint-down(md) { 
+			h2.post-preview-title,
+			h3.post-preview-subtitle,
+			.post-preview-cats {
+				display: block;
+			}			
+		}
+	}
+
 	.post-preview-media {
 		video {
 			width: 100%;
@@ -25,15 +35,26 @@
 		width: 100%;
 		height: 100%;
 		text-align: right;
+		@include media-breakpoint-down(md) { 
+			top: 2rem;
+		}
 	}
 	h2.post-preview-title {
 		display: none; 
-		color: $white;
 		text-transform: none;
 		padding-right: 4rem;
 		font-size: 1.5rem; 	// 24px/16
 		line-height: 1.875rem; 	// 30px/16
 		margin-bottom: 0;
+		@include media-breakpoint-down(md) { 
+			padding-right: 2.5rem;
+			font-size: 1.125rem; 		// 18px/16
+			line-height: 1.875rem;  // 30px/16
+		}
+		a {
+			color: $white;
+			text-decoration: none;
+		}
 	}
 	h3.post-preview-subtitle {
 		display: none; 
@@ -43,10 +64,18 @@
 		font-size: 1.5rem; 	// 24px/16
 		line-height: 1.875rem; 	// 30px/16
 		margin-bottom: 0;
+		@include media-breakpoint-down(md) { 
+			padding-right: 2.5rem;
+			font-size: 1.125rem; 		// 18px/16
+			line-height: 1.875rem;  // 30px/16
+		}
 	}
 	.post-preview-cats {
 		display: none; 
 		padding-right: 4rem;		
+		@include media-breakpoint-down(md) { 
+			padding-right: 2.5rem;
+		}
 		span {
 			color: $white;
 			@include meh-style-regular();
@@ -60,7 +89,7 @@
 
 
 // Full page
- section#post {
+section#post {
  	// Header
  	header {
  		position: relative;
@@ -87,11 +116,13 @@
  			}
  		}
 
- 		// Project Title
- 		h1, h1 a {
+ 		// Project Title & Subtitle
+ 		h1, h1 a,
+ 		h2 {
  			font-size: 1.3125rem; // 21px/16
  			line-height: 1.5rem;	// 24px
 			text-decoration: none;
+			text-transform: none;
  			@include media-breakpoint-up(lg) { 
 				color: $white;
 				font-size: 2.25rem; // 36px
@@ -195,4 +226,4 @@
 	 		}
  		}
  	}
- }
+}
