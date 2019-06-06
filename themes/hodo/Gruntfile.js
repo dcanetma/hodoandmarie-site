@@ -37,13 +37,19 @@ module.exports = function(grunt){
         expand: true,
         cwd: 'tmp/bs4/dist',
         src: ['**'],
-        dest: 'source/assets/vendor/bs4/'
+        dest: 'source/assets/vendor/bs4/dist'
       },
-      fontawesome: {
+      bs4scss: {
         expand: true,
-        cwd: 'tmp/fontawesome/fonts/',
+        cwd: 'tmp/bs4/scss',
         src: ['**'],
-        dest: 'source/assets/fonts/'
+        dest: 'source/assets/vendor/bs4/scss'
+      },
+      bs4js: {
+        expand: true,
+        cwd: 'tmp/bs4/js',
+        src: ['**'],
+        dest: 'source/assets/vendor/bs4/js'
       },
       fancybox: {
         expand: true,
@@ -57,7 +63,6 @@ module.exports = function(grunt){
       bs4: ['source/assets/vendor/bs4'],
       jquery: ['source/assets/vendor'],
       popperjs: ['source/assets/vendor/popper.js'],
-      fontawesome: ['source/assets/fonts'],
       fancybox: ['source/assets/vendor/fancybox']
     }
   });
@@ -66,7 +71,7 @@ module.exports = function(grunt){
 
   grunt.renameTask('clean', '_clean');
 
-  grunt.registerTask('bs4', ['gitclone:bs4', 'copy:bs4', 'copy:jquery', 'copy:popperjs', '_clean:tmp']);
+  grunt.registerTask('bs4', ['gitclone:bs4', 'copy:bs4', 'copy:bs4js', 'copy:bs4scss', 'copy:jquery', 'copy:popperjs', '_clean:tmp']);
   grunt.registerTask('fontawesome', ['gitclone:fontawesome', 'copy:fontawesome', '_clean:tmp']);
   grunt.registerTask('fancybox', ['gitclone:fancybox', 'copy:fancybox', '_clean:tmp']);
   grunt.registerTask('default', ['gitclone', 'copy', '_clean:tmp']);
