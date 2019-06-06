@@ -8,6 +8,9 @@ The website for Hodo&Marie Studio.
 
 ``` bash
 
+# Installing the Hexo CLI
+npm install -g hexo-cli
+
 # Clone repo
 $ git clone https://XXXX.git
 $ cd site
