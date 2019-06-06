@@ -1,0 +1,29 @@
+<% if (post.path){ %>
+  <% var i = index+1; %>
+  <a id="post-<%= index+1 %>" href="<%- config.root %><%- post.path %> " class="post-preview d-block col" >
+    <div class="post-preview-image">
+      <%= post.thumbnailUrl %>
+    </div>
+    <div class="post-preview-info">
+      <h2 class="post-preview-title">
+          <%= post.title %>
+      </h2>
+      <% if (post.subTitle){ %>
+        <h3 class="post-preview-subtitle"><%= post.subTitle %></h3>
+      <% } %>
+      <div class="post-preview-cats">
+        <% post.tags.each(function(tag) { %>
+            <span><%- tag.name %></span>
+        <% }); %> 
+      </div>     
+    </div>
+  </a>
+  <% if (i%3 == 0) { %>
+    <div class="each-3 w-100 d-none d-lg-block d-xl-block"></div>
+  <% } %>
+  <% if (i%2 == 0) { %>
+    <div class="each-2 w-100 d-none d-md-block d-lg-none d-xl-none"></div>
+  <% } %>
+  <div class="each-1 w-100 d-none d-xs-block d-sm-block d-md-none d-lg-none d-xl-none"></div>
+
+<% } %>

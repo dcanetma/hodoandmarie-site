@@ -1,10 +1,10 @@
-<article id="<%= page.layout %>" class="container-fluid my-1 my-lg-3" >
-	<div class="row article article-type-<%= page.layout %>">
+<section id="<%= page.layout %>" class="container-fluid my-1 my-lg-3" >
+	<article class="row article article-type-<%= page.layout %>">
 		<div class="col-12 col-xl-6 ">
 		  <% if (page.title){ %>
 		    <h1 class="d-none"><%= page.title %></h1>
 		  <% } %>
 		  <%- page.content %>
 		</div>
-	</div>
-</article>
+	</article>
+</section>

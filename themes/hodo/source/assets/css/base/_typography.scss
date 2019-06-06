@@ -24,9 +24,9 @@ b, strong {
 
 // Size & line-height: 24px/36px
 // On all pages
-article#page,
+#page,
 // And on the homepage header
-article#homepage header {
+#homepage header {
 	p, li {
 		font-size: $font-size-default-xl;
 		line-height: $line-height-default-xl;

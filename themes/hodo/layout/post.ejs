@@ -1,8 +1,8 @@
-<article id="<%= page.layout %>" class="container-fluid my-1 my-lg-3" >
+<section id="<%= page.layout %>" class="container-fluid my-1 my-lg-3" >
 	<!-- Post header -->
   <header class="row">  	
 		<div class="col-12 ">
-			 <img src="<%= page.thumbnailUrl %>" alt="<%= page.title %>"  class="img-fluid">  
+			 <img src="<%= page.imageUrl %>" alt="<%= page.title %>"  class="img-fluid">  
 		</div> 			
 		<div class="intro py-4 py-lg-5  col-12 offset-0 col-lg-4 offset-lg-1">
 			  <% if (page.title){ %>
@@ -20,5 +20,5 @@
   
   <%- page.content %>
 
-</article>
+</section>
 

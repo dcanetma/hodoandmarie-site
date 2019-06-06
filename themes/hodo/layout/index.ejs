@@ -1,9 +1,19 @@
-<article id="homepage" class="container-fluid my-1 my-lg-3" >
-	<header class="row article article-type-<%= page.layout %>">
+<section id="homepage" class="container-fluid my-1 my-lg-3" >
+	<header class="row <%= page.layout %>">
 		<div class="col-12 col-lg-9 ">
 			<% if (theme.description){ %>
 				<%- markdown(theme.description) %>
 			<% } %>
 		</div>
 	</header>
-</article>
+	<div class="row">
+		<div class="col-12">
+			<div class="row">
+	      <% page.posts.reverse().limit(12).each(function(post, i) { %>
+		      <%- partial('_partial/post/post_preview.ejs', { post: post, index: i }) %>					
+	      <% }) %>							
+			</div>
+		</div>
+	</div>
+
+</section>

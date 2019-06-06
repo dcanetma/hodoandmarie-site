@@ -2,7 +2,21 @@
  * Styles for POSTS
  ***/
 
- article#post {
+// Preview styles
+.post-preview {
+	.post-preview-image {}
+	.post-preview-info {}
+	h2.post-preview-title {}
+	h3.post-preview-subtitle {}
+	.post-preview-cats {
+		span {}
+	}
+
+}
+
+
+// Full page
+ section#post {
  	// Header
  	header {
  		position: relative;
