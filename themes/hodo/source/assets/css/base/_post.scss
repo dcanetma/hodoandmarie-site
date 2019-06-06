@@ -7,8 +7,7 @@
  	header {
  		position: relative;
  		.intro {
- 			// @include media-breakpoint-up(lg) { ... }
- 			@media (min-width: 992px) {
+ 			@include media-breakpoint-up(lg) { 
 	 			position: absolute;
 	 			top: 2rem;
 	 			left: 0;
@@ -21,8 +20,7 @@
  			font-size: 1.3125rem; // 21px/16
  			line-height: 1.5rem;	// 24px
 			text-decoration: none;
- 			// @include media-breakpoint-up(lg) { ... }
- 			@media (min-width: 992px) {
+ 			@include media-breakpoint-up(lg) { 
 				color: $white;
 				font-size: 2.25rem;
 				line-height: 3rem;
@@ -32,7 +30,7 @@
  		// Project headline
 		p {
 			@include meh-style-regular();
- 			@media (min-width: 992px) {
+ 			@include media-breakpoint-up(lg) { 
 				color: $white;
 				font-size: 1.125rem; 		// 18px/16
 				line-height: 1.875rem;  // 30px/16
@@ -52,8 +50,7 @@
  		letter-spacing: $letter-spacing-1;
  		font-size: $font-size-default-xs;
  		line-height: $line-height-default-xs;
-		// @include media-breakpoint-up(lg) { ... }
-		@media (min-width: 992px) {
+		@include media-breakpoint-up(lg) { 
 			font-size: $font-size-default-md;
 			line-height: $line-height-default-md;
 		}
