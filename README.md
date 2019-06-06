@@ -6,22 +6,33 @@ The website for Hodo&Marie Studio.
 
 ## Getting started
 
-Install dependencies:
-
 ``` bash
+
+# Clone repo
 $ git clone https://XXXX.git
 $ cd site
-$ npm install
+
+# install dependencies
+npm install
+
+# build the site!
+hexo build
 ```
 
-Generate:
+Once installed you can:
 
-``` bash
-$ hexo generate
-```
 
-Run server:
+1. Run server:
 
 ``` bash
 $ hexo server
 ```
+
+Visit http://localhost:4000/ to watch the site.
+
+2. Create posts like this:
+
+``` bash
+$ hexo new post 'Name of the project'
+```
+

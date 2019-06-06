@@ -67,8 +67,8 @@ footer {
 
 		// @include media-breakpoint-down(md) { }
 		@media (max-width: 767.98px) { 
-			font-size: $font-size-default;
-			line-height: $line-height-default;	
+			font-size: $font-size-default-xs;
+			line-height: $line-height-default-xs;	
 		}
 		a {
 			text-decoration: none;
