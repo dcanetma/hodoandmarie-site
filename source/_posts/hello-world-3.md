@@ -1,15 +1,15 @@
 ---
-title: No Callem
+title: Projecte1 22
 client: Nom del client
 year: 2020
 intro: > 
 	Vintage medical plants illustrations combined with a contemporary aesthetics for the identity of a new pharmacy with a special focus on natural products.
 
 tags:
-  - Art direction
-  - Identity
+  - Animation
+  - Illustration
 
-thumbnailUrl: http://placekitten.com/900/900
+thumbnailUrl: http://placekitten.com/650/650
 
 imageUrl: http://placekitten.com/1400/700
 
@@ -18,8 +18,9 @@ videoUrl: 'https://vimeo.com/xxx'
 date: 2019-06-06 11:21:02
 
 subTitle: Video Explainers
-
 ---
+Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+
 
 
 	>	_Some images here x2 and x3 columns_

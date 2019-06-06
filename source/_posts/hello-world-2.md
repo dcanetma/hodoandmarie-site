@@ -1,15 +1,15 @@
 ---
-title: No Callem
+title: Projecte altre altre
 client: Nom del client
 year: 2020
 intro: > 
 	Vintage medical plants illustrations combined with a contemporary aesthetics for the identity of a new pharmacy with a special focus on natural products.
 
 tags:
-  - Art direction
-  - Identity
+  - Animation
+  - Illustration
 
-thumbnailUrl: http://placekitten.com/900/900
+thumbnailUrl: http://placekitten.com/500/500
 
 imageUrl: http://placekitten.com/1400/700
 
@@ -18,9 +18,7 @@ videoUrl: 'https://vimeo.com/xxx'
 date: 2019-06-06 11:21:02
 
 subTitle: Video Explainers
-
 ---
-
 
 	>	_Some images here x2 and x3 columns_
 

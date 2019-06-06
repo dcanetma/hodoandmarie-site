@@ -1,13 +1,23 @@
-title: Sample 2
-permalink: hello-tu
+title: Qué dius ara
+client: Nom del client
+year: 2020
+intro: > 
+	Vintage medical plants illustrations combined with a contemporary aesthetics for the identity of a new pharmacy with a special focus on natural products.
+
 tags:
-  - Tal
-  - Otro
-categories:
-  - Este
-  - Aquel
-date: 2019-03-13 20:46:00
-sitemap: false 
+  - Animation
+  - Illustration
+
+thumbnailUrl: http://placekitten.com/800/800
+
+imageUrl: http://placekitten.com/1400/700
+
+videoUrl: 
+
+date: 2019-06-06 11:21:02
+
+subTitle: 
+
 ---
 Welcome back to [Hexo](https://hexo.io/)! 
 

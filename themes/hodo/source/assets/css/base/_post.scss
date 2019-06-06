@@ -4,12 +4,51 @@
 
 // Preview styles
 .post-preview {
-	.post-preview-image {}
-	.post-preview-info {}
-	h2.post-preview-title {}
-	h3.post-preview-subtitle {}
+	position: relative;
+	&:hover {
+		h2.post-preview-title,
+		h3.post-preview-subtitle,
+		.post-preview-cats {
+			display: block;
+		}
+	}
+	.post-preview-image {
+
+	}
+	.post-preview-info {
+		position: absolute;
+		top: 2rem;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		text-align: right;
+	}
+	h2.post-preview-title {
+		display: none; 
+		color: $white;
+		text-transform: none;
+		padding-right: 3rem;
+		font-size: 1.5rem; 	// 24px/16
+		line-height: 1.875rem; 	// 30px/16
+	}
+	h3.post-preview-subtitle {
+		display: none; 
+		color: $white;
+		text-transform: none;
+		padding-right: 3rem;		
+		font-size: 1.5rem; 	// 24px/16
+		line-height: 1.875rem; 	// 30px/16
+	}
 	.post-preview-cats {
-		span {}
+		display: none; 
+		padding-right: 3rem;		
+		span {
+			color: $white;
+			@include meh-style-regular();
+			text-transform: uppercase;
+			font-size: $font-size-default-xs;
+			line-height: $line-height-default-xs;
+		}
 	}
 
 }

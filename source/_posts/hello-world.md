@@ -1,8 +1,23 @@
 ---
-title: Hello World
-date: 2019/3/13 20:46:25
-permalink: hellow
-sitemap: false 
+title: Projecte altre
+client: Nom del client
+year: 2020
+intro: > 
+	Vintage medical plants illustrations combined with a contemporary aesthetics for the identity of a new pharmacy with a special focus on natural products.
+
+tags:
+  - Animation
+  - Illustration
+
+thumbnailUrl: http://placekitten.com/700/700
+
+imageUrl: http://placekitten.com/1400/700
+
+videoUrl: 'https://vimeo.com/xxx'
+
+date: 2019-06-06 11:21:02
+
+subTitle: Video Explainers
 ---
 Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
