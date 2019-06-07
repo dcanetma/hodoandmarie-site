@@ -7,7 +7,6 @@ themes/landscape
 # Environrment variables
 .env
 
-
 # asset pipeline
 /node_modules
 

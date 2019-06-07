@@ -9,7 +9,7 @@ tags:
   - Animation
   - Illustration
 
-thumbnailUrl: https://dummyimage.com/910x910/f3ae25/f3b025.jpg
+thumbnailUrl: https://dummyimage.com/910/f3ae25/f3b025.jpg
 imageUrl: https://dummyimage.com/1920x800/f3ae25/f3b025.jpg
 
 videoUrl: 
@@ -25,31 +25,38 @@ Ciutat Jardí means «Garden City» and it’s **the name of the neighbourhood*
 
 <div class="gallery">
 
-![Kitten" class="img-fluid](http://placekitten.com/500/400 "x2")
-![Kitten" class="img-fluid](http://placekitten.com/600/400 "x2")
+![Kitten](https://dummyimage.com/800x500/f3ae25/f3b025.jpg "x2")
+![Kitten](https://dummyimage.com/800x500/f3ae25/f3b025.jpg "x2")
 </div>
 
 <div class="gallery">
 
-![Kitten](http://placekitten.com/1200/360 "x1")
+![Kitten](https://dummyimage.com/1200x400/f3ae25/f3b025.jpg "x1")
 </div>
 
 Ciutat Jardí means «Garden City» and it’s the name of the neighbourhood where the pharmacy is located.
 We designed the logo and brand identity using old medical plants illustrations mixed with a fresh looking image.
 
+
 <div class="gallery">
 
-![Kitten" class="img-fluid](http://placekitten.com/500/400 "x2")
-![Kitten" class="img-fluid](http://placekitten.com/600/400 "x2")
+![Kitten](https://dummyimage.com/800x500/f3ae25/f3b025.jpg "x2")
+![Kitten](https://dummyimage.com/800x500/f3ae25/f3b025.jpg "x2")
 </div>
 
 
 <div class="gallery">
 
-![Kitten](http://placekitten.com/450/450 "x3")
-![Kitten](http://placekitten.com/400/400 "x3")
-![Kitten](http://placekitten.com/420/420 "x3")
+![Kitten](https://dummyimage.com/600/f3ae25/f3b025.jpg "x3")
+![Kitten](https://dummyimage.com/600/f3ae25/f3b025.jpg "x3")
+![Kitten](https://dummyimage.com/600/f3ae25/f3b025.jpg "x3")
 </div>
+
+<div class="gallery">
+
+![Kitten](https://dummyimage.com/1200x400/f3ae25/f3b025.jpg "x1")
+</div>
+
 
 ## Credits
 
