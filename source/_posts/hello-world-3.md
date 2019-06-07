@@ -9,9 +9,8 @@ tags:
   - Animation
   - Illustration
 
-thumbnailUrl: http://placekitten.com/910/910
-
-imageUrl: http://placekitten.com/1920/700
+thumbnailUrl: https://dummyimage.com/910x910/f3ae25/f3b025.jpg
+imageUrl: https://dummyimage.com/1920x600/f3ae25/f3b025.jpg
 
 videoUrl: 
 

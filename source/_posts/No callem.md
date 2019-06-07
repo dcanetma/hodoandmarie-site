@@ -9,9 +9,8 @@ tags:
   - Art direction
   - Identity
 
-thumbnailUrl: http://placekitten.com/900/900
-
-imageUrl: http://placekitten.com/1400/700
+thumbnailUrl: https://dummyimage.com/910x910/bd0000/bd0000.jpg
+imageUrl: https://dummyimage.com/1920x600/bd0000/bd0000.jpg
 
 videoUrl: 
 

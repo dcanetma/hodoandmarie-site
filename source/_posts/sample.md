@@ -8,9 +8,8 @@ tags:
   - Animation
   - Illustration
 
-thumbnailUrl: http://placekitten.com/800/800
-
-imageUrl: http://placekitten.com/1400/700
+thumbnailUrl: https://dummyimage.com/910x910/1e5d82/1e5d82.jpg
+imageUrl: https://dummyimage.com/1920x600/1e5d82/1e5d82.jpg
 
 videoUrl: 
 
