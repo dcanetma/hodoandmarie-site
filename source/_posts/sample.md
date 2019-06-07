@@ -9,7 +9,7 @@ tags:
   - Illustration
 
 thumbnailUrl: https://dummyimage.com/910x910/1e5d82/1e5d82.jpg
-imageUrl: https://dummyimage.com/1920x600/1e5d82/1e5d82.jpg
+imageUrl: https://dummyimage.com/1920x800/1e5d82/1e5d82.jpg
 
 videoUrl: 
 
@@ -18,6 +18,10 @@ date: 2019-06-06 11:21:02
 subTitle: 
 
 ---
+**Graphic identity for a new pharmacy** located in the city of Lleida, Catalunya.
+Ciutat Jardí means «Garden City» and it’s **the name of the neighbourhood** where the pharmacy is located.
+**We designed the logo and brand identity** using [old medical plants](#) illustrations mixed with a fresh looking image.
+
 Welcome back to [Hexo](https://hexo.io/)! 
 
 This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. 

@@ -5,10 +5,6 @@
       <% if (post.videoUrl){ %>
         <video class="" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
           <source src="<%= post.thumbnailUrl %>"  type="video/mp4">
-          <!---
-            <source src="inicio.webm" type="video/webm">
-            <source src="inicio.ogv"  type="video/ogg">
-          --->
         </video>
       <% } else {%>
         <img src="<%= post.thumbnailUrl %>" class="img-fluid" alt="<%= post.title %>">

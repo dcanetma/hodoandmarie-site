@@ -10,8 +10,7 @@ tags:
   - Illustration
 
 thumbnailUrl: media/sample/dog.mp4
-
-imageUrl: https://placedog.net/1600/600
+imageUrl: https://placedog.net/1920/800
 
 videoUrl: 'https://vimeo.com/xxx'
 
@@ -19,7 +18,10 @@ date: 2020-06-06 11:21:02
 
 subTitle: Video Explainers
 ---
-Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+
+**Graphic identity for a new pharmacy** located in the city of Lleida, Catalunya.
+Ciutat Jardí means «Garden City» and it’s **the name of the neighbourhood** where the pharmacy is located.
+**We designed the logo and brand identity** using [old medical plants](#) illustrations mixed with a fresh looking image.
 
 ## Quick Start
 

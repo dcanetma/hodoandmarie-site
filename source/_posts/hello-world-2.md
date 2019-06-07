@@ -11,7 +11,7 @@ tags:
   - Illustration
 
 thumbnailUrl: https://dummyimage.com/910x910/612556/612556.jpg
-imageUrl: https://dummyimage.com/1440x420/612556/612556.jpg
+imageUrl: https://dummyimage.com/1920x800/612556/612556.jpg
 videoUrl: 
 
 date: 2015-06-06 11:21:02

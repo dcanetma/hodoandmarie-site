@@ -16,7 +16,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://hodoandmarie.com/demo
 root: /demo
-permalink: /works/:title/
+permalink: /works/:post_title/
 permalink_defaults:
 
 # Directory
@@ -27,13 +27,16 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: "**/*.txt"
+skip_render: 
+  - "**/*.txt"
+  - "**/*.php"
+  - ".htaccess"
 
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+external_link: false # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -99,9 +102,6 @@ include:
   - "media/**/*"
 
 exclude:
-  - "credentials"
-  - "sandbox/**/*"
-  - "README.md"
 
 # Asset pipeline
 # @see: https://github.com/hexojs/hexo-asset-pipeline
@@ -113,9 +113,9 @@ asset_pipeline:
   uglify_js:
     enable: false
   imagemin:
-    enable: false
+    enable: true
   html_minifier:
-    enable: false
+    enable: true
     ignore_error: true
     removeComments: true
     minifyJS: true
@@ -140,7 +140,7 @@ asset_pipeline:
 #       double:
 #         width: 2000
 
-# Amin
+# Admin
 # @see: https://github.com/jaredly/hexo-admin
 admin:
   deployCommand: './hexo-deploy.sh'
