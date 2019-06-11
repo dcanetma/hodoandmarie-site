@@ -4,16 +4,19 @@ year: 2020
 intro: > 
 	Vintage medical plants illustrations combined with a contemporary aesthetics for the identity of a new pharmacy with a special focus on natural products.
 
+bgColor: 		#080066 
+textColor: 	white
+
 tags:
   - Animation
   - Illustration
 
-thumbnailUrl: https://dummyimage.com/910x910/1e5d82/1e5d82.jpg
+thumbnailUrl: media/hodomarie-la-lluna-thumbnail-760x700.jpg
 imageUrl: https://dummyimage.com/1920x800/1e5d82/1e5d82.jpg
 
 videoUrl: 
 
-date: 2019-06-06 11:21:02
+date: 2038-06-06 11:21:02
 
 subTitle: 
 

@@ -11,3 +11,7 @@ tlf02: "+34 659853390"
 # Miscellaneous
 ## Social Media URL's
 ## Analytics Trackings
+
+
+exclude:
+  - "assets/vendor/bs4/js"

@@ -1,22 +1,27 @@
 ---
 title: Projecte altre
+subTitle: Video Explainers
+
 client: Nom del client
 year: 2020
 intro: > 
 	Vintage medical plants illustrations combined with a contemporary aesthetics for the identity of a new pharmacy with a special focus on natural products.
+
+bgColor: 		#080066 
+textColor: 	white
 
 tags:
   - Animation
   - Illustration
 
 thumbnailUrl: media/sample/dog.mp4
+
 imageUrl: https://placedog.net/1920/800
 
 videoUrl: 'https://vimeo.com/xxx'
 
 date: 2020-06-06 11:21:02
 
-subTitle: Video Explainers
 ---
 
 **Graphic identity for a new pharmacy** located in the city of Lleida, Catalunya.

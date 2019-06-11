@@ -6,15 +6,19 @@ client: Nom del client
 intro: > 
 	Vintage medical plants illustrations combined with a contemporary aesthetics for the identity of a new pharmacy with a special focus on natural products.
 
+bgColor: 		#080066 
+textColor: 	white
+
+
 tags:
   - Animation
   - Illustration
 
-thumbnailUrl: https://dummyimage.com/910x910/612556/612556.jpg
+thumbnailUrl: media/hodomarie-FCJ-thumbnail-760x700.png
 imageUrl: https://dummyimage.com/1920x800/612556/612556.jpg
 videoUrl: 
 
-date: 2015-06-06 11:21:02
+date: 2029-06-06 11:21:02
 
 ---
 
