@@ -12,21 +12,21 @@
 
     </div>
     <div class="post-preview-info">
-      <h2 class="post-preview-title">
-          <a href="<%- config.root %><%- post.path %>" title="<%= post.title %>" class="stretched-link" <% if (post.textColor){ %> style="color: <%= post.textColor %> !important" <% } %>><%= post.title %></a>
-      </h2>
-      <% if (post.subTitle){ %>
-        <h3 class="post-preview-subtitle" <% if (post.textColor){ %> style="color: <%= post.textColor %> !important" <% } %>><%= post.subTitle %></h3>
-      <% } %>
-      <div class="post-preview-cats">
-        <% post.tags.each(function(tag, j) { %>
-            <% if (post.tags.length==j+1){ %>
-              <span <% if (post.textColor){ %> style="color: <%= post.textColor %> !important" <% } %>><%- tag.name %></span> 
-            <% } else { %>
-              <span <% if (post.textColor){ %> style="color: <%= post.textColor %> !important" <% } %>><%- tag.name %>, </span> 
-            <% } %> 
-        <% }); %> 
-      </div>     
+        <h2 class="post-preview-title">
+            <a href="<%- config.root %><%- post.path %>" title="<%= post.title %>" class="stretched-link" <% if (post.textColor){ %> style="color: <%= post.textColor %> !important" <% } %>><%= post.title %></a>
+        </h2>
+        <% if (post.subTitle){ %>
+          <h3 class="post-preview-subtitle" <% if (post.textColor){ %> style="color: <%= post.textColor %> !important" <% } %>><%= post.subTitle %></h3>
+        <% } %>
+        <div class="post-preview-cats">
+          <% post.tags.each(function(tag, j) { %>
+              <% if (post.tags.length==j+1){ %>
+                <span <% if (post.textColor){ %> style="color: <%= post.textColor %> !important" <% } %>><%- tag.name %></span> 
+              <% } else { %>
+                <span <% if (post.textColor){ %> style="color: <%= post.textColor %> !important" <% } %>><%- tag.name %>, </span> 
+              <% } %> 
+          <% }); %> 
+        </div>     
     </div>
   </div>
 <% } %>

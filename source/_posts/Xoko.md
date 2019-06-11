@@ -6,7 +6,7 @@ intro: >
 	Vintage medical plants illustrations combined with a contemporary aesthetics for the identity of a new pharmacy with a special focus on natural products.
 
 bgColor: 		#080066 
-textColor: 	white
+textColor: 	red
 
 tags:
   - Animation
