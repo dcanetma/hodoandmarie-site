@@ -6,27 +6,31 @@
 .post-preview {
 	position: relative;
 	transform: matrix(1, 0, 0, 1, 0, 0);
+	// Wrapper de cada projecte, per a una millor UX en els rollovers
 	.post-preview-wrapper {
 		// Hover/Rollover styles
 		&:hover {
-			h2.post-preview-title, 
-			h3.post-preview-subtitle, 
-			.post-preview-tags {
-			}
-
+			// Caixa amb la imatge o video
 			.post-preview-media {
 				background-color: $black;
 				img, video {
 					opacity: 0;
 				}
 			}
+			// Caixa amb els metas del projecte
 			.post-preview-info {
 				transition-delay: 0.3s;
 				opacity: 1;
 				height: 100%;
 			}			
+			// Metas del projecte
+			h2.post-preview-title, 
+			h3.post-preview-subtitle, 
+			.post-preview-tags {
+			}
 		}	
 		// Normal styles
+		// Caixa amb la imatge o video
 		.post-preview-media {
 			z-index: 2;
 			transform-origin: center;
@@ -41,7 +45,7 @@
 				transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);		
 			}
 		}
-
+		// Caixa amb els metas del projecte
 		.post-preview-info {
 			position: absolute;
 			top: 0;
@@ -61,7 +65,7 @@
 				top: 2rem;
 			}
 		}
-
+		// Meta: titol
 		h2.post-preview-title {
 			// display: none; 
 			text-transform: none;
@@ -80,7 +84,7 @@
 				text-decoration: none;
 			}
 		}
-
+		// Meta: subtitol
 		h3.post-preview-subtitle {
 			// display: none; 
 			color: $white;
@@ -95,7 +99,7 @@
 				line-height: 1.875rem;  // 30px/16
 			}
 		}
-
+		// Meta: tags
 		.post-preview-tags {
 			// display: none; 
 			padding-right: 4rem;		
@@ -124,9 +128,6 @@
 	// 		}			
 	// 	}
 	// }
-
-
-
 }
 
 

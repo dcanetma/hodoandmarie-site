@@ -74,18 +74,26 @@ main#content {
 footer {	
 	// Set bg color
 	background-color: $white;
-	// Footer to separator
+
+  // Separate footer from the main content as on PDF
+	margin-top: 120px;
+	@include media-breakpoint-up(lg) {
+		margin-top: 60px;
+
+	}
+
+	// Footer separator, remove bs4 defaults
 	hr {
-		border-color: $black;
-		box-shadow: 0 0 1px $black;
+		box-shadow: none;
 		background-color: $black;
 		opacity: 1;
 	}
-	// The text-lines on the address are treated as line blocks, 100% wiodth
+	// The text-lines on the address are treated as line blocks, 100% width
 	.info {
 		font-size:   $font-size-default-md;
 		line-height: $line-height-default-md;
 
+		// Set font styles and sizes
 		@include media-breakpoint-down(md) {
 			font-size: $font-size-default-xs;
 			line-height: $line-height-default-xs;	
@@ -107,6 +115,7 @@ footer {
 	// The social links theming	
 	.links {
 		li {
+			padding-left: 1rem;
 			a {
 				text-transform: uppercase;
 				text-decoration: none;
