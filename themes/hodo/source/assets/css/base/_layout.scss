@@ -13,6 +13,10 @@ header {}
 
 // 2.1. MAIN NAVIGATION for all pages
 .navbar {
+	background: #fff;
+
+	min-height: 146px;
+
 	// Align logo & menu elements to the top
 	.navbar-brand {
 		padding: 0 !important;
@@ -37,12 +41,14 @@ header {}
 				text-decoration: none;
 				// Font sizes
 				font-size: $font-size-nav-links;							
-				line-height: $line-height-nav-links; 					
+				line-height: $line-height-nav-links;
+				line-height: 1; 					
 				letter-spacing: $letter-spacing-nav-links; 		
 				// Large devices (desktops, 992px and up)
 				@include media-breakpoint-up(md) { 
 					font-size: $font-size-nav-links-xl;							
 					line-height: $line-height-nav-links-xl; 					
+					line-height: 1; 					
 				}
 				&:hover {
 					@include link-style-tachado();
@@ -58,6 +64,10 @@ header {}
 			}
 		}		
 	}
+}
+
+main#content {
+	margin-top: 146px;
 }
 
 // 2.2. FOOTER for all pages
