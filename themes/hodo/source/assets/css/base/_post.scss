@@ -40,7 +40,7 @@
 		}
 	}
 	h2.post-preview-title {
-		// display: none; 
+		display: none; 
 		text-transform: none;
 		padding-right: 4rem;
 		font-size: 1.5rem; 	// 24px/16
@@ -57,7 +57,7 @@
 		}
 	}
 	h3.post-preview-subtitle {
-		// display: none; 
+		display: none; 
 		color: $white;
 		text-transform: none;
 		padding-right: 4rem;		
@@ -71,7 +71,7 @@
 		}
 	}
 	.post-preview-cats {
-		// display: none; 
+		display: none; 
 		padding-right: 4rem;		
 		@include media-breakpoint-down(md) { 
 			padding-right: 2.5rem;
