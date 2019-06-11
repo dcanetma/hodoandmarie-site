@@ -18,9 +18,11 @@ p, li {
 	line-height: $line-height-default;
 }
 b, strong {
-	@include meh-style-semibold();
+	@include meh-style-bold();
 }
-
+p {
+	margin-bottom: 0;
+}
 
 // Size & line-height: 24px/36px
 // On all pages
@@ -36,6 +38,7 @@ b, strong {
 p.lead {
 	font-size: $font-size-default-xl;
 	line-height: $line-height-default-xl;
+	margin-bottom: 0;
 }
 
 // // Large devices (desktops, 992px and up)

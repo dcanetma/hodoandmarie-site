@@ -2,9 +2,21 @@
  * Styles for POSTS
  ***/
 
+.posts {
+  // Separate work grid
+	margin-top: 1.875rem; // 30px
+	@include media-breakpoint-up(lg) {
+		margin-top: 3.75rem; // 60px
+	}
+}
+
 // Preview styles
 .post-preview {
 	position: relative;
+	margin-bottom: 1.875rem; // 30px
+	@include media-breakpoint-up(lg) { 
+		margin-bottom: 2.5rem; // 40px
+	}
 	transform: matrix(1, 0, 0, 1, 0, 0);
 	// Wrapper de cada projecte, per a una millor UX en els rollovers
 	.post-preview-wrapper {
@@ -18,6 +30,7 @@
 				}
 			}
 			// Caixa amb els metas del projecte
+			// Es mostra al 100% d'alçada
 			.post-preview-info {
 				transition-delay: 0.3s;
 				opacity: 1;
@@ -34,6 +47,7 @@
 		.post-preview-media {
 			z-index: 2;
 			transform-origin: center;
+			// Img & Video showed by default so it hides the METAS that are under
 			img, video  {
 				width: 100%;
 				height: 100%;
@@ -46,6 +60,7 @@
 			}
 		}
 		// Caixa amb els metas del projecte
+		// S'oculta amb 0% d'alçada
 		.post-preview-info {
 			position: absolute;
 			top: 0;

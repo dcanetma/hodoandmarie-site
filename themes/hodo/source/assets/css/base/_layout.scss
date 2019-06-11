@@ -67,8 +67,10 @@ header {}
 }
 
 main#content {
-	margin-top: 146px;
+	margin-top: 9.125rem; //146px
 }
+
+
 
 // 2.2. FOOTER for all pages
 footer {	
@@ -76,10 +78,11 @@ footer {
 	background-color: $white;
 
   // Separate footer from the main content as on PDF
-	margin-top: 120px;
+	margin-top: 3.75rem; // 60px
+	margin-bottom: 3.75rem; // 60px
 	@include media-breakpoint-up(lg) {
-		margin-top: 60px;
-
+		margin-top: 7.5rem; //120px
+		margin-bottom: 7.5rem; //120px
 	}
 
 	// Footer separator, remove bs4 defaults
