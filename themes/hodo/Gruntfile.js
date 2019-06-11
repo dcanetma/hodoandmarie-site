@@ -71,7 +71,7 @@ module.exports = function(grunt){
 
   grunt.renameTask('clean', '_clean');
 
-  grunt.registerTask('bs4', ['gitclone:bs4', 'copy:bs4', 'copy:bs4js', 'copy:bs4scss', 'copy:jquery', 'copy:popperjs', '_clean:tmp']);
+  grunt.registerTask('bs4', ['gitclone:bs4', 'copy:bs4', 'copy:bs4scss', 'copy:jquery', 'copy:popperjs', '_clean:tmp']);
   grunt.registerTask('fontawesome', ['gitclone:fontawesome', 'copy:fontawesome', '_clean:tmp']);
   grunt.registerTask('fancybox', ['gitclone:fancybox', 'copy:fancybox', '_clean:tmp']);
   grunt.registerTask('default', ['gitclone', 'copy', '_clean:tmp']);
