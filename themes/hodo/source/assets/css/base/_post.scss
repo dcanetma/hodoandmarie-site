@@ -12,7 +12,6 @@
 			h2.post-preview-title, 
 			h3.post-preview-subtitle, 
 			.post-preview-tags {
-				transition-delay: 0.3s;
 			}
 
 			.post-preview-media {
@@ -22,6 +21,7 @@
 				}
 			}
 			.post-preview-info {
+				transition-delay: 0.3s;
 				opacity: 1;
 				height: 100%;
 			}			

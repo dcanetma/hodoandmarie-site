@@ -7,8 +7,8 @@ year: 2020
 intro: > 
 	Vintage medical plants illustrations combined with a contemporary aesthetics for the identity of a new pharmacy with a special focus on natural products.
 
-bgColor: 		#602d57 
-textColor: 	white
+bgColor: 		'#602d57' 
+textColor: 	'white'
 
 tags:
   - Art direction
