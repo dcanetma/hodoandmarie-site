@@ -46,4 +46,13 @@ a.btn {
 	font-size: 1rem;
 	line-height: 1.625rem;
 	border-radius: 0;
+
+	// Project button
+	border-color: $white;
+	color: $white;
+	&:hover {
+		color: $black;
+		background-color: $white;
+		border-color: $white;
+	}
 }

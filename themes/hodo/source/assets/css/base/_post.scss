@@ -105,7 +105,7 @@
 			color: $white;
 			text-transform: none;
 			padding-right: 4rem;		
-			font-size: 1.5rem; 	// 24px/16
+			font-size: 1.125rem; 	// 18px/16
 			line-height: 1.875rem; 	// 30px/16
 			margin-bottom: 0;
 			@include media-breakpoint-down(md) { 
@@ -117,8 +117,10 @@
 		// Meta: tags
 		.post-preview-tags {
 			// display: none; 
-			padding-right: 4rem;		
+			padding-right: 4rem;	
+			margin-top: 1.125rem;	
 			@include media-breakpoint-down(md) { 
+				margin-top: 1rem;	
 				padding-right: 2.5rem;
 			}
 			span {
@@ -174,9 +176,8 @@ section#post {
  			}
  		}
 
- 		// Project Title & Subtitle
- 		h1, h1 a,
- 		h2 {
+ 		// Project Title
+ 		h1, h1 a {
  			font-size: 1.3125rem; // 21px/16
  			line-height: 1.5rem;	// 24px
 			text-decoration: none;
@@ -185,9 +186,24 @@ section#post {
 				color: $white;
 				font-size: 2.25rem; // 36px
 				line-height: 3rem;  // 48px
-				margin-bottom: .75rem;
+				margin-bottom: .25rem;
 			}
 		}
+		// Project Subtitle
+	 	h2.post-preview-subtitle  {
+	 		margin-bottom: 1rem;
+	 		text-transform: none;
+	 		letter-spacing: $letter-spacing-1;
+	 		font-size: 0.875rem; // 14px 
+	 		line-height: 1.5rem; // 24px
+	 		margin-bottom: .75rem;
+			@include media-breakpoint-up(lg) { 
+				color: $white;
+		 		font-size: 1.5rem; // 24px 
+		 		line-height: 1.875rem; // 30px
+		 		margin-bottom: 2.5rem;
+			}
+	 	}		
  		// Project headline
 		p {
 			@include meh-style-regular();
@@ -201,15 +217,20 @@ section#post {
 				margin-bottom: 2.5rem;
 			}
 		}
- 		// Project button
-		a.btn {
-			border-color: $white;
-			color: $white;
-		}
  	}
  	// Body
- 	h2, .h2,
- 	h3, .h3  {
+ 	h2, .h2 {
+ 		margin-bottom: 1rem;
+ 		text-transform: uppercase;
+ 		letter-spacing: $letter-spacing-1;
+ 		font-size: $font-size-default-xs;
+ 		line-height: $line-height-default-xs;
+		@include media-breakpoint-up(lg) { 
+			font-size: $font-size-default-md;
+			line-height: $line-height-default-md;
+		}
+ 	}
+ 	h3, .h3 { 
  		margin-bottom: 1rem;
  		text-transform: uppercase;
  		letter-spacing: $letter-spacing-1;
@@ -239,11 +260,16 @@ section#post {
  	}
 
  	.content {
- 		p {
- 			@include media-breakpoint-up(lg) { 
-	 			width: 75%;
- 			}
- 		}
+	  // Separate from .post header as on PDF
+		margin-top: 3.75rem; // 60px
+		@include media-breakpoint-up(lg) {
+			margin-top: 7.5rem; //120px
+		}
+ 		// p {
+ 		// 	@include media-breakpoint-up(lg) { 
+	 	// 		width: 75%;
+ 		// 	}
+ 		// }
 
  		.gallery {
 			@include media-breakpoint-up(sm) {
@@ -284,4 +310,8 @@ section#post {
 	 		}
  		}
  	}
+}
+
+.gallery {
+	margin-top: 1rem;
 }
