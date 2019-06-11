@@ -1,18 +1,19 @@
 ---
-title: Xoko
+title: PikNik
 client: Nom del client
 year: 2020
 intro: > 
 	Vintage medical plants illustrations combined with a contemporary aesthetics for the identity of a new pharmacy with a special focus on natural products.
 
-bgColor: 		#080066 
-textColor: 	red
+bgColor: 		'#f6f7f2' 
+textColor: 	black
 
 tags:
   - Animation
+  - Art Direction
   - Illustration
 
-thumbnailUrl: https://dummyimage.com/910/f3ae25/f3b025.jpg
+thumbnailUrl: media/hodomarie-piknik-thumbnail-760x700.png
 imageUrl: https://dummyimage.com/1920x800/f3ae25/f3b025.jpg
 
 videoUrl: 

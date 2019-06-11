@@ -14,7 +14,10 @@ tags:
   - Animation
   - Illustration
 
-thumbnailUrl: media/sample/dog.mp4
+thumbnailUrl: 
+	- media/sample/dog.mp4
+	- media/sample/dog.ogv
+	- media/sample/dog.webm
 
 imageUrl: https://placedog.net/1920/800
 
