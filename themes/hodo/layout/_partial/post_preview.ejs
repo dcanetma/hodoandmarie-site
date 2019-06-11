@@ -1,32 +1,42 @@
 <% if (post.path){ %>
+  <% if (post.bgColor){ %> 
+    <style type="text/css">
+      #post-<%= index+1 %> .post-preview-wrapper:hover .post-preview-media {
+          background-color: <%= post.bgColor %> ;
+      }
+    </style>
+  <% } %> 
+
   <% var i = index+1; %>
   <div id="post-<%= index+1 %>" class="post-preview d-block mb-4 col-12 col-sm-6 col-md-4A col-xl-4" >
-    <div class="post-preview-media">
-      <% if (post.videoUrl){ %>
-        <video class="" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
-          <source src="<%= post.thumbnailUrl %>"  type="video/mp4">
-        </video>
-      <% } else {%>
-        <img src="<%= post.thumbnailUrl %>" class="img-fluid" alt="<%= post.title %>">
-      <% } %> 
+    <div class="post-preview-wrapper">
+      <div class="post-preview-media">
+        <% if (post.videoUrl){ %>
+          <video class="" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
+            <source src="<%= post.thumbnailUrl %>"  type="video/mp4">
+          </video>
+        <% } else {%>
+          <img src="<%= post.thumbnailUrl %>" class="img-fluid" alt="<%= post.title %>">
+        <% } %> 
 
-    </div>
-    <div class="post-preview-info">
-        <h2 class="post-preview-title">
-            <a href="<%- config.root %><%- post.path %>" title="<%= post.title %>" class="stretched-link" <% if (post.textColor){ %> style="color: <%= post.textColor %> !important" <% } %>><%= post.title %></a>
-        </h2>
-        <% if (post.subTitle){ %>
-          <h3 class="post-preview-subtitle" <% if (post.textColor){ %> style="color: <%= post.textColor %> !important" <% } %>><%= post.subTitle %></h3>
-        <% } %>
-        <div class="post-preview-cats">
-          <% post.tags.each(function(tag, j) { %>
-              <% if (post.tags.length==j+1){ %>
-                <span <% if (post.textColor){ %> style="color: <%= post.textColor %> !important" <% } %>><%- tag.name %></span> 
-              <% } else { %>
-                <span <% if (post.textColor){ %> style="color: <%= post.textColor %> !important" <% } %>><%- tag.name %>, </span> 
-              <% } %> 
-          <% }); %> 
-        </div>     
+      </div>
+      <div class="post-preview-info">
+          <h2 class="post-preview-title">
+              <a href="<%- config.root %><%- post.path %>" title="<%= post.title %>" class="stretched-link" <% if (post.textColor){ %> style="color: <%= post.textColor %> !important" <% } %>><%= post.title %></a>
+          </h2>
+          <% if (post.subTitle){ %>
+            <h3 class="post-preview-subtitle" <% if (post.textColor){ %> style="color: <%= post.textColor %> !important" <% } %>><%= post.subTitle %></h3>
+          <% } %>
+          <div class="post-preview-tags">
+            <% post.tags.each(function(tag, j) { %>
+                <% if (post.tags.length==j+1){ %>
+                  <span <% if (post.textColor){ %> style="color: <%= post.textColor %> !important" <% } %>><%- tag.name %></span> 
+                <% } else { %>
+                  <span <% if (post.textColor){ %> style="color: <%= post.textColor %> !important" <% } %>><%- tag.name %>, </span> 
+                <% } %> 
+            <% }); %> 
+          </div>     
+      </div>
     </div>
   </div>
 <% } %>

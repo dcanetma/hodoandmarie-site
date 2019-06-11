@@ -1,13 +1,13 @@
 ---
-title: El hiperregalo
+title: Farmàcia Ciutat Jardí
 subTitle: Video Explainer
 client: Nom del client
 
 intro: > 
 	Vintage medical plants illustrations combined with a contemporary aesthetics for the identity of a new pharmacy with a special focus on natural products.
 
-bgColor: 		#080066 
-textColor: 	red
+bgColor: 		#567d5a
+textColor: 	white
 
 
 tags:

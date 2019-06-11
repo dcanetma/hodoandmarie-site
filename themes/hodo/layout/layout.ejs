@@ -1,8 +1,11 @@
-<%- partial('_partial/head') %>
-<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
-<%- partial('_partial/navigation') %>
-<main id="content" role="main" >
-  <%- body %>          
-</main>
-<%- partial('_partial/footer') %>
-<%- partial('_partial/closure') %>
+	<%- partial('_partial/head') %>
+	<body>
+		<a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+		<%- partial('_partial/navigation') %>
+		<main id="content" role="main" >
+		  <%- body %>          
+		</main>
+		<%- partial('_partial/footer') %>
+		<%- partial('_partial/closure') %>
+  </body>
+</html>

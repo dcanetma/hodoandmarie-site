@@ -109,17 +109,17 @@ asset_pipeline:
   revisioning:
     enable: false
   clean_css:
-    enable: true
+    enable: false
   uglify_js:
     enable: false
   imagemin:
-    enable: true
+    enable: false
   html_minifier:
-    enable: true
+    enable: false
     ignore_error: true
-    removeComments: true
-    minifyJS: true
-    minifyCSS: true
+    removeComments: false
+    minifyJS: false
+    minifyCSS: false
 
 # Responsive Images
 # @see: https://github.com/hexojs/hexo-filter-responsive-images
