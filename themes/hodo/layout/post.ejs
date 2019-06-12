@@ -1,4 +1,15 @@
-<section id="<%= page.layout %>" class="post container-fluid mt-1 mt-lg-2" >
+  <!-- Add a custom color set to the first p -->
+  <% if (page.textColor){ %> 
+    <style type="text/css">
+      section#post header p {
+          color: <%= page.textColor %> ;        
+      }
+      section#post header p a {
+          color: <%= page.textColor %> ;        
+        }
+    </style>
+  <% } %> 
+<section id="post" class="post container-fluid mt-1 mt-lg-2" >
 	<!-- Post header -->
   <header class="row">  
 		<div class="col-12 inner">
@@ -25,11 +36,7 @@
 	        <h2 class="post-preview-subtitle" <% if (page.textColor){ %> style="color: <%= page.textColor %> !important" <% } %>><%= page.subTitle %></h2>
 	      <% } %>
 			  <% if (page.intro){ %>
-			  	<% if (page.textColor){ %> 
-				  	<%- myMarkdown(page.intro, page.textColor) %>
-			  	<% } else { %>
-				  	<%- markdown(page.intro) %>
-			  	<% } %>
+			  	<%- markdown(page.intro) %>
 			  <% } %>
 			  <% if (page.videoUrl){ %>
 			  	<!-- Hide  on screens smaller than lg -->
@@ -43,7 +50,6 @@
 		  <%- page.content %>  		
   	</div>
   </div>
-
 
 </section>
 
