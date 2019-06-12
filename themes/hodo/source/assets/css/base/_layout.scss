@@ -176,7 +176,7 @@ footer {
 					line-height: $line-height-nav-links-xl; 					
 				}
 				&:hover {
-					@include link-style-tachado();
+					@include link-style-tachado(33%);
 				}
 			}
 		}
