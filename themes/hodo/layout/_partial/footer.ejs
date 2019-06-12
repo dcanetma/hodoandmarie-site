@@ -1,6 +1,6 @@
 <!-- .footer -->
 <footer class="footer" >
-	<div class="container-fluid pb-3">
+	<div class="container-fluid">
 		<!-- Separator: first row -->
 		<div class="row">
 			<div class="col">
@@ -21,11 +21,11 @@
 				</p>
 			</div>
 			<!--2.  Social links block -->
-			<div class="col-12 col-sm-6 col-lg-4 mb-1">
+			<div class="col-12 col-sm-6 col-lg-4">
 				<% if(site.data.social) {%>
 				  <ul class="links list-inline float-left float-sm-right">
 				  	<% for (link in site.data.social) { %>
-					  	<li class="list-inline-item ml-2 mr-0"><a href="<%= site.data.social[link] %>" title="Visit our <%= link %> page"><%= link %></a></li>
+					  	<li class="list-inline-item ml-0 ml-sm-2 mr-2 mr-sm-0"><a href="<%= site.data.social[link] %>" title="Visit our <%= link %> page"><%= link %></a></li>
 						<% } %>
 				  </ul>
 			  <% } %>

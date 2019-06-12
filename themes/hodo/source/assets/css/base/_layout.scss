@@ -132,6 +132,7 @@ footer {
 		@include media-breakpoint-down(md) {
 			font-size: $font-size-default-xs;
 			line-height: $line-height-default-xs;	
+			margin-bottom: 1.875rem; // 30px;
 		}
 		a {
 			text-decoration: none;
@@ -149,8 +150,13 @@ footer {
 	}
 	// The social links theming	
 	.links {
+		margin-bottom: 0;
 		li {
-			padding-left: 1rem;
+			padding-right: 1rem;
+			@include media-breakpoint-up(sm) { 
+				padding-right: 0;
+				padding-left: 1rem;
+			}
 			a {
 				text-transform: uppercase;
 				text-decoration: none;
