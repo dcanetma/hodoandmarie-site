@@ -5,11 +5,30 @@ header {}
 // Hybrid layout
 // Set a max-width of 1440px to the fluid model, so on bigger screens 
 // the container will be fixed
+// Tricky hack to the grid for a $grid-gutter-width of 20px on Bootstrap4 
 .container-fluid {
 	max-width: $layout-max-width;
+	padding-left: 20px; // See .post-preview-wrapper 
+	padding-right: 20px; // See .post-preview-wrapper 
 }
-
-
+main#content #homepage {
+	@include media-breakpoint-up(xl) {
+		padding-left: 10px; // See .post-preview-wrapper 
+		padding-right: 10px; // See .post-preview-wrapper 
+	}	
+	header {
+		padding: 0 10px; 
+	}
+}
+// Preview styles
+.post-preview {
+	// Wrapper de cada projecte, per a una millor UX en els rollovers
+	.post-preview-wrapper {
+		@include media-breakpoint-up(xl) {
+			padding: 0 10px; 
+		}
+	}
+}
 
 // 2.1. MAIN NAVIGATION for all pages
 .navbar {
