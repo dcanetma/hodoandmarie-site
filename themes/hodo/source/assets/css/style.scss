@@ -1,19 +1,20 @@
 @charset "utf-8";
 
-@import "bootstrap-all";
-
-// Theme Styles
-@import "utilities/fonts";
 /* Configuration and helpers */
 @import "utilities/variables";
 @import "utilities/mixins";
-// @import "utilities/functions";
 
+// Custom Bootstrap ^4.3
+@import "bootstrap-all";
+
+// Font Styles
+@import "utilities/fonts";
+
+/* Theme styles */
 @import "base/defaults";
 @import "base/typography";
 @import "base/layout";
 @import "base/post";
 @import "base/theme";
 
-// @import "base/navigation";
 

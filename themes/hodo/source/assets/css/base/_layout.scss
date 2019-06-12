@@ -14,12 +14,30 @@ header {}
 // 2.1. MAIN NAVIGATION for all pages
 .navbar {
 	background: #fff;
-
 	min-height: 146px;
 
 	// Align logo & menu elements to the top
 	.navbar-brand {
 		padding: 0 !important;
+		#logo-mobile {
+			display: block;
+			@include media-breakpoint-up(lg) {
+				display: none;
+			}			
+		}
+		#logo {
+			display: none;
+			@include media-breakpoint-up(lg) {
+				display: block;
+				width: 110px;
+				height: 73px;
+			}
+			@include media-breakpoint-up(xl) {
+				display: block;
+				width: auto;
+				height: auto;
+			}
+		}
 	}
 	// Align logo & menu elements to the top
 	.nav-link {
