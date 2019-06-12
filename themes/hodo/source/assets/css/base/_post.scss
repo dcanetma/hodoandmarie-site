@@ -4,17 +4,17 @@
 
 .posts {
   // Separate work grid
-	margin-top: 1.875rem; // 30px
-	@include media-breakpoint-up(lg) {
-		margin-top: 3.75rem; // 60px
+	margin-top: 1.25rem; // 20px
+	@include media-breakpoint-up(sm) {
+		margin-top: 2.5rem; // 40px
 	}
 }
 
 // Preview styles
 .post-preview {
 	position: relative;
-	margin-bottom: 1.875rem; // 30px
-	@include media-breakpoint-up(lg) { 
+	margin-bottom: 1.25rem; // 20px
+	@include media-breakpoint-up(sm) { 
 		margin-bottom: 2.5rem; // 40px
 	}
 	transform: matrix(1, 0, 0, 1, 0, 0);

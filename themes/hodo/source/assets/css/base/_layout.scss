@@ -14,7 +14,15 @@ header {}
 // 2.1. MAIN NAVIGATION for all pages
 .navbar {
 	background: #fff;
-	min-height: 146px;
+	// This values depend directly on the height of the logos for each breakpoint
+	// No caldrà expressar-los en REM un cop estiguin definits (...?)
+	min-height: 156px; // Important to set the same value for main#content->margin-top
+	@include media-breakpoint-up(lg) { 
+		min-height: 169px; // Important to set the same value for main#content->margin-top
+	}
+	@include media-breakpoint-up(xl) {
+		min-height: 242px; // Important to set the same value for main#content->margin-top
+	}
 
 	// Align logo & menu elements to the top
 	.navbar-brand {
@@ -29,8 +37,8 @@ header {}
 			display: none;
 			@include media-breakpoint-up(lg) {
 				display: block;
-				width: 110px;
-				height: 73px;
+				width: 50%;
+				height: 50%;
 			}
 			@include media-breakpoint-up(xl) {
 				display: block;
@@ -85,7 +93,15 @@ header {}
 }
 
 main#content {
-	margin-top: 9.125rem; //146px
+	margin-top: 156px; //156px
+	@include media-breakpoint-up(lg) { 
+		margin-top: 169px; // Important to set the same value for .xxx
+	}
+	@include media-breakpoint-up(xl) {
+		margin-top: 242px; // Important to set the same value for .xxx
+	}
+
+
 }
 
 

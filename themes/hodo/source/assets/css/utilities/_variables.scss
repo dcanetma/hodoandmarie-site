@@ -43,4 +43,11 @@ $line-height-nav-links-xl: 	1.625rem;	// 20px
 // ------
 /* Bootstrap custom styles */
 
+// @see: https://getbootstrap.com/docs/4.3/getting-started/theming/#variable-defaults
+$enable-rounded: false;
+$enable-shadows: false;
 
+$grid-gutter-width:           40px;
+
+// Container padding
+$container-padding-x: $grid-gutter-width / 2 ;
