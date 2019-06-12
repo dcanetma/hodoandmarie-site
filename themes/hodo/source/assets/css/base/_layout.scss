@@ -17,7 +17,11 @@ main#content #homepage {
 		padding-right: 10px; // See .post-preview-wrapper 
 	}	
 	header {
-		padding: 0 10px; 
+		padding: 0;
+		margin-bottom: 60px;
+		@include media-breakpoint-up(xl) {
+			padding: 0 10px;
+		}
 	}
 }
 // Preview styles
@@ -36,9 +40,9 @@ main#content #homepage {
 	// This values depend directly on the height of the logos for each breakpoint
 	// No caldrà expressar-los en REM un cop estiguin definits (...?)
 
-	padding-top: 25px;
-	padding-bottom: 25px;
-	min-height: 80px; // Important to set the same value for main#content->margin-top
+	padding-top: 30px;
+	padding-bottom: 30px;
+	min-height: 90px; // Important to set the same value for main#content->margin-top
 	@include media-breakpoint-up(md) { 
 		min-height: 108px; // Important to set the same value for main#content->margin-top
 	}
@@ -115,7 +119,7 @@ main#content #homepage {
 }
 
 main#content {
-	margin-top: 80px; //80px
+	margin-top: 90px; //80px
 	@include media-breakpoint-up(sm) { 
 		margin-top: 108px; // Important to set the same value for .xxx
 	}
@@ -134,10 +138,10 @@ footer {
 	background-color: $white;
 
   // Separate footer from the main content as on PDF
-	margin-top: 3.75rem; // 60px
+	margin-top: 2.375rem; // 36px
 	margin-bottom: 3.4375rem; // 60-5px
 	@include media-breakpoint-up(lg) {
-		margin-top: 7.5rem; //120px
+		margin-top: 6rem; //96px to make 120px
 		margin-bottom: 7.5rem; //120px
 	}
 
