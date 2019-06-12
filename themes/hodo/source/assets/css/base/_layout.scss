@@ -44,11 +44,6 @@ main#content #homepage {
 	padding-bottom: 30px;
 	min-height: 90px; // Important to set the same value for main#content->margin-top
 	@include media-breakpoint-up(md) { 
-		min-height: 108px; // Important to set the same value for main#content->margin-top
-	}
-	@include media-breakpoint-up(xl) {
-		padding-top: 30px;
-		padding-bottom: 30px;
 		min-height: 118px; // Important to set the same value for main#content->margin-top
 	}
 
@@ -121,13 +116,8 @@ main#content #homepage {
 main#content {
 	margin-top: 90px; //80px
 	@include media-breakpoint-up(sm) { 
-		margin-top: 108px; // Important to set the same value for .xxx
-	}
-	@include media-breakpoint-up(xl) {
 		margin-top: 118px; // Important to set the same value for .xxx
 	}
-
-
 }
 
 

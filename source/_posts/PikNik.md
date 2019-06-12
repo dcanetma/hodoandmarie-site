@@ -5,7 +5,7 @@ year: 2020
 intro: > 
 	Vintage medical plants illustrations combined with a contemporary aesthetics for the identity of a new pharmacy with a special focus on natural products.
 
-bgColor: 		'#f6f7f2' 
+bgColor: 		'#f2f0e7' 
 textColor: 	black
 
 tags:
@@ -14,7 +14,7 @@ tags:
   - Illustration
 
 thumbnailUrl: media/hodomarie-piknik-thumbnail-760x700.png
-imageUrl: https://dummyimage.com/1920x800/f3ae25/f3b025.jpg
+imageUrl: https://dummyimage.com/1920x800/f2f0e7/f2f0e7.jpg
 
 videoUrl: 
 
@@ -25,13 +25,13 @@ subTitle: Video Explainers
 
 <div class="gallery">
 
-![Kitten](https://dummyimage.com/800x500/f3ae25/f3b025.jpg "x2")
-![Kitten](https://dummyimage.com/800x500/f3ae25/f3b025.jpg "x2")
+![Kitten](https://dummyimage.com/800x500/f2f0e7/f2f0e7.jpg "x2")
+![Kitten](https://dummyimage.com/800x500/f2f0e7/f2f0e7.jpg "x2")
 </div>
 
 <div class="gallery">
 
-![Kitten](https://dummyimage.com/1200x400/f3ae25/f3b025.jpg "x1")
+![Kitten](https://dummyimage.com/1200x400/f2f0e7/f2f0e7.jpg "x1")
 </div>
 
 Ciutat Jardí means «Garden City» and it’s the name of the neighbourhood where the pharmacy is located.
@@ -40,21 +40,21 @@ We designed the logo and brand identity using old medical plants illustrations m
 
 <div class="gallery">
 
-![Kitten](https://dummyimage.com/800x500/f3ae25/f3b025.jpg "x2")
-![Kitten](https://dummyimage.com/800x500/f3ae25/f3b025.jpg "x2")
+![Kitten](https://dummyimage.com/800x500/f2f0e7/f2f0e7.jpg "x2")
+![Kitten](https://dummyimage.com/800x500/f2f0e7/f2f0e7.jpg "x2")
 </div>
 
 
 <div class="gallery">
 
-![Kitten](https://dummyimage.com/600/f3ae25/f3b025.jpg "x3")
-![Kitten](https://dummyimage.com/600/f3ae25/f3b025.jpg "x3")
-![Kitten](https://dummyimage.com/600/f3ae25/f3b025.jpg "x3")
+![Kitten](https://dummyimage.com/600/f2f0e7/f2f0e7.jpg "x3")
+![Kitten](https://dummyimage.com/600/f2f0e7/f2f0e7.jpg "x3")
+![Kitten](https://dummyimage.com/600/f2f0e7/f2f0e7.jpg "x3")
 </div>
 
 <div class="gallery">
 
-![Kitten](https://dummyimage.com/1200x400/f3ae25/f3b025.jpg "x1")
+![Kitten](https://dummyimage.com/1200x400/f2f0e7/f2f0e7.jpg "x1")
 </div>
 
 
