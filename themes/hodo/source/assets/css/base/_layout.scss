@@ -29,21 +29,19 @@ header {}
 		padding: 0 !important;
 		#logo-mobile {
 			display: block;
+			width: 50%;
+			height: 50%;
 			@include media-breakpoint-up(lg) {
 				display: none;
 			}			
 		}
 		#logo {
 			display: none;
+			margin-top: -32px;
 			@include media-breakpoint-up(lg) {
 				display: block;
 				width: 50%;
 				height: 50%;
-			}
-			@include media-breakpoint-up(xl) {
-				display: block;
-				width: auto;
-				height: auto;
 			}
 		}
 	}
@@ -121,8 +119,8 @@ footer {
 
 	// Footer separator, remove bs4 defaults
 	hr {
-		box-shadow: none;
-		background-color: $black;
+		// box-shadow: none;
+		// background-color: $black;
 		opacity: 1;
 	}
 	// The text-lines on the address are treated as line blocks, 100% width
