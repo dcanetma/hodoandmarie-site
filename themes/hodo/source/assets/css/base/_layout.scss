@@ -11,6 +11,7 @@ header {}
 	padding-left: 20px; // See .post-preview-wrapper 
 	padding-right: 20px; // See .post-preview-wrapper 
 }
+
 main#content #homepage {
 	@include media-breakpoint-up(xl) {
 		padding-left: 10px; // See .post-preview-wrapper 

@@ -10,8 +10,8 @@ intro: >
 	to present this amazing stools collection
 	by Iratzoki Lizaso product designers.
 
-bgColor: 		'#1e5d82' 
-textColor: 	white
+bgColor: 		'#341d10' 
+textColor: 	black
 
 tags:
   - Animation
@@ -32,21 +32,21 @@ date: 2020-06-06 11:21:02
 
 <div class="gallery">
 
-![Some alt text](https://dummyimage.com/600/1e5d82/1e5d82.jpg "x3")
-![Some alt text](https://dummyimage.com/600/1e5d82/1e5d82.jpg "x3")
-![Some alt text](https://dummyimage.com/600/1e5d82/1e5d82.jpg "x3")
+![Some alt text](https://dummyimage.com/600/b59895/b59895.jpg "x3")
+![Some alt text](https://dummyimage.com/600/b59895/b59895.jpg "x3")
+![Some alt text](https://dummyimage.com/600/b59895/b59895.jpg "x3")
 </div>
 
 
 <div class="gallery">
 
-![Some alt text](https://dummyimage.com/800x500/1e5d82/1e5d82.jpg "x2")
-![Some alt text](https://dummyimage.com/800x500/1e5d82/1e5d82.jpg "x2")
+![Some alt text](https://dummyimage.com/800x500/b59895/b59895.jpg "x2")
+![Some alt text](https://dummyimage.com/800x500/b59895/b59895.jpg "x2")
 </div>
 
 <div class="gallery">
 
-![Some alt text](https://dummyimage.com/1200x400/1e5d82/1e5d82.jpg "x1")
+![Some alt text](https://dummyimage.com/1200x400/b59895/b59895.jpg "x1")
 </div>
 
 ## Lorem
