@@ -27,16 +27,18 @@
 		<div class="col-12 inner">
 			 <img src="<%= page.imageUrl %>" alt="<%= page.title %>"  class="header img-fluid">  
 			 <% if (page.videoUrl){ %>	
-				 	<iframe class="header"  				 		
-					 	src="https://player.vimeo.com/video/334092219?color=06fdf9&portrait=0" 
+				 <div class="embed-responsive embed-responsive-16by9">
+					 	<iframe id="video" class="header embed-responsive-item"  				 		
+					 	src="https://player.vimeo.com/video/<%= page.videoUrl %>?color=06fdf9&portrait=0&autoplay=0" 
 					 	width="640" height="360" 
-					 	frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
+					 	frameborder="0" allow="autoplay; fullscreen" webkitallowfullscreen mozallowfullscreen allowfullscreen>
 					 		<p>	You're browser doesn't support Vimeo Videos. 
-					 				<a href="https://player.vimeo.com/video/334092219?color=06fdf9&portrait=0">
+					 				<a href="https://player.vimeo.com/video/<%= page.videoUrl %>?color=06fdf9&portrait=0&api=1">
 					 					Watch the video on Vimeo
 					 				</a>.
 					 		</p>
 					 	</iframe>
+					</div>
 			 <% } %>	
 
 		</div> 			
@@ -52,7 +54,7 @@
 			  <% } %>
 			  <% if (page.videoUrl){ %>
 			  	<!-- Hide  on screens smaller than lg -->
-				  <a href="#" class="btn-play btn d-none d-lg-inline-block">Play video</a>
+				  <a href="#" class="btn-play btn d-none d-lg-inline-block" title="Play the video">Play video</a>
 			  <% } %>			  
 		</div> 			
   </header>

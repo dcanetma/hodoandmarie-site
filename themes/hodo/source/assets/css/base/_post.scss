@@ -155,18 +155,21 @@ section.post {
  		position: relative;
  		// La img i el video, ambdos
  		.header {
+ 			padding: 0;
  			margin-bottom: 10px;
  		}
  		img {
  			width: 100%;
  		}
- 		iframe {
+ 		.embed-responsive {
  			display: none;
+ 		}
+ 		iframe {
  			position: absolute;
-			top: -1.25rem;
+			top: 0;
 			left: 0;
 			margin: 0;
-			padding: 0rem 1em;
+			padding: 0;
 			width: 100%;
 			height: 100%;
 			z-index: 100;

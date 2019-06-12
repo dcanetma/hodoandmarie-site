@@ -24,7 +24,7 @@ thumbnailUrl:
 
 imageUrl: '../../media/sample/dog.jpg'
 
-videoUrl: 'https://vimeo.com/xxx'
+videoUrl: '334092219'
 
 date: 2020-06-06 11:21:02
 
