@@ -16,12 +16,17 @@ header {}
 	background: #fff;
 	// This values depend directly on the height of the logos for each breakpoint
 	// No caldrà expressar-los en REM un cop estiguin definits (...?)
-	min-height: 156px; // Important to set the same value for main#content->margin-top
-	@include media-breakpoint-up(lg) { 
-		min-height: 169px; // Important to set the same value for main#content->margin-top
+
+	padding-top: 25px;
+	padding-bottom: 25px;
+	min-height: 80px; // Important to set the same value for main#content->margin-top
+	@include media-breakpoint-up(md) { 
+		min-height: 108px; // Important to set the same value for main#content->margin-top
 	}
 	@include media-breakpoint-up(xl) {
-		min-height: 242px; // Important to set the same value for main#content->margin-top
+		padding-top: 30px;
+		padding-bottom: 30px;
+		min-height: 118px; // Important to set the same value for main#content->margin-top
 	}
 
 	// Align logo & menu elements to the top
@@ -31,14 +36,14 @@ header {}
 			display: block;
 			width: 25px;
 			height: 30px;
-			@include media-breakpoint-up(lg) {
+			@include media-breakpoint-up(md) {
 				display: none;
 			}			
 		}
 		#logo {
 			display: none;
 			margin-top: -15px;
-			@include media-breakpoint-up(lg) {
+			@include media-breakpoint-up(md) {
 				display: block;
 				width: 110px;
 				height: 73px;
@@ -91,12 +96,12 @@ header {}
 }
 
 main#content {
-	margin-top: 156px; //156px
-	@include media-breakpoint-up(lg) { 
-		margin-top: 169px; // Important to set the same value for .xxx
+	margin-top: 80px; //80px
+	@include media-breakpoint-up(sm) { 
+		margin-top: 108px; // Important to set the same value for .xxx
 	}
 	@include media-breakpoint-up(xl) {
-		margin-top: 242px; // Important to set the same value for .xxx
+		margin-top: 118px; // Important to set the same value for .xxx
 	}
 
 
@@ -111,7 +116,7 @@ footer {
 
   // Separate footer from the main content as on PDF
 	margin-top: 3.75rem; // 60px
-	margin-bottom: 3.75rem; // 60px
+	margin-bottom: 3.4375rem; // 60-5px
 	@include media-breakpoint-up(lg) {
 		margin-top: 7.5rem; //120px
 		margin-bottom: 7.5rem; //120px
@@ -132,7 +137,7 @@ footer {
 		@include media-breakpoint-down(md) {
 			font-size: $font-size-default-xs;
 			line-height: $line-height-default-xs;	
-			margin-bottom: 1.875rem; // 30px;
+			margin-bottom: 1.5625rem; // 30-5px;
 		}
 		a {
 			text-decoration: none;
