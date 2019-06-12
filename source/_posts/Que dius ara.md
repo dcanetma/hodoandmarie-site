@@ -40,3 +40,14 @@ subTitle:
 
 ![Kitten](https://dummyimage.com/1200x400/1e5d82/1e5d82.jpg "x1")
 </div>
+
+## Credits
+
+* Client: Farmàcia Ciutat Jardí
+* Year: 2016
+
+
+* Creative direction: hodo&marie
+* Art direction: hodo&marie
+* Graphic design: hodo&marie
+* Production: hodo&marie

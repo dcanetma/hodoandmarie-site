@@ -229,7 +229,7 @@ section.post {
  	}
  	// Body
  	h2, .h2 {
- 		margin-top: 10px;
+ 		margin-top: 40px;
  		margin-bottom: 20px;
  		text-transform: uppercase;
  		letter-spacing: $letter-spacing-1;
@@ -237,12 +237,13 @@ section.post {
  		line-height: $line-height-default-xs;
 		@include media-breakpoint-up(lg) { 
 			margin-top: 46px;
+			margin-bottom: 20px;
 			font-size: $font-size-default-md;
 			line-height: $line-height-default-md;
 		}
  	}
  	h3, .h3 { 
- 		margin-top: 10px;
+ 		margin-top: 40px;
  		margin-bottom: 20px;
  		text-transform: uppercase;
  		letter-spacing: $letter-spacing-1;
@@ -278,7 +279,7 @@ section.post {
 			margin-top: 36px; // 60px
 		}
 		@include media-breakpoint-up(lg) {
-			margin-top: 84px; //120px
+			margin-top: 86px; //120px
 		}
  		// p {
  		// 	@include media-breakpoint-up(lg) { 

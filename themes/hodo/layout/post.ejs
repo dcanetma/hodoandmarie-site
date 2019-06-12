@@ -1,15 +1,27 @@
-  <!-- Add a custom color set to the first p -->
-  <% if (page.textColor){ %> 
-    <style type="text/css">
-      section#post header p {
-          color: <%= page.textColor %> ;        
-      }
-      section#post header p a {
-          color: <%= page.textColor %> ;        
-        }
-    </style>
-  <% } %> 
-<section id="post" class="post container-fluid mt-1 mt-lg-2" >
+<% if (page.textColor && page.textColor !== 'white'){ %> 
+  <style type="text/css">
+  	@media (min-width: 992px) {
+	    section#post  header h1,
+	    section#post  header h1 a,
+	    section#post  header h2.post-preview-subtitle,
+	    section#post  header p,
+	    section#post  header p a {
+	    		color: <%= page.textColor %> !important ; 
+	    }
+	    section#post a.btn {
+				border-color: <%= page.textColor %>;
+				color: <%= page.textColor %>;
+			}
+			section#post a.btn:hover {
+				color: white;
+				background-color: <%= page.textColor %>;
+				border-color: <%= page.textColor %>;
+	    }
+	  }
+  </style>
+<% } %> 
+
+<section id="<%= page.layout %>" class="post container-fluid mt-1 mt-lg-2" >
 	<!-- Post header -->
   <header class="row">  
 		<div class="col-12 inner">
@@ -30,13 +42,13 @@
 		</div> 			
 		<div class="intro col-12 offset-0 col-lg-7 ml-0 ml-lg-5 pl-lg-5 pt-4 pt-lg-5 ">
 			  <% if (page.title){ %>
-			    <h1><a href="<%= page.permalink %>" <% if (page.textColor){ %> style="color: <%= page.textColor %> !important" <% } %>><%= page.title %></a></h1>
+			    <h1><a href="<%= page.permalink %>"><%= page.title %></a></h1>
 			  <% } %>
 	      <% if (page.subTitle){ %>
-	        <h2 class="post-preview-subtitle" <% if (page.textColor){ %> style="color: <%= page.textColor %> !important" <% } %>><%= page.subTitle %></h2>
+	        <h2 class="post-preview-subtitle"><%= page.subTitle %></h2>
 	      <% } %>
 			  <% if (page.intro){ %>
-			  	<%- markdown(page.intro) %>
+				  	<%- markdown(page.intro) %>
 			  <% } %>
 			  <% if (page.videoUrl){ %>
 			  	<!-- Hide  on screens smaller than lg -->
