@@ -23,10 +23,6 @@ date: 2036-06-06 11:21:02
 subTitle: Video Explainers
 ---
 
-**Graphic identity for a new pharmacy** located in the city of Lleida, Catalunya.
-Ciutat Jardí means «Garden City» and it’s **the name of the neighbourhood** where the pharmacy is located.
-**We designed the logo and brand identity** using [old medical plants](#) illustrations mixed with a fresh looking image.
-
 <div class="gallery">
 
 ![Kitten](https://dummyimage.com/800x500/f3ae25/f3b025.jpg "x2")
@@ -40,7 +36,7 @@ Ciutat Jardí means «Garden City» and it’s **the name of the neighbourhood*
 
 Ciutat Jardí means «Garden City» and it’s the name of the neighbourhood where the pharmacy is located.
 We designed the logo and brand identity using old medical plants illustrations mixed with a fresh looking image.
-
+<br>
 
 <div class="gallery">
 
@@ -60,6 +56,11 @@ We designed the logo and brand identity using old medical plants illustrations m
 
 ![Kitten](https://dummyimage.com/1200x400/f3ae25/f3b025.jpg "x1")
 </div>
+
+
+**Graphic identity for a new pharmacy** located in the city of Lleida, Catalunya.
+Ciutat Jardí means «Garden City» and it’s **the name of the neighbourhood** where the pharmacy is located.
+**We designed the logo and brand identity** using [old medical plants](#) illustrations mixed with a fresh looking image.
 
 
 ## Credits

@@ -21,10 +21,6 @@ date: 2038-06-06 11:21:02
 subTitle: 
 
 ---
-**Graphic identity for a new pharmacy** located in the city of Lleida, Catalunya.
-Ciutat Jardí means «Garden City» and it’s **the name of the neighbourhood** where the pharmacy is located.
-**We designed the logo and brand identity** using [old medical plants](#) illustrations mixed with a fresh looking image.
-
 
 <div class="gallery">
 
