@@ -29,6 +29,7 @@ date: 2029-06-06 11:21:02
 </div>
 
 Ciutat Jardí means «Garden City» and it’s the name of the neighbourhood where the pharmacy is located.
+<br>
 
 <div class="gallery">
 
@@ -43,6 +44,7 @@ Ciutat Jardí means «Garden City» and it’s the name of the neighbourhood wh
 </div>
 
 We designed the logo and brand identity using old medical plants illustrations mixed with a fresh looking image.
+<br>
 
 <div class="gallery">
 

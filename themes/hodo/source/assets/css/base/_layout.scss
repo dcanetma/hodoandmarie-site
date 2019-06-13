@@ -13,7 +13,9 @@ header {}
 }
 
 main#content #homepage {
+	margin-bottom: -22px;
 	@include media-breakpoint-up(xl) {
+		margin-bottom: -40px;
 		padding-left: 10px; // See .post-preview-wrapper 
 		padding-right: 10px; // See .post-preview-wrapper 
 	}	
@@ -132,7 +134,7 @@ footer {
 	margin-top: 2.375rem; // 36px
 	margin-bottom: 3.4375rem; // 60-5px
 	@include media-breakpoint-up(lg) {
-		margin-top: 6rem; //96px to make 120px
+		margin-top: 6.125rem; //98px to make 120px
 		margin-bottom: 7.5rem; //120px
 	}
 

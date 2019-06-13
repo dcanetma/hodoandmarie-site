@@ -2,7 +2,7 @@ title: About us
 permalink: about-us/
 date: 2019-06-04 18:14:42
 ---
-We are a studio with focus on graphic design, illustration and motion graphics.
+We are a design studio with focus on motion graphics and illustration.
 
 **María** is a catalan-born architect that met Hodei when studying graphic design. She always loved geometry, drawing and mountain hiking.
 
