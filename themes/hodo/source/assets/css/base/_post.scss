@@ -171,9 +171,18 @@ section.post {
  		img {
  			width: 100%;
  			position: relative;
+ 			&.embed-thumbnail {
+ 				display: none;
+	 			@include media-breakpoint-up(lg) { 
+		 			display: block;
+	 			} 				
+ 			}
  		}
  		.embed-responsive {
- 			display: none;
+ 			display: block;
+ 			@include media-breakpoint-up(lg) { 
+	 			display: none;
+ 			}
  		}
  		iframe {
  			position: absolute;

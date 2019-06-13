@@ -11,7 +11,7 @@ intro: >
 	by Iratzoki Lizaso product designers.
 
 bgColor: 		'#341d10' 
-textColor: 	black
+textColor: 	white
 
 tags:
   - Animation

@@ -25,8 +25,8 @@
 	<!-- Post header -->
   <header class="row">  
 		<div class="col-12 inner">
-			 <img src="<%= page.imageUrl %>" alt="<%= page.title %>"  class="header img-fluid">  
 			 <% if (page.videoUrl){ %>	
+				 <img src="<%= page.imageUrl %>" alt="<%= page.title %>"  class="header embed-thumbnail img-fluid">  
 				 <div class="embed-responsive embed-responsive-16by9">
 					 	<iframe id="video" class="header embed-responsive-item"  				 		
 					 	src="https://player.vimeo.com/video/<%= page.videoUrl %>?color=06fdf9&portrait=0&autoplay=0" 
@@ -39,6 +39,8 @@
 					 		</p>
 					 	</iframe>
 					</div>
+			 <% } else { %>	
+				 <img src="<%= page.imageUrl %>" alt="<%= page.title %>"  class="header img-fluid">  
 			 <% } %>	
 
 		</div> 			
