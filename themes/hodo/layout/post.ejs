@@ -28,13 +28,11 @@
 			 <% if (page.videoUrl){ %>	
 				 <img src="<%= page.imageUrl %>" alt="<%= page.title %>"  class="header embed-thumbnail img-fluid">  
 				 <div class="embed-responsive embed-responsive-16by9">
-					 	<iframe id="video" class="header embed-responsive-item"  				 		
-					 	src="https://player.vimeo.com/video/<%= page.videoUrl %>?color=06fdf9&portrait=0&autoplay=0" 
-					 	width="640" height="360" 
-					 	frameborder="0" allow="autoplay; fullscreen" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-					 		<p>	You're browser doesn't support Vimeo Videos. 
+					 	<iframe id="video" class="header embed-responsive-item" 
+					 		src="https://player.vimeo.com/video/<%= page.videoUrl %>" width="640" height="360" frameborder="0" allowfullscreen allow="autoplay; encrypted-media">
+					 		<p>Your browser doesn't support Vimeo Videos. 
 					 				<a href="https://player.vimeo.com/video/<%= page.videoUrl %>?color=06fdf9&portrait=0&api=1">
-					 					Watch the video on Vimeo
+					 					Watch this video on Vimeo
 					 				</a>.
 					 		</p>
 					 	</iframe>

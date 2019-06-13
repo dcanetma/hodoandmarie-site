@@ -1,16 +1,23 @@
 $(function() {
 
-
+	function playVideo() {
+    // Select with the `<iframe>`’s id '#video'
+		var player = new Vimeo.Player('video');
+		player.play();    
+	} 
 
 	// @todo: play behaviour on post pages
 	$('#post .btn-play').click(function(e){
 		$('#post .embed-responsive').slideDown('slow', function(){
 			// Play the video
-
+	    // Select with the `<iframe>`’s id '#video'
+			var player = new Vimeo.Player('video');
+			player.play();    
 		});
 		$('#post img.header').slideUp('slow', function(){
 		});
 	});
+
 });
 
 // $(document).ready(function(){
