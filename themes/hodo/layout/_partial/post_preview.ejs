@@ -13,10 +13,9 @@
     <div class="post-preview-wrapper">
       <div class="post-preview-media">
         <% if (post.videoUrl){ %>
-          <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
             <source src="<%= post.thumbnailUrl[0] %>" type="video/mp4">
             <source src="<%= post.thumbnailUrl[1] %>" type="video/webm">
-            <img src="<%= post.thumbnailUrl %>" class="img-fluid" alt="<%= post.title %>">
           </video>
         <% } else {%>
           <img src="<%= post.thumbnailUrl %>" class="img-fluid" alt="<%= post.title %>">
