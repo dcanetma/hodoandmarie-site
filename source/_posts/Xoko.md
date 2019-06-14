@@ -18,9 +18,8 @@ tags:
   - Illustration
 
 thumbnailUrl: 
-	- media/sample/dog.mp4
-	- media/sample/dog.ogv
-	- media/sample/dog.webm
+	- media/sample/rabbit320.mp4
+	- media/sample/rabbit320.webm
 
 imageUrl: '../../media/sample/dog.jpg'
 
