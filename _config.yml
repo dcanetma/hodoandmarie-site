@@ -8,7 +8,7 @@ subtitle: Subtitle
 description: 'We are a design studio with focus on motion graphics and illustration.<br>We would love to tell your story.
 <br>Nice to meet you!'
 keywords:
-author: Hodo & Marie
+author: facts&fictions
 language: en
 timezone:  
 
@@ -77,7 +77,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hodo
+theme: hodoandmarie
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -89,7 +89,7 @@ deploy:
 - type: ftpsync
   host: hodoandmarie.com
   user: hodoandm
-  pass: uRB16K6f
+  pass: '******'
   remote: /web/demo
   connections: 1
   verbose: true
@@ -110,17 +110,29 @@ asset_pipeline:
   revisioning:
     enable: false
   clean_css:
-    enable: true
+    enable: false
   uglify_js:
     enable: false
   imagemin:
     enable: false
   html_minifier:
-    enable: true
+    enable: false
     ignore_error: true
-    removeComments: true
-    minifyJS: true
-    minifyCSS: true
+    removeComments: false
+    minifyJS: false
+    minifyCSS: false
+
+# Admin
+# @see: https://github.com/jaredly/hexo-admin
+admin:
+  deployCommand: './hexo-deploy.sh'
+  
+# @see: https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap
+sitemap:
+    path: sitemap.xml
+    tag: false
+    category: false
+
 
 # Responsive Images
 # @see: https://github.com/hexojs/hexo-filter-responsive-images
@@ -140,14 +152,3 @@ asset_pipeline:
 #         width: 1200
 #       double:
 #         width: 2000
-
-# Admin
-# @see: https://github.com/jaredly/hexo-admin
-admin:
-  deployCommand: './hexo-deploy.sh'
-  
-# @see: https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap
-sitemap:
-    path: sitemap.xml
-    tag: false
-    category: false

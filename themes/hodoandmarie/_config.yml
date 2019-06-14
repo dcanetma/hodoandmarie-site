@@ -1,17 +1,12 @@
+# hodoandmarie theme
 # Variables
+
+# Information
 address: carrer Aragó 503, 5B · 08013 Barcelona
 email: hello@hodoandmarie.com
 tlf01: "+34 653745522"
 tlf02: "+34 659853390"
 
-# widget behavior
-# archive_type: 'monthly'
-# show_count: false
-
-# Miscellaneous
-## Social Media URL's
-## Analytics Trackings
-
-
+# Hexo settings
 exclude:
   - "assets/vendor/bs4/js"

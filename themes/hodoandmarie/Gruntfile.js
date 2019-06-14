@@ -1,3 +1,4 @@
+// Hodoandmarie Hexo theme 
 module.exports = function(grunt){
   grunt.initConfig({
     gitclone: {
