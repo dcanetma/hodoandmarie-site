@@ -38,11 +38,11 @@
 					 	</iframe>
 					</div>
 			 <% } else { %>	
-				 <img src="<%= page.imageUrl %>" alt="<%= page.title %>"  class="header img-fluid">  
+				 <img src="<%= url_for(page.imageUrl) %>" alt="<%= page.title %>"  class="header img-fluid">  
 			 <% } %>	
 
 		</div> 			
-		<div class="intro col-12 offset-0 col-lg-7 ml-0 ml-lg-5 pl-lg-5 pt-4 pt-lg-5 ">
+		<div class="intro col-12 offset-0 col-lg-5 ml-0 ml-lg-5 pl-lg-5 pt-3 pt-lg-5 ">
 			  <% if (page.title){ %>
 			    <h1><a href="<%= page.permalink %>"><%= page.title %></a></h1>
 			  <% } %>
