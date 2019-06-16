@@ -23,7 +23,7 @@ theme_config:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://hodoandmarie.com
 root: /demo
-permalink: :post_title
+permalink: :post_title/
 permalink_defaults:
 
 # Directory
@@ -96,7 +96,7 @@ deploy:
 - type: ftpsync
   host: hodoandmarie.com
   user: hodoandm
-  pass: '******'
+  pass: uRB16K6f
   remote: /web/demo
   connections: 1
   verbose: true
