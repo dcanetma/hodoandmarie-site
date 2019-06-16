@@ -1,31 +1,24 @@
 title: La Lluna
 client: The Moon Lounge Bar
 year: 2020
-intro: > 
-	The term lunar effect refers to correlations
-	between lunar cycles and behaviour and
-	physiological changes in living beings on Earth,
-	including humans.
+intro: >
+  The term lunar effect refers to correlations between lunar cycles and
+  behaviour and physiological changes in living beings on Earth, including
+  humans.
 
-	The position of the letters and the situation of the logo
-	show this strange effects that the moon causes.
-
-bgColor: 		'#f4f4f4'
-textColor: 	black
-
+  The position of the letters and the situation of the logo show this strange
+  effects that the moon causes.
+bgColor: '#f4f4f4'
+textColor: black
 tags:
   - Animation
   - Illustration
-
 thumbnailUrl: media/lalluna/thumbnail.jpg
 imageUrl: media/lalluna/header.jpg
-
-videoUrl: 
-
-date: 2038-06-06 11:21:02
-
-subTitle: 
-
+categories: []
+date: 2038-06-06 11:21:00
+videoUrl:
+subTitle:
 ---
 
 <div class="gallery">

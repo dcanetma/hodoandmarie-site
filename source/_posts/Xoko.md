@@ -1,32 +1,23 @@
----
 title: Xoko
-subTitle: 
-
 client: Nom del client
 year: 2020
-intro: > 
-	Some hand-drawn frame by frame animation
-	and a little bit of motion graphics magic
-	to present this amazing stools collection
-	by Iratzoki Lizaso product designers.
-
-bgColor: 		'#341d10' 
-textColor: 	white
-
+intro: >
+  Some hand-drawn frame by frame animation and a little bit of motion graphics
+  magic to present this amazing stools collection by Iratzoki Lizaso product
+  designers.
+bgColor: '#341d10'
+textColor: white
 tags:
   - Animation
   - Illustration
-
-thumbnailUrl: 
-	- media/sample/rabbit320.mp4
-	- media/sample/rabbit320.webm
-
-imageUrl: '../../media/sample/dog.jpg'
-
+thumbnailUrl:
+  - media/sample/rabbit320.mp4
+  - media/sample/rabbit320.webm
+imageUrl: ../../media/sample/dog.jpg
 videoUrl: '334092219'
-
-date: 2020-06-06 11:21:02
-
+categories: []
+date: 2020-06-06 11:21:00
+subTitle:
 ---
 
 <div class="gallery">

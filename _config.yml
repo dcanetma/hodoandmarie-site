@@ -130,9 +130,27 @@ asset_pipeline:
     minifyCSS: false
 
 # Admin
+# hexo-admin authentification
 # @see: https://github.com/jaredly/hexo-admin
 admin:
-  deployCommand: './hexo-deploy.sh'
+  username: estufa
+  password_hash: $2a$10$TMBpVChEB9mB0b4.kW1.4ujh7KutnZfpfAFjgqDtTsM4wiYM7P5Pa
+  secret: CYn6NQHP7fAwtP2QWH4VFNC5P8bXE
+# hexo-admin values
+metadata:
+  subTitle: 
+  client:
+  year: 2020
+  intro: >
+    Lorem ipsum…
+  bgColor: '#f4f4f4'
+  textColor: black  
+  thumbnailUrl: 'media/'
+  imageUrl:
+  videoUrl: 
+
+#  deployCommand: './hexo-deploy.sh'
+
   
 # @see: https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap
 sitemap:

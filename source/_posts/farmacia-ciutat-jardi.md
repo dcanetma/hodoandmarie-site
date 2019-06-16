@@ -1,29 +1,18 @@
----
 title: Farmàcia Ciutat Jardí
-
 client: Nom del client
-
-intro: > 
-	Vintage medical plants illustrations
-	combined with a contemporary aesthetics
-	for the identity of a new pharmacy with
-	a special focus on natural products.
-
-bgColor: 		'#567d5a'
-textColor: 	black
-
+intro: >
+  Vintage medical plants illustrations combined with a contemporary aesthetics
+  for the identity of a new pharmacy with a special focus on natural products.
+bgColor: '#567d5a'
+textColor: black
 tags:
   - Animation
   - Illustration
-
 thumbnailUrl: media/farmaciaciutatjardi/thumbnail.png
 imageUrl: media/farmaciaciutatjardi/header.png
-videoUrl: 
-
 date: 2029-06-06 11:21:02
-
+videoUrl:
 ---
-
 <div class="gallery">
 
 ![Kitten](/demo/media/farmaciaciutatjardi/3.png "x2")
@@ -43,6 +32,7 @@ We designed the logo and brand identity using old medical plants illustrations m
 ![Kitten](/demo/media/farmaciaciutatjardi/7.png "x3")
 ![Kitten](/demo/media/farmaciaciutatjardi/5.jpg "x3")
 </div>
+
 
 <div class="gallery">
 
