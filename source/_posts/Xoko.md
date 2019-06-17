@@ -13,7 +13,7 @@ tags:
 thumbnailUrl:
   - media/sample/rabbit320.mp4
   - media/sample/rabbit320.webm
-imageUrl: ../../media/sample/dog.jpg
+imageUrl: media/sample/dog.jpg
 videoUrl: '334092219'
 categories: []
 date: 2020-06-06 11:21:00
