@@ -87,7 +87,7 @@ pagination_dir: page
 theme: hodoandmarie
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
+## @see: https://hexo.io/docs/deployment.html
 deploy:
 - type: git   
   repo: git@bitbucket.org:factsandfictions/hodoandmarie-site.git 
@@ -117,17 +117,17 @@ asset_pipeline:
   revisioning:
     enable: false
   clean_css:
-    enable: false
+    enable: true
   uglify_js:
     enable: false
   imagemin:
     enable: false
   html_minifier:
-    enable: false
+    enable: true
     ignore_error: true
-    removeComments: false
-    minifyJS: false
-    minifyCSS: false
+    removeComments: true
+    minifyJS: true
+    minifyCSS: true
 
 # Admin
 # hexo-admin authentification
