@@ -23,9 +23,7 @@ theme_config:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://hodoandmarie.com
 root: /demo
-permalink: :post_title/:subTitle/
-permalink_defaults:
-  subTitle: 'project'
+permalink: :post_title/
 
 # Directory
 source_dir: source
