@@ -6,9 +6,9 @@ $(function() {
 		var player = new Vimeo.Player('video');
 		player.play();    
 		// Show the video & Hide the image header, simultaneously
-		$('#post .embed-responsive').slideDown('slow', function(){
+		$('#post .embed-responsive').fadeIn('slow', function(){
 		});
-		$('#post img.header').slideUp('slow', function(){
+		$('#post img.header').fadeOut('slow', function(){
 		});
 	});
 

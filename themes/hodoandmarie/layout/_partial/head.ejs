@@ -1,4 +1,3 @@
-
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -6,9 +5,12 @@
     var title = page.title;
     %>
     <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
+
+    <!-- Feed tag -->
+    <link rel="alternate" href="<%= url_for(config.feed.path) %>" title="<%= config.title %>" type="application/atom+xml">
     <!-- Metas -->
+    <%- open_graph() %>
     <%- autoCanonical(config, page) %>
 
-    <!-- Bootstrap CSS -->
+    <!-- Styles -->
     <%- css('assets/css/style') %>
-
