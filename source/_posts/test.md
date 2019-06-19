@@ -16,41 +16,53 @@ tags:
 
 thumbnailUrl: media/hodomarie-ACT-plantilles-thumbnail-760x700.png
 imageUrl: https://dummyimage.com/1920x800/b80010/b80010.jpg
-videoUrl: 
+vimeoId: 
 
 date: 2029-06-06 11:21:02
 
 ---
+<div class="gallery gallery-3">
 
-<div class="gallery">
+![Alt text](http://placekitten.com/920/920 )
 
-![Kitten](https://dummyimage.com/800x500/b80010/b80010.jpg "x2")
-![Kitten](https://dummyimage.com/800x500/b80010/b80010.jpg "x2")
+![Alt text](http://placekitten.com/910/910 )
+
+![Alt text](http://placekitten.com/930/930 )
+
 </div>
 
-Ciutat Jardí means «Garden City» and it’s the name of the neighbourhood where the pharmacy is located.
-<br>
 
-<div class="gallery">
+<div class="gallery gallery-2">
 
-![Kitten](https://dummyimage.com/600/b80010/b80010.jpg "x3")
-![Kitten](https://dummyimage.com/600/b80010/b80010.jpg "x3")
-![Kitten](https://dummyimage.com/600/b80010/b80010.jpg "x3")
+![Alt text](http://placekitten.com/650/420 )
+
+![Alt text](http://placekitten.com/650/420 )
+
+
 </div>
 
-<div class="gallery">
 
-![Kitten](https://dummyimage.com/1200x400/b80010/b80010.jpg "x1")
+<div class="gallery gallery-1">
+
+![Alt text](http://placekitten.com/1330/600 )
+
 </div>
+
+
+Graphic identity for a new pharmacy located in the city of Lleida, Catalunya.
+Ciutat Jardí means «Garden City» and it’s the name of the neighbourhood where the pharmacy is located.
 
 We designed the logo and brand identity using old medical plants illustrations mixed with a fresh looking image.
 <br>
 
-<div class="gallery">
+<div class="gallery gallery-3">
 
-![Kitten](https://dummyimage.com/600/b80010/b80010.jpg "x3")
-![Kitten](https://dummyimage.com/600/b80010/b80010.jpg "x3")
-![Kitten](https://dummyimage.com/600/b80010/b80010.jpg "x3")
+![Alt text](http://placekitten.com/600/600 )
+
+![Alt text](http://placekitten.com/800/800 )
+
+![Alt text](http://placekitten.com/700/700 )
+
 </div>
 
 

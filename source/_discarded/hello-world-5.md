@@ -14,16 +14,46 @@ date: 2019-06-06 11:21:00
 videoUrl:
 subTitle:
 ---
+
+<div class="gallery gallery-3">
+
+![Alt text](http://placekitten.com/920/920 )
+
+![Alt text](http://placekitten.com/910/910 )
+
+![Alt text](http://placekitten.com/930/930 )
+
+</div>
+
+
+<div class="gallery gallery-2">
+
+![Alt text](http://placekitten.com/650/420 )
+
+![Alt text](http://placekitten.com/650/420 )
+
+
+</div>
+
+
+<div class="gallery gallery-1">
+
+![Alt text](http://placekitten.com/1330/600 )
+
+</div>
+
 Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+<br>
 
+<div class="gallery gallery-3">
 
-	>	_Some images here x2 and x3 columns_
+![Alt text](http://placekitten.com/600/600 )
 
-Graphic identity for a new pharmacy located in the city of Lleida, Catalunya.
-Ciutat Jardí means «Garden City» and it’s the name of the neighbourhood where the pharmacy is located.
-We designed the logo and brand identity using old medical plants illustrations mixed with a fresh looking image.
+![Alt text](http://placekitten.com/800/800 )
 
-	_Some more images here x1 column_ 
+![Alt text](http://placekitten.com/700/700 )
+
+</div>
 
 ## Credits
 

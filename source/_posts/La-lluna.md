@@ -17,13 +17,14 @@ thumbnailUrl: media/lalluna/thumbnail.jpg
 imageUrl: media/lalluna/header.jpg
 categories: []
 date: 2038-06-06 11:21:00
-videoUrl:
+vimeoId:
 subTitle:
 ---
 
-<div class="gallery">
+<div class="gallery gallery-1">
 
-![La Lluna](/demo/media/lalluna/hodomarie-la-lluna-graphic-identity-09.jpg "x1")
+![La Lluna](/demo/media/lalluna/hodomarie-la-lluna-graphic-identity-09.jpg)
+
 </div>
 
 The graphic identity for La Lluna (The Moon) Lounge Bar in Benicàssim, plays with the idea of the lunar effect.
@@ -35,25 +36,30 @@ The position of the letters and the situation of the logo on the different produ
 
 <br><br>
 
-<div class="gallery">
+<div class="gallery gallery-1">
 
-![La Lluna](/demo/media/lalluna/hodomarie-la-lluna-graphic-identity-04.png "x1")
+![La Lluna](/demo/media/lalluna/hodomarie-la-lluna-graphic-identity-04.png)
+
 </div>
 
-<div class="gallery">
+<div class="gallery gallery-2">
 
-![La Lluna](/demo/media/lalluna/hodomarie-la-lluna-graphic-identity-08.jpg "x2")
-![La Lluna](/demo/media/lalluna/hodomarie-la-lluna-graphic-identity-11.jpg "x2")
+![La Lluna](/demo/media/lalluna/hodomarie-la-lluna-graphic-identity-08.jpg)
+
+![La Lluna](/demo/media/lalluna/hodomarie-la-lluna-graphic-identity-11.jpg)
+
 </div>
 
-<div class="gallery">
+<div class="gallery gallery-1">
 
-![La Lluna](/demo/media/lalluna/hodomarie-la-lluna-graphic-identity-12.jpg "x1")
+![La Lluna](/demo/media/lalluna/hodomarie-la-lluna-graphic-identity-12.jpg)
+
 </div>
 
-<div class="gallery">
+<div class="gallery gallery-1">
 
-![La Lluna](/demo/media/lalluna/hodomarie-la-lluna-graphic-identity-13.jpg "x1")
+![La Lluna](/demo/media/lalluna/hodomarie-la-lluna-graphic-identity-13.jpg)
+
 </div>
 
 ## Credits

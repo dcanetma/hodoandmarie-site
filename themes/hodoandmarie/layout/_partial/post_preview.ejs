@@ -12,7 +12,7 @@
   <div id="post-<%= i %>" class="post-preview d-block col-12 col-sm-6 col-md-4A col-xl-4" >
     <div class="post-preview-wrapper">
       <div class="post-preview-media">
-        <% if (post.videoUrl){ %>
+        <% if (post.vimeoId){ %>
           <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
             <source src="<%= post.thumbnailUrl[0] %>" type="video/mp4">
             <source src="<%= post.thumbnailUrl[1] %>" type="video/webm">

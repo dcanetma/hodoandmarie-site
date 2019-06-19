@@ -25,13 +25,13 @@
 	<!-- Post header -->
   <header class="row">  
 		<div class="col-12 inner">
-			 <% if (page.videoUrl){ %>	
+			 <% if (page.vimeoId){ %>	
 				 <img src="<%= url_for(page.imageUrl) %>" alt="<%= page.title %>"  class="header embed-thumbnail img-fluid">  
 				 <div class="embed-responsive embed-responsive-16by9">
 					 	<iframe id="video" class="header embed-responsive-item" 
-					 		src="https://player.vimeo.com/video/<%= page.videoUrl %>" width="640" height="360" frameborder="0" allowfullscreen allow="autoplay; encrypted-media">
+					 		src="https://player.vimeo.com/video/<%= page.vimeoId %>" width="640" height="360" frameborder="0" allowfullscreen allow="autoplay; encrypted-media">
 					 		<p>Your browser doesn't support Vimeo Videos. 
-					 				<a href="https://vimeo.com/<%= page.videoUrl %>">
+					 				<a href="https://vimeo.com/<%= page.vimeoId %>">
 					 					Watch this video on Vimeo
 					 				</a>.
 					 		</p>
@@ -52,7 +52,7 @@
 			  <% if (page.intro){ %>
 				  	<%- markdown(page.intro) %>
 			  <% } %>
-			  <% if (page.videoUrl){ %>
+			  <% if (page.vimeoId){ %>
 			  	<!-- Hide  on screens smaller than lg -->
 				  <a href="#" class="btn-play btn d-none d-lg-inline-block" title="Play the video">Play video</a>
 			  <% } %>			  

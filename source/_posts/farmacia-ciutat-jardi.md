@@ -11,12 +11,13 @@ tags:
 thumbnailUrl: media/farmaciaciutatjardi/thumbnail.png
 imageUrl: media/farmaciaciutatjardi/header.png
 date: 2029-06-06 11:21:02
-videoUrl:
+vimeoId:
 ---
-<div class="gallery">
+<div class="gallery gallery-2">
 
-![Kitten](/demo/media/farmaciaciutatjardi/3.png "x2")
-![Kitten](/demo/media/farmaciaciutatjardi/4.png "x2")
+![Alternative text](/demo/media/farmaciaciutatjardi/3.png)
+
+![Alternative text](/demo/media/farmaciaciutatjardi/4.png)
 </div>
 
 
@@ -26,21 +27,24 @@ Ciutat Jardí means «Garden City» and it’s the name of the neighbourhood whe
 We designed the logo and brand identity using old medical plants illustrations mixed with a fresh looking image.
 <br>
 
-<div class="gallery">
+<div class="gallery gallery-3">
 
-![Kitten](/demo/media/farmaciaciutatjardi/6.png "x3")
-![Kitten](/demo/media/farmaciaciutatjardi/7.png "x3")
-![Kitten](/demo/media/farmaciaciutatjardi/5.jpg "x3")
+![Alternative text](/demo/media/farmaciaciutatjardi/5.jpg)
+
+![Alternative text](/demo/media/farmaciaciutatjardi/6.png)
+
+![Alternative text](/demo/media/farmaciaciutatjardi/7.png)
 </div>
 
 
-<div class="gallery">
+<div class="gallery gallery-2">
 
-![Kitten](/demo/media/farmaciaciutatjardi/8.png "x2")
-![Kitten](/demo/media/farmaciaciutatjardi/10-1.png "x2")
+![Alternative text](/demo/media/farmaciaciutatjardi/8.png)
+
+![Alternative text](/demo/media/farmaciaciutatjardi/10-1.png)
 </div>
 
-<div class="gallery">
+<div class="gallery gallery-1">
 
-![Kitten](/demo/media/farmaciaciutatjardi/12-1.png "x1")
+![Alternative text](/demo/media/farmaciaciutatjardi/12-1.png)
 </div>

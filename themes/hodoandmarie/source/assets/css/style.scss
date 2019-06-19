@@ -10,11 +10,19 @@
 // Font Styles
 @import "utilities/fonts";
 
-/* Theme styles */
+/* Base styles */
 @import "base/defaults";
 @import "base/typography";
 @import "base/layout";
-@import "base/navigation";
 @import "base/post";
+
+/* Components styles */
+@import "components/navigation";
+@import "components/gallery";
+
+
+/* Theme styles */
 @import "base/theme";
+
+
 
