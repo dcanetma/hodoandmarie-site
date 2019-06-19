@@ -1,28 +1,26 @@
 ---
-title: PikNik
+title: Agencia Catalana de Turisme
+subTitle: Video Explainer
 client: Nom del client
-year: 2020
+
 intro: > 
 	Vintage medical plants illustrations combined with a contemporary aesthetics for the identity of a new pharmacy with a special focus on natural products.
 
-bgColor: 		'#0099aa' 
+bgColor: 		'#b80010'
 textColor: 	white
+
 
 tags:
   - Animation
-  - Art Direction
   - Illustration
 
-thumbnailUrl: media/hodomarie-piknik-thumbnail-760x700.png
-imageUrl: http://placekitten.com/1330/600
-
+thumbnailUrl: media/hodomarie-ACT-plantilles-thumbnail-760x700.png
+imageUrl: https://dummyimage.com/1920x800/b80010/b80010.jpg
 vimeoId: 
 
-date: 2036-06-06 11:21:02
+date: 2029-06-06 11:21:02
 
-subTitle: Video Explainers
 ---
-
 <div class="gallery gallery-3">
 
 ![Alt text](http://placekitten.com/920/920 )
@@ -66,11 +64,6 @@ We designed the logo and brand identity using old medical plants illustrations m
 ![Alt text](http://placekitten.com/700/700 )
 
 </div>
-
-
-**Graphic identity for a new pharmacy** located in the city of Lleida, Catalunya.
-Ciutat Jardí means «Garden City» and it’s **the name of the neighbourhood** where the pharmacy is located.
-**We designed the logo and brand identity** using [old medical plants](#) illustrations mixed with a fresh looking image.
 
 
 ## Credits
