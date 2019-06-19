@@ -18,8 +18,13 @@ vimeoId: '334092219'
 
 
 date: 2020-06-06 11:21:00
-subTitle:
+subTitle: Explainer video
+
 ---
+
+<!-- This is a 3x gallery sample -->
+<!-- Always add a linebreak between images -->
+<!-- It needs three images between paragraph tags -->
 <div class="gallery gallery-3">
 
 ![Alt text](http://placekitten.com/920/920 )
@@ -31,6 +36,9 @@ subTitle:
 </div>
 
 
+<!-- This is a 2x gallery sample -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-2">
 
 ![Alt text](http://placekitten.com/650/420 )
@@ -40,18 +48,18 @@ subTitle:
 
 </div>
 
-
+<!-- This is a 1x gallery sample -->
+<!-- Always add a linebreak after the image -->
+<!-- It needs one images between paragraph tags -->
 <div class="gallery gallery-1">
 
 ![Alt text](http://placekitten.com/1330/600 )
 
 </div>
 
-
-Graphic identity for a new pharmacy located in the city of Lleida, Catalunya.
-Ciutat Jardí means «Garden City» and it’s the name of the neighbourhood where the pharmacy is located.
-
-We designed the logo and brand identity using old medical plants illustrations mixed with a fresh looking image.
+<!-- For a proper separation with the next gallery, 
+     you need to add a <br> tag after the last paragraph -->
+Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 <br>
 
 <div class="gallery gallery-3">
@@ -64,13 +72,7 @@ We designed the logo and brand identity using old medical plants illustrations m
 
 </div>
 
-## Lorem
-
-Ciutat Jardí means «Garden City» and it’s the name of the neighbourhood where the pharmacy is located.
-We designed the logo and brand identity using old medical plants illustrations mixed with a fresh looking image.
-
-* More info: [Deployment](https://hexo.io/docs/deployment.html)
-
+<!-- Sample credits secion -->
 ## Credits
 
 * Client: Farmàcia Ciutat Jardí
