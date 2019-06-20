@@ -1,24 +1,33 @@
 title: Xoko
-client: Nom del client
+subTitle: Explainer video
+
 year: 2020
+client: Nom del client
+
 intro: >
   Some hand-drawn frame by frame animation and a little bit of motion graphics
   magic to present this amazing stools collection by Iratzoki Lizaso product
   designers.
+
 bgColor: '#341d10'
 textColor: white
+
 tags:
   - Animation
   - Illustration
+
+
+vimeoId: 334092219
+
 thumbnailUrl:
   - media/sample/rabbit320.mp4
   - media/sample/rabbit320.webm
+  - media/sample/rabbit320.jpg
+
 imageUrl: media/sample/dog.jpg
-vimeoId: '334092219'
 
+date: 2028-06-06 11:21:00
 
-date: 2020-06-06 11:21:00
-subTitle: Explainer video
 
 ---
 

@@ -1,23 +1,31 @@
 title: No Callem
+
 subTitle: Video Explainers
+
 client: Nom del client
 year: 2020
+
 intro: >
   Sometimes we take electricity for granted.  
 
   Liquidstar brings energy to the powerless 1.1 billion people in the world
   through a rechargeable blockchain-based battery.
+
 bgColor: '#602d57'
-textColor: white
+textColor: black
+
 tags:
   - Animation
   - Illustration
-  - Art direction
+
 thumbnailUrl: media/nocallem/thumbnail.jpg
+
 imageUrl: media/nocallem/header.jpg
 
 date: 2039-06-06 11:21:00
+
 vimeoId:
+
 ---
 <!-- This is a 3x gallery sample -->
 <!-- Always add a linebreak between images -->
@@ -68,6 +76,12 @@ Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [d
 ![Alt text](http://placekitten.com/700/700 )
 
 </div>
+
+## Més coses
+
+* Per fer llistes
+* Dos tres
+
 
 <!-- Sample credits secion -->
 ## Credits
