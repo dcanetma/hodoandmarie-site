@@ -78,7 +78,7 @@ Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [d
 ## Credits
 
 * Client: Farmàcia Ciutat Jardí
-* Year: 2016
+* Year: 2019
 
 
 * Creative direction: hodo&marie
