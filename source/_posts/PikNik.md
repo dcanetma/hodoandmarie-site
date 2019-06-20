@@ -6,7 +6,7 @@ intro: >
 	Vintage medical plants illustrations combined with a contemporary aesthetics for the identity of a new pharmacy with a special focus on natural products.
 
 bgColor: 		'#0099aa' 
-textColor: 	white
+textColor: 	black
 
 tags:
   - Animation
@@ -78,7 +78,7 @@ Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [d
 ## Credits
 
 * Client: Farmàcia Ciutat Jardí
-* Year: 2019
+* Year: 2016
 
 
 * Creative direction: hodo&marie
