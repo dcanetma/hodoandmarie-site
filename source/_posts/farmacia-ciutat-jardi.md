@@ -15,6 +15,7 @@ imageUrl: media/farmaciaciutatjardi/header.png
 date: 2029-06-06 11:21:02
 vimeoId:
 ---
+
 <div class="gallery gallery-2">
 
 ![Alternative text](/demo/media/farmaciaciutatjardi/3.png)
@@ -38,6 +39,12 @@ We designed the logo and brand identity using old medical plants illustrations m
 ![Alternative text](/demo/media/farmaciaciutatjardi/7.png)
 </div>
 
+<div class="gallery gallery-2">
+
+![Alternative text](/demo/media/farmaciaciutatjardi/8.png)
+
+![Alternative text](/demo/media/farmaciaciutatjardi/10-1.png)
+</div>
 
 <div class="gallery gallery-2">
 

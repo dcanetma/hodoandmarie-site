@@ -28,11 +28,11 @@ subTitle: Video Explainers
 <!-- It needs three images between paragraph tags -->
 <div class="gallery gallery-3">
 
-![Alt text](http://placekitten.com/920/920 )
+![Alt text](http://placekitten.com/920/900 )
 
-![Alt text](http://placekitten.com/910/910 )
+![Alt text](http://placekitten.com/920/900 )
 
-![Alt text](http://placekitten.com/930/930 )
+![Alt text](http://placekitten.com/920/900 )
 
 </div>
 
@@ -42,9 +42,9 @@ subTitle: Video Explainers
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-2">
 
-![Alt text](http://placekitten.com/650/420 )
+![Alt text](http://placekitten.com/1050/420 )
 
-![Alt text](http://placekitten.com/650/420 )
+![Alt text](http://placekitten.com/1050/420 )
 
 
 </div>
@@ -54,13 +54,14 @@ subTitle: Video Explainers
 <!-- It needs one images between paragraph tags -->
 <div class="gallery gallery-1">
 
-![Alt text](http://placekitten.com/1330/600 )
+![Alt text](http://placekitten.com/1830/300 )
 
 </div>
 
 <!-- For a proper separation with the next gallery, 
      you need to add a <br> tag after the last paragraph -->
 Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+
 <br>
 
 <div class="gallery gallery-3">
