@@ -40,6 +40,9 @@ vimeoId:
 
 </div>
 
+Always **add a linebreak** between images _Always_ add a [linebreak](#) between images Always add a linebreak between images
+
+<br>
 
 <!-- This is a 2x gallery sample -->
 <!-- Always add a linebreak between images -->
@@ -65,6 +68,7 @@ vimeoId:
 <!-- For a proper separation with the next gallery, 
      you need to add a <br> tag after the last paragraph -->
 Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+
 <br>
 
 <div class="gallery gallery-3">
