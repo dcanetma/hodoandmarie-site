@@ -23,7 +23,9 @@
 
 	&.gallery-1 {
 		p {
+			margin-bottom: 20px;
 			@include media-breakpoint-up(lg) {
+				margin-bottom: 0;
 				@include make-col-ready();
 				@include make-col(12);
 			}
@@ -38,7 +40,11 @@
 	}
 	&.gallery-2 {
 		p {
+			margin-bottom: 20px;
+
 			@include media-breakpoint-up(sm) {
+				margin-bottom: 0;
+
 				@include make-col-ready();
 				@include make-col(6);
 			}
@@ -56,8 +62,13 @@
 	}
 	&.gallery-3 {
 		p {
+			@include make-col-ready();
+			@include make-col(12);
+			margin-bottom: 20px;
+
 			@include media-breakpoint-up(sm) {
-				@include make-col-ready();
+				margin-bottom: 0;
+
 				@include make-col(4);
 			}
 			// Add custom vertical gutter on largeScreens
