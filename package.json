@@ -4,7 +4,7 @@
   "author": "facts & fictions <daniel@factsandfictions.net>",
   "version": "0.0.1",
   "hexo": {
-    "version": "3.8.0"
+    "version": "3.9.0"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
     "deploy": "hexo deploy"
   },
   "dependencies": {
-    "hexo": "^3.8.0",
+    "hexo": "^3.9.0",
     "hexo-admin": "^2.3.0",
     "hexo-asset-pipeline": "^1.8.0",
     "hexo-auto-canonical": "0.1.1",
