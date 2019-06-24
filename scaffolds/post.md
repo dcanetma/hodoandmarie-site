@@ -1,18 +1,25 @@
 ---
+# Title
 title: {{ title }}
+
+# Project subtitle (optional)
 subTitle: {{ subTitle }}
 
-client: {{ client }}
+# Post date
 date: {{ date }}
 
+# 'Client name', (not used, yet)
+client: {{ client }}
+
+# 'Year', (not used yet)
 year: 2020
 
-intro: >-
+# 'Intro text'
+# It will be used on the project page header and for SEO purposes
+intro: >
 	{{ intro }}
 
-bgColor:    '#e4e4e4' 
-textColor:  white
-
+# 'Project tags'
 tags:
   - Art direction
   - Identity
@@ -21,15 +28,32 @@ tags:
   - Animation
   - Illustration 
 
+# 'Vimeo Id video'
+# Set this value in case you want to feature a header video on the
+# project page. You can take it from the Vimeo video url.
+vimeoId: '334092219'
 
-imageUrl: >-
-  /media/<project>/sample.jpg
-
+# 'Square image for the project grid'
+# Set <project> with the name of the folder you choose to 
+# store your images for this project.
 thumbnailUrl:
   - media/<project>/rabbit320.mp4
   - media/<project>/rabbit320.webm
+  - media/<project>/rabbit320.jpg
 
-vimeoId: '334092219'
+# 'Font colors' 
+# They will both be used on the project grid
+# and the text color on the project page header, only
+bgColor:    '#e4e4e4' 
+textColor:  white
+
+# 'Header image'
+# A header image to show on the page for this project
+imageUrl: >-
+  /media/<project>/sample.jpg
+
+# After the tree dashes goes the post content.
+# It accepts both HTML and Markdown.
 
 ---
 
