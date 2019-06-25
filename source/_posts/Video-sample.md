@@ -1,60 +1,34 @@
----
-# Title
-title: {{ title }}
+title: Xoko
+subTitle: Explainer video
 
-# Project subtitle (optional)
-subTitle: {{ subTitle }}
-
-# Post date
-date: {{ date }}
-
-# 'Client name', (not used, yet)
-client: {{ client }}
-
-# 'Year', (not used yet)
 year: 2020
+client: Nom del client
 
-# 'Intro text'
-# It will be used on the project page header and for SEO purposes
 intro: >
-	{{ intro }}
+  Some hand-drawn frame by frame animation and a little bit of motion graphics
+  magic to present this amazing stools collection by Iratzoki Lizaso product
+  designers.
 
-# 'Project tags'
+bgColor: '#341d10'
+textColor: white
+
 tags:
-  - Art direction
-  - Identity
-  - Print
-  - Branding   
   - Animation
-  - Illustration 
+  - Illustration
 
-# 'Vimeo Id video'
-# Set this value in case you want to feature a header video on the
-# project page. You can take it from the Vimeo video url.
-vimeoId: '334092219'
 
-# 'Square image for the project grid'
-# Set <project> with the name of the folder you choose to 
-# store your images for this project.
+vimeoId: 334092219
+
 thumbnailUrl:
-  - media/<project>/rabbit320.mp4
-  - media/<project>/rabbit320.webm
-  - media/<project>/rabbit320.jpg
+  - media/sample/rabbit320.mp4
+  - media/sample/rabbit320.webm
+  - media/sample/rabbit320.jpg
 
-# 'Font colors' 
-# They will both be used on the project grid
-# and the text color on the project page header, only
-bgColor:    '#e4e4e4' 
-textColor:  white
+imageUrl: media/sample/dog.jpg
 
-# 'Header image'
-# A header image to show on the page for this project
-imageUrl: >-
-  /media/<project>/sample.jpg
+date: 2028-06-06 11:21:00
 
-# After the tree dashes goes the post content.
-# It accepts both HTML and Markdown.
-  
+
 ---
 
 <!-- This is a 3x gallery sample -->
