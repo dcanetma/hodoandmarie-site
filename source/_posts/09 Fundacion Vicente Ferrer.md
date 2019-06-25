@@ -18,6 +18,7 @@ vimeoId: 334092219
 
 thumbnailUrl:
   - media/09FVF/hodo&marie-hiperregalo-thumbnail.mp4
+  - media/09FVF/hodo&marie-hiperregalo-thumbnail.webm
   - media/09FVF/hodo&marie-hiperregalo-thumbnail.jpg
 
 imageUrl: media/09FVF/hodo&marie-hiperregalo-header.jpg

@@ -18,6 +18,7 @@ vimeoId: 334092219
 
 thumbnailUrl:
   - media/06Xoko/Hodo&Marie-Xoko-thumbnail.mp4
+  - media/06Xoko/Hodo&Marie-Xoko-thumbnail.webm
   - media/06Xoko/Hodo&Marie-Xoko-thumbnail.jpg
 
 imageUrl: media/06Xoko/Hodo&Marie-Xoko-header.jpg

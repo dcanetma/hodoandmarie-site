@@ -18,7 +18,7 @@ vimeoId: 334092219
 
 thumbnailUrl:
   - media/03NoCallem/hodo&marie-nocallem-thumbnail.mp4
-  - media/sample/rabbit320.webm
+  - media/03NoCallem/hodo&marie-nocallem-thumbnail.webm
   - media/03NoCallem/hodo&marie-nocallem-thumbnail.jpg
 
 imageUrl: media/03NoCallem/hodo&marie-nocallem-header.jpg
