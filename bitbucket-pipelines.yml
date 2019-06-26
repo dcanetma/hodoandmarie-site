@@ -1,6 +1,5 @@
 image: node:10.16.0
 pipelines:
-  default:
   branches:
     deploy:
       - step:
