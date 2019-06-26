@@ -6,5 +6,10 @@ pipelines:
   branches:
     deploy:
       - step:
+          name: Build and test
+          deployment: production
           script:
-            - echo 'Starting deploy process'
+            - echo 'Starting deployment process'
+            - npm install -g hexo
+            - npm install 
+            - hexo generate            
