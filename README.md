@@ -36,3 +36,12 @@ Visit http://localhost:4000/ to watch the site.
 $ hexo new post 'Name of the project'
 ```
 
+## How to deploy
+
+Push to the 'deploy' branch of this project. 
+
+The process is run by Bitbucket Pipelines. See 'bitbucket-pipelines.yml' for more details.
+
+``` bash
+$ git push origin deploy
+```
