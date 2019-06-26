@@ -1,21 +1,20 @@
-title: Xoko
+title: Random Ltd.
 subTitle: Explainer video
 
 year: 2020
-client: Nom del client
+client: Random Ltd.
 
 intro: >
   Some hand-drawn frame by frame animation and a little bit of motion graphics
   magic to present this amazing stools collection by Iratzoki Lizaso product
   designers.
 
-bgColor: '#341d10'
+bgColor: yellow
 textColor: white
 
 tags:
-  - Animation
+  - Design
   - Illustration
-
 
 vimeoId: 334092219
 
@@ -27,7 +26,6 @@ thumbnailUrl:
 imageUrl: media/sample/dog.jpg
 
 date: 2028-06-06 11:21:00
-
 
 ---
 
