@@ -17,11 +17,11 @@ tags:
 vimeoId: 334092219
 
 thumbnailUrl:
-  - media/07Piknik/hodo&marie-Piknik-thumbnail.mp4
-  - media/07Piknik/hodo&marie-Piknik-thumbnail.webm
-  - media/07Piknik/hodo&marie-piknik-thumbnail.jpg
+  - media/Piknik/hodo&marie-Piknik-thumbnail.mp4
+  - media/Piknik/hodo&marie-Piknik-thumbnail.webm
+  - media/Piknik/hodo&marie-piknik-thumbnail.jpg
 
-imageUrl: media/07Piknik/hodo&marie-piknik-header.jpg
+imageUrl: media/Piknik/hodo&marie-piknik-header.jpg
 
 date: 2039-06-06 11:21:00
 

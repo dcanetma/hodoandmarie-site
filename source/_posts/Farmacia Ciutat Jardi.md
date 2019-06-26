@@ -14,9 +14,9 @@ textColor: black
 tags:
   - Graphic identity
 
-thumbnailUrl: media/01FarmaciaCiutatJardi/hodo&marie-FCJ-thumbnail.jpg
+thumbnailUrl: media/FarmaciaCiutatJardi/hodo&marie-FCJ-thumbnail.jpg
 
-imageUrl: media/01FarmaciaCiutatJardi/hodo&marie-FCJ-header.jpg
+imageUrl: media/FarmaciaCiutatJardi/hodo&marie-FCJ-header.jpg
 
 date: 2038-06-06 11:21:00
 
@@ -26,30 +26,30 @@ date: 2038-06-06 11:21:00
 
 <div class="gallery gallery-2">
 
-![Alternative text](/demo/media/01FarmaciaCiutatJardi/hodo&marie-FCJ-1.jpg)
+![Alternative text](/demo/media/FarmaciaCiutatJardi/hodo&marie-FCJ-1.jpg)
 
-![Alternative text](/demo/media/01FarmaciaCiutatJardi/hodo&marie-FCJ-2.jpg)
+![Alternative text](/demo/media/FarmaciaCiutatJardi/hodo&marie-FCJ-2.jpg)
 </div>
 
 <div class="gallery gallery-3">
 
-![Alternative text](/demo/media/01FarmaciaCiutatJardi/hodo&marie-FCJ-3.jpg)
+![Alternative text](/demo/media/FarmaciaCiutatJardi/hodo&marie-FCJ-3.jpg)
 
-![Alternative text](/demo/media/01FarmaciaCiutatJardi/hodo&marie-FCJ-4.jpg)
+![Alternative text](/demo/media/FarmaciaCiutatJardi/hodo&marie-FCJ-4.jpg)
 
-![Alternative text](/demo/media/01FarmaciaCiutatJardi/hodo&marie-FCJ-5.jpg)
+![Alternative text](/demo/media/FarmaciaCiutatJardi/hodo&marie-FCJ-5.jpg)
 </div>
 
 <div class="gallery gallery-2">
 
-![Alternative text](/demo/media/01FarmaciaCiutatJardi/hodo&marie-FCJ-6.jpg)
+![Alternative text](/demo/media/FarmaciaCiutatJardi/hodo&marie-FCJ-6.jpg)
 
-![Alternative text](/demo/media/01FarmaciaCiutatJardi/hodo&marie-FCJ-7.jpg)
+![Alternative text](/demo/media/FarmaciaCiutatJardi/hodo&marie-FCJ-7.jpg)
 </div>
 
 <div class="gallery gallery-1">
 
-![Alternative text](/demo/media/01FarmaciaCiutatJardi/hodo&marie-FCJ-8.jpg)
+![Alternative text](/demo/media/FarmaciaCiutatJardi/hodo&marie-FCJ-8.jpg)
 </div>
 
 ## Credits

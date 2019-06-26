@@ -17,11 +17,11 @@ tags:
 vimeoId: 334092219
 
 thumbnailUrl:
-  - media/03NoCallem/hodo&marie-nocallem-thumbnail.mp4
-  - media/03NoCallem/hodo&marie-nocallem-thumbnail.webm
-  - media/03NoCallem/hodo&marie-nocallem-thumbnail.jpg
+  - media/NoCallem/hodo&marie-nocallem-thumbnail.mp4
+  - media/NoCallem/hodo&marie-nocallem-thumbnail.webm
+  - media/NoCallem/hodo&marie-nocallem-thumbnail.jpg
 
-imageUrl: media/03NoCallem/hodo&marie-nocallem-header.jpg
+imageUrl: media/NoCallem/hodo&marie-nocallem-header.jpg
 
 date: 2039-06-06 11:21:00
 

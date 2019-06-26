@@ -17,17 +17,33 @@ tags:
 vimeoId: 334092219
 
 thumbnailUrl:
-  - media/06Xoko/Hodo&Marie-Xoko-thumbnail.mp4
-  - media/06Xoko/Hodo&Marie-Xoko-thumbnail.webm
-  - media/06Xoko/Hodo&Marie-Xoko-thumbnail.jpg
+  - media/Xoko/Hodo&Marie-Xoko-thumbnail.mp4
+  - media/Xoko/Hodo&Marie-Xoko-thumbnail.webm
+  - media/Xoko/Hodo&Marie-Xoko-thumbnail.jpg
 
-imageUrl: media/06Xoko/Hodo&Marie-Xoko-header.jpg
+imageUrl: media/Xoko/Hodo&Marie-Xoko-header.jpg
 
 date: 2039-06-06 11:21:00
 
 
 
 ---
+<!-- This is a 2x gallery sample -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
+<div class="gallery gallery-2">
+
+![Alt text](/demo/media/Xoko/Hodo&Marie-Xoko-1.jpg)
+
+![Alt text](/demo/media/Xoko/Hodo&Marie-Xoko-2.jpg)
+
+
+</div>
+
+Always **add a linebreak** between images _Always_ add a [linebreak](#) between images Always add a linebreak between images
+
+<br>
+
 <!-- This is a 3x gallery sample -->
 <!-- Always add a linebreak between images -->
 <!-- It needs three images between paragraph tags -->
@@ -39,23 +55,10 @@ date: 2039-06-06 11:21:00
 
 ![Alt text](http://placekitten.com/930/930 )
 
-</div>
 
-Always **add a linebreak** between images _Always_ add a [linebreak](#) between images Always add a linebreak between images
+</div>
 
 <br>
-
-<!-- This is a 2x gallery sample -->
-<!-- Always add a linebreak between images -->
-<!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-2">
-
-![Alt text](http://placekitten.com/650/420 )
-
-![Alt text](http://placekitten.com/650/420 )
-
-
-</div>
 
 <!-- This is a 1x gallery sample -->
 <!-- Always add a linebreak after the image -->
