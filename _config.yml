@@ -88,10 +88,10 @@ theme: hodoandmarie
 # Deployment
 ## @see: https://hexo.io/docs/deployment.html
 deploy:
-- type: git   
-  repo: git@bitbucket.org:factsandfictions/hodoandmarie-site.git 
-  branch: deploy
-  message: 
+# - type: git   
+#   repo: git@bitbucket.org:factsandfictions/hodoandmarie-site.git 
+#   branch: deploy
+#   message: 
 
 include:
   - "favicon.ico"
