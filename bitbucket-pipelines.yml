@@ -8,7 +8,6 @@ pipelines:
     deploy:
       - step:
           name: Build 
-          deployment: production
           script:
             - echo 'Starting deployment process'
             - npm install -g hexo
