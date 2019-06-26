@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-hexo deploy
+git push origin refs/heads/master:refs/heads/deploy

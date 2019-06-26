@@ -1,13 +1,11 @@
 image: node:10.16.0
 pipelines:
   default:
-    - step:
-        script:
-          - echo 'I push has been made to the repo!'
   branches:
     deploy:
       - step:
           name: Build 
+          deployment: production
           script:
             - echo 'Starting deployment process'
             - npm install -g hexo
@@ -21,3 +19,4 @@ pipelines:
                 REMOTE_PATH: $FTP_REMOTE
                 LOCAL_PATH: 'public'
                 DEBUG: 'TRUE' 
+            - 
