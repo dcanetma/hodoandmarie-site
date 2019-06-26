@@ -148,6 +148,23 @@
 
 	
 	}
+	// For video-posts, hide the video loop on mobile devices
+	// and show the fallback image, instead
+	&.post-preview-video {
+		.post-preview-media {
+			video {
+				display: none;
+				@include media-breakpoint-up(md) { 
+					display: block;
+				}
+			}
+			img {
+				@include media-breakpoint-up(md) { 
+					display: none;
+				}
+			}
+		}
+	}
 
 	// &.in-viewport-full {
 	// 	@include media-breakpoint-down(md) { 
@@ -161,7 +178,7 @@
 }
 
 // Full page
-section.post {
+section.post-full {
  	// Header
  	header {
  		position: relative;

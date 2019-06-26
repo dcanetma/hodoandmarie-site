@@ -9,7 +9,7 @@
     </style>
   <% } %> 
 
-  <div id="post-<%= i %>" class="post-preview d-block col-12 col-sm-6 col-md-4A col-xl-4" >
+  <div id="post-<%= i %>" class="post-preview <%- post.vimeoId ? 'post-preview-video' : '' %> d-block col-12 col-sm-6 col-md-4A col-xl-4" >
     <div class="post-preview-wrapper">
       <div class="post-preview-media">
         <% if (post.vimeoId){ %>
@@ -17,6 +17,8 @@
             <source src="<%= post.thumbnailUrl[0] %>" type="video/mp4">
             <source src="<%= post.thumbnailUrl[1] %>" type="video/webm">
           </video>
+          <img src="<%= url_for(post.thumbnailUrl[2]) %>" class="img-fluid" alt="<%= post.title %>">
+
         <% } else {%>
           <img src="<%= url_for(post.thumbnailUrl) %>" class="img-fluid" alt="<%= post.title %>">
         <% } %> 
