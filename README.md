@@ -43,5 +43,5 @@ Push to the 'deploy' branch of this project.
 The process is run by Bitbucket Pipelines. See 'bitbucket-pipelines.yml' for more details.
 
 ``` bash
-$ git push origin deploy
+$ git push origin refs/heads/master:refs/heads/deploy
 ```
