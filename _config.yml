@@ -92,13 +92,6 @@ deploy:
   repo: git@bitbucket.org:factsandfictions/hodoandmarie-site.git 
   branch: deploy
   message: 
-- type: ftpsync
-  host: hodoandmarie.com
-  user: hodoandm
-  pass: uRB16K6f
-  remote: /web/demo
-  connections: 1
-  verbose: true
 
 include:
   - "favicon.ico"
