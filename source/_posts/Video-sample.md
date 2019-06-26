@@ -10,7 +10,7 @@ intro: >
   designers.
 
 bgColor: yellow
-textColor: white
+textColor: black
 
 tags:
   - Design
@@ -25,7 +25,7 @@ thumbnailUrl:
 
 imageUrl: media/sample/dog.jpg
 
-date: 2028-06-06 11:21:00
+date: 2068-06-06 11:21:00
 
 ---
 
