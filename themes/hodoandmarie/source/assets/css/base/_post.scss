@@ -81,8 +81,8 @@
 			padding: 0;
 			margin: 0;
 
-			padding-right: 50px;
-			padding-left: 20px;
+			padding-right: 3.125rem; // 50px;
+			padding-left: 1.25rem; // 20px;
 
 
 			overflow: hidden;
@@ -91,8 +91,8 @@
 			z-index: 3;
 			@include media-breakpoint-down(md) { 
 				// top: 2rem;
-				padding-right: 0px;
-				padding-left: 10px;
+				padding-right: 0;
+				padding-left: 0.625rem; // 10px;
 			}
 		}
 		// Meta: titol
@@ -105,8 +105,8 @@
 			margin-bottom: 0;
 			margin-top: 3rem;
 			@include media-breakpoint-down(md) { 
-				margin-top: 40px;
-				padding-right: 30px;
+				margin-top: 2.5rem; // 40px;
+				padding-right: 1.875rem; // 30px;
 				font-size: 1.3125rem; 		// 21px/16
 				line-height: 1.5rem;  // 24px/16
 			}
@@ -125,7 +125,7 @@
 			line-height: 1.875rem; 	// 30px/16
 			margin-bottom: 0;
 			@include media-breakpoint-down(md) { 
-				padding-right: 30px;
+				padding-right: 1.875rem; // 30px;
 				font-size: 0.875rem; 		// 14px/16
 				line-height: 1.5rem; 	// 24px
 			}
@@ -134,11 +134,11 @@
 		.post-preview-tags {
 			// display: none; 
 			
-			margin-top: 20px;	
-			padding-left: 10px;
+			margin-top: 1.25rem;
+			padding-left: 0.625rem; // 10px;
 			@include media-breakpoint-down(md) { 
-				margin-top: 5px;	
-				padding-right: 30px;
+				margin-top: 0.3.125rem; // 5px;	
+				padding-right: 1.875rem; // 30px;
 			}
 			span {
 				color: $white;
@@ -193,7 +193,7 @@ section.post-full {
  		// La img i el video, ambdos
  		.header {
  			padding: 0;
- 			margin-bottom: 10px;
+ 			margin-bottom: 0.625rem; // 10px;
  		}
  		img {
  			width: 100%;
@@ -262,8 +262,8 @@ section.post-full {
  		// Project headline
 		p {
 
-			margin-top: 30px;
-			margin-bottom: 10px;
+			margin-top: 1.875rem; // 30px;
+			margin-bottom: 0.625rem; // 10px;
 
 			@include meh-style-regular();
 			font-size: 0.875rem; 	// 14px/16
@@ -279,22 +279,22 @@ section.post-full {
  	}
  	// Body
  	h2, .h2 {
- 		margin-top: 40px;
- 		margin-bottom: 20px;
+ 		margin-top: 2.5rem; // 40px;
+ 		margin-bottom: 1.25rem; // 20px;
  		text-transform: uppercase;
  		letter-spacing: $letter-spacing-1;
  		font-size: $font-size-default-xs;
  		line-height: $line-height-default-xs;
 		@include media-breakpoint-up(lg) { 
 			margin-top: 46px;
-			margin-bottom: 20px;
+			margin-bottom: 1.25rem; // 20px;
 			font-size: $font-size-default-md;
 			line-height: $line-height-default-md;
 		}
  	}
  	h3, .h3 { 
- 		margin-top: 40px;
- 		margin-bottom: 20px;
+ 		margin-top: 2.5rem; // 40px;
+ 		margin-bottom: 1.25rem; // 20px;
  		text-transform: uppercase;
  		letter-spacing: $letter-spacing-1;
  		font-size: $font-size-default-xs;
@@ -323,13 +323,13 @@ section.post-full {
 		}
  	}
  	.content {
- 		margin-top: 30px;
+ 		margin-top: 1.875rem; // 30px;
 	  // Separate from .post header as on PDF
 		@include media-breakpoint-up(md) {
-			margin-top: 36px; // 60px
+			margin-top: 2.25rem; // 36px; // 60px
 		}
 		@include media-breakpoint-up(lg) {
-			margin-top: 86px; //120px
+			margin-top: 5.375rem; // 86px; //120px
 		}
  		// p {
  		// 	@include media-breakpoint-up(lg) { 
@@ -338,8 +338,8 @@ section.post-full {
  		// }
 
  		br {
- 			line-height: 12px;
- 			font-size: 12px;
+ 			line-height: 0.75rem; // 12px
+ 			font-size: 0.75rem; // 12px
  		}
 
  		ul {
