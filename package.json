@@ -2,7 +2,7 @@
   "name": "hodoandmarie-site",
   "description": "Website for Hodo & Marie Studio",
   "author": "facts & fictions <daniel@factsandfictions.net>",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "hexo": {
     "version": "3.9.0"
   },
