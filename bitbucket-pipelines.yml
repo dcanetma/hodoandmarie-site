@@ -13,9 +13,6 @@ pipelines:
             - npm install -g hexo
             - npm install 
             - hexo generate
-      - step:
-          name: deploy
-          script:
             - pipe: atlassian/ftp-deploy:0.1.0
               variables: 
                 USER: $FTP_USER
