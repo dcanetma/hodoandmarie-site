@@ -6,7 +6,7 @@ client: Iratzoki Lizaso
 year: 2018
 
 intro: >
-  A soft scene with hand-drawn frame by frame animation and a little bit of motion graphics magic to present in 40 seconds this funny all-in-one picnic table designed by Iratzoki Lizaso
+  A soft scene with hand-drawn frame by frame animation and a little bit of motion graphics magic to present in 40 seconds this funny all-in-one picnic table designed by Iratzoki Lizaso product designers.
 
 bgColor: '#f5f6f1'
 textColor: black
