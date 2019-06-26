@@ -2,4 +2,9 @@ pipelines:
   default:
     - step:
         script:
-          - echo 'I made a pipeline!'
+          - echo 'I push has been made to the repo!'
+  branches:
+    deploy:
+      - step:
+          script:
+            - echo 'Starting deploy process'
