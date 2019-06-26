@@ -17,9 +17,6 @@ $ cd site
 
 # install dependencies
 npm install
-
-# build the site!
-hexo build
 ```
 
 Once installed you can:
