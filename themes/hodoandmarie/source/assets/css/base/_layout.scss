@@ -10,14 +10,21 @@ header {}
 	max-width: $layout-max-width;
 	padding-left: 1.25rem; // 20px; // See .post-preview-wrapper 
 	padding-right: 1.25rem; // 20px; // See .post-preview-wrapper 
+
+	transition: all 1s;
+
+	@include media-breakpoint-up(md) {
+		padding-left: 2.5rem; // 20px; // See .post-preview-wrapper 
+		padding-right: 2.5rem; // 20px; // See .post-preview-wrapper 	
+	}
 }
 
 main#content #homepage {
 	margin-bottom: -1.375rem; // 22px
-	@include media-breakpoint-up(xl) {
+	@include media-breakpoint-up(lg) {
 		margin-bottom: -2.5rem;
-		padding-left: 0.625rem; // See .post-preview-wrapper 
-		padding-right: 0.625rem; // See .post-preview-wrapper 
+		padding-left: 1.875rem; // See .post-preview-wrapper 
+		padding-right: 1.875rem; // See .post-preview-wrapper 
 	}	
 	header {
 		padding: 0;
