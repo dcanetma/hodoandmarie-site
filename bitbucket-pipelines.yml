@@ -1,3 +1,4 @@
+image: node:10.16.0
 pipelines:
   default:
     - step:
@@ -6,10 +7,22 @@ pipelines:
   branches:
     deploy:
       - step:
-          name: Build and test
+          name: Build 
           deployment: production
           script:
             - echo 'Starting deployment process'
             - npm install -g hexo
             - npm install 
-            - hexo generate            
+            - hexo generate
+      - step:
+          name: deploy
+          deployment: production
+          script:
+            - pipe: atlassian/ftp-deploy:0.1.0
+              variables: 
+                USER: ''
+                PASSWORD: ''
+                SERVER: ''
+                REMOTE_PATH: ''
+                LOCAL_PATH: 'public'
+                DEBUG: TRUE 
