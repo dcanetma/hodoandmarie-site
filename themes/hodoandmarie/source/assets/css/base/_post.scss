@@ -33,9 +33,16 @@
 			// Caixa amb els metas del projecte
 			// Es mostra al 100% d'alçada
 			.post-preview-info {
-				transition-delay: 0.3s;
 				opacity: 1;
 				height: 100%;
+
+				// Animació dels textes
+				transition-delay: 1s;
+			  -webkit-transition: opacity 1s;
+			  -moz-transition: opacity 1s;
+			  -ms-transition: opacity 1s;
+			  -o-transition: opacity 1s;
+			  transition: opacity 1s;
 			}			
 			// Metas del projecte
 			h2.post-preview-title, 
@@ -54,11 +61,11 @@
 				// height: auto;
 				// height: 100%;
 				transform: matrix(1, 0, 0, 1, 0, 0);
-
-				moz-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
-				-o-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
-				-webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
-				transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);		
+				ms-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+				moz-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+				-o-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+				-webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+				transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);		
 			}
 		}
 		// Caixa amb els metas del projecte
@@ -76,6 +83,7 @@
 
 			padding-right: 50px;
 			padding-left: 20px;
+
 
 			overflow: hidden;
 			height: 0;
