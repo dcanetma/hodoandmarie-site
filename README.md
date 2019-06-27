@@ -42,6 +42,14 @@ Push to the 'deploy' branch of this project.
 
 The process is run by Bitbucket Pipelines. See 'bitbucket-pipelines.yml' for more details.
 
+How:
+
+``` bash
+$ npm run-script deploy
+```
+
+Or:
+
 ``` bash
 $ git push origin refs/heads/master:refs/heads/deploy
 ```
