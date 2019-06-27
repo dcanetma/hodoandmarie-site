@@ -15,8 +15,8 @@ main#content {
 	background: $white;
 	// This values depend directly on the height of the logos for each breakpoint
 	// No caldrà expressar-los en REM un cop estiguin definits (...?)
-	padding-top: 1.875rem; // 30px/16;
-	padding-bottom: 1.875rem; // 30px/16;
+	padding-top: 1.25rem; // 20px/16;
+	padding-bottom: 1.25rem; // 20px/16;
 	min-height: 5.625rem; //90px/16  Important to set the same value for main#content->margin-top
 	@include media-breakpoint-up(md) { 
 		min-height: 7.375rem; // 118px/16 Important to set the same value for main#content->margin-top
@@ -42,7 +42,8 @@ main#content {
 		}
 		#logo {
 			display: none;
-			margin-top: -1rem;
+			margin-top: -0.9375rem;
+			margin-bottom: -0.9375rem;
 			@include media-breakpoint-up(md) {
 				display: block;
 				width: 6.875rem; // 110/16
@@ -74,7 +75,7 @@ main#content {
 				line-height: 1; 					
 				letter-spacing: $letter-spacing-nav-links; 		
 				// Large devices (desktops, 992px and up)
-				@include media-breakpoint-up(md) { 
+				@include media-breakpoint-up(lg) { 
 					font-size: $font-size-nav-links-xl;							
 					line-height: $line-height-nav-links-xl; 					
 					line-height: 1; 					
