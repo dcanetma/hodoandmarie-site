@@ -195,6 +195,7 @@ section.post-full {
  			padding: 0;
  			margin-bottom: 0.625rem; // 10px;
  		}
+ 		// La img de fallback mobile/tablet per a projectes sense video
  		img {
  			width: 100%;
  			position: relative;
@@ -276,6 +277,23 @@ section.post-full {
 				margin-bottom: 2.5rem;
 			}
 		}
+ 	}
+
+ 	// Projects with no video show a fallback image on mobile and tablet
+ 	// for a better design
+ 	&.post-full-no-video {
+ 		.header {
+ 			display: none;
+ 			@include media-breakpoint-up(lg) { 
+	 			display: block;
+ 			}  			
+ 		}
+	 	.header-fallback {
+	 		display: block;
+ 			@include media-breakpoint-up(lg) { 
+	 			display: none;
+ 			}  			
+ 		}
  	}
  	// Body
  	h2, .h2 {
