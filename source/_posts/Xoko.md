@@ -55,10 +55,7 @@ Always **add a linebreak** between images _Always_ add a [linebreak](#) between 
 
 ![Alt text](http://placekitten.com/930/930 )
 
-
 </div>
-
-<br>
 
 <!-- This is a 1x gallery sample -->
 <!-- Always add a linebreak after the image -->
