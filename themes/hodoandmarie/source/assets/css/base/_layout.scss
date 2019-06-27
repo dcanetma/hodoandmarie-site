@@ -10,7 +10,7 @@ header {}
 	max-width: $layout-max-width;
 	padding-left: 1.25rem; // 20px; // See .post-preview-wrapper 
 	padding-right: 1.25rem; // 20px; // See .post-preview-wrapper 
-
+	// Animate the shit out of it
 	transition: all 1s;
 
 	@include media-breakpoint-up(md) {
