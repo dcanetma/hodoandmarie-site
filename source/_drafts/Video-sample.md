@@ -25,6 +25,8 @@ thumbnailUrl:
 
 imageUrl: media/sample/dog.jpg
 
+
+
 date: 2068-06-06 11:21:00
 
 ---
@@ -67,7 +69,7 @@ date: 2068-06-06 11:21:00
 <!-- For a proper separation with the next gallery, 
      you need to add a <br> tag after the last paragraph -->
 Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
-<br>
+<br><br>
 
 <div class="gallery gallery-3">
 
