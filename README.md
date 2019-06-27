@@ -51,5 +51,11 @@ $ npm run-script deploy
 Or:
 
 ``` bash
+$ hexo-deploy.sh
+```
+
+Or:
+
+``` bash
 $ git push origin refs/heads/master:refs/heads/deploy
 ```

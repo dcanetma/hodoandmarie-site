@@ -1,5 +1,5 @@
-title: Random Ltd.
-subTitle: Explainer video
+title: Prova de video inline
+subTitle: Explainer
 
 year: 2020
 client: Random Ltd.
@@ -9,8 +9,8 @@ intro: >
   magic to present this amazing stools collection by Iratzoki Lizaso product
   designers.
 
-bgColor: yellow
-textColor: black
+bgColor: '#646464'
+textColor: white
 
 tags:
   - Design
