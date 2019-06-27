@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "hexo server",
-    "deploy": "hexo deploy"
+    "deploy": "git push origin refs/heads/master:refs/heads/deploy"
   },
   "dependencies": {
     "hexo": "^3.9.0",
