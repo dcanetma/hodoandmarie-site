@@ -34,18 +34,18 @@ date: 2039-06-06 11:21:00
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-2">
 
-![Alt text](/demo/media/actvideos/hodo&marie-act-explainer-videos-01.jpg)
+![Alt text](/demo/media/actvideos/hodo&marie-act-videos-01.jpg)
 
-![Alt text](/demo/media/actvideos/hodo&marie-act-explainer-videos-02.jpg)
+![Alt text](/demo/media/actvideos/hodo&marie-act-videos-02.jpg)
 
 </div>
 
 
 <div class="gallery gallery-2">
 
-![Alt text](/demo/media/actvideos/hodo&marie-act-explainer-videos-03.jpg)
+![Alt text](/demo/media/actvideos/hodo&marie-act-videos-03.jpg)
 
-![Alt text](/demo/media/actvideos/hodo&marie-act-explainer-videos-04.jpg)
+![Alt text](/demo/media/actvideos/hodo&marie-act-videos-04.jpg)
 
 </div>
 
