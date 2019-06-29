@@ -17,11 +17,11 @@ tags:
 vimeoId: 334092219
 
 thumbnailUrl:
-  - media/NoCallem/hodo&marie-nocallem-thumbnail.mp4
-  - media/NoCallem/hodo&marie-nocallem-thumbnail.webm
-  - media/NoCallem/hodo&marie-nocallem-thumbnail.jpg
+  - media/nocallem/hodo&marie-nocallem-thumbnail.mp4
+  - media/nocallem/hodo&marie-nocallem-thumbnail.webm
+  - media/nocallem/hodo&marie-nocallem-thumbnail.jpg
 
-imageUrl: media/NoCallem/hodo&marie-nocallem-header.jpg
+imageUrl: media/nocallem/hodo&marie-nocallem-header.jpg
 
 date: 2039-06-06 11:21:00
 
@@ -36,13 +36,13 @@ date: 2039-06-06 11:21:00
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/NoCallem/hodo&marie-nocallem-01.mp4" type="video/mp4">
+			<source src="/demo/media/nocallem/hodo&marie-nocallem-01.mp4" type="video/mp4">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/NoCallem/hodo&marie-nocallem-01.mp4" type="video/mp4">
+			<source src="/demo/media/nocallem/hodo&marie-nocallem-01.mp4" type="video/mp4">
 	</video>
 </p>
 

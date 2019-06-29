@@ -15,9 +15,9 @@ tags:
   - Graphic identity
   - Illustration
 
-thumbnailUrl: media/ACTplantilles/hodo&marie-ACT-plantilles-thumbnail.jpg
+thumbnailUrl: media/actplantilles/hodo&marie-act-plantilles-thumbnail.jpg
 
-imageUrl: media/ACTplantilles/hodo&marie-ACT-plantilles-header.jpg
+imageUrl: media/actplantilles/hodo&marie-act-plantilles-header.jpg
 
 date: 2038-06-06 11:21:00
 
@@ -27,30 +27,30 @@ date: 2038-06-06 11:21:00
 
 <div class="gallery gallery-2">
 
-![Alternative text](/demo/media/ACTplantilles/hodo&marie-ACT-plantilles-0.png)
+![Alternative text](/demo/media/actplantilles/hodo&marie-act-plantilles-0.png)
 
-![Alternative text](/demo/media/ACTplantilles/hodo&marie-ACT-plantilles-1.png)
+![Alternative text](/demo/media/actplantilles/hodo&marie-act-plantilles-1.png)
 </div>
 
 <div class="gallery gallery-2">
 
-![Alternative text](/demo/media/ACTplantilles/hodo&marie-ACT-plantilles-2.png)
+![Alternative text](/demo/media/actplantilles/hodo&marie-act-plantilles-2.png)
 
-![Alternative text](/demo/media/ACTplantilles/hodo&marie-ACT-plantilles-3.png)
+![Alternative text](/demo/media/actplantilles/hodo&marie-act-plantilles-3.png)
 </div>
 
 <div class="gallery gallery-2">
 
-![Alternative text](/demo/media/ACTplantilles/hodo&marie-ACT-plantilles-4.png)
+![Alternative text](/demo/media/actplantilles/hodo&marie-act-plantilles-4.png)
 
-![Alternative text](/demo/media/ACTplantilles/hodo&marie-ACT-plantilles-5.png)
+![Alternative text](/demo/media/actplantilles/hodo&marie-act-plantilles-5.png)
 </div>
 
 <div class="gallery gallery-2">
 
-![Alternative text](/demo/media/ACTplantilles/hodo&marie-ACT-plantilles-6.png)
+![Alternative text](/demo/media/actplantilles/hodo&marie-act-plantilles-6.png)
 
-![Alternative text](/demo/media/ACTplantilles/hodo&marie-ACT-plantilles-7.png)
+![Alternative text](/demo/media/actplantilles/hodo&marie-act-plantilles-7.png)
 </div>
 
 ## Credits

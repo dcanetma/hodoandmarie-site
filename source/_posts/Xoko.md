@@ -17,11 +17,11 @@ tags:
 vimeoId: 334092219
 
 thumbnailUrl:
-  - media/Xoko/Hodo&Marie-Xoko-thumbnail.mp4
-  - media/Xoko/Hodo&Marie-Xoko-thumbnail.webm
-  - media/Xoko/Hodo&Marie-Xoko-thumbnail.jpg
+  - media/xoko/hodo&marie-xoko-thumbnail.mp4
+  - media/xoko/hodo&marie-xoko-thumbnail.webm
+  - media/xoko/hodo&marie-xoko-thumbnail.jpg
 
-imageUrl: media/Xoko/Hodo&Marie-Xoko-header.jpg
+imageUrl: media/xoko/hodo&marie-xoko-header.jpg
 
 date: 2039-06-06 11:21:00
 
@@ -33,9 +33,9 @@ date: 2039-06-06 11:21:00
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-2">
 
-![Alt text](/demo/media/Xoko/Hodo&Marie-Xoko-1.jpg)
+![Alt text](/demo/media/xoko/hodo&marie-xoko-1.jpg)
 
-![Alt text](/demo/media/Xoko/Hodo&Marie-Xoko-2.jpg)
+![Alt text](/demo/media/xoko/hodo&marie-xoko-2.jpg)
 
 
 </div>

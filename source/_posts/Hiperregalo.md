@@ -17,11 +17,11 @@ tags:
 vimeoId: 334092219
 
 thumbnailUrl:
-  - media/FVF/hodo&marie-hiperregalo-thumbnail.mp4
-  - media/FVF/hodo&marie-hiperregalo-thumbnail.webm
-  - media/FVF/hodo&marie-hiperregalo-thumbnail.jpg
+  - media/hiperregalo/hodo&marie-hiperregalo-thumbnail.mp4
+  - media/hiperregalo/hodo&marie-hiperregalo-thumbnail.webm
+  - media/hiperregalo/hodo&marie-hiperregalo-thumbnail.jpg
 
-imageUrl: media/FVF/hodo&marie-hiperregalo-header.jpg
+imageUrl: media/hiperregalo/hodo&marie-hiperregalo-header.jpg
 
 date: 2039-06-06 11:21:00
 

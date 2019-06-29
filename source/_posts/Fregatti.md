@@ -14,9 +14,9 @@ textColor: black
 tags:
   - Graphic identity
 
-thumbnailUrl: media/Fregatti/hodo&marie-fregatti-thumbnail.jpg
+thumbnailUrl: media/fregatti/hodo&marie-fregatti-thumbnail.jpg
 
-imageUrl: media/Fregatti/hodo&marie-fregatti-header.jpg
+imageUrl: media/fregatti/hodo&marie-fregatti-header.jpg
 
 date: 2038-06-06 11:21:00
 
@@ -26,51 +26,51 @@ date: 2038-06-06 11:21:00
 
 <div class="gallery gallery-2">
 
-![Alternative text](/demo/media/Fregatti/hodo&marie-fregatti-1.jpg)
+![Alternative text](/demo/media/fregatti/hodo&marie-fregatti-1.jpg)
 
-![Alternative text](/demo/media/Fregatti/hodo&marie-fregatti-2.jpg)
+![Alternative text](/demo/media/fregatti/hodo&marie-fregatti-2.jpg)
 </div>
 
 <div class="gallery gallery-2">
 
-![Alternative text](/demo/media/Fregatti/hodo&marie-fregatti-3.jpg)
+![Alternative text](/demo/media/fregatti/hodo&marie-fregatti-3.jpg)
 
-![Alternative text](/demo/media/Fregatti/hodo&marie-fregatti-4.jpg)
+![Alternative text](/demo/media/fregatti/hodo&marie-fregatti-4.jpg)
 </div>
 
 <div class="gallery gallery-2">
 
-![Alternative text](/demo/media/Fregatti/hodo&marie-fregatti-5.jpg)
+![Alternative text](/demo/media/fregatti/hodo&marie-fregatti-5.jpg)
 
-![Alternative text](/demo/media/Fregatti/hodo&marie-fregatti-6.jpg)
+![Alternative text](/demo/media/fregatti/hodo&marie-fregatti-6.jpg)
 </div>
 
 <div class="gallery gallery-2">
 
-![Alternative text](/demo/media/Fregatti/hodo&marie-fregatti-7.jpg)
+![Alternative text](/demo/media/fregatti/hodo&marie-fregatti-7.jpg)
 
-![Alternative text](/demo/media/Fregatti/hodo&marie-fregatti-8.jpg)
+![Alternative text](/demo/media/fregatti/hodo&marie-fregatti-8.jpg)
 </div>
 
 <div class="gallery gallery-2">
 
-![Alternative text](/demo/media/Fregatti/hodo&marie-fregatti-9.jpg)
+![Alternative text](/demo/media/fregatti/hodo&marie-fregatti-9.jpg)
 
-![Alternative text](/demo/media/Fregatti/hodo&marie-fregatti-10.jpg)
+![Alternative text](/demo/media/fregatti/hodo&marie-fregatti-10.jpg)
 </div>
 
 <div class="gallery gallery-2">
 
-![Alternative text](/demo/media/Fregatti/hodo&marie-fregatti-11.jpg)
+![Alternative text](/demo/media/fregatti/hodo&marie-fregatti-11.jpg)
 
-![Alternative text](/demo/media/Fregatti/hodo&marie-fregatti-12.jpg)
+![Alternative text](/demo/media/fregatti/hodo&marie-fregatti-12.jpg)
 </div>
 
 <div class="gallery gallery-2">
 
-![Alternative text](/demo/media/Fregatti/hodo&marie-fregatti-13.jpg)
+![Alternative text](/demo/media/fregatti/hodo&marie-fregatti-13.jpg)
 
-![Alternative text](/demo/media/Fregatti/hodo&marie-fregatti-14.jpg)
+![Alternative text](/demo/media/fregatti/hodo&marie-fregatti-14.jpg)
 </div>
 
 ## Credits

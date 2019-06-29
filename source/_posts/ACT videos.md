@@ -1,4 +1,4 @@
-title: Famtrip and Presstrip
+actvideostitle: Famtrip and Presstrip
 
 subTitle: Agència Catalana de Turisme
 
@@ -17,11 +17,11 @@ tags:
 vimeoId: 334092219
 
 thumbnailUrl:
-  - media/ACTvideos/hodo&marie-ACT-videos-thumbnail.mp4
-  - media/ACTvideos/hodo&marie-ACT-videos-thumbnail.webm
-  - media/ACTvideos/hodo&marie-ACT-videos-thumbnail.jpg
+  - media/actvideos/hodo&marie-act-videos-thumbnail.mp4
+  - media/actvideos/hodo&marie-act-videos-thumbnail.webm
+  - media/actvideos/hodo&marie-act-videos-thumbnail.jpg
 
-imageUrl: media/ACTvideos/hodo&marie-ACT-videos-header.jpg
+imageUrl: media/actvideos/hodo&marie-act-videos-header.jpg
 
 date: 2039-06-06 11:21:00
 
@@ -34,18 +34,18 @@ date: 2039-06-06 11:21:00
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-2">
 
-![Alt text](/demo/media/ACTvideos/hodo&marie-ATC-explainer-videos-01.jpg)
+![Alt text](/demo/media/actvideos/hodo&marie-act-explainer-videos-01.jpg)
 
-![Alt text](/demo/media/ACTvideos/hodo&marie-ATC-explainer-videos-02.jpg)
+![Alt text](/demo/media/actvideos/hodo&marie-act-explainer-videos-02.jpg)
 
 </div>
 
 
 <div class="gallery gallery-2">
 
-![Alt text](/demo/media/ACTvideos/hodo&marie-ATC-explainer-videos-03.jpg)
+![Alt text](/demo/media/actvideos/hodo&marie-act-explainer-videos-03.jpg)
 
-![Alt text](/demo/media/ACTvideos/hodo&marie-ATC-explainer-videos-04.jpg)
+![Alt text](/demo/media/actvideos/hodo&marie-act-explainer-videos-04.jpg)
 
 </div>
 
