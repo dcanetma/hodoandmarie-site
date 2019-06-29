@@ -37,12 +37,16 @@ date: 2039-06-06 11:21:00
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
 			<source src="/demo/media/nocallem/hodo&marie-nocallem-01.mp4" type="video/mp4">
+			<source src="/demo/media/nocallem/hodo&marie-nocallem-01.webm" type="video/webm">
+			<source src="/demo/media/nocallem/hodo&marie-nocallem-01.jpg" type="images/jpg">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-01.mp4" type="video/mp4">
+			<source src="/demo/media/nocallem/hodo&marie-nocallem-02.mp4" type="video/mp4">
+			<source src="/demo/media/nocallem/hodo&marie-nocallem-02.webm" type="video/webm">
+			<source src="/demo/media/nocallem/hodo&marie-nocallem-02.jpg" type="images/jpg">
 	</video>
 </p>
 
