@@ -1,4 +1,4 @@
-actvideostitle: Famtrip and Presstrip
+title: Famtrip and Presstrip
 
 subTitle: Agència Catalana de Turisme
 
@@ -34,21 +34,125 @@ date: 2039-06-06 11:21:00
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-2">
 
-![Alt text](/demo/media/actvideos/hodo&marie-act-videos-01.jpg)
+![Agència Catalana de Turisme image 1](/demo/media/actvideos/hodo&marie-act-videos-01.jpg)
 
-![Alt text](/demo/media/actvideos/hodo&marie-act-videos-02.jpg)
+![Agència Catalana de Turisme image 2](/demo/media/actvideos/hodo&marie-act-videos-02.jpg)
 
 </div>
 
 
 <div class="gallery gallery-2">
 
-![Alt text](/demo/media/actvideos/hodo&marie-act-videos-03.jpg)
+![Agència Catalana de Turisme image 3](/demo/media/actvideos/hodo&marie-act-videos-03.jpg)
 
-![Alt text](/demo/media/actvideos/hodo&marie-act-videos-04.jpg)
+![Agència Catalana de Turisme image 4](/demo/media/actvideos/hodo&marie-act-videos-04.jpg)
 
 </div>
 
+
+<!-- This is a 2x VIDEO gallery -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
+<div class="gallery gallery-2">
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/demo/media/actvideos/hodo&marie-act-videos-05.mp4" type="video/mp4">
+			<source src="/demo/media/actvideos/hodo&marie-act-videos-05.webm" type="video/webm">
+	</video>
+</p>
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/demo/media/actvideos/hodo&marie-act-videos-06.mp4" type="video/mp4">
+			<source src="/demo/media/actvideos/hodo&marie-act-videos-06.webm" type="video/webm">
+	</video>
+</p>
+
+
+</div>
+
+
+<!-- This is a 2x VIDEO gallery -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
+<div class="gallery gallery-2">
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/demo/media/actvideos/hodo&marie-act-videos-07.mp4" type="video/mp4">
+			<source src="/demo/media/actvideos/hodo&marie-act-videos-07.webm" type="video/webm">
+	</video>
+</p>
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/demo/media/actvideos/hodo&marie-act-videos-10.mp4" type="video/mp4">
+			<source src="/demo/media/actvideos/hodo&marie-act-videos-10.webm" type="video/webm">
+	</video>
+</p>
+
+
+</div>
+
+
+<!-- This is a 2x gallery sample -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
+<div class="gallery gallery-2">
+
+![Agència Catalana de Turisme image 8](/demo/media/actvideos/hodo&marie-act-videos-08.jpg)
+
+![Agència Catalana de Turisme image 9](/demo/media/actvideos/hodo&marie-act-videos-09.jpg)
+
+</div>
+
+
+
+<!-- This is a 2x VIDEO gallery -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
+<div class="gallery gallery-2">
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/demo/media/actvideos/hodo&marie-act-videos-11.mp4" type="video/mp4">
+			<source src="/demo/media/actvideos/hodo&marie-act-videos-11.webm" type="video/webm">
+	</video>
+</p>
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/demo/media/actvideos/hodo&marie-act-videos-12.mp4" type="video/mp4">
+			<source src="/demo/media/actvideos/hodo&marie-act-videos-12.webm" type="video/webm">
+	</video>
+</p>
+
+
+</div>
+
+
+<!-- This is a 2x VIDEO gallery -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
+<div class="gallery gallery-2">
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/demo/media/actvideos/hodo&marie-act-videos-13.mp4" type="video/mp4">
+			<source src="/demo/media/actvideos/hodo&marie-act-videos-13.webm" type="video/webm">
+	</video>
+</p>
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/demo/media/actvideos/hodo&marie-act-videos-14.mp4" type="video/mp4">
+			<source src="/demo/media/actvideos/hodo&marie-act-videos-14.webm" type="video/webm">
+	</video>
+</p>
+
+
+</div>
 
 <!-- Sample credits secion -->
 ## Credits
