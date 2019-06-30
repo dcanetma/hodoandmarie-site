@@ -14,7 +14,7 @@ textColor: black
 tags:
   - Video campaign
 
-vimeoId: 334092219
+vimeoId: 338224758
 
 thumbnailUrl:
   - media/hiperregalo/hodo&marie-hiperregalo-thumbnail.mp4

@@ -14,7 +14,7 @@ textColor: white
 tags:
   - Promotional product video
 
-vimeoId: 334092219
+vimeoId: 338237795
 
 thumbnailUrl:
   - media/xoko/hodo&marie-xoko-thumbnail.mp4
