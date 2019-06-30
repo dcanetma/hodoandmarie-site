@@ -32,12 +32,26 @@ date: 2039-06-06 11:21:00
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-2">
 
-![Alt text](http://placekitten.com/650/420 )
+![Piknik Iratzoki Lizaso image1](/demo/media/piknik/hodo&marie-piknik-1.jpg)
 
-![Alt text](http://placekitten.com/650/420 )
+![Piknik Iratzoki Lizaso image2](/demo/media/piknik/hodo&marie-piknik-2.jpg)
 
 
 </div>
+
+
+<!-- This is a 2x gallery sample -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
+<div class="gallery gallery-2">
+
+![Piknik Iratzoki Lizaso image3](/demo/media/piknik/hodo&marie-piknik-3.jpg)
+
+![Piknik Iratzoki Lizaso image4](/demo/media/piknik/hodo&marie-piknik-4.jpg)
+
+
+</div>
+
 
 
 <!-- This is a 2x VIDEO gallery -->
@@ -47,15 +61,15 @@ date: 2039-06-06 11:21:00
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/hiperregalo/hodo&marie-hiperregalo-01.mp4" type="video/mp4">
-			<source src="/demo/media/hiperregalo/hodo&marie-hiperregalo-01.webm" type="video/webm">
+			<source src="/demo/media/piknik/hodo&marie-Piknik-5.mp4" type="video/mp4">
+			<source src="/demo/media/piknik/hodo&marie-Piknik-5.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/hiperregalo/hodo&marie-hiperregalo-02.mp4" type="video/mp4">
-			<source src="/demo/media/hiperregalo/hodo&marie-hiperregalo-02.webm" type="video/webm">
+			<source src="/demo/media/piknik/hodo&marie-Piknik-6.mp4" type="video/mp4">
+			<source src="/demo/media/piknik/hodo&marie-Piknik-6.webm" type="video/webm">
 	</video>
 </p>
 
@@ -64,7 +78,27 @@ date: 2039-06-06 11:21:00
 
 
 
+<!-- This is a 2x VIDEO gallery -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
+<div class="gallery gallery-2">
 
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/demo/media/piknik/hodo&marie-Piknik-7.mp4" type="video/mp4">
+			<source src="/demo/media/piknik/hodo&marie-Piknik-7.webm" type="video/webm">
+	</video>
+</p>
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/demo/media/piknik/hodo&marie-Piknik-8.mp4" type="video/mp4">
+			<source src="/demo/media/piknik/hodo&marie-Piknik-8.webm" type="video/webm">
+	</video>
+</p>
+
+
+</div>
 
 
 
