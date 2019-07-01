@@ -172,7 +172,7 @@ date: 2039-06-06 11:21:00
 
 ## Credits
 
-* Client: Ajuntament de Barcelona
+* Client: Direcció Comunicació Ajuntament Barcelona i Regiduria de Feminismes.
 * Year: 2019  
   
 <br>
