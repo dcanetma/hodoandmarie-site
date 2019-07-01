@@ -180,5 +180,5 @@ date: 2039-06-06 11:21:00
 * Creative and Art direction: hodo&marie
 * Storyboard and Illustration: Marie
 * Motion graphics: Hodo
-* Copywriter: Elisabet Suñé
-* Voice over: Eva Lluch
+* Copywriter: <a href="https://cargocollective.com/elisabetsune" target="_blank">Elisabet Suñé</a>
+* Voice over: <a href="http://www.evalluch.cat" target="_blank">Eva Lluch</a>
