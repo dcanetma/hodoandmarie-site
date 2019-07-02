@@ -63,7 +63,9 @@ date: 2039-06-06 11:21:00
 </div>
 
 
-
+<!-- This is a 2x gallery sample -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-2">
 
 ![La fam no fa vacances image 5](/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-5.jpg)
