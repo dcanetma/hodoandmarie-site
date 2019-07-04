@@ -18,7 +18,6 @@
 	transform: matrix(1, 0, 0, 1, 0, 0);
 	// Wrapper de cada projecte, per a una millor UX en els rollovers
 	.post-preview-wrapper {
-
 		width: 100%;
 		height: 100%;
 		// Hover/Rollover styles
@@ -53,6 +52,7 @@
 		// Normal styles
 		// Caixa amb la imatge o video
 		.post-preview-media {
+
 			z-index: 2;
 			transform-origin: center;
 			// Img & Video showed by default so it hides the METAS that are under
@@ -208,6 +208,7 @@ section.post-full {
  		}
  		.embed-responsive {
  			display: block;
+			background-color: $black;
  			@include media-breakpoint-up(lg) { 
 	 			display: none;
  			}
