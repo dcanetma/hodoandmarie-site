@@ -11,17 +11,16 @@ $(function() {
 		$('#post img.header').fadeOut('slow', function(){
 		});
 	});
-
 });
 
-// $(document).ready(function(){
-// 	// Homepage - show titles when visible
-// 	$('.post-preview').viewportChecker({
-//    	classToAdd: 'in-viewport', 
-//     classToAddForFullView: 'in-viewport-full', 
-//     removeClassAfterAnimation: true,
-//     repeat: true,
-//     offset: 200,
-//     invertBottomOffset: false
-// 	});
-// });
+$(document).ready(function(){
+	// Homepage - show titles when visible
+	$('.post-preview').viewportChecker({
+   	classToAdd: 'in-viewport', 
+    classToAddForFullView: 'in-viewport-full', 
+    removeClassAfterAnimation: true,
+    repeat: true,
+    offset: 200,
+    invertBottomOffset: false
+	});
+});

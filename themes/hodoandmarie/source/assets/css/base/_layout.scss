@@ -47,9 +47,6 @@ main#content #homepage {
 	}
 }
 
-
-
-
 // 2.2. FOOTER for all pages
 footer {	
 	// Set bg color
@@ -69,7 +66,7 @@ footer {
 
 	@include media-breakpoint-up(xl) {
 		margin-top: 3.9rem; //66px to make 120px
-		margin-bottom: 7.5rem; //120px
+		margin-bottom: 3.75rem; //60px
 	}
 
 	// Footer separator, remove bs4 defaults
