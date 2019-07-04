@@ -13,14 +13,20 @@
 	}
 
 	img, video {
-			max-width: 100%;
-			height: auto;
-			min-width: 100%; // To avoid narrow images not to fill the whole grid
+		max-width: 100%;
+		height: auto;
+		min-width: 100%; // To avoid narrow images not to fill the whole grid
 	}
 	video {
 		display: block; // Important, otherwise the video has a strange margin-bottom
 	}
+	iframe {
+		display: block;
+		max-width: 100%;
+		min-width: 100%; // To avoid narrow images not to fill the whole grid
+	}
 	p {
+		overflow: hidden;
 		display: block;
 		width: 100%;
 		margin-bottom: 0;

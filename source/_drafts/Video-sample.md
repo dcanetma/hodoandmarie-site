@@ -31,6 +31,18 @@ date: 2008-06-06 11:21:00
 
 ---
 
+<!-- Sample of a full size vimeo video inside the post -->
+<!-- Pay attention to the use of 'gallery-1' class for a right separation with the  -->
+<!-- next/previous element -->
+<!-- Also, you may need to use 'embed-responsive' and 'embed-responsive-16by9'  -->
+<!-- Others: 'embed-responsive-4by3', 'embed-responsive-1by1">', 'embed-responsive-21by9' -->
+<!-- @see: https://getbootstrap.com/docs/4.0/utilities/embed/ -->
+<div class="gallery gallery-1">
+	<p class="embed-responsive embed-responsive-16by9">	
+		<iframe src="https://player.vimeo.com/video/343188343?color=000000" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+	</p>
+</div>
+
 <!-- This is a 3x gallery sample -->
 <!-- Always add a linebreak between images -->
 <!-- It needs three images between paragraph tags -->

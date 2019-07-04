@@ -57,6 +57,18 @@ imageUrl: >-
   
 ---
 
+<!-- Sample of a full size vimeo video inside the post -->
+<!-- Pay attention to the use of 'gallery-1' class for a right separation with the  -->
+<!-- next/previous element -->
+<!-- Also, you may need to use 'embed-responsive' and 'embed-responsive-16by9'  -->
+<!-- Others: 'embed-responsive-4by3', 'embed-responsive-1by1">', 'embed-responsive-21by9' -->
+<!-- @see: https://getbootstrap.com/docs/4.0/utilities/embed/ -->
+<div class="gallery gallery-1">
+  <p class="embed-responsive embed-responsive-16by9"> 
+    <iframe src="https://player.vimeo.com/video/343188343?color=000000" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  </p>
+</div>
+
 <!-- This is a 3x gallery sample -->
 <!-- Always add a linebreak between images -->
 <!-- It needs three images between paragraph tags -->
@@ -83,6 +95,7 @@ imageUrl: >-
 
 </div>
 
+
 <!-- This is a 1x gallery sample -->
 <!-- Always add a linebreak after the image -->
 <!-- It needs one images between paragraph tags -->
@@ -95,7 +108,7 @@ imageUrl: >-
 <!-- For a proper separation with the next gallery, 
      you need to add a <br> tag after the last paragraph -->
 Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
-<br>
+<br><br>
 
 <div class="gallery gallery-3">
 
@@ -107,11 +120,65 @@ Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [d
 
 </div>
 
+
+
+<!-- This is a 3x VIDEO gallery sample -->
+<!-- Always add a linebreak between images -->
+<!-- It needs three images between paragraph tags -->
+<div class="gallery gallery-3">
+
+<p>
+  <video playsinline="playsinline" muted loop autoplay>
+      <source src="/demo/media/sample/rabbit320.mp4" type="video/mp4">
+      <source src="/demo/media/sample/rabbit320.webm" type="video/webm">
+  </video>
+</p>
+
+<p>
+  <video playsinline="playsinline" muted loop autoplay>
+      <source src="/demo/media/sample/rabbit320.mp4" type="video/mp4">
+      <source src="/demo/media/sample/rabbit320.webm" type="video/webm">
+  </video>
+</p>
+
+<p>
+  <video playsinline="playsinline" muted loop autoplay>
+      <source src="/demo/media/sample/rabbit320.mp4" type="video/mp4">
+      <source src="/demo/media/sample/rabbit320.webm" type="video/webm">
+  </video>
+</p>
+
+</div>
+
+
+<!-- This is a 2x gallery VIDEO sample -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
+<div class="gallery gallery-2">
+
+<p>
+  <video playsinline="playsinline" muted loop autoplay>
+      <source src="/demo/media/sample/rabbit320.mp4" type="video/mp4">
+      <source src="/demo/media/sample/rabbit320.webm" type="video/webm">
+  </video>
+</p>
+
+<p>
+  <video playsinline="playsinline" muted loop autoplay>
+      <source src="/demo/media/sample/rabbit320.mp4" type="video/mp4">
+      <source src="/demo/media/sample/rabbit320.webm" type="video/webm">
+  </video>
+</p>
+
+
+</div>
+
+
 <!-- Sample credits secion -->
 ## Credits
 
-* Client: Farmàcia Ciutat Jardí
-* Year: 2016
+* Client: {{ client }}
+* Year: 2021
 
 
 * Creative direction: hodo&marie
