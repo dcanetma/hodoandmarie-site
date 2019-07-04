@@ -17,9 +17,9 @@
             <source src="<%= url_for(post.thumbnailUrl[0]) %>" type="video/mp4">
             <source src="<%= url_for(post.thumbnailUrl[1]) %>" type="video/webm">              
           </video>
-          <img src="<%= url_for(post.thumbnailUrl[2]) %>" class="img-fluid" alt="<%= post.title %>">
+          <a href="<%- url_for(post.path) %>" title="<%= post.title %>"><img src="<%= url_for(post.thumbnailUrl[2]) %>" class="img-fluid" alt="<%= post.title %>"></a>
         <% } else {%>
-          <img src="<%= url_for(post.thumbnailUrl) %>" class="img-fluid" alt="<%= post.title %>">
+          <a href="<%- url_for(post.path) %>" title="<%= post.title %>"><img src="<%= url_for(post.thumbnailUrl) %>" class="img-fluid" alt="<%= post.title %>"></a>
         <% } %> 
       </div>
       <div class="post-preview-info">
