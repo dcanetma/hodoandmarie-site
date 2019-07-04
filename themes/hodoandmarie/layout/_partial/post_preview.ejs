@@ -16,7 +16,6 @@
           <video muted="muted" preload="none" loop="loop" cover="<%= url_for(post.thumbnailUrl[3]) %>" autoplay="autoplay">
             <source src="<%= url_for(post.thumbnailUrl[0]) %>" type="video/mp4">
             <source src="<%= url_for(post.thumbnailUrl[1]) %>" type="video/webm">              
-            <source src="<%= url_for(post.thumbnailUrl[2]) %>" type="video/ogg">              
           </video>
           <img src="<%= url_for(post.thumbnailUrl[3]) %>" class="img-fluid" alt="<%= post.title %>">
 

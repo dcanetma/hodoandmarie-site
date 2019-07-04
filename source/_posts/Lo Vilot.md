@@ -19,7 +19,6 @@ vimeoId: 345883980
 thumbnailUrl:
   - media/lovilot/hodo&marie-lovilot-thumbnail.mp4
   - media/lovilot/hodo&marie-lovilot-thumbnail.webm
-  - media/lovilot/hodo&marie-lovilot-thumbnail.ogv
   - media/lovilot/hodo&marie-lovilot-thumbnail.jpg
 
 imageUrl: media/lovilot/hodo&marie-lovilot-header.jpg

@@ -19,7 +19,6 @@ vimeoId: 343189354
 thumbnailUrl:
   - media/lafamnofavacances/hodo&marie-lafamnofavacances-thumbnail.mp4
   - media/lafamnofavacances/hodo&marie-lafamnofavacances-thumbnail.webm
-  - media/lafamnofavacances/hodo&marie-lafamnofavacances-thumbnail.ogv
   - media/lafamnofavacances/hodo&marie-lafamnofavacances-thumbnail.jpg
 
 imageUrl: media/lafamnofavacances/hodo&marie-lafamnofavacances-header.jpg

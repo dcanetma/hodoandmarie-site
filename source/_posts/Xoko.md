@@ -19,7 +19,6 @@ vimeoId: 338237795
 thumbnailUrl:
   - media/xoko/hodo&marie-xoko-thumbnail.mp4
   - media/xoko/hodo&marie-xoko-thumbnail.webm
-  - media/xoko/hodo&marie-xoko-thumbnail.ogv
   - media/xoko/hodo&marie-xoko-thumbnail.jpg
 
 imageUrl: media/xoko/hodo&marie-xoko-header.jpg

@@ -19,7 +19,6 @@ vimeoId: 338232747
 thumbnailUrl:
   - media/nocallem/hodo&marie-nocallem-thumbnail.mp4
   - media/nocallem/hodo&marie-nocallem-thumbnail.webm
-  - media/nocallem/hodo&marie-nocallem-thumbnail.ogv
   - media/nocallem/hodo&marie-nocallem-thumbnail.jpg
 
 imageUrl: media/nocallem/hodo&marie-nocallem-header.jpg

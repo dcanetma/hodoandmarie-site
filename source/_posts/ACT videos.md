@@ -19,7 +19,6 @@ vimeoId: 338235857
 thumbnailUrl:
   - media/actvideos/hodo&marie-act-videos-thumbnail.mp4
   - media/actvideos/hodo&marie-act-videos-thumbnail.webm
-  - media/actvideos/hodo&marie-act-videos-thumbnail.ogv
   - media/actvideos/hodo&marie-act-videos-thumbnail.jpg
 
 imageUrl: media/actvideos/hodo&marie-act-videos-header.jpg

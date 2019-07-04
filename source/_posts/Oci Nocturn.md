@@ -19,7 +19,6 @@ vimeoId: 338248964
 thumbnailUrl:
   - media/ocinocturn/hodo&marie-ocinocturn-thumbnail.mp4
   - media/ocinocturn/hodo&marie-ocinocturn-thumbnail.webm
-  - media/ocinocturn/hodo&marie-ocinocturn-thumbnail.ogv
   - media/ocinocturn/hodo&marie-ocinocturn-thumbnail.jpg
 
 imageUrl: media/ocinocturn/hodo&marie-ocinocturn-header.jpg
