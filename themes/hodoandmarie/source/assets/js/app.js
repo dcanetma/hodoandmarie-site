@@ -6,21 +6,20 @@ $(function() {
 		var player = new Vimeo.Player('video');
 		player.play();    
 		// Show the video & Hide the image header, simultaneously
-		$('#post .embed-responsive').fadeIn('slow', function(){
-		});
 		$('#post img.header').fadeOut('slow', function(){
+			$('#post .embed-responsive').fadeIn('slow', function(){});
 		});
 	});
 });
 
-$(document).ready(function(){
-	// Homepage - show titles when visible
-	$('.post-preview').viewportChecker({
-   	classToAdd: 'in-viewport', 
-    classToAddForFullView: 'in-viewport-full', 
-    removeClassAfterAnimation: true,
-    repeat: true,
-    offset: 200,
-    invertBottomOffset: false
-	});
-});
+// $(document).ready(function(){
+// 	// Homepage - show titles when visible
+// 	$('.post-preview').viewportChecker({
+//    	classToAdd: 'in-viewport', 
+//     classToAddForFullView: 'in-viewport-full', 
+//     removeClassAfterAnimation: true,
+//     repeat: true,
+//     offset: 200,
+//     invertBottomOffset: false
+// 	});
+// });
