@@ -17,6 +17,9 @@
 			height: auto;
 			min-width: 100%; // To avoid narrow images not to fill the whole grid
 	}
+	video {
+		display: block; // Important, otherwise the video has a strange margin-bottom
+	}
 	p {
 		display: block;
 		width: 100%;

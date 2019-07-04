@@ -8,7 +8,11 @@ $black:   #000000;
 $white:   #FFFFFF;
 
 // Layout
+// CANVIEU AQUESTS 3 VALORS PER CONTROLAR L'AMPLE MAX. PER PANTALLES GRANS
 $layout-max-width: 1800px;
+// EL 'PADDING' LATERAL PER A TABLETS
+$layout-gutter-md: 4rem; // 64px
+$layout-gutter-big: 6em; // 128px
 
 // Font-sizes
 $letter-spacing-1: 0.2rem;
