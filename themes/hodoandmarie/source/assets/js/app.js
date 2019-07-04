@@ -12,15 +12,29 @@ $(function() {
 		});
 	});
 });
-
-// $(document).ready(function(){
-// 	// Homepage - show titles when visible
-// 	$('.post-preview').viewportChecker({
-//    	classToAdd: 'in-viewport', 
-//     classToAddForFullView: 'in-viewport-full', 
-//     removeClassAfterAnimation: true,
-//     repeat: true,
-//     offset: 200,
-//     invertBottomOffset: false
-// 	});
-// });
+$(document).ready(function(){
+	// Homepage - projects
+	// We want to stop the videos from playing when they're
+	// not visible to the user in order to lighten up the CPU
+	$('.post-preview-video').viewportChecker({
+   	classToAdd: 'in-viewport', 
+    // classToAddForFullView: 'in-viewport-full', 
+    removeClassAfterAnimation: true,
+    repeat: true,
+    offset: 200,
+    invertBottomOffset: false,
+	 	callbackFunction: function(elem, action){
+	 		if (action === 'add') {
+		 		// $(elem).addClass('in-viewport-custom');
+		 		$('video', elem).attr('loop', 'loop');
+		 		$('video', elem).attr('autoplay', 'autoplay');
+	 		}
+	 		else if (action === 'remove') {
+		 		// $(elem).removeClass('in-viewport-custom');
+		 		$('video', elem).removeAttr('loop');
+		 		$('video', elem).removeAttr('autoplay');
+	 		}
+	 	}, 
+	 	// Callback to do after a class was added to an element. Action will return "add" or "remove", depending if the class was added or removed    
+	});
+});
