@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: hodo&marie studio
+title: hodo&marie
 subtitle: Subtitle
-description: 'We are a design studio with focus on motion graphics and illustration.<br>We would love to tell your story.
-<br>Nice to meet you!'
+description: 'We are a design studio with focus on illustration and motion graphics.<br>Nice to meet you!
+<br>We would love to tell your story.'
 keywords:
 author: facts&fictions
 language: en
@@ -88,17 +88,10 @@ theme: hodoandmarie
 # Deployment
 ## @see: https://hexo.io/docs/deployment.html
 deploy:
-- type: git   
-  repo: git@bitbucket.org:factsandfictions/hodoandmarie-site.git 
-  branch: deploy
-  message: 
-- type: ftpsync
-  host: hodoandmarie.com
-  user: hodoandm
-  pass: uRB16K6f
-  remote: /web/demo
-  connections: 1
-  verbose: true
+# - type: git   
+#   repo: git@bitbucket.org:factsandfictions/hodoandmarie-site.git 
+#   branch: deploy
+#   message: 
 
 include:
   - "favicon.ico"

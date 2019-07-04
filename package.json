@@ -2,7 +2,7 @@
   "name": "hodoandmarie-site",
   "description": "Website for Hodo & Marie Studio",
   "author": "facts & fictions <daniel@factsandfictions.net>",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "hexo": {
     "version": "3.9.0"
   },
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "hexo server",
-    "deploy": "hexo deploy"
+    "deploy": "git push origin refs/heads/master:refs/heads/deploy"
   },
   "dependencies": {
     "hexo": "^3.9.0",
@@ -20,8 +20,6 @@
     "hexo-asset-pipeline": "^1.8.0",
     "hexo-auto-canonical": "0.1.1",
     "hexo-browsersync": "^0.3.0",
-    "hexo-deployer-ftpsync": "^0.1.1",
-    "hexo-deployer-git": "^1.0.0",
     "hexo-generator-feed": "^1.2.2",
     "hexo-generator-index": "^0.2.1",
     "hexo-generator-seo-friendly-sitemap": "^0.0.25",

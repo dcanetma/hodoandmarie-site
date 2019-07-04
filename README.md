@@ -17,9 +17,6 @@ $ cd site
 
 # install dependencies
 npm install
-
-# build the site!
-hexo build
 ```
 
 Once installed you can:
@@ -39,3 +36,26 @@ Visit http://localhost:4000/ to watch the site.
 $ hexo new post 'Name of the project'
 ```
 
+## How to deploy
+
+Push to the 'deploy' branch of this project. 
+
+The process is run by Bitbucket Pipelines. See 'bitbucket-pipelines.yml' for more details.
+
+How:
+
+``` bash
+$ npm run-script deploy
+```
+
+Or:
+
+``` bash
+$ hexo-deploy.sh
+```
+
+Or:
+
+``` bash
+$ git push origin refs/heads/master:refs/heads/deploy
+```

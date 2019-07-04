@@ -21,7 +21,7 @@
   </style>
 <% } %> 
 
-<section id="<%= page.layout %>" class="post container-fluid mt-1 mt-lg-2" >
+<section id="<%= page.layout %>" class="post post-full <%- page.vimeoId ? 'post-full-video' : 'post-full-no-video' %> container-fluid mt-1 mt-lg-2" >
 	<!-- Post header -->
   <header class="row">  
 		<div class="col-12 inner">
@@ -39,6 +39,8 @@
 					</div>
 			 <% } else { %>	
 				 <img src="<%= url_for(page.imageUrl) %>" alt="<%= page.title %>"  class="header img-fluid">  
+				 <!-- We show this image on mobile and desktop only -->
+				 <img src="<%= url_for(page.thumbnailUrl) %>" alt="<%= page.title %>"  class="header img-fluid header-fallback">   
 			 <% } %>	
 
 		</div> 			

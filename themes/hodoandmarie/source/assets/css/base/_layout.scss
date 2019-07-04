@@ -8,22 +8,32 @@ header {}
 // Tricky hack to the grid for a $grid-gutter-width of 20px on Bootstrap4 
 .container-fluid {
 	max-width: $layout-max-width;
-	padding-left: 20px; // See .post-preview-wrapper 
-	padding-right: 20px; // See .post-preview-wrapper 
+	padding-left: 1.25rem; // 20px; // See .post-preview-wrapper 
+	padding-right: 1.25rem; // 20px; // See .post-preview-wrapper 
+	// Animate the shit out of it
+	transition: all 1s;
+
+	@include media-breakpoint-up(md) {
+		padding-left: 4rem; // 64px; // See .post-preview-wrapper 
+		padding-right: 4rem; // 64px; // See .post-preview-wrapper 	
+	}
 }
 
 main#content #homepage {
-	margin-bottom: -22px;
-	@include media-breakpoint-up(xl) {
-		margin-bottom: -40px;
-		padding-left: 10px; // See .post-preview-wrapper 
-		padding-right: 10px; // See .post-preview-wrapper 
+	margin-bottom: -1.375rem; // 22px
+	@include media-breakpoint-up(md) {
+		padding-left: 4rem; // See .post-preview-wrapper 
+		padding-right: 4rem; // See .post-preview-wrapper 
+	}
+
+	@include media-breakpoint-up(lg) {
+		margin-bottom: -2.5rem;
 	}	
 	header {
 		padding: 0;
-		margin-bottom: 60px;
+		margin-bottom: 3.75rem; // 60px;
 		@include media-breakpoint-up(xl) {
-			padding: 0 10px;
+			// padding: 0 0.625rem;
 		}
 	}
 }
@@ -32,13 +42,10 @@ main#content #homepage {
 	// Wrapper de cada projecte, per a una millor UX en els rollovers
 	.post-preview-wrapper {
 		@include media-breakpoint-up(xl) {
-			padding: 0 10px; 
+			// padding: 0 0.625rem; 
 		}
 	}
 }
-
-
-
 
 // 2.2. FOOTER for all pages
 footer {	
@@ -47,10 +54,19 @@ footer {
 
   // Separate footer from the main content as on PDF
 	margin-top: 2.375rem; // 36px
-	margin-bottom: 3.4375rem; // 60-5px
+	margin-bottom: 1.56rem; // 30-5px
+	@include media-breakpoint-up(md) {
+		margin-top: 2.375rem; // 36px
+		margin-bottom: 0.3125rem; // 30-5px
+	}
+
 	@include media-breakpoint-up(lg) {
-		margin-top: 63px; //66px to make 120px
-		margin-bottom: 120px; //120px
+		margin-bottom: 3.4375rem; // 60-5px
+	}
+
+	@include media-breakpoint-up(xl) {
+		margin-top: 3.9rem; //66px to make 120px
+		margin-bottom: 3.75rem; //60px
 	}
 
 	// Footer separator, remove bs4 defaults
@@ -102,7 +118,7 @@ footer {
 				line-height: $line-height-nav-links; 					
 				letter-spacing: $letter-spacing-nav-links; 		
 				// Large devices (desktops, 992px and up)
-				@include media-breakpoint-up(md) { 
+				@include media-breakpoint-up(lg) { 
 					font-size: $font-size-nav-links-xl;							
 					line-height: $line-height-nav-links-xl; 					
 				}

@@ -9,7 +9,7 @@
 	<div class="posts row">
 		<div class="col-12">
 			<div class="row">
-	      <% page.posts.limit(12).each(function(post, i) { %>
+	      <% page.posts.each(function(post, i) { %>
 		      <%- partial('_partial/post_preview.ejs', { post: post, index: i }) %>					
 	      <% }) %>							
 			</div>

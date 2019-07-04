@@ -33,9 +33,16 @@
 			// Caixa amb els metas del projecte
 			// Es mostra al 100% d'alçada
 			.post-preview-info {
-				transition-delay: 0.3s;
 				opacity: 1;
 				height: 100%;
+
+				// Animació dels textes
+				transition-delay: 1s;
+			  -webkit-transition: opacity 1s;
+			  -moz-transition: opacity 1s;
+			  -ms-transition: opacity 1s;
+			  -o-transition: opacity 1s;
+			  transition: opacity 1s;
 			}			
 			// Metas del projecte
 			h2.post-preview-title, 
@@ -54,11 +61,11 @@
 				// height: auto;
 				// height: 100%;
 				transform: matrix(1, 0, 0, 1, 0, 0);
-
-				moz-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
-				-o-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
-				-webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
-				transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);		
+				ms-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+				moz-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+				-o-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+				-webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+				transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);		
 			}
 		}
 		// Caixa amb els metas del projecte
@@ -74,8 +81,9 @@
 			padding: 0;
 			margin: 0;
 
-			padding-right: 50px;
-			padding-left: 20px;
+			padding-right: 3.125rem; // 50px;
+			padding-left: 1.25rem; // 20px;
+
 
 			overflow: hidden;
 			height: 0;
@@ -83,8 +91,8 @@
 			z-index: 3;
 			@include media-breakpoint-down(md) { 
 				// top: 2rem;
-				padding-right: 0px;
-				padding-left: 10px;
+				padding-right: 0;
+				padding-left: 0.625rem; // 10px;
 			}
 		}
 		// Meta: titol
@@ -97,8 +105,8 @@
 			margin-bottom: 0;
 			margin-top: 3rem;
 			@include media-breakpoint-down(md) { 
-				margin-top: 40px;
-				padding-right: 30px;
+				margin-top: 2.5rem; // 40px;
+				padding-right: 1.875rem; // 30px;
 				font-size: 1.3125rem; 		// 21px/16
 				line-height: 1.5rem;  // 24px/16
 			}
@@ -117,7 +125,7 @@
 			line-height: 1.875rem; 	// 30px/16
 			margin-bottom: 0;
 			@include media-breakpoint-down(md) { 
-				padding-right: 30px;
+				padding-right: 1.875rem; // 30px;
 				font-size: 0.875rem; 		// 14px/16
 				line-height: 1.5rem; 	// 24px
 			}
@@ -126,11 +134,11 @@
 		.post-preview-tags {
 			// display: none; 
 			
-			margin-top: 20px;	
-			padding-left: 10px;
+			margin-top: 1.25rem;
+			padding-left: 0.625rem; // 10px;
 			@include media-breakpoint-down(md) { 
-				margin-top: 5px;	
-				padding-right: 30px;
+				margin-top: 0.3.125rem; // 5px;	
+				padding-right: 1.875rem; // 30px;
 			}
 			span {
 				color: $white;
@@ -148,6 +156,23 @@
 
 	
 	}
+	// For video-posts, hide the video loop on mobile devices
+	// and show the fallback image, instead
+	&.post-preview-video {
+		.post-preview-media {
+			video {
+				display: none;
+				@include media-breakpoint-up(md) { 
+					display: block;
+				}
+			}
+			img {
+				@include media-breakpoint-up(md) { 
+					display: none;
+				}
+			}
+		}
+	}
 
 	// &.in-viewport-full {
 	// 	@include media-breakpoint-down(md) { 
@@ -161,15 +186,16 @@
 }
 
 // Full page
-section.post {
+section.post-full {
  	// Header
  	header {
  		position: relative;
  		// La img i el video, ambdos
  		.header {
  			padding: 0;
- 			margin-bottom: 10px;
+ 			margin-bottom: 0.625rem; // 10px;
  		}
+ 		// La img de fallback mobile/tablet per a projectes sense video
  		img {
  			width: 100%;
  			position: relative;
@@ -237,8 +263,8 @@ section.post {
  		// Project headline
 		p {
 
-			margin-top: 30px;
-			margin-bottom: 10px;
+			margin-top: 1.875rem; // 30px;
+			margin-bottom: 0.625rem; // 10px;
 
 			@include meh-style-regular();
 			font-size: 0.875rem; 	// 14px/16
@@ -252,24 +278,41 @@ section.post {
 			}
 		}
  	}
+
+ 	// Projects with no video show a fallback image on mobile and tablet
+ 	// for a better design
+ 	&.post-full-no-video {
+ 		.header {
+ 			display: none;
+ 			@include media-breakpoint-up(lg) { 
+	 			display: block;
+ 			}  			
+ 		}
+	 	.header-fallback {
+	 		display: block;
+ 			@include media-breakpoint-up(lg) { 
+	 			display: none;
+ 			}  			
+ 		}
+ 	}
  	// Body
  	h2, .h2 {
- 		margin-top: 40px;
- 		margin-bottom: 20px;
+ 		margin-top: 2.5rem; // 40px;
+ 		margin-bottom: 1.25rem; // 20px;
  		text-transform: uppercase;
  		letter-spacing: $letter-spacing-1;
  		font-size: $font-size-default-xs;
  		line-height: $line-height-default-xs;
 		@include media-breakpoint-up(lg) { 
 			margin-top: 46px;
-			margin-bottom: 20px;
+			margin-bottom: 1.25rem; // 20px;
 			font-size: $font-size-default-md;
 			line-height: $line-height-default-md;
 		}
  	}
  	h3, .h3 { 
- 		margin-top: 40px;
- 		margin-bottom: 20px;
+ 		margin-top: 2.5rem; // 40px;
+ 		margin-bottom: 1.25rem; // 20px;
  		text-transform: uppercase;
  		letter-spacing: $letter-spacing-1;
  		font-size: $font-size-default-xs;
@@ -298,13 +341,13 @@ section.post {
 		}
  	}
  	.content {
- 		margin-top: 30px;
+ 		margin-top: 1.875rem; // 30px;
 	  // Separate from .post header as on PDF
 		@include media-breakpoint-up(md) {
-			margin-top: 36px; // 60px
+			margin-top: 2.25rem; // 36px; // 60px
 		}
 		@include media-breakpoint-up(lg) {
-			margin-top: 86px; //120px
+			margin-top: 5.375rem; // 86px; //120px
 		}
  		// p {
  		// 	@include media-breakpoint-up(lg) { 
@@ -313,8 +356,8 @@ section.post {
  		// }
 
  		br {
- 			line-height: 12px;
- 			font-size: 12px;
+ 			line-height: 0.75rem; // 12px
+ 			font-size: 0.75rem; // 12px
  		}
 
  		ul {
