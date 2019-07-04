@@ -21,6 +21,7 @@ vimeoId: 334092219
 thumbnailUrl:
   - media/sample/rabbit320.mp4
   - media/sample/rabbit320.webm
+  - media/sample/rabitt320.ogv
   - media/sample/rabbit320.jpg
 
 imageUrl: media/sample/dog.jpg

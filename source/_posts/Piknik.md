@@ -19,6 +19,7 @@ vimeoId: 338237956
 thumbnailUrl:
   - media/piknik/hodo&marie-piknik-thumbnail.mp4
   - media/piknik/hodo&marie-piknik-thumbnail.webm
+  - media/piknik/hodo&marie-piknik-thumbnail.ogv
   - media/piknik/hodo&marie-piknik-thumbnail.jpg
 
 imageUrl: media/piknik/hodo&marie-piknik-header.jpg

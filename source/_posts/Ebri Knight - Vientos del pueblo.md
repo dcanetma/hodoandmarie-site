@@ -19,6 +19,7 @@ vimeoId: 343188176
 thumbnailUrl:
   - media/ebriknightvientos/hodo&marie-vientosdelpueblo-thumbnail.mp4
   - media/ebriknightvientos/hodo&marie-vientosdelpueblo-thumbnail.webm
+  - media/ebriknightvientos/hodo&marie-vientosdelpueblo-thumbnail.ogv
   - media/ebriknightvientos/hodo&marie-vientosdelpueblo-thumbnail.jpg
 
 imageUrl: media/ebriknightvientos/hodo&marie-vientosdelpueblo-header.jpg
