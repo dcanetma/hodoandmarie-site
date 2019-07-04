@@ -16,7 +16,8 @@ $(document).ready(function(){
 	// Homepage - projects
 	// We want to stop the videos from playing when they're
 	// not visible to the user in order to lighten up the CPU
-	$('.post-preview-video').viewportChecker({
+
+	var viewportCheckerSettings = {
    	classToAdd: 'in-viewport', 
     // classToAddForFullView: 'in-viewport-full', 
     removeClassAfterAnimation: true,
@@ -34,7 +35,10 @@ $(document).ready(function(){
 		 		$('video', elem).removeAttr('loop');
 		 		$('video', elem).removeAttr('autoplay');
 	 		}
-	 	}, 
-	 	// Callback to do after a class was added to an element. Action will return "add" or "remove", depending if the class was added or removed    
-	});
+	 	}
+	 };
+
+	$('.post-preview-video').viewportChecker(viewportCheckerSettings);
+	$('.gallery-video p').viewportChecker(viewportCheckerSettings);
+
 });
