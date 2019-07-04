@@ -1,13 +1,14 @@
 $(function() {
 	// Play behaviour on post pages
-	$('#post .btn-play').click(function(e){
+	$('.post-full .btn-play').click(function(e){
 		// Play the video
 	  // Select with the `<iframe>`’s id '#video'
 		var player = new Vimeo.Player('video');
 		player.play();    
 		// Show the video & Hide the image header, simultaneously
-		$('#post img.header').fadeOut('slow', function(){
-			$('#post .embed-responsive').fadeIn('slow', function(){});
+		$('.post-full img.header').fadeOut('slow', function(){
+			$('.post-full .intro').toggleClass('intro-played');
+			$('.post-full .embed-responsive').fadeIn('slow');
 		});
 	});
 });

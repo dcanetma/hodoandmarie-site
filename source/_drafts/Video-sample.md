@@ -9,14 +9,14 @@ intro: >
   magic to present this amazing stools collection by Iratzoki Lizaso product
   designers.
 
-bgColor: yellow
-textColor: black
+bgColor: '#343434'
+textColor: white
 
 tags:
   - Design
   - Illustration
 
-vimeoId: 334092219
+vimeoId: 345883980
 
 thumbnailUrl:
   - media/sample/rabbit320.mp4
@@ -30,37 +30,6 @@ imageUrl: media/sample/dog.jpg
 date: 2008-06-06 11:21:00
 
 ---
-
-
-
-<!-- This is a 3x VIDEO gallery sample -->
-<!-- Always add a linebreak between images -->
-<!-- It needs three images between paragraph tags -->
-<div class="gallery gallery-3">
-
-<p>
-	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/sample/rabbit320.mp4" type="video/mp4">
-			<source src="/demo/media/sample/rabbit320.webm" type="video/webm">
-	</video>
-</p>
-
-<p>
-	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/sample/rabbit320.mp4" type="video/mp4">
-			<source src="/demo/media/sample/rabbit320.webm" type="video/webm">
-	</video>
-</p>
-
-<p>
-	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/sample/rabbit320.mp4" type="video/mp4">
-			<source src="/demo/media/sample/rabbit320.webm" type="video/webm">
-	</video>
-</p>
-
-</div>
-
 
 <!-- This is a 3x gallery sample -->
 <!-- Always add a linebreak between images -->
@@ -112,6 +81,37 @@ Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [d
 ![Alt text](http://placekitten.com/700/700 )
 
 </div>
+
+
+
+<!-- This is a 3x VIDEO gallery sample -->
+<!-- Always add a linebreak between images -->
+<!-- It needs three images between paragraph tags -->
+<div class="gallery gallery-3">
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/demo/media/sample/rabbit320.mp4" type="video/mp4">
+			<source src="/demo/media/sample/rabbit320.webm" type="video/webm">
+	</video>
+</p>
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/demo/media/sample/rabbit320.mp4" type="video/mp4">
+			<source src="/demo/media/sample/rabbit320.webm" type="video/webm">
+	</video>
+</p>
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/demo/media/sample/rabbit320.mp4" type="video/mp4">
+			<source src="/demo/media/sample/rabbit320.webm" type="video/webm">
+	</video>
+</p>
+
+</div>
+
 
 <!-- This is a 2x gallery VIDEO sample -->
 <!-- Always add a linebreak between images -->

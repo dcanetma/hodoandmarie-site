@@ -223,7 +223,24 @@ section.post-full {
 			height: 100%;
 			z-index: 100;
  		}
- 		.intro {
+ 		.intro {			
+			opacity: 1; 			
+
+			// transition-delay: .6s;
+		 //  -webkit-transition: opacity .6s;
+		 //  -moz-transition: opacity .6s;
+		 //  -ms-transition: opacity .6s;
+		 //  -o-transition: opacity .6s;
+		 //  transition: opacity .6s;
+
+ 			&.intro-played {
+ 				opacity: 0;
+	 			@include media-breakpoint-down(md) { 
+	 				opacity: 1;
+				}
+
+ 			}
+
  			@include media-breakpoint-up(lg) { 
 	 			position: absolute;
 	 			top: 2rem;
