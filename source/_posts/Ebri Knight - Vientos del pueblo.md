@@ -32,7 +32,7 @@ date: 2039-06-06 11:21:00
 <!-- This is a 1x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-1">
+<div class="gallery gallery-video gallery-1">
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay >
@@ -48,10 +48,10 @@ date: 2039-06-06 11:21:00
 <!-- This is a 1x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-1">
+<div class="gallery gallery-video gallery-1">
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-2.mp4" type="video/mp4">
 			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-2.webm" type="video/webm">
 	</video>
@@ -64,10 +64,10 @@ date: 2039-06-06 11:21:00
 <!-- This is a 1x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-1">
+<div class="gallery gallery-video gallery-1">
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-3.mp4" type="video/mp4">
 			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-3.webm" type="video/webm">
 	</video>
@@ -80,10 +80,10 @@ date: 2039-06-06 11:21:00
 <!-- This is a 1x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-1">
+<div class="gallery gallery-video gallery-1">
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-4.mp4" type="video/mp4">
 			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-4.webm" type="video/webm">
 	</video>

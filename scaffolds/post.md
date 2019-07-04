@@ -123,26 +123,27 @@ Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [d
 
 
 <!-- This is a 3x VIDEO gallery sample -->
+<!-- Important to use 'gallery-video' class for optimization -->
 <!-- Always add a linebreak between images -->
 <!-- It needs three images between paragraph tags -->
-<div class="gallery gallery-3">
+<div class="gallery gallery-video gallery-3">
 
 <p>
-  <video playsinline="playsinline" muted loop autoplay>
+  <video playsinline="playsinline" muted>
       <source src="/media/sample/rabbit320.mp4" type="video/mp4">
       <source src="/media/sample/rabbit320.webm" type="video/webm">
   </video>
 </p>
 
 <p>
-  <video playsinline="playsinline" muted loop autoplay>
+  <video playsinline="playsinline" muted>
       <source src="/media/sample/rabbit320.mp4" type="video/mp4">
       <source src="/media/sample/rabbit320.webm" type="video/webm">
   </video>
 </p>
 
 <p>
-  <video playsinline="playsinline" muted loop autoplay>
+  <video playsinline="playsinline" muted>
       <source src="/media/sample/rabbit320.mp4" type="video/mp4">
       <source src="/media/sample/rabbit320.webm" type="video/webm">
   </video>
@@ -152,19 +153,20 @@ Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [d
 
 
 <!-- This is a 2x gallery VIDEO sample -->
+<!-- Important to use 'gallery-video' class for optimization -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-2">
+<div class="gallery gallery-video gallery-2">
 
 <p>
-  <video playsinline="playsinline" muted loop autoplay>
+  <video playsinline="playsinline" muted>
       <source src="/media/sample/rabbit320.mp4" type="video/mp4">
       <source src="/media/sample/rabbit320.webm" type="video/webm">
   </video>
 </p>
 
 <p>
-  <video playsinline="playsinline" muted loop autoplay>
+  <video playsinline="playsinline" muted>
       <source src="/media/sample/rabbit320.mp4" type="video/mp4">
       <source src="/media/sample/rabbit320.webm" type="video/webm">
   </video>

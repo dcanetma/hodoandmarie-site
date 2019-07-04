@@ -19,7 +19,7 @@ $(document).ready(function(){
 
 	var viewportCheckerSettings = {
    	classToAdd: 'in-viewport', 
-    // classToAddForFullView: 'in-viewport-full', 
+    classToAddForFullView: 'in-viewport-full', 
     removeClassAfterAnimation: true,
     repeat: true,
     offset: 200,
@@ -32,8 +32,8 @@ $(document).ready(function(){
 	 		}
 	 		else if (action === 'remove') {
 		 		// $(elem).removeClass('in-viewport-custom');
-		 		$('video', elem).removeAttr('loop');
-		 		$('video', elem).removeAttr('autoplay');
+		 		$('video', elem).attr('loop', null);
+		 		$('video', elem).attr('autoplay', null);
 	 		}
 	 	}
 	 };

@@ -161,6 +161,8 @@
 	&.post-preview-video {
 		.post-preview-media {
 			video {
+
+
 				display: none;
 				@include media-breakpoint-up(md) { 
 					display: block;
@@ -172,17 +174,12 @@
 				}
 			}
 		}
+		
+
+
 	}
 
-	// &.in-viewport-full {
-	// 	@include media-breakpoint-down(md) { 
-	// 		h2.post-preview-title,
-	// 		h3.post-preview-subtitle,
-	// 		.post-preview-cats {
-	// 			display: block;
-	// 		}			
-	// 	}
-	// }
+
 }
 
 // Full page

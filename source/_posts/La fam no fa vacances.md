@@ -43,17 +43,17 @@ date: 2039-06-06 11:21:00
 <!-- This is a 2x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-2">
+<div class="gallery gallery-video gallery-2">
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-3.mp4" type="video/mp4">
 			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-3.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-4.mp4" type="video/mp4">
 			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-4.webm" type="video/webm">
 	</video>
@@ -84,14 +84,14 @@ date: 2039-06-06 11:21:00
 <div class="gallery gallery-2">
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-7.mp4" type="video/mp4">
 			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-7.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-8.mp4" type="video/mp4">
 			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-8.webm" type="video/webm">
 	</video>
@@ -120,14 +120,14 @@ date: 2039-06-06 11:21:00
 <div class="gallery gallery-2">
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-11.mp4" type="video/mp4">
 			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-11.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-12.mp4" type="video/mp4">
 			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-12.webm" type="video/webm">
 	</video>

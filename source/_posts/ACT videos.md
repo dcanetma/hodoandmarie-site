@@ -53,17 +53,17 @@ date: 2039-06-06 11:21:00
 <!-- This is a 2x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-2">
+<div class="gallery gallery-video gallery-video gallery-2">
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/actvideos/hodo&marie-act-videos-05.mp4" type="video/mp4">
 			<source src="/media/actvideos/hodo&marie-act-videos-05.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/actvideos/hodo&marie-act-videos-06.mp4" type="video/mp4">
 			<source src="/media/actvideos/hodo&marie-act-videos-06.webm" type="video/webm">
 	</video>
@@ -76,17 +76,17 @@ date: 2039-06-06 11:21:00
 <!-- This is a 2x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-2">
+<div class="gallery gallery-video gallery-video gallery-2">
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/actvideos/hodo&marie-act-videos-07.mp4" type="video/mp4">
 			<source src="/media/actvideos/hodo&marie-act-videos-07.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/actvideos/hodo&marie-act-videos-10.mp4" type="video/mp4">
 			<source src="/media/actvideos/hodo&marie-act-videos-10.webm" type="video/webm">
 	</video>
@@ -112,17 +112,17 @@ date: 2039-06-06 11:21:00
 <!-- This is a 2x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-2">
+<div class="gallery gallery-video gallery-video gallery-2">
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/actvideos/hodo&marie-act-videos-11.mp4" type="video/mp4">
 			<source src="/media/actvideos/hodo&marie-act-videos-11.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/actvideos/hodo&marie-act-videos-12.mp4" type="video/mp4">
 			<source src="/media/actvideos/hodo&marie-act-videos-12.webm" type="video/webm">
 	</video>
@@ -135,17 +135,17 @@ date: 2039-06-06 11:21:00
 <!-- This is a 2x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-2">
+<div class="gallery gallery-video gallery-2">
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/actvideos/hodo&marie-act-videos-13.mp4" type="video/mp4">
 			<source src="/media/actvideos/hodo&marie-act-videos-13.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/actvideos/hodo&marie-act-videos-14.mp4" type="video/mp4">
 			<source src="/media/actvideos/hodo&marie-act-videos-14.webm" type="video/webm">
 	</video>

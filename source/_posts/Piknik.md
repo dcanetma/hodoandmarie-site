@@ -57,17 +57,17 @@ date: 2039-06-06 11:21:00
 <!-- This is a 2x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-2">
+<div class="gallery gallery-video  gallery-2">
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/piknik/hodo&marie-Piknik-5.mp4" type="video/mp4">
 			<source src="/media/piknik/hodo&marie-Piknik-5.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/piknik/hodo&marie-Piknik-6.mp4" type="video/mp4">
 			<source src="/media/piknik/hodo&marie-Piknik-6.webm" type="video/webm">
 	</video>
@@ -81,17 +81,17 @@ date: 2039-06-06 11:21:00
 <!-- This is a 2x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-2">
+<div class="gallery gallery-video  gallery-2">
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/piknik/hodo&marie-Piknik-7.mp4" type="video/mp4">
 			<source src="/media/piknik/hodo&marie-Piknik-7.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay>
+	<video playsinline="playsinline" muted>
 			<source src="/media/piknik/hodo&marie-Piknik-8.mp4" type="video/mp4">
 			<source src="/media/piknik/hodo&marie-Piknik-8.webm" type="video/webm">
 	</video>
