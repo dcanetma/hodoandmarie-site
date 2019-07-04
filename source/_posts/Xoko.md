@@ -33,56 +33,9 @@ date: 2039-06-06 11:21:00
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-2">
 
-![Alt text](/demo/media/xoko/hodo&marie-xoko-1.jpg)
+![Alt text](/media/xoko/hodo&marie-xoko-1.jpg)
 
-![Alt text](/demo/media/xoko/hodo&marie-xoko-2.jpg)
-
-
-</div>
-
-
-<!-- This is a 2x VIDEO gallery -->
-<!-- Always add a linebreak between images -->
-<!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-2">
-
-<p>
-	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/xoko/hodo&marie-xoko-3.mp4" type="video/mp4">
-			<source src="/demo/media/xoko/hodo&marie-xoko-3.webm" type="video/webm">
-	</video>
-</p>
-
-<p>
-	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/xoko/hodo&marie-xoko-4.mp4" type="video/mp4">
-			<source src="/demo/media/xoko/hodo&marie-xoko-4.mp4" type="video/webm">
-	</video>
-</p>
-
-
-</div>
-
-
-
-<!-- This is a 2x VIDEO gallery -->
-<!-- Always add a linebreak between images -->
-<!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-2">
-
-<p>
-	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/xoko/hodo&marie-xoko-5.mp4" type="video/mp4">
-			<source src="/demo/media/xoko/hodo&marie-xoko-5.webm" type="video/webm">
-	</video>
-</p>
-
-<p>
-	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/xoko/hodo&marie-xoko-6.mp4" type="video/mp4">
-			<source src="/demo/media/xoko/hodo&marie-xoko-6.mp4" type="video/webm">
-	</video>
-</p>
+![Alt text](/media/xoko/hodo&marie-xoko-2.jpg)
 
 
 </div>
@@ -95,15 +48,39 @@ date: 2039-06-06 11:21:00
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/xoko/hodo&marie-xoko-7.mp4" type="video/mp4">
-			<source src="/demo/media/xoko/hodo&marie-xoko-7.webm" type="video/webm">
+			<source src="/media/xoko/hodo&marie-xoko-3.mp4" type="video/mp4">
+			<source src="/media/xoko/hodo&marie-xoko-3.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/xoko/hodo&marie-xoko-8.mp4" type="video/mp4">
-			<source src="/demo/media/xoko/hodo&marie-xoko-8.mp4" type="video/webm">
+			<source src="/media/xoko/hodo&marie-xoko-4.mp4" type="video/mp4">
+			<source src="/media/xoko/hodo&marie-xoko-4.mp4" type="video/webm">
+	</video>
+</p>
+
+
+</div>
+
+
+
+<!-- This is a 2x VIDEO gallery -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
+<div class="gallery gallery-2">
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/media/xoko/hodo&marie-xoko-5.mp4" type="video/mp4">
+			<source src="/media/xoko/hodo&marie-xoko-5.webm" type="video/webm">
+	</video>
+</p>
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/media/xoko/hodo&marie-xoko-6.mp4" type="video/mp4">
+			<source src="/media/xoko/hodo&marie-xoko-6.mp4" type="video/webm">
 	</video>
 </p>
 
@@ -118,15 +95,38 @@ date: 2039-06-06 11:21:00
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/xoko/hodo&marie-xoko-3.mp4" type="video/mp4">
-			<source src="/demo/media/xoko/hodo&marie-xoko-3.webm" type="video/webm">
+			<source src="/media/xoko/hodo&marie-xoko-7.mp4" type="video/mp4">
+			<source src="/media/xoko/hodo&marie-xoko-7.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/xoko/hodo&marie-xoko-4.mp4" type="video/mp4">
-			<source src="/demo/media/xoko/hodo&marie-xoko-4.mp4" type="video/webm">
+			<source src="/media/xoko/hodo&marie-xoko-8.mp4" type="video/mp4">
+			<source src="/media/xoko/hodo&marie-xoko-8.mp4" type="video/webm">
+	</video>
+</p>
+
+
+</div>
+
+
+<!-- This is a 2x VIDEO gallery -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
+<div class="gallery gallery-2">
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/media/xoko/hodo&marie-xoko-3.mp4" type="video/mp4">
+			<source src="/media/xoko/hodo&marie-xoko-3.webm" type="video/webm">
+	</video>
+</p>
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/media/xoko/hodo&marie-xoko-4.mp4" type="video/mp4">
+			<source src="/media/xoko/hodo&marie-xoko-4.mp4" type="video/webm">
 	</video>
 </p>
 

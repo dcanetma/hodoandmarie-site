@@ -34,9 +34,9 @@ date: 2039-06-06 11:21:00
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-2">
 
-![La fam no fa vacances image 1](/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-1.jpg)
+![La fam no fa vacances image 1](/media/lafamnofavacances/hodo&marie-lafamnofavacances-1.jpg)
 
-![La fam no fa vacances image 2](/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-2.jpg)
+![La fam no fa vacances image 2](/media/lafamnofavacances/hodo&marie-lafamnofavacances-2.jpg)
 
 </div>
 
@@ -47,15 +47,15 @@ date: 2039-06-06 11:21:00
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-3.mp4" type="video/mp4">
-			<source src="/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-3.webm" type="video/webm">
+			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-3.mp4" type="video/mp4">
+			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-3.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-4.mp4" type="video/mp4">
-			<source src="/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-4.webm" type="video/webm">
+			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-4.mp4" type="video/mp4">
+			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-4.webm" type="video/webm">
 	</video>
 </p>
 
@@ -68,9 +68,9 @@ date: 2039-06-06 11:21:00
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-2">
 
-![La fam no fa vacances image 5](/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-5.jpg)
+![La fam no fa vacances image 5](/media/lafamnofavacances/hodo&marie-lafamnofavacances-5.jpg)
 
-![La fam no fa vacances image 6](/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-6.jpg)
+![La fam no fa vacances image 6](/media/lafamnofavacances/hodo&marie-lafamnofavacances-6.jpg)
 
 </div>
 
@@ -85,15 +85,15 @@ date: 2039-06-06 11:21:00
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-7.mp4" type="video/mp4">
-			<source src="/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-7.webm" type="video/webm">
+			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-7.mp4" type="video/mp4">
+			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-7.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-8.mp4" type="video/mp4">
-			<source src="/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-8.webm" type="video/webm">
+			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-8.mp4" type="video/mp4">
+			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-8.webm" type="video/webm">
 	</video>
 </p>
 
@@ -106,9 +106,9 @@ date: 2039-06-06 11:21:00
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-2">
 
-![La fam no fa vacances image 9](/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-9.jpg)
+![La fam no fa vacances image 9](/media/lafamnofavacances/hodo&marie-lafamnofavacances-9.jpg)
 
-![La fam no fa vacances image 10](/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-10.jpg)
+![La fam no fa vacances image 10](/media/lafamnofavacances/hodo&marie-lafamnofavacances-10.jpg)
 
 </div>
 
@@ -121,15 +121,15 @@ date: 2039-06-06 11:21:00
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-11.mp4" type="video/mp4">
-			<source src="/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-11.webm" type="video/webm">
+			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-11.mp4" type="video/mp4">
+			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-11.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-12.mp4" type="video/mp4">
-			<source src="/demo/media/lafamnofavacances/hodo&marie-lafamnofavacances-12.webm" type="video/webm">
+			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-12.mp4" type="video/mp4">
+			<source src="/media/lafamnofavacances/hodo&marie-lafamnofavacances-12.webm" type="video/webm">
 	</video>
 </p>
 

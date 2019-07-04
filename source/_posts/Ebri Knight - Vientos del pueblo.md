@@ -36,8 +36,8 @@ date: 2039-06-06 11:21:00
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay >
-			<source src="/demo/media/ebriknightvientos/hodo&marie-vientosdelpueblo-1.mp4" type="video/mp4">
-			<source src="/demo/media/ebriknightvientos/hodo&marie-vientosdelpueblo-1.webm" type="video/webm">
+			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-1.mp4" type="video/mp4">
+			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-1.webm" type="video/webm">
 	</video>
 </p>
 
@@ -52,8 +52,8 @@ date: 2039-06-06 11:21:00
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/ebriknightvientos/hodo&marie-vientosdelpueblo-2.mp4" type="video/mp4">
-			<source src="/demo/media/ebriknightvientos/hodo&marie-vientosdelpueblo-2.webm" type="video/webm">
+			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-2.mp4" type="video/mp4">
+			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-2.webm" type="video/webm">
 	</video>
 </p>
 
@@ -68,8 +68,8 @@ date: 2039-06-06 11:21:00
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/ebriknightvientos/hodo&marie-vientosdelpueblo-3.mp4" type="video/mp4">
-			<source src="/demo/media/ebriknightvientos/hodo&marie-vientosdelpueblo-3.webm" type="video/webm">
+			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-3.mp4" type="video/mp4">
+			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-3.webm" type="video/webm">
 	</video>
 </p>
 
@@ -84,8 +84,8 @@ date: 2039-06-06 11:21:00
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/ebriknightvientos/hodo&marie-vientosdelpueblo-4.mp4" type="video/mp4">
-			<source src="/demo/media/ebriknightvientos/hodo&marie-vientosdelpueblo-4.webm" type="video/webm">
+			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-4.mp4" type="video/mp4">
+			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-4.webm" type="video/webm">
 	</video>
 </p>
 

@@ -26,7 +26,7 @@ date: 2038-06-06 11:21:00
 
 <div class="gallery gallery-1">
 
-![La Lluna](/demo/media/lalluna/hodo&marie-la-lluna-01.jpg)
+![La Lluna](/media/lalluna/hodo&marie-la-lluna-01.jpg)
 
 </div>
 
@@ -38,27 +38,27 @@ Lunar Effect (from wikipedia): The term lunar effect refers to real or imaginary
 
 <div class="gallery gallery-1">
 
-![La Lluna](/demo/media/lalluna/hodo&marie-la-lluna-02.png)
+![La Lluna](/media/lalluna/hodo&marie-la-lluna-02.png)
 
 </div>
 
 <div class="gallery gallery-2">
 
-![La Lluna](/demo/media/lalluna/hodo&marie-la-lluna-03.jpg)
+![La Lluna](/media/lalluna/hodo&marie-la-lluna-03.jpg)
 
-![La Lluna](/demo/media/lalluna/hodo&marie-la-lluna-04.jpg)
-
-</div>
-
-<div class="gallery gallery-1">
-
-![La Lluna](/demo/media/lalluna/hodo&marie-la-lluna-05.jpg)
+![La Lluna](/media/lalluna/hodo&marie-la-lluna-04.jpg)
 
 </div>
 
 <div class="gallery gallery-1">
 
-![La Lluna](/demo/media/lalluna/hodo&marie-la-lluna-06.jpg)
+![La Lluna](/media/lalluna/hodo&marie-la-lluna-05.jpg)
+
+</div>
+
+<div class="gallery gallery-1">
+
+![La Lluna](/media/lalluna/hodo&marie-la-lluna-06.jpg)
 
 </div>
 

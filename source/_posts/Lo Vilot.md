@@ -36,15 +36,15 @@ date: 2039-06-06 11:22:00
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/lovilot/hodo&marie-lovilot-1.mp4" type="video/mp4">
-			<source src="/demo/media/lovilot/hodo&marie-lovilot-1.webm" type="video/webm">
+			<source src="/media/lovilot/hodo&marie-lovilot-1.mp4" type="video/mp4">
+			<source src="/media/lovilot/hodo&marie-lovilot-1.webm" type="video/webm">
 	</video>	
 </p>
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/lovilot/hodo&marie-lovilot-2.mp4" type="video/mp4">
-			<source src="/demo/media/lovilot/hodo&marie-lovilot-2.webm" type="video/webm">
+			<source src="/media/lovilot/hodo&marie-lovilot-2.mp4" type="video/mp4">
+			<source src="/media/lovilot/hodo&marie-lovilot-2.webm" type="video/webm">
 	</video>
 </p>
 
@@ -60,15 +60,15 @@ date: 2039-06-06 11:22:00
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/lovilot/hodo&marie-lovilot-3.mp4" type="video/mp4">
-			<source src="/demo/media/lovilot/hodo&marie-lovilot-3.webm" type="video/webm">
+			<source src="/media/lovilot/hodo&marie-lovilot-3.mp4" type="video/mp4">
+			<source src="/media/lovilot/hodo&marie-lovilot-3.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/lovilot/hodo&marie-lovilot-4.mp4" type="video/mp4">
-			<source src="/demo/media/lovilot/hodo&marie-lovilot-4.webm" type="video/webm">
+			<source src="/media/lovilot/hodo&marie-lovilot-4.mp4" type="video/mp4">
+			<source src="/media/lovilot/hodo&marie-lovilot-4.webm" type="video/webm">
 	</video>
 </p>
 

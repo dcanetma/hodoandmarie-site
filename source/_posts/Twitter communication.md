@@ -27,30 +27,30 @@ date: 2038-06-06 11:21:00
 
 <div class="gallery gallery-2">
 
-![Twitter communication image 0](/demo/media/twittercommunication/hodo&marie-twittercommunication-0.png)
+![Twitter communication image 0](/media/twittercommunication/hodo&marie-twittercommunication-0.png)
 
-![Twitter communication image 1](/demo/media/twittercommunication/hodo&marie-twittercommunication-1.png)
+![Twitter communication image 1](/media/twittercommunication/hodo&marie-twittercommunication-1.png)
 </div>
 
 <div class="gallery gallery-2">
 
-![Twitter communication image 2](/demo/media/twittercommunication/hodo&marie-twittercommunication-2.png)
+![Twitter communication image 2](/media/twittercommunication/hodo&marie-twittercommunication-2.png)
 
-![Twitter communication image 3](/demo/media/twittercommunication/hodo&marie-twittercommunication-3.png)
+![Twitter communication image 3](/media/twittercommunication/hodo&marie-twittercommunication-3.png)
 </div>
 
 <div class="gallery gallery-2">
 
-![Twitter communication image 4](/demo/media/twittercommunication/hodo&marie-twittercommunication-4.png)
+![Twitter communication image 4](/media/twittercommunication/hodo&marie-twittercommunication-4.png)
 
-![Twitter communication image 5](/demo/media/twittercommunication/hodo&marie-twittercommunication-5.png)
+![Twitter communication image 5](/media/twittercommunication/hodo&marie-twittercommunication-5.png)
 </div>
 
 <div class="gallery gallery-2">
 
-![Twitter communication image 6](/demo/media/twittercommunication/hodo&marie-twittercommunication-6.png)
+![Twitter communication image 6](/media/twittercommunication/hodo&marie-twittercommunication-6.png)
 
-![Twitter communication image 7](/demo/media/twittercommunication/hodo&marie-twittercommunication-7.png)
+![Twitter communication image 7](/media/twittercommunication/hodo&marie-twittercommunication-7.png)
 </div>
 
 ## Credits

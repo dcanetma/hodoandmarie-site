@@ -36,40 +36,17 @@ date: 2039-06-06 11:21:00
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-01.mp4" type="video/mp4">
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-01.webm" type="video/webm">
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-01.jpg" type="images/jpg">
+			<source src="/media/nocallem/hodo&marie-nocallem-01.mp4" type="video/mp4">
+			<source src="/media/nocallem/hodo&marie-nocallem-01.webm" type="video/webm">
+			<source src="/media/nocallem/hodo&marie-nocallem-01.jpg" type="images/jpg">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-02.mp4" type="video/mp4">
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-02.webm" type="video/webm">
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-02.jpg" type="images/jpg">
-	</video>
-</p>
-
-
-</div>
-
-
-<!-- This is a 2x VIDEO gallery -->
-<!-- Always add a linebreak between images -->
-<!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-2">
-
-<p>
-	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-03.mp4" type="video/mp4">
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-03.webm" type="video/webm">
-	</video>
-</p>
-
-<p>
-	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-04.mp4" type="video/mp4">
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-04.webm" type="video/webm">
+			<source src="/media/nocallem/hodo&marie-nocallem-02.mp4" type="video/mp4">
+			<source src="/media/nocallem/hodo&marie-nocallem-02.webm" type="video/webm">
+			<source src="/media/nocallem/hodo&marie-nocallem-02.jpg" type="images/jpg">
 	</video>
 </p>
 
@@ -84,38 +61,15 @@ date: 2039-06-06 11:21:00
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-05.mp4" type="video/mp4">
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-05.webm" type="video/webm">
+			<source src="/media/nocallem/hodo&marie-nocallem-03.mp4" type="video/mp4">
+			<source src="/media/nocallem/hodo&marie-nocallem-03.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-06.mp4" type="video/mp4">
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-06.webm" type="video/webm">
-	</video>
-</p>
-
-
-</div>
-
-
-<!-- This is a 2x VIDEO gallery -->
-<!-- Always add a linebreak between images -->
-<!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-2">
-
-<p>
-	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-07.mp4" type="video/mp4">
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-07.webm" type="video/webm">
-	</video>
-</p>
-
-<p>
-	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-08.mp4" type="video/mp4">
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-08.webm" type="video/webm">
+			<source src="/media/nocallem/hodo&marie-nocallem-04.mp4" type="video/mp4">
+			<source src="/media/nocallem/hodo&marie-nocallem-04.webm" type="video/webm">
 	</video>
 </p>
 
@@ -130,15 +84,15 @@ date: 2039-06-06 11:21:00
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-09.mp4" type="video/mp4">
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-09.webm" type="video/webm">
+			<source src="/media/nocallem/hodo&marie-nocallem-05.mp4" type="video/mp4">
+			<source src="/media/nocallem/hodo&marie-nocallem-05.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-10.mp4" type="video/mp4">
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-10.webm" type="video/webm">
+			<source src="/media/nocallem/hodo&marie-nocallem-06.mp4" type="video/mp4">
+			<source src="/media/nocallem/hodo&marie-nocallem-06.webm" type="video/webm">
 	</video>
 </p>
 
@@ -153,15 +107,61 @@ date: 2039-06-06 11:21:00
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-11.mp4" type="video/mp4">
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-11.webm" type="video/webm">
+			<source src="/media/nocallem/hodo&marie-nocallem-07.mp4" type="video/mp4">
+			<source src="/media/nocallem/hodo&marie-nocallem-07.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted loop autoplay>
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-12.mp4" type="video/mp4">
-			<source src="/demo/media/nocallem/hodo&marie-nocallem-12.webm" type="video/webm">
+			<source src="/media/nocallem/hodo&marie-nocallem-08.mp4" type="video/mp4">
+			<source src="/media/nocallem/hodo&marie-nocallem-08.webm" type="video/webm">
+	</video>
+</p>
+
+
+</div>
+
+
+<!-- This is a 2x VIDEO gallery -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
+<div class="gallery gallery-2">
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/media/nocallem/hodo&marie-nocallem-09.mp4" type="video/mp4">
+			<source src="/media/nocallem/hodo&marie-nocallem-09.webm" type="video/webm">
+	</video>
+</p>
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/media/nocallem/hodo&marie-nocallem-10.mp4" type="video/mp4">
+			<source src="/media/nocallem/hodo&marie-nocallem-10.webm" type="video/webm">
+	</video>
+</p>
+
+
+</div>
+
+
+<!-- This is a 2x VIDEO gallery -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
+<div class="gallery gallery-2">
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/media/nocallem/hodo&marie-nocallem-11.mp4" type="video/mp4">
+			<source src="/media/nocallem/hodo&marie-nocallem-11.webm" type="video/webm">
+	</video>
+</p>
+
+<p>
+	<video playsinline="playsinline" muted loop autoplay>
+			<source src="/media/nocallem/hodo&marie-nocallem-12.mp4" type="video/mp4">
+			<source src="/media/nocallem/hodo&marie-nocallem-12.webm" type="video/webm">
 	</video>
 </p>
 

@@ -129,22 +129,22 @@ Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [d
 
 <p>
   <video playsinline="playsinline" muted loop autoplay>
-      <source src="/demo/media/sample/rabbit320.mp4" type="video/mp4">
-      <source src="/demo/media/sample/rabbit320.webm" type="video/webm">
+      <source src="/media/sample/rabbit320.mp4" type="video/mp4">
+      <source src="/media/sample/rabbit320.webm" type="video/webm">
   </video>
 </p>
 
 <p>
   <video playsinline="playsinline" muted loop autoplay>
-      <source src="/demo/media/sample/rabbit320.mp4" type="video/mp4">
-      <source src="/demo/media/sample/rabbit320.webm" type="video/webm">
+      <source src="/media/sample/rabbit320.mp4" type="video/mp4">
+      <source src="/media/sample/rabbit320.webm" type="video/webm">
   </video>
 </p>
 
 <p>
   <video playsinline="playsinline" muted loop autoplay>
-      <source src="/demo/media/sample/rabbit320.mp4" type="video/mp4">
-      <source src="/demo/media/sample/rabbit320.webm" type="video/webm">
+      <source src="/media/sample/rabbit320.mp4" type="video/mp4">
+      <source src="/media/sample/rabbit320.webm" type="video/webm">
   </video>
 </p>
 
@@ -158,15 +158,15 @@ Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [d
 
 <p>
   <video playsinline="playsinline" muted loop autoplay>
-      <source src="/demo/media/sample/rabbit320.mp4" type="video/mp4">
-      <source src="/demo/media/sample/rabbit320.webm" type="video/webm">
+      <source src="/media/sample/rabbit320.mp4" type="video/mp4">
+      <source src="/media/sample/rabbit320.webm" type="video/webm">
   </video>
 </p>
 
 <p>
   <video playsinline="playsinline" muted loop autoplay>
-      <source src="/demo/media/sample/rabbit320.mp4" type="video/mp4">
-      <source src="/demo/media/sample/rabbit320.webm" type="video/webm">
+      <source src="/media/sample/rabbit320.mp4" type="video/mp4">
+      <source src="/media/sample/rabbit320.webm" type="video/webm">
   </video>
 </p>
 
