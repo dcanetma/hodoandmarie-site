@@ -14,9 +14,7 @@
 .post-preview {
 	position: relative;
 	margin-bottom: 1.25rem; // 20px
-	@include media-breakpoint-up(xl) { 
-		margin-bottom: 2.5rem; // 40px
-	}
+
 	transform: matrix(1, 0, 0, 1, 0, 0);
 	// Wrapper de cada projecte, per a una millor UX en els rollovers
 	.post-preview-wrapper {
