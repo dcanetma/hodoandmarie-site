@@ -12,11 +12,11 @@ $(function() {
 		});
 	});
 });
+
 $(document).ready(function(){
 	// Homepage - projects
-	// We want to stop the videos from playing when they're
+	// We want to play/stop the videos from playing when they're
 	// not visible to the user in order to lighten up the CPU
-
 	var viewportCheckerSettings = {
    	classToAdd: 'in-viewport', 
     classToAddForFullView: 'in-viewport-full', 
@@ -31,22 +31,24 @@ $(document).ready(function(){
 	 		var video = $('video', elem);
 	 		if (action === 'add') {
 		 		video.attr('loop', 'loop');
+		 		video.attr('autoplay', 'autoplay');
 		 		// Next, play the video
-		 		if (video.paused) {
-				  try {
-			 			// Play the video
-				    video.play();
-				  } catch(err) {
-				  	// Say something
-				  }		 			
-		 		}
+		 		// if (video.paused) {
+				 //  try {
+			 	// 		// Play the video
+				 //    playVideo(video);
+				 //  } catch(err) {
+				 //  	// Say something
+				 //  }		 			
+		 		// }
 	 		} else if (action === 'remove') {
+		 		video.removeAttr('autoplay');
 		 		// When the video exits the viewport
 		 		// we pause it.
-	 			if (!video.paused) {
-		 			// Stop the video
-	 				video.pause();
-	 			}
+	 			// if (!video.paused) {
+		 		// 	// Stop the video
+	 			// 	video.pause();
+	 			// }
 	 		}
 
 	 	}
