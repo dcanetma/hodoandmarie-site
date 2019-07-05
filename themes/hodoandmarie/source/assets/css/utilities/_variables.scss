@@ -12,37 +12,37 @@ $white:   #FFFFFF;
 $layout-max-width: 1800px;
 // EL 'PADDING' LATERAL PER A TABLETS
 $layout-gutter-md: 4rem; // 64px
-$layout-gutter-big: 6em; // 128px
+$layout-gutter-big: 6em; // 96px
 
 // Font-sizes
 $letter-spacing-1: 0.2rem;
 
-// Default little size
-$font-size-default-xs:   			0.75rem; 	// 12px
-$line-height-default-xs: 			1.25rem;	// 20px
-$letter-spacing-default-xs:  	0;
-
-// Default little size
+// Default size
 $font-size-default:   			0.875rem; 	// 12px
 $line-height-default: 			1.5rem;			// 24px
 $letter-spacing-default:  	0;
 
-// Default font size style
+// Default xs font sizes
+$font-size-default-xs:   			0.75rem; 	// 12px
+$line-height-default-xs: 			1.25rem;	// 20px
+$letter-spacing-default-xs:  	0;
+
+// Default md font sizes
 $font-size-default-md:   		1rem; 		// 16px 
 $line-height-default-md: 		1.625rem; // 26px
 
-// Desktop font size style
+// Default xl font sizes
 $font-size-default-xl:   		1.5rem; 	// 24px
 $line-height-default-xl: 		2.25rem;	// 36px
 
-// Default font size for nav
+// Navigation font sizes
 $font-size-nav-links:   		0.75rem;	// 12px
 $line-height-nav-links: 		1.25rem;	// 20px
 $letter-spacing-nav-links:  0.175rem;	// 200k
 
-// Desktop font size for nav
-$font-size-nav-links-xl:   	1rem;			// 12px
-$line-height-nav-links-xl: 	1.625rem;	// 20px
+// Navigation xl font sizes
+$font-size-nav-links-xl:   	1rem;			// 16px
+$line-height-nav-links-xl: 	1.625rem;	// 26px
 
 // ------
 /* Bootstrap custom styles */
