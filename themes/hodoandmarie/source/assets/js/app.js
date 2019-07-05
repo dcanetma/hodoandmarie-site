@@ -25,16 +25,30 @@ $(document).ready(function(){
     offset: 200,
     invertBottomOffset: false,
 	 	callbackFunction: function(elem, action){
+	 		// @see: https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play
+	 		// First of all set 'loop' attribute for the
+	 		// the desired play mode
+	 		var video = $('video', elem);
 	 		if (action === 'add') {
-		 		// $(elem).addClass('in-viewport-custom');
-		 		$('video', elem).attr('loop', 'loop');
-		 		$('video', elem).attr('autoplay', 'autoplay');
+		 		video.attr('loop', 'loop');
+		 		// Next, play the video
+		 		if (video.paused) {
+				  try {
+			 			// Play the video
+				    video.play();
+				  } catch(err) {
+				  	// Say something
+				  }		 			
+		 		}
+	 		} else if (action === 'remove') {
+		 		// When the video exits the viewport
+		 		// we pause it.
+	 			if (!video.paused) {
+		 			// Stop the video
+	 				video.pause();
+	 			}
 	 		}
-	 		else if (action === 'remove') {
-		 		// $(elem).removeClass('in-viewport-custom');
-		 		$('video', elem).attr('loop', null);
-		 		$('video', elem).attr('autoplay', null);
-	 		}
+
 	 	}
 	 };
 
