@@ -17,7 +17,7 @@ header {}
 		padding-left: $layout-gutter-md; // 64px; // See .post-preview-wrapper 
 		padding-right: $layout-gutter-md; // 64px; // See .post-preview-wrapper 	
 	}
-	@include media-breakpoint-up(lg) {
+	@include media-breakpoint-up(xl) {
 		padding-left: $layout-gutter-big; // 64px; // See .post-preview-wrapper 
 		padding-right: $layout-gutter-big; // 64px; // See .post-preview-wrapper 	
 	}
@@ -33,7 +33,7 @@ main#content #homepage {
 	@include media-breakpoint-up(lg) {
 		margin-bottom: -2.5rem;
 	}	
-	@include media-breakpoint-up(lg) {
+	@include media-breakpoint-up(xl) {
 		padding-left: $layout-gutter-big; // 64px; // See .post-preview-wrapper 
 		padding-right: $layout-gutter-big; // 64px; // See .post-preview-wrapper 	
 	}

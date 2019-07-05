@@ -4,9 +4,12 @@
 main#content {
 	margin-top: 4.375rem; //70px/16
 	@include media-breakpoint-up(md) { 
-		margin-top: 7.375rem; // 118px/16 : Important to set the same value for .xxx
+		margin-top: 7.125rem; // 116px/16 : Important to set the same value for .xxx
 	}
 	@include media-breakpoint-up(lg) { 
+		margin-top: 8.25rem; // 140px/16 Important to set the same value for .xxx
+	}
+	@include media-breakpoint-up(xl) { 
 		margin-top: 8.75rem; // 140px/16 Important to set the same value for .xxx
 	}
 }
@@ -19,10 +22,15 @@ main#content {
 	padding-bottom: 1.25rem; // 20px/16;
 	min-height: 4.375rem; //70px/16  Important to set the same value for main#content->margin-top
 	@include media-breakpoint-up(md) { 
-		min-height: 7.375rem; // 118px/16 Important to set the same value for main#content->margin-top
+		min-height: 7.125rem; // 116px/16 Important to set the same value for main#content->margin-top
+	}
+	@include media-breakpoint-up(lg) { 
+		padding-top: 2.5rem; 		// 40px/16;
+		padding-bottom: 2.5rem; // 40px/16;
+		min-height: 8.25rem; 	// 140px/16 Important to set the same value for main#content->margin-top
 	}
 
-	@include media-breakpoint-up(lg) { 
+	@include media-breakpoint-up(xl) { 
 		padding-top: 2.5rem; 		// 40px/16;
 		padding-bottom: 2.5rem; // 40px/16;
 		min-height: 8.75rem; 	// 140px/16 Important to set the same value for main#content->margin-top

@@ -215,9 +215,18 @@ section.post-full {
 			height: 100%;
 			z-index: 100;
  		}
+ 		// Text with the metas
  		.intro {			
-			opacity: 1; 			
 
+ 			margin-left: 0.625rem; // 10px
+ 			@include media-breakpoint-up(lg) { 
+ 				margin-left: 2rem; // 22px
+ 			}
+ 			@include media-breakpoint-up(xl) { 
+ 				margin-left: 3rem; // 22px
+ 			}
+
+			opacity: 1; 			
 			// transition-delay: .6s;
 		 //  -webkit-transition: opacity .6s;
 		 //  -moz-transition: opacity .6s;
