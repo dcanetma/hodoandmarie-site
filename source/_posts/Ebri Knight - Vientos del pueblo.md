@@ -35,7 +35,7 @@ date: 2039-06-06 11:21:00
 <div class="gallery gallery-video gallery-1">
 
 <p>
-	<video playsinline="playsinline" muted loop autoplay >
+	<video playsinline="playsinline" muted>
 			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-1.mp4" type="video/mp4">
 			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-1.webm" type="video/webm">
 	</video>
