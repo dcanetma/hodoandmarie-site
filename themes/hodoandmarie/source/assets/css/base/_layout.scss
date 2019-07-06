@@ -130,6 +130,7 @@ footer {
 					font-size: $font-size-nav-links-xl;							
 					line-height: $line-height-nav-links-xl; 					
 				}
+				@include link-style-tachado-off(33%);				
 				&:hover {
 					@include link-style-tachado(33%);
 				}

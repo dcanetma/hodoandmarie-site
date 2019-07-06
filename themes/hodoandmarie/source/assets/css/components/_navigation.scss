@@ -88,6 +88,7 @@ main#content {
 					line-height: $line-height-nav-links-xl; 					
 					line-height: 1; 					
 				}
+				@include link-style-tachado-off();				
 				&:hover {
 					@include link-style-tachado();
 				}
@@ -96,8 +97,9 @@ main#content {
 			&.active {
 				a.nav-link {
 					@include link-style-tachado();
-					&:hover {
-					}
+					// &:hover {
+					// 	@include link-style-tachado-off();				
+					// }
 				}
 			}
 		}		

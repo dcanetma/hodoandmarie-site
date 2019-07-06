@@ -17,3 +17,27 @@
 		border-top: 1px solid black;
 	}
 }
+
+@mixin link-style-tachado-off($top: 26%) {
+	position: relative;
+	z-index: 0;
+	&::after {
+		position: absolute;
+		left: 0;
+		top: $top;
+		width: 0;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		z-index: 1;
+		content: "";
+		border-top: 1px solid black;
+
+    -webkit-transition: width .6s linear;
+    -ms-transition: 		width .6s linear;
+    -moz-transition: 		width .6s linear;
+    -o-transition: 			width .6s linear;
+    transition: 				width .6s linear;
+
+	}
+}

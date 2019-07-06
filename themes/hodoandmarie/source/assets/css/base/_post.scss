@@ -365,6 +365,34 @@ section.post-full {
 			font-size: 1.125rem; 		// 18px/16
 			line-height: 1.875rem;  // 30px/16
 		}
+
+		// Colors for links
+		// a {
+		// 	color: $black;
+		// 	text-decoration: none;
+
+		// 	@include link-style-tachado(40%);
+
+		// 	&:link {
+		// 		color: $black;
+		// 		text-decoration: none;
+		// 	}
+		// 	&:visited {
+		// 		color: $black;
+		// 		text-decoration: none;
+		// 	}
+		// 	&:hover {
+		// 		color: $black;
+		// 		text-decoration: none;	
+		// 		@include link-style-tachado-off(40%);
+		// 	}
+		// 	&:active {
+		// 		color: $black;
+		// 		text-decoration: none;
+		// 	}
+		// }
+
+
  	}
  	.content {
  		margin-top: 1.875rem; // 30px;
