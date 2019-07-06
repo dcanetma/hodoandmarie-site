@@ -1,19 +1,23 @@
-<% if (page.textColor && page.textColor !== 'white'){ %> 
+<% if (page.textColor){ %> 
   <style type="text/css">
   	@media (min-width: 992px) {
-	    section#post  header h1,
-	    section#post  header h1 a,
-	    section#post  header h2.post-preview-subtitle,
-	    section#post  header p,
-	    section#post  header p a {
+	    section.post-full  header .intro h1,
+	    section.post-full  header .intro h1 a,
+	    section.post-full  header .intro h2.post-preview-subtitle,
+	    section.post-full  header .intro p,
+	    section.post-full  header .intro p a {
 	    		color: <%= page.textColor %> !important ; 
 	    }
-	    section#post a.btn {
+	    section.post-full a.btn {
 				border-color: <%= page.textColor %>;
 				color: <%= page.textColor %>;
 			}
-			section#post a.btn:hover {
-				color: white;
+			section.post-full a.btn:hover {
+				<% if (page.textColor!='white' && page.textColor!='#fff' && page.textColor!='#ffffff'){ %>
+					color: white;
+				<% } else { %>
+					color: black;		
+				<% } %>
 				background-color: <%= page.textColor %>;
 				border-color: <%= page.textColor %>;
 	    }

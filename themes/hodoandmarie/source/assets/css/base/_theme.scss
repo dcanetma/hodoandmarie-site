@@ -38,13 +38,12 @@ a.btn {
 	@include meh-style-semibold();
 	text-transform: uppercase;
 	text-decoration: none;			
-	letter-spacing: 0.2rem;
-
-
+	letter-spacing: $letter-spacing-1;
 	border-width: 0.125rem; // 2px;
-	padding: .825rem 3.25rem .825rem;
-	font-size: 1rem;
-	line-height: 1.625rem;
+
+	padding: 1.5rem 3.25rem 1.25rem;
+	font-size: $font-size-nav-links-xl;
+	line-height: $font-size-nav-links-xl;
 	border-radius: 0;
 
 	// Project button

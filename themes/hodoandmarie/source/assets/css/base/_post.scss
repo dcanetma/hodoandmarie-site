@@ -36,12 +36,12 @@
 				height: 100%;
 
 				// Animació dels textes
-				transition-delay: 1s;
-			  -webkit-transition: opacity 1s;
-			  -moz-transition: opacity 1s;
-			  -ms-transition: opacity 1s;
-			  -o-transition: opacity 1s;
-			  transition: opacity 1s;
+				transition-delay: 2s;
+			  -webkit-transition: all 1s;
+			  -moz-transition: all 1s;
+			  -ms-transition: all 1s;
+			  -o-transition: all 1s;
+			  transition: all 1s;
 			}			
 			// Metas del projecte
 			h2.post-preview-title, 
