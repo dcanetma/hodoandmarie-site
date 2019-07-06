@@ -27,31 +27,34 @@ $(document).ready(function(){
 	 	callbackFunction: function(elem, action){
 	 		// @see: https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play
 	 		// First of all set 'loop' attribute for the
-	 		// the desired play mode
-	 		var video = $('video', elem);
-	 		if (action === 'add') {
-		 		// video.attr('autoplay', 'autoplay');
-		 		video.attr('loop', 'loop');
-		 		// Next, play the video
-		 		if (video.get(0).paused) {
-				  try {
-			 			// Play the video
-				    // console.log('play the video')
-				    video.get(0).play();
-				  } catch(err) {
-				  	// Say something
-				  }		 			
+	 		// the desired play mode.
+	 		// Also, since we know that the videos on the frontpage are hidden on 
+	 		// mobile phones, we check if the element is visible before anything.
+	 		var video = $('video:visible', elem);
+			if(video.length > 0) {
+		 		if (action === 'add') {
+			 		// video.attr('autoplay', 'autoplay');
+			 		video.attr('loop', 'loop'); // We make sure, loop option is added
+			 		// Next, play the video
+			 		if (video.get(0).paused) {
+					  try {
+				 			// Play the video
+					    // console.log('play the video')
+					    video.get(0).play();
+					  } catch(err) {
+					  	// Say something
+					  }		 			
+			 		}
+		 		} else if (action === 'remove') {
+			 		// When the video is on the viewport,
+			 		// we pause it.
+		 			if (!video.get(0).paused) {
+		 				video.get(0).pause();
+				    // console.log('Video paused.');
+		 			}
 		 		}
-	 		} else if (action === 'remove') {
-		 		// When the video exits the viewport
-		 		// we pause it.
-	 			if (!video.get(0).paused) {
-		 			// Stop the video
-	 				video.get(0).pause();
-			    // console.log('stop the video')
-	 			}
-	 		}
-	 	}
+		 	}
+		 }
 	 };
  	// Homepage - projects videos
 	$('.post-preview-video').viewportChecker(viewportCheckerSettings);
