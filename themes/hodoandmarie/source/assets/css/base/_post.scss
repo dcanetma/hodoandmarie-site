@@ -24,24 +24,22 @@
 		&:hover {
 			// Caixa amb la imatge o video
 			.post-preview-media {
-				background-color: $black;
 				img, video {
 					opacity: 0;
-				}
+					}
 			}
 			// Caixa amb els metas del projecte
-			// Es mostra al 100% d'alçada
+			// Es mostra al 100% d'alçada, per l'efecte cortina
 			.post-preview-info {
 				opacity: 1;
-				height: 100%;
-
+				height: 100%; 
 				// Animació dels textes
-				transition-delay: 2s;
-			  -webkit-transition: all 1s;
-			  -moz-transition: all 1s;
-			  -ms-transition: all 1s;
-			  -o-transition: all 1s;
-			  transition: all 1s;
+				transition-delay: .6s;
+			  -webkit-transition: all 1s linear;
+			  -moz-transition: all 1s linear;
+			  -ms-transition: all 1s linear;
+			  -o-transition: all 1s linear;
+			  transition: all 1s linear;
 			}			
 			// Metas del projecte
 			h2.post-preview-title, 
@@ -53,19 +51,22 @@
 		// Caixa amb la imatge o video
 		.post-preview-media {
 
+			background-color: $black;
+
 			z-index: 2;
 			transform-origin: center;
+
 			// Img & Video showed by default so it hides the METAS that are under
 			img, video  {
 				width: 100%;
 				// height: auto;
 				// height: 100%;
 				transform: matrix(1, 0, 0, 1, 0, 0);
-				ms-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-				moz-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-				-o-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-				-webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-				transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);		
+				ms-transition: all 01s cubic-bezier(0.165, 0.84, 0.44, 1);
+				moz-transition: all 01s cubic-bezier(0.165, 0.84, 0.44, 1);
+				-o-transition: all 01s cubic-bezier(0.165, 0.84, 0.44, 1);
+				-webkit-transition: all 01s cubic-bezier(0.165, 0.84, 0.44, 1);
+				transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);		
 			}
 		}
 		// Caixa amb els metas del projecte
@@ -84,11 +85,19 @@
 			padding-right: 3.125rem; // 50px;
 			padding-left: 1.25rem; // 20px;
 
-
 			overflow: hidden;
-			height: 0;
-			opacity: 1;
+			// height: 0;
+			opacity: 0;
 			z-index: 3;
+
+			// Animation en sortir del hover
+		  -webkit-transition: all 0.6s linear;
+		  -moz-transition: all 0.6s linear;
+		  -ms-transition: all 0.6s linear;
+		  -o-transition: all 0.6s linear;
+		  transition: all 0.6s linear;
+
+
 			@include media-breakpoint-down(md) { 
 				// top: 2rem;
 				padding-right: 0;
@@ -161,8 +170,6 @@
 	&.post-preview-video {
 		.post-preview-media {
 			video {
-
-
 				display: none;
 				@include media-breakpoint-up(md) { 
 					display: block;
