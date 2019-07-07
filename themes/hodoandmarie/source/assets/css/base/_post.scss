@@ -15,6 +15,7 @@
 	position: relative;
 	margin-bottom: 1.25rem; // 20px
 
+	// H&M Animation
 	transform: matrix(1, 0, 0, 1, 0, 0);
 	// Wrapper de cada projecte, per a una millor UX en els rollovers
 	.post-preview-wrapper {
@@ -33,13 +34,16 @@
 			.post-preview-info {
 				opacity: 1;
 				height: 100%; 
+
+				// H&M Animation
+				// Rollover de links de navegación 
 				// Animació dels textes
-				transition-delay: .6s;
-			  -webkit-transition: all 1s linear;
-			  -moz-transition: all 1s linear;
-			  -ms-transition: all 1s linear;
-			  -o-transition: all 1s linear;
-			  transition: all 1s linear;
+				transition-delay: .2s;
+			  -webkit-transition: 	all .3s linear;
+			  -moz-transition: 			all .3s linear;
+			  -ms-transition: 			all .3s linear;
+			  -o-transition: 				all .3s linear;
+			  transition: 					all .3s linear;
 			}			
 			// Metas del projecte
 			h2.post-preview-title, 
@@ -54,6 +58,8 @@
 			background-color: $black;
 
 			z-index: 2;
+
+			// H&M Animation
 			transform-origin: center;
 
 			// Img & Video showed by default so it hides the METAS that are under
@@ -61,12 +67,14 @@
 				width: 100%;
 				// height: auto;
 				// height: 100%;
+
+				// H&M Animation
 				transform: matrix(1, 0, 0, 1, 0, 0);
-				ms-transition: all 01s cubic-bezier(0.165, 0.84, 0.44, 1);
-				moz-transition: all 01s cubic-bezier(0.165, 0.84, 0.44, 1);
-				-o-transition: all 01s cubic-bezier(0.165, 0.84, 0.44, 1);
-				-webkit-transition: all 01s cubic-bezier(0.165, 0.84, 0.44, 1);
-				transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);		
+				ms-transition: 				all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
+				moz-transition: 			all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
+				-o-transition: 				all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
+				-webkit-transition: 	all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
+				transition: 					all .6s cubic-bezier(0.165, 0.84, 0.44, 1);		
 			}
 		}
 		// Caixa amb els metas del projecte
@@ -90,12 +98,14 @@
 			opacity: 0;
 			z-index: 3;
 
+
+			// H&M Animation
 			// Animation en sortir del hover
-		  -webkit-transition: all 0.6s linear;
-		  -moz-transition: all 0.6s linear;
-		  -ms-transition: all 0.6s linear;
-		  -o-transition: all 0.6s linear;
-		  transition: all 0.6s linear;
+		  -webkit-transition: 	all .3s linear;
+		  -moz-transition: 			all .3s linear;
+		  -ms-transition: 			all .3s linear;
+		  -o-transition: 				all .3s linear;
+		  transition: 					all .3s linear;
 
 
 			@include media-breakpoint-down(md) { 
@@ -234,12 +244,6 @@ section.post-full {
  			}
 
 			opacity: 1; 			
-			// transition-delay: .6s;
-		 //  -webkit-transition: opacity .6s;
-		 //  -moz-transition: opacity .6s;
-		 //  -ms-transition: opacity .6s;
-		 //  -o-transition: opacity .6s;
-		 //  transition: opacity .6s;
 
  			&.intro-played {
  				opacity: 0;

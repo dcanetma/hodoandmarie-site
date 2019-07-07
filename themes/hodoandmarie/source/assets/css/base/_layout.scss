@@ -10,8 +10,15 @@ header {}
 	max-width: $layout-max-width;
 	padding-left: 1.25rem; // 20px; // See .post-preview-wrapper 
 	padding-right: 1.25rem; // 20px; // See .post-preview-wrapper 
+	
+
 	// Animate the shit out of it
-	transition: all 1s;
+	// H&M Animation
+  -webkit-transition: all .3s linear;
+  -ms-transition: 		all .3s linear;
+  -moz-transition: 		all .3s linear;
+  -o-transition: 			all .3s linear;
+  transition: 				all .3s linear;
 
 	@include media-breakpoint-up(md) {
 		padding-left: $layout-gutter-md; // 64px; // See .post-preview-wrapper 

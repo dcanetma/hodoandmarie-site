@@ -32,12 +32,13 @@
 		z-index: 1;
 		content: "";
 		border-top: 1px solid black;
-
-    -webkit-transition: width .6s linear;
-    -ms-transition: 		width .6s linear;
-    -moz-transition: 		width .6s linear;
-    -o-transition: 			width .6s linear;
-    transition: 				width .6s linear;
+		// H&M Animation
+		// Rollover de links de navegación 
+    -webkit-transition: width .2s linear;
+    -ms-transition: 		width .2s linear;
+    -moz-transition: 		width .2s linear;
+    -o-transition: 			width .2s linear;
+    transition: 				width .2s linear;
 
 	}
 }
