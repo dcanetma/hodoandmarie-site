@@ -61,8 +61,8 @@ date: 2039-06-06 11:21:00
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/piknik/hodo&marie-piknik-5.mp4" type="video/mp4">
-			<source src="/media/piknik/hodo&marie-piknik-5.webm" type="video/webm">
+			<source src="/media/piknik/hodo&marie-piknik-05.mp4" type="video/mp4">
+			<source src="/media/piknik/hodo&marie-piknik-05.webm" type="video/webm">
 	</video>
 </p>
 
