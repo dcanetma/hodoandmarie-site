@@ -13,7 +13,6 @@ textColor: white
 
 tags:
   - Graphic identity
-  - Illustration
 
 thumbnailUrl: media/twittercommunication/hodo&marie-twittercommunication-thumbnail.jpg
 
