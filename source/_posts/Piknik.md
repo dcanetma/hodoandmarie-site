@@ -61,15 +61,15 @@ date: 2039-06-06 11:21:00
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/piknik/hodo&marie-Piknik-5.mp4" type="video/mp4">
-			<source src="/media/piknik/hodo&marie-Piknik-5.webm" type="video/webm">
+			<source src="/media/piknik/hodo&marie-piknik-5.mp4" type="video/mp4">
+			<source src="/media/piknik/hodo&marie-piknik-5.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/piknik/hodo&marie-Piknik-6.mp4" type="video/mp4">
-			<source src="/media/piknik/hodo&marie-Piknik-6.webm" type="video/webm">
+			<source src="/media/piknik/hodo&marie-piknik-6.mp4" type="video/mp4">
+			<source src="/media/piknik/hodo&marie-piknik-6.webm" type="video/webm">
 	</video>
 </p>
 
@@ -85,15 +85,15 @@ date: 2039-06-06 11:21:00
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/piknik/hodo&marie-Piknik-7.mp4" type="video/mp4">
-			<source src="/media/piknik/hodo&marie-Piknik-7.webm" type="video/webm">
+			<source src="/media/piknik/hodo&marie-piknik-7.mp4" type="video/mp4">
+			<source src="/media/piknik/hodo&marie-piknik-7.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/piknik/hodo&marie-Piknik-8.mp4" type="video/mp4">
-			<source src="/media/piknik/hodo&marie-Piknik-8.webm" type="video/webm">
+			<source src="/media/piknik/hodo&marie-piknik-8.mp4" type="video/mp4">
+			<source src="/media/piknik/hodo&marie-piknik-8.webm" type="video/webm">
 	</video>
 </p>
 
