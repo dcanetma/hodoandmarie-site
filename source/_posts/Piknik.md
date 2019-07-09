@@ -52,17 +52,15 @@ date: 2018-04-01 12:00:00
 
 </div>
 
-
-
 <!-- This is a 2x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video  gallery-2">
+<div class="gallery gallery-video gallery-video gallery-2">
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/piknik/hodo&marie-piknik-05.mp4" type="video/mp4">
-			<source src="/media/piknik/hodo&marie-piknik-05.webm" type="video/webm">
+			<source src="/media/piknik/hodo&marie-piknik-5.mp4" type="video/mp4">
+			<source src="/media/piknik/hodo&marie-piknik-5.webm" type="video/webm">
 	</video>
 </p>
 
@@ -77,11 +75,10 @@ date: 2018-04-01 12:00:00
 </div>
 
 
-
 <!-- This is a 2x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video  gallery-2">
+<div class="gallery gallery-video gallery-video gallery-2">
 
 <p>
 	<video playsinline="playsinline" muted>
@@ -99,8 +96,6 @@ date: 2018-04-01 12:00:00
 
 
 </div>
-
-
 
 <!-- Sample credits secion -->
 ## Credits
