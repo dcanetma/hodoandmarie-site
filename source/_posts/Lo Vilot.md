@@ -39,6 +39,7 @@ date: 2039-06-06 11:22:00
 			<source src="/media/lovilot/hodo&marie-lovilot-1.mp4" type="video/mp4">
 			<source src="/media/lovilot/hodo&marie-lovilot-1.webm" type="video/webm">
 	</video>	
+	<img src="/media/lovilot/hodo&marie-lovilot-1.jpg" type="img/jpg">
 </p>
 
 <p>
