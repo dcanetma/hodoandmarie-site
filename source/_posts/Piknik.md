@@ -23,7 +23,7 @@ thumbnailUrl:
 
 imageUrl: media/piknik/hodo&marie-piknik-header.jpg
 
-date: 2039-06-06 11:21:00
+date: 2018-04-01 12:00:00
 
 ---
 

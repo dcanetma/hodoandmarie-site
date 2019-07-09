@@ -23,7 +23,7 @@ thumbnailUrl:
 
 imageUrl: media/nocallem/hodo&marie-nocallem-header.jpg
 
-date: 2039-06-06 11:21:00
+date: 2019-02-01 12:00:00
 
 
 
@@ -38,7 +38,6 @@ date: 2039-06-06 11:21:00
 	<video playsinline="playsinline" muted>
 			<source src="/media/nocallem/hodo&marie-nocallem-01.mp4" type="video/mp4">
 			<source src="/media/nocallem/hodo&marie-nocallem-01.webm" type="video/webm">
-			<source src="/media/nocallem/hodo&marie-nocallem-01.jpg" type="images/jpg">
 	</video>
 </p>
 
@@ -46,7 +45,6 @@ date: 2039-06-06 11:21:00
 	<video playsinline="playsinline" muted>
 			<source src="/media/nocallem/hodo&marie-nocallem-02.mp4" type="video/mp4">
 			<source src="/media/nocallem/hodo&marie-nocallem-02.webm" type="video/webm">
-			<source src="/media/nocallem/hodo&marie-nocallem-02.jpg" type="images/jpg">
 	</video>
 </p>
 

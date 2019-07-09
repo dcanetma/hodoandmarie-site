@@ -18,7 +18,7 @@ thumbnailUrl: media/farmaciaciutatjardi/hodo&marie-fcj-thumbnail.jpg
 
 imageUrl: media/farmaciaciutatjardi/hodo&marie-fcj-header.jpg
 
-date: 2038-06-06 11:21:00
+date: 2018-10-01 12:00:00
 
 
 
@@ -47,10 +47,6 @@ date: 2038-06-06 11:21:00
 ![Alternative text](/media/farmaciaciutatjardi/hodo&marie-fcj-7.jpg)
 </div>
 
-<div class="gallery gallery-1">
-
-![Alternative text](/media/farmaciaciutatjardi/hodo&marie-fcj-8.jpg)
-</div>
 
 ## Credits
 
