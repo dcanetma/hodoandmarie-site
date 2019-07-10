@@ -43,32 +43,8 @@ date: 2018-12-01 12:00:00
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/hiperregalo/hodo&marie-hiperregalo-02.mp4" type="video/mp4">
-			<source src="/media/hiperregalo/hodo&marie-hiperregalo-02.webm" type="video/webm">
-	</video>
-</p>
-
-
-</div>
-
-
-
-<!-- This is a 2x VIDEO gallery -->
-<!-- Always add a linebreak between images -->
-<!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video gallery-2">
-
-<p>
-	<video playsinline="playsinline" muted>
 			<source src="/media/hiperregalo/hodo&marie-hiperregalo-03.mp4" type="video/mp4">
 			<source src="/media/hiperregalo/hodo&marie-hiperregalo-03.webm" type="video/webm">
-	</video>
-</p>
-
-<p>
-	<video playsinline="playsinline" muted>
-			<source src="/media/hiperregalo/hodo&marie-hiperregalo-04.mp4" type="video/mp4">
-			<source src="/media/hiperregalo/hodo&marie-hiperregalo-04.webm" type="video/webm">
 	</video>
 </p>
 
