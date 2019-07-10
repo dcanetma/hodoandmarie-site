@@ -131,7 +131,7 @@ date: 2017-12-01 12:00:00
 
 </div>
 
-<!-- Sample credits secion -->
+<!-- Sample credits section -->
 ## Credits
 
 * Client: Agència Catalana de Turisme, Generalitat de Catalunya
