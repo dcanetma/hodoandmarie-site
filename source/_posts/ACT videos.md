@@ -57,31 +57,8 @@ date: 2017-12-01 12:00:00
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/actvideos/hodo&marie-act-videos-05.mp4" type="video/mp4">
-			<source src="/media/actvideos/hodo&marie-act-videos-05.webm" type="video/webm">
-	</video>
-</p>
-
-<p>
-	<video playsinline="playsinline" muted>
 			<source src="/media/actvideos/hodo&marie-act-videos-06.mp4" type="video/mp4">
 			<source src="/media/actvideos/hodo&marie-act-videos-06.webm" type="video/webm">
-	</video>
-</p>
-
-
-</div>
-
-
-<!-- This is a 2x VIDEO gallery -->
-<!-- Always add a linebreak between images -->
-<!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video gallery-video gallery-2">
-
-<p>
-	<video playsinline="playsinline" muted>
-			<source src="/media/actvideos/hodo&marie-act-videos-07.mp4" type="video/mp4">
-			<source src="/media/actvideos/hodo&marie-act-videos-07.webm" type="video/webm">
 	</video>
 </p>
 
