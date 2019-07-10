@@ -16,7 +16,7 @@ tags:
 
 thumbnailUrl: media/fregatti/hodo&marie-fregatti-thumbnail.jpg
 
-imageUrl: media/fregatti/hodo&marie-fregatti-header.jpg
+imageUrl: media/fregatti/hodo&marie-fregatti-header.png
 
 date: 2017-10-01 12:00:00
 
