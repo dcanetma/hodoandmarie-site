@@ -29,10 +29,10 @@ date: 2017-04-01 12:00:00
 
 ---
 
-<!-- This is a 1x VIDEO gallery -->
+<!-- This is a 2x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video gallery-1">
+<div class="gallery gallery-video gallery-2">
 
 <p>
 	<video playsinline="playsinline" muted>
@@ -40,15 +40,6 @@ date: 2017-04-01 12:00:00
 			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-1.webm" type="video/webm">
 	</video>
 </p>
-
-
-</div>
-
-
-<!-- This is a 1x VIDEO gallery -->
-<!-- Always add a linebreak between images -->
-<!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video gallery-1">
 
 <p>
 	<video playsinline="playsinline" muted>
@@ -61,10 +52,10 @@ date: 2017-04-01 12:00:00
 </div>
 
 
-<!-- This is a 1x VIDEO gallery -->
+<!-- This is a 2x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video gallery-1">
+<div class="gallery gallery-video gallery-2">
 
 <p>
 	<video playsinline="playsinline" muted>
@@ -72,15 +63,6 @@ date: 2017-04-01 12:00:00
 			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-3.webm" type="video/webm">
 	</video>
 </p>
-
-
-</div>
-
-
-<!-- This is a 1x VIDEO gallery -->
-<!-- Always add a linebreak between images -->
-<!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video gallery-1">
 
 <p>
 	<video playsinline="playsinline" muted>
