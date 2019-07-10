@@ -29,28 +29,6 @@ date: 2019-02-01 12:00:00
 
 ---
 
-<!-- This is a 2x VIDEO gallery -->
-<!-- Always add a linebreak between images -->
-<!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video gallery-2">
-
-<p>
-	<video playsinline="playsinline" muted>
-			<source src="/media/nocallem/hodo&marie-nocallem-01.mp4" type="video/mp4">
-			<source src="/media/nocallem/hodo&marie-nocallem-01.webm" type="video/webm">
-	</video>
-</p>
-
-<p>
-	<video playsinline="playsinline" muted>
-			<source src="/media/nocallem/hodo&marie-nocallem-02.mp4" type="video/mp4">
-			<source src="/media/nocallem/hodo&marie-nocallem-02.webm" type="video/webm">
-	</video>
-</p>
-
-
-</div>
-
 
 <!-- This is a 2x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
