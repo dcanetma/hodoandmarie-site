@@ -26,16 +26,16 @@ date: 2017-10-01 12:00:00
 
 <div class="gallery gallery-2">
 
-![Alternative text](/media/fregatti/hodo&marie-fregatti-1.jpg)
+![Alternative text](/media/fregatti/hodo&marie-fregatti-3.jpg)
 
-![Alternative text](/media/fregatti/hodo&marie-fregatti-2.jpg)
+![Alternative text](/media/fregatti/hodo&marie-fregatti-4.jpg)
 </div>
 
 <div class="gallery gallery-2">
 
-![Alternative text](/media/fregatti/hodo&marie-fregatti-3.jpg)
+![Alternative text](/media/fregatti/hodo&marie-fregatti-1.jpg)
 
-![Alternative text](/media/fregatti/hodo&marie-fregatti-4.jpg)
+![Alternative text](/media/fregatti/hodo&marie-fregatti-2.jpg)
 </div>
 
 <div class="gallery gallery-2">
@@ -49,14 +49,7 @@ date: 2017-10-01 12:00:00
 
 ![Alternative text](/media/fregatti/hodo&marie-fregatti-7.jpg)
 
-![Alternative text](/media/fregatti/hodo&marie-fregatti-8.jpg)
-</div>
-
-<div class="gallery gallery-2">
-
 ![Alternative text](/media/fregatti/hodo&marie-fregatti-9.jpg)
-
-![Alternative text](/media/fregatti/hodo&marie-fregatti-10.jpg)
 </div>
 
 <div class="gallery gallery-2">
