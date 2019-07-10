@@ -35,6 +35,28 @@
 	// 	display: none;
 	// }
 
+	&.gallery-video {
+		p {
+			video {
+				display: none;
+			}
+			img {
+				display: block;
+			}
+		}
+		@include media-breakpoint-up(sm) {
+			p {
+				video {
+					display: block;
+				}
+				img {
+					display: none;
+				}
+			}			
+		}
+
+	}
+
 	&.gallery-1 {
 		p {
 			margin-bottom: 1.25rem; // 20px;
