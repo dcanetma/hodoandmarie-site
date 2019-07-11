@@ -47,7 +47,7 @@ date: 2016-12-01 12:00:00
 			<source src="/media/lovilot/hodo&marie-lovilot-2.mp4" type="video/mp4">
 			<source src="/media/lovilot/hodo&marie-lovilot-2.webm" type="video/webm">
 	</video>
-	<img src="/media/lovilot/hodo&marie-lovilot-1.jpg" alt="Lo Vilot Farm Brewery">
+	<img src="/media/lovilot/hodo&marie-lovilot-2.jpg" alt="Lo Vilot Farm Brewery">
 </p>
 
 
@@ -65,6 +65,7 @@ date: 2016-12-01 12:00:00
 			<source src="/media/lovilot/hodo&marie-lovilot-3.mp4" type="video/mp4">
 			<source src="/media/lovilot/hodo&marie-lovilot-3.webm" type="video/webm">
 	</video>
+	<img src="/media/lovilot/hodo&marie-lovilot-3.jpg" alt="Lo Vilot Farm Brewery">
 </p>
 
 <p>
@@ -72,6 +73,7 @@ date: 2016-12-01 12:00:00
 			<source src="/media/lovilot/hodo&marie-lovilot-4.mp4" type="video/mp4">
 			<source src="/media/lovilot/hodo&marie-lovilot-4.webm" type="video/webm">
 	</video>
+	<img src="/media/lovilot/hodo&marie-lovilot-4.jpg" alt="Lo Vilot Farm Brewery">
 </p>
 
 
