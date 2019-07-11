@@ -60,6 +60,7 @@ date: 2017-12-01 12:00:00
 			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-06.mp4" type="video/mp4">
 			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-06.webm" type="video/webm">
 	</video>
+	<img src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-06.jpg" alt="Famtrip and Presstrip">
 </p>
 
 <p>
@@ -67,6 +68,7 @@ date: 2017-12-01 12:00:00
 			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-10.mp4" type="video/mp4">
 			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-10.webm" type="video/webm">
 	</video>
+	<img src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-10.jpg" alt="Famtrip and Presstrip">
 </p>
 
 
@@ -96,6 +98,7 @@ date: 2017-12-01 12:00:00
 			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-11.mp4" type="video/mp4">
 			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-11.webm" type="video/webm">
 	</video>
+	<img src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-11.jpg" alt="Famtrip and Presstrip">
 </p>
 
 <p>
@@ -103,6 +106,7 @@ date: 2017-12-01 12:00:00
 			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-12.mp4" type="video/mp4">
 			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-12.webm" type="video/webm">
 	</video>
+	<img src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-12.jpg" alt="Famtrip and Presstrip">
 </p>
 
 
@@ -119,6 +123,7 @@ date: 2017-12-01 12:00:00
 			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-13.mp4" type="video/mp4">
 			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-13.webm" type="video/webm">
 	</video>
+	<img src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-13.jpg" alt="Famtrip and Presstrip">
 </p>
 
 <p>
@@ -126,6 +131,7 @@ date: 2017-12-01 12:00:00
 			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-14.mp4" type="video/mp4">
 			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-14.webm" type="video/webm">
 	</video>
+	<img src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-14.jpg" alt="Famtrip and Presstrip">
 </p>
 
 
