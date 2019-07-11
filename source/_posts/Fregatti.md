@@ -73,7 +73,7 @@ date: 2017-10-01 12:00:00
 
 <br>
 
-* Architecture studio: Ettala Palomeras Arkkitehtitoimisto
+* Architecture studio: <a href="https://www.ettalapalomeras.com" target="_blank">Ettala Palomeras Arkkitehtitoimisto</a>
 * Creative and Art direction: hodo&marie
 * Graphic design: hodo&marie
 
