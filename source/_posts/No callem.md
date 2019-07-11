@@ -40,6 +40,7 @@ date: 2019-02-01 12:00:00
 			<source src="/media/nocallem/hodo&marie-nocallem-03.mp4" type="video/mp4">
 			<source src="/media/nocallem/hodo&marie-nocallem-03.webm" type="video/webm">
 	</video>
+	<img src="/media/nocallem/hodo&marie-nocallem-03.jpg" alt="No Callem">
 </p>
 
 <p>
@@ -47,6 +48,7 @@ date: 2019-02-01 12:00:00
 			<source src="/media/nocallem/hodo&marie-nocallem-04.mp4" type="video/mp4">
 			<source src="/media/nocallem/hodo&marie-nocallem-04.webm" type="video/webm">
 	</video>
+	<img src="/media/nocallem/hodo&marie-nocallem-04.jpg" alt="No Callem">
 </p>
 
 
@@ -60,16 +62,18 @@ date: 2019-02-01 12:00:00
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/nocallem/hodo&marie-nocallem-05.mp4" type="video/mp4">
-			<source src="/media/nocallem/hodo&marie-nocallem-05.webm" type="video/webm">
+			<source src="/media/nocallem/hodo&marie-nocallem-06.mp4" type="video/mp4">
+			<source src="/media/nocallem/hodo&marie-nocallem-06.webm" type="video/webm">
 	</video>
+	<img src="/media/nocallem/hodo&marie-nocallem-06.jpg" alt="No Callem">
 </p>
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/nocallem/hodo&marie-nocallem-06.mp4" type="video/mp4">
-			<source src="/media/nocallem/hodo&marie-nocallem-06.webm" type="video/webm">
+			<source src="/media/nocallem/hodo&marie-nocallem-05.mp4" type="video/mp4">
+			<source src="/media/nocallem/hodo&marie-nocallem-05.webm" type="video/webm">
 	</video>
+	<img src="/media/nocallem/hodo&marie-nocallem-05.jpg" alt="No Callem">
 </p>
 
 
@@ -86,6 +90,7 @@ date: 2019-02-01 12:00:00
 			<source src="/media/nocallem/hodo&marie-nocallem-07.mp4" type="video/mp4">
 			<source src="/media/nocallem/hodo&marie-nocallem-07.webm" type="video/webm">
 	</video>
+	<img src="/media/nocallem/hodo&marie-nocallem-07.jpg" alt="No Callem">
 </p>
 
 <p>
@@ -93,6 +98,7 @@ date: 2019-02-01 12:00:00
 			<source src="/media/nocallem/hodo&marie-nocallem-08.mp4" type="video/mp4">
 			<source src="/media/nocallem/hodo&marie-nocallem-08.webm" type="video/webm">
 	</video>
+	<img src="/media/nocallem/hodo&marie-nocallem-08.jpg" alt="No Callem">
 </p>
 
 
@@ -109,6 +115,7 @@ date: 2019-02-01 12:00:00
 			<source src="/media/nocallem/hodo&marie-nocallem-09.mp4" type="video/mp4">
 			<source src="/media/nocallem/hodo&marie-nocallem-09.webm" type="video/webm">
 	</video>
+	<img src="/media/nocallem/hodo&marie-nocallem-09.jpg" alt="No Callem">
 </p>
 
 <p>
@@ -116,6 +123,7 @@ date: 2019-02-01 12:00:00
 			<source src="/media/nocallem/hodo&marie-nocallem-10.mp4" type="video/mp4">
 			<source src="/media/nocallem/hodo&marie-nocallem-10.webm" type="video/webm">
 	</video>
+	<img src="/media/nocallem/hodo&marie-nocallem-10.jpg" alt="No Callem">
 </p>
 
 
@@ -129,16 +137,18 @@ date: 2019-02-01 12:00:00
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/nocallem/hodo&marie-nocallem-11.mp4" type="video/mp4">
-			<source src="/media/nocallem/hodo&marie-nocallem-11.webm" type="video/webm">
+			<source src="/media/nocallem/hodo&marie-nocallem-12.mp4" type="video/mp4">
+			<source src="/media/nocallem/hodo&marie-nocallem-12.webm" type="video/webm">
 	</video>
+	<img src="/media/nocallem/hodo&marie-nocallem-12.jpg" alt="No Callem">
 </p>
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/nocallem/hodo&marie-nocallem-12.mp4" type="video/mp4">
-			<source src="/media/nocallem/hodo&marie-nocallem-12.webm" type="video/webm">
+			<source src="/media/nocallem/hodo&marie-nocallem-13.mp4" type="video/mp4">
+			<source src="/media/nocallem/hodo&marie-nocallem-13.webm" type="video/webm">
 	</video>
+	<img src="/media/nocallem/hodo&marie-nocallem-13.jpg" alt="No Callem">
 </p>
 
 
