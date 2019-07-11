@@ -86,7 +86,7 @@ date: 2017-04-01 12:00:00
   
 <br>
 
-* Creative and Art direction: Hodo and <a href="http://www.smokesignalsstudio.com" target="_blank">Smoke Signals studio</a>
+* Creative and Art direction: Hodo and Smoke Signals studio
 * Storyboard: <a href="http://www.smokesignalsstudio.com" target="_blank">Smoke Signals studio</a>
 * Motion graphics: Hodo
 * <a href="https://www.behance.net/gallery/61362853/Vientos-del-Pueblo-Ebri-Knight-Lyric-Video" target="_blank">See more details of the project here</a>
