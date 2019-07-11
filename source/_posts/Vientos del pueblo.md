@@ -17,11 +17,11 @@ tags:
 vimeoId: 343188176
 
 thumbnailUrl:
-  - media/ebriknightvientos/hodo&marie-vientosdelpueblo-thumbnail.mp4
-  - media/ebriknightvientos/hodo&marie-vientosdelpueblo-thumbnail.webm
-  - media/ebriknightvientos/hodo&marie-vientosdelpueblo-thumbnail.jpg
+  - media/vientosdelpueblo/hodo&marie-vientosdelpueblo-thumbnail.mp4
+  - media/vientosdelpueblo/hodo&marie-vientosdelpueblo-thumbnail.webm
+  - media/vientosdelpueblo/hodo&marie-vientosdelpueblo-thumbnail.jpg
 
-imageUrl: media/ebriknightvientos/hodo&marie-vientosdelpueblo-header.jpg
+imageUrl: media/vientosdelpueblo/hodo&marie-vientosdelpueblo-header.jpg
 
 date: 2017-04-01 12:00:00
 
@@ -36,15 +36,15 @@ date: 2017-04-01 12:00:00
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-1.mp4" type="video/mp4">
-			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-1.webm" type="video/webm">
+			<source src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-1.mp4" type="video/mp4">
+			<source src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-1.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-2.mp4" type="video/mp4">
-			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-2.webm" type="video/webm">
+			<source src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-2.mp4" type="video/mp4">
+			<source src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-2.webm" type="video/webm">
 	</video>
 </p>
 
@@ -59,15 +59,15 @@ date: 2017-04-01 12:00:00
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-3.mp4" type="video/mp4">
-			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-3.webm" type="video/webm">
+			<source src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-3.mp4" type="video/mp4">
+			<source src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-3.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-4.mp4" type="video/mp4">
-			<source src="/media/ebriknightvientos/hodo&marie-vientosdelpueblo-4.webm" type="video/webm">
+			<source src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-4.mp4" type="video/mp4">
+			<source src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-4.webm" type="video/webm">
 	</video>
 </p>
 
