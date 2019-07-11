@@ -100,7 +100,7 @@ date: 2018-04-01 12:00:00
 <!-- Sample credits secion -->
 ## Credits
 
-* Client: <a href="http://iratzoki-lizaso.com" target="_blank">Iratzoki Lizaso</a>
+* Client: Iratzoki Lizaso
 * Year: 2018  
   
 <br>
