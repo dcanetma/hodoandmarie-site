@@ -62,6 +62,7 @@ date: 2018-04-01 12:00:00
 			<source src="/media/piknik/hodo&marie-piknik-5.mp4" type="video/mp4">
 			<source src="/media/piknik/hodo&marie-piknik-5.webm" type="video/webm">
 	</video>
+	<img src="/media/piknik/hodo&marie-piknik-5.jpg" alt="Piknik">
 </p>
 
 <p>
@@ -69,6 +70,7 @@ date: 2018-04-01 12:00:00
 			<source src="/media/piknik/hodo&marie-piknik-6.mp4" type="video/mp4">
 			<source src="/media/piknik/hodo&marie-piknik-6.webm" type="video/webm">
 	</video>
+	<img src="/media/piknik/hodo&marie-piknik-6.jpg" alt="Piknik">
 </p>
 
 
@@ -85,6 +87,7 @@ date: 2018-04-01 12:00:00
 			<source src="/media/piknik/hodo&marie-piknik-7.mp4" type="video/mp4">
 			<source src="/media/piknik/hodo&marie-piknik-7.webm" type="video/webm">
 	</video>
+	<img src="/media/piknik/hodo&marie-piknik-7.jpg" alt="Piknik">
 </p>
 
 <p>
@@ -92,6 +95,7 @@ date: 2018-04-01 12:00:00
 			<source src="/media/piknik/hodo&marie-piknik-8.mp4" type="video/mp4">
 			<source src="/media/piknik/hodo&marie-piknik-8.webm" type="video/webm">
 	</video>
+	<img src="/media/piknik/hodo&marie-piknik-8.jpg" alt="Piknik">
 </p>
 
 

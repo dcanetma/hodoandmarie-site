@@ -39,7 +39,7 @@ date: 2018-12-01 12:00:00
 			<source src="/media/hiperregalo/hodo&marie-hiperregalo-01.mp4" type="video/mp4">
 			<source src="/media/hiperregalo/hodo&marie-hiperregalo-01.webm" type="video/webm">
 	</video>
-	<img src="/media/hiperregalo/hodo&marie-hiperregalo-01.jpg" alt="Fundación Vicente Ferrer">
+	<img src="/media/hiperregalo/hodo&marie-hiperregalo-01.jpg" alt="El hiperregalo">
 </p>
 
 <p>
@@ -47,7 +47,7 @@ date: 2018-12-01 12:00:00
 			<source src="/media/hiperregalo/hodo&marie-hiperregalo-02.mp4" type="video/mp4">
 			<source src="/media/hiperregalo/hodo&marie-hiperregalo-02.webm" type="video/webm">
 	</video>
-	<img src="/media/hiperregalo/hodo&marie-hiperregalo-02.jpg" alt="Fundación Vicente Ferrer">
+	<img src="/media/hiperregalo/hodo&marie-hiperregalo-02.jpg" alt="El hiperregalo">
 </p>
 
 <p>
@@ -55,7 +55,7 @@ date: 2018-12-01 12:00:00
 			<source src="/media/hiperregalo/hodo&marie-hiperregalo-03.mp4" type="video/mp4">
 			<source src="/media/hiperregalo/hodo&marie-hiperregalo-03.webm" type="video/webm">
 	</video>
-	<img src="/media/hiperregalo/hodo&marie-hiperregalo-03.jpg" alt="Fundación Vicente Ferrer">
+	<img src="/media/hiperregalo/hodo&marie-hiperregalo-03.jpg" alt="El hiperregalo">
 </p>
 
 
@@ -75,7 +75,7 @@ date: 2018-12-01 12:00:00
 			<source src="/media/hiperregalo/hodo&marie-hiperregalo-04.mp4" type="video/mp4">
 			<source src="/media/hiperregalo/hodo&marie-hiperregalo-04.webm" type="video/webm">
 	</video>
-	<img src="/media/hiperregalo/hodo&marie-hiperregalo-04.jpg" alt="Fundación Vicente Ferrer">
+	<img src="/media/hiperregalo/hodo&marie-hiperregalo-04.jpg" alt="El hiperregalo">
 </p>
 
 <p>
@@ -83,7 +83,7 @@ date: 2018-12-01 12:00:00
 			<source src="/media/hiperregalo/hodo&marie-hiperregalo-05.mp4" type="video/mp4">
 			<source src="/media/hiperregalo/hodo&marie-hiperregalo-05.webm" type="video/webm">
 	</video>
-	<img src="/media/hiperregalo/hodo&marie-hiperregalo-05.jpg" alt="Fundación Vicente Ferrer">
+	<img src="/media/hiperregalo/hodo&marie-hiperregalo-05.jpg" alt="El hiperregalo">
 </p>
 
 <p>
@@ -91,7 +91,7 @@ date: 2018-12-01 12:00:00
 			<source src="/media/hiperregalo/hodo&marie-hiperregalo-06.mp4" type="video/mp4">
 			<source src="/media/hiperregalo/hodo&marie-hiperregalo-06.webm" type="video/webm">
 	</video>
-	<img src="/media/hiperregalo/hodo&marie-hiperregalo-06.jpg" alt="Fundación Vicente Ferrer">
+	<img src="/media/hiperregalo/hodo&marie-hiperregalo-06.jpg" alt="El hiperregalo">
 </p>
 
 </div>
