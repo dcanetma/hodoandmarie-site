@@ -17,11 +17,11 @@ tags:
 vimeoId: 338235857
 
 thumbnailUrl:
-  - media/actvideos/hodo&marie-act-videos-thumbnail.mp4
-  - media/actvideos/hodo&marie-act-videos-thumbnail.webm
-  - media/actvideos/hodo&marie-act-videos-thumbnail.jpg
+  - media/famtripandpresstrip/hodo&marie-famtripandpresstrip-thumbnail.mp4
+  - media/famtripandpresstrip/hodo&marie-famtripandpresstrip-thumbnail.webm
+  - media/famtripandpresstrip/hodo&marie-famtripandpresstrip-thumbnail.jpg
 
-imageUrl: media/actvideos/hodo&marie-act-videos-header.jpg
+imageUrl: media/famtripandpresstrip/hodo&marie-famtripandpresstrip-header.jpg
 
 date: 2017-12-01 12:00:00
 
@@ -34,18 +34,18 @@ date: 2017-12-01 12:00:00
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-2">
 
-![Agència Catalana de Turisme image 1](/media/actvideos/hodo&marie-act-videos-01.jpg)
+![Agència Catalana de Turisme image 1](/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-01.jpg)
 
-![Agència Catalana de Turisme image 2](/media/actvideos/hodo&marie-act-videos-02.jpg)
+![Agència Catalana de Turisme image 2](/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-02.jpg)
 
 </div>
 
 
 <div class="gallery gallery-2">
 
-![Agència Catalana de Turisme image 3](/media/actvideos/hodo&marie-act-videos-03.jpg)
+![Agència Catalana de Turisme image 3](/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-03.jpg)
 
-![Agència Catalana de Turisme image 4](/media/actvideos/hodo&marie-act-videos-04.jpg)
+![Agència Catalana de Turisme image 4](/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-04.jpg)
 
 </div>
 
@@ -57,15 +57,15 @@ date: 2017-12-01 12:00:00
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/actvideos/hodo&marie-act-videos-06.mp4" type="video/mp4">
-			<source src="/media/actvideos/hodo&marie-act-videos-06.webm" type="video/webm">
+			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-06.mp4" type="video/mp4">
+			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-06.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/actvideos/hodo&marie-act-videos-10.mp4" type="video/mp4">
-			<source src="/media/actvideos/hodo&marie-act-videos-10.webm" type="video/webm">
+			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-10.mp4" type="video/mp4">
+			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-10.webm" type="video/webm">
 	</video>
 </p>
 
@@ -78,9 +78,9 @@ date: 2017-12-01 12:00:00
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-2">
 
-![Agència Catalana de Turisme image 8](/media/actvideos/hodo&marie-act-videos-08.jpg)
+![Agència Catalana de Turisme image 8](/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-08.jpg)
 
-![Agència Catalana de Turisme image 9](/media/actvideos/hodo&marie-act-videos-09.jpg)
+![Agència Catalana de Turisme image 9](/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-09.jpg)
 
 </div>
 
@@ -93,15 +93,15 @@ date: 2017-12-01 12:00:00
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/actvideos/hodo&marie-act-videos-11.mp4" type="video/mp4">
-			<source src="/media/actvideos/hodo&marie-act-videos-11.webm" type="video/webm">
+			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-11.mp4" type="video/mp4">
+			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-11.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/actvideos/hodo&marie-act-videos-12.mp4" type="video/mp4">
-			<source src="/media/actvideos/hodo&marie-act-videos-12.webm" type="video/webm">
+			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-12.mp4" type="video/mp4">
+			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-12.webm" type="video/webm">
 	</video>
 </p>
 
@@ -116,15 +116,15 @@ date: 2017-12-01 12:00:00
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/actvideos/hodo&marie-act-videos-13.mp4" type="video/mp4">
-			<source src="/media/actvideos/hodo&marie-act-videos-13.webm" type="video/webm">
+			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-13.mp4" type="video/mp4">
+			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-13.webm" type="video/webm">
 	</video>
 </p>
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/actvideos/hodo&marie-act-videos-14.mp4" type="video/mp4">
-			<source src="/media/actvideos/hodo&marie-act-videos-14.webm" type="video/webm">
+			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-14.mp4" type="video/mp4">
+			<source src="/media/famtripandpresstrip/hodo&marie-famtripandpresstrip-14.webm" type="video/webm">
 	</video>
 </p>
 
