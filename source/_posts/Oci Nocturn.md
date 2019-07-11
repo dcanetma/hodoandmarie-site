@@ -40,6 +40,7 @@ date: 2016-10-01 12:00:00
 			<source src="/media/ocinocturn/hodo&marie-ocinocturn-1.mp4" type="video/mp4">
 			<source src="/media/ocinocturn/hodo&marie-ocinocturn-1.webm" type="video/webm">
 	</video>
+	<img src="/media/ocinocturn/hodo&marie-ocinocturn-1.jpg" alt="Oci nocturn">
 </p>
 
 <p>
@@ -47,6 +48,7 @@ date: 2016-10-01 12:00:00
 			<source src="/media/ocinocturn/hodo&marie-ocinocturn-2.mp4" type="video/mp4">
 			<source src="/media/ocinocturn/hodo&marie-ocinocturn-2.webm" type="video/webm">
 	</video>
+	<img src="/media/ocinocturn/hodo&marie-ocinocturn-2.jpg" alt="Oci nocturn">
 </p>
 
 
@@ -63,6 +65,7 @@ date: 2016-10-01 12:00:00
 			<source src="/media/ocinocturn/hodo&marie-ocinocturn-3.mp4" type="video/mp4">
 			<source src="/media/ocinocturn/hodo&marie-ocinocturn-3.webm" type="video/webm">
 	</video>
+	<img src="/media/ocinocturn/hodo&marie-ocinocturn-3.jpg" alt="Oci nocturn">
 </p>
 
 <p>
@@ -70,6 +73,7 @@ date: 2016-10-01 12:00:00
 			<source src="/media/ocinocturn/hodo&marie-ocinocturn-4.mp4" type="video/mp4">
 			<source src="/media/ocinocturn/hodo&marie-ocinocturn-4.webm" type="video/webm">
 	</video>
+	<img src="/media/ocinocturn/hodo&marie-ocinocturn-4.jpg" alt="Oci nocturn">
 </p>
 
 
