@@ -51,6 +51,7 @@ date: 2018-08-01 12:00:00
 			<source src="/media/xoko/hodo&marie-xoko-3.mp4" type="video/mp4">
 			<source src="/media/xoko/hodo&marie-xoko-3.webm" type="video/webm">
 	</video>
+	<img src="/media/xoko/hodo&marie-xoko-3.jpg" alt="Iratzoki Lizaso">
 </p>
 
 <p>
@@ -58,6 +59,7 @@ date: 2018-08-01 12:00:00
 			<source src="/media/xoko/hodo&marie-xoko-4.mp4" type="video/mp4">
 			<source src="/media/xoko/hodo&marie-xoko-4.mp4" type="video/webm">
 	</video>
+	<img src="/media/xoko/hodo&marie-xoko-4.jpg" alt="Iratzoki Lizaso">
 </p>
 
 
@@ -75,6 +77,7 @@ date: 2018-08-01 12:00:00
 			<source src="/media/xoko/hodo&marie-xoko-5.mp4" type="video/mp4">
 			<source src="/media/xoko/hodo&marie-xoko-5.webm" type="video/webm">
 	</video>
+	<img src="/media/xoko/hodo&marie-xoko-5.jpg" alt="Iratzoki Lizaso">
 </p>
 
 <p>
@@ -82,6 +85,7 @@ date: 2018-08-01 12:00:00
 			<source src="/media/xoko/hodo&marie-xoko-6.mp4" type="video/mp4">
 			<source src="/media/xoko/hodo&marie-xoko-6.mp4" type="video/webm">
 	</video>
+	<img src="/media/xoko/hodo&marie-xoko-6.jpg" alt="Iratzoki Lizaso">
 </p>
 
 
@@ -98,6 +102,7 @@ date: 2018-08-01 12:00:00
 			<source src="/media/xoko/hodo&marie-xoko-7.mp4" type="video/mp4">
 			<source src="/media/xoko/hodo&marie-xoko-7.webm" type="video/webm">
 	</video>
+	<img src="/media/xoko/hodo&marie-xoko-7.jpg" alt="Iratzoki Lizaso">
 </p>
 
 <p>
@@ -105,6 +110,7 @@ date: 2018-08-01 12:00:00
 			<source src="/media/xoko/hodo&marie-xoko-8.mp4" type="video/mp4">
 			<source src="/media/xoko/hodo&marie-xoko-8.mp4" type="video/webm">
 	</video>
+	<img src="/media/xoko/hodo&marie-xoko-8.jpg" alt="Iratzoki Lizaso">
 </p>
 
 
