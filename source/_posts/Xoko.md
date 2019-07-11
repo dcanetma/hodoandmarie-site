@@ -6,7 +6,7 @@ client: Iratzoki Lizaso
 year: 2018
 
 intro: >
-  Different scenes with hand-drawn frame by frame animation and a little bit of motion graphics magic to explain in 50 seconds this amazing stools collection designed by Iratzoki Lizaso.
+  Different scenes with hand-drawn frame by frame animation and a little bit of motion graphics magic to explain in 50 seconds this amazing stools collection designed by Iratzoki Lizaso for Akaba.
 
 bgColor: '#647160'
 textColor: white
@@ -113,7 +113,7 @@ date: 2018-08-01 12:00:00
 <!-- Sample credits secion -->
 ## Credits
 
-* Client: Iratzoki Lizaso
+* Client: <a href="http://iratzoki-lizaso.com" target="_blank">Iratzoki Lizaso</a> / <a href="https://www.akaba.net/es-es/collection/sillas/xoko">Akaba</a> 
 * Year: 2018  
   
 <br>
