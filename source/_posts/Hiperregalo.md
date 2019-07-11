@@ -91,4 +91,4 @@ date: 2018-12-01 12:00:00
 * Storyboard and Illustration: Marie
 * Motion graphics: Hodo
 * Copywriter: Tiempo BBDO
-* Voice over: Eva Lluch
+* Voice over: <a href="http://www.evalluch.cat" target="_blank">Eva Lluch</a>
