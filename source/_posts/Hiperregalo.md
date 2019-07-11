@@ -29,7 +29,7 @@ date: 2018-12-01 12:00:00
 
 ---
 
-<!-- This is a 2x VIDEO gallery -->
+<!-- This is a 3x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-video gallery-3">
@@ -47,15 +47,15 @@ date: 2018-12-01 12:00:00
 			<source src="/media/hiperregalo/hodo&marie-hiperregalo-02.mp4" type="video/mp4">
 			<source src="/media/hiperregalo/hodo&marie-hiperregalo-02.webm" type="video/webm">
 	</video>
-	<img src="/media/hiperregalo/hodo&marie-hiperregalo-03.jpg" alt="Fundación Vicente Ferrer">
+	<img src="/media/hiperregalo/hodo&marie-hiperregalo-02.jpg" alt="Fundación Vicente Ferrer">
 </p>
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/hiperregalo/hodo&marie-hiperregalo-06.mp4" type="video/mp4">
-			<source src="/media/hiperregalo/hodo&marie-hiperregalo-06.webm" type="video/webm">
+			<source src="/media/hiperregalo/hodo&marie-hiperregalo-03.mp4" type="video/mp4">
+			<source src="/media/hiperregalo/hodo&marie-hiperregalo-03.webm" type="video/webm">
 	</video>
-	<img src="/media/hiperregalo/hodo&marie-hiperregalo-04.jpg" alt="Fundación Vicente Ferrer">
+	<img src="/media/hiperregalo/hodo&marie-hiperregalo-03.jpg" alt="Fundación Vicente Ferrer">
 </p>
 
 
@@ -65,25 +65,34 @@ date: 2018-12-01 12:00:00
 
 
 
-<!-- This is a 2x VIDEO gallery -->
+<!-- This is a 3x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video gallery-2">
+<div class="gallery gallery-video gallery-3">
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/hiperregalo/hodo&marie-hiperregalo-08.mp4" type="video/mp4">
-			<source src="/media/hiperregalo/hodo&marie-hiperregalo-08.webm" type="video/webm">
+			<source src="/media/hiperregalo/hodo&marie-hiperregalo-04.mp4" type="video/mp4">
+			<source src="/media/hiperregalo/hodo&marie-hiperregalo-04.webm" type="video/webm">
 	</video>
+	<img src="/media/hiperregalo/hodo&marie-hiperregalo-04.jpg" alt="Fundación Vicente Ferrer">
 </p>
 
 <p>
 	<video playsinline="playsinline" muted>
-			<source src="/media/hiperregalo/hodo&marie-hiperregalo-10.mp4" type="video/mp4">
-			<source src="/media/hiperregalo/hodo&marie-hiperregalo-10.webm" type="video/webm">
+			<source src="/media/hiperregalo/hodo&marie-hiperregalo-05.mp4" type="video/mp4">
+			<source src="/media/hiperregalo/hodo&marie-hiperregalo-05.webm" type="video/webm">
 	</video>
+	<img src="/media/hiperregalo/hodo&marie-hiperregalo-05.jpg" alt="Fundación Vicente Ferrer">
 </p>
 
+<p>
+	<video playsinline="playsinline" muted>
+			<source src="/media/hiperregalo/hodo&marie-hiperregalo-06.mp4" type="video/mp4">
+			<source src="/media/hiperregalo/hodo&marie-hiperregalo-06.webm" type="video/webm">
+	</video>
+	<img src="/media/hiperregalo/hodo&marie-hiperregalo-06.jpg" alt="Fundación Vicente Ferrer">
+</p>
 
 </div>
 
