@@ -149,4 +149,4 @@ date: 2016-08-01 12:00:00
 * Creative and Art direction: Hodo
 * Storyboard and 3D Modelling: Hodo
 * 3D Animation: Hodo
-* Voice over: Ramón Hernández
+* Voice over: <a href="http://www.ramonhernandez.cat/" target="_blank">Ramón Hernández</a>
