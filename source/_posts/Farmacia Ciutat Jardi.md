@@ -26,25 +26,25 @@ date: 2018-10-01 12:00:00
 
 <div class="gallery gallery-2">
 
-![Alternative text](/media/farmaciaciutatjardi/hodo&marie-fcj-1.jpg)
+![Farmacia Ciutat Jardi](/media/farmaciaciutatjardi/hodo&marie-fcj-1.jpg)
 
-![Alternative text](/media/farmaciaciutatjardi/hodo&marie-fcj-2.jpg)
+![Farmacia Ciutat Jardi](/media/farmaciaciutatjardi/hodo&marie-fcj-2.jpg)
 </div>
 
 <div class="gallery gallery-3">
 
-![Alternative text](/media/farmaciaciutatjardi/hodo&marie-fcj-3.jpg)
+![Farmacia Ciutat Jardi](/media/farmaciaciutatjardi/hodo&marie-fcj-3.jpg)
 
-![Alternative text](/media/farmaciaciutatjardi/hodo&marie-fcj-4.jpg)
+![Farmacia Ciutat Jardi](/media/farmaciaciutatjardi/hodo&marie-fcj-4.jpg)
 
-![Alternative text](/media/farmaciaciutatjardi/hodo&marie-fcj-5.jpg)
+![Farmacia Ciutat Jardi](/media/farmaciaciutatjardi/hodo&marie-fcj-5.jpg)
 </div>
 
 <div class="gallery gallery-2">
 
-![Alternative text](/media/farmaciaciutatjardi/hodo&marie-fcj-6.jpg)
+![Farmacia Ciutat Jardi](/media/farmaciaciutatjardi/hodo&marie-fcj-6.jpg)
 
-![Alternative text](/media/farmaciaciutatjardi/hodo&marie-fcj-7.jpg)
+![Farmacia Ciutat Jardi](/media/farmaciaciutatjardi/hodo&marie-fcj-7.jpg)
 </div>
 
 
