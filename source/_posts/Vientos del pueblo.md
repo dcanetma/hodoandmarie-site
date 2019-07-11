@@ -39,6 +39,7 @@ date: 2017-04-01 12:00:00
 			<source src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-1.mp4" type="video/mp4">
 			<source src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-1.webm" type="video/webm">
 	</video>
+	<img src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-1.jpg" alt="Vientos del pueblo">
 </p>
 
 <p>
@@ -46,6 +47,7 @@ date: 2017-04-01 12:00:00
 			<source src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-2.mp4" type="video/mp4">
 			<source src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-2.webm" type="video/webm">
 	</video>
+	<img src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-2.jpg" alt="Vientos del pueblo">
 </p>
 
 
@@ -62,6 +64,7 @@ date: 2017-04-01 12:00:00
 			<source src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-3.mp4" type="video/mp4">
 			<source src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-3.webm" type="video/webm">
 	</video>
+	<img src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-3.jpg" alt="Vientos del pueblo">
 </p>
 
 <p>
@@ -69,6 +72,7 @@ date: 2017-04-01 12:00:00
 			<source src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-4.mp4" type="video/mp4">
 			<source src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-4.webm" type="video/webm">
 	</video>
+	<img src="/media/vientosdelpueblo/hodo&marie-vientosdelpueblo-4.jpg" alt="Vientos del pueblo">
 </p>
 
 
