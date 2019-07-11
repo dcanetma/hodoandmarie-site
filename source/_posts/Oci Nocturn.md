@@ -88,7 +88,7 @@ date: 2016-10-01 12:00:00
   
 <br>
 
-* Creative and Art direction: <a href="https://www.bisgrafic.com/projecte/no-callem-global/" target="_blank">Bisgràfic</a>
+* Creative and Art direction: Bisgràfic
 * Motion graphics: Hodo
 * Illustration: <a href="http://www.juliasolans.com/no-callem-bcnantimasclista/" target="_blank">Júlia Solans</a>
 * Copywriter: <a href="http://tatche.net/" target="_blank">Tatché</a> 
