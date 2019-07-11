@@ -142,5 +142,5 @@ date: 2017-12-01 12:00:00
 * Creative and Art direction: hodo&marie
 * Storyboard and Illustration: Marie
 * Motion graphics: Hodo
-* Copywriter: Elisabet Suñé
-* Voice over: Ramón Hernández
+* Copywriter: <a href="https://cargocollective.com/elisabetsune" target="_blank">Elisabet Suñé</a>
+* Voice over: <a href="http://www.ramonhernandez.cat/" target="_blank">Ramón Hernández</a>
