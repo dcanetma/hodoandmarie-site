@@ -26,7 +26,7 @@ date: 2018-06-01 12:00:00
 
 <div class="gallery gallery-1">
 
-![La Lluna](/media/lallunaloungebar/hodo&marie-la-lluna-01.jpg)
+![La Lluna](/media/lallunaloungebar/hodo&marie-lallunaloungebar-01.jpg)
 
 </div>
 
