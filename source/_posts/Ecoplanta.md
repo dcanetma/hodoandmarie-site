@@ -88,3 +88,4 @@ date: 2017-06-01 12:00:00
 * Storyboard: DAQ Studio
 * 3D Modelling: Hodo
 * 3D Animation: Hodo
+* Music and Sound Design: <a href="http://www.orioltio.com/" target="_blank">Oriol Tió</a>
