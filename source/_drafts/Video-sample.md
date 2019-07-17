@@ -1,4 +1,4 @@
-title: Random Ltd.
+title: Video Sample
 subTitle: Explainer video
 
 year: 2020
@@ -25,11 +25,29 @@ thumbnailUrl:
 
 imageUrl: media/sample/dog.jpg
 
-
-
 date: 2008-06-06 11:21:00
 
 ---
+
+<!-- This is a 2x mixed gallery with VIDEO & IMAGES sample -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
+<div class="gallery gallery-video gallery-2">
+
+<p>
+	<video playsinline="playsinline" muted>
+			<source src="/media/sample/rabbit320.mp4" type="video/mp4">
+			<source src="/media/sample/rabbit320.webm" type="video/webm">
+	</video>
+	<img src="/media/sample/rabbit320.jpg" alt="…">
+</p>
+
+![Alt text](http://placekitten.com/1600/900 )
+
+
+</div>
+
+
 
 <!-- Sample of a full size vimeo video inside the post -->
 <!-- Pay attention to the use of 'gallery-1' class for a right separation with the  -->
@@ -143,7 +161,6 @@ Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [d
 			<source src="/media/sample/rabbit320.webm" type="video/webm">
 	</video>
 </p>
-
 
 </div>
 

@@ -35,26 +35,33 @@
 	// 	display: none;
 	// }
 
+	// Video galleries
 	&.gallery-video {
 		p {
+			// Hide the videos on small devices
 			video {
 				display: none;
 			}
+			// Show the fallback image, instead
 			img {
 				display: block;
 			}
 		}
+		// For biggers devices, show the video
 		@include media-breakpoint-up(sm) {
 			p {
 				video {
 					display: block;
 				}
-				img {
+				// But hide the fallback image for videos only.
+				// Not a regular image.
+				// So we can allow 'gallery-video' galleries
+				// mixing images and videos 
+				img:nth-child(2) {
 					display: none;
 				}
 			}			
 		}
-
 	}
 
 	&.gallery-1 {
