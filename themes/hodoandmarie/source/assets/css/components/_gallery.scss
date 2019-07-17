@@ -48,7 +48,7 @@
 			}
 		}
 		// For biggers devices, show the video
-		@include media-breakpoint-up(sm) {
+		@include media-breakpoint-up(md) {
 			p {
 				video {
 					display: block;
