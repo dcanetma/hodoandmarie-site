@@ -101,6 +101,8 @@ date: 2017-02-01 12:00:00
 	<img src="/media/lavozdormida/hodo&marie-lavozdormida-11.jpg" alt="La voz dormida">
 </p>
 
+</div>
+
 
 <!-- This is a 1x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
@@ -114,6 +116,8 @@ date: 2017-02-01 12:00:00
 	</video>
 	<img src="/media/lavozdormida/hodo&marie-lavozdormida-12.jpg" alt="La voz dormida">
 </p>
+
+</div>
 
 
 <div class="gallery gallery-2">
