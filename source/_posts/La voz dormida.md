@@ -53,35 +53,19 @@ date: 2017-02-01 12:00:00
 
 </div>
 
-<!-- This is a 2x VIDEO gallery -->
-<!-- Always add a linebreak between images -->
-<!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video gallery-2">
 
-<p>
-	<video playsinline="playsinline" muted>
-			<source src="/media/lavozdormida/hodo&marie-lavozdormida-03.mp4" type="video/mp4">
-			<source src="/media/lavozdormida/hodo&marie-lavozdormida-03.webm" type="video/webm">
-	</video>
-	<img src="/media/lavozdormida/hodo&marie-lavozdormida-03.jpg" alt="La voz dormida">
-</p>
+<div class="gallery gallery-2">
 
-<p>
-	<video playsinline="playsinline" muted>
-			<source src="/media/lavozdormida/hodo&marie-lavozdormida-04.mp4" type="video/mp4">
-			<source src="/media/lavozdormida/hodo&marie-lavozdormida-04.webm" type="video/webm">
-	</video>
-	<img src="/media/lavozdormida/hodo&marie-lavozdormida-04.jpg" alt="La voz dormida">
-</p>
+![La Voz Dormida](/media/lavozdormida/hodo&marie-lavozdormida-03.jpg)
 
+![La Voz Dormida](/media/lavozdormida/hodo&marie-lavozdormida-04.jpg)
 
 </div>
 
-
-<!-- This is a 2x VIDEO gallery -->
+<!-- This is a 1x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video gallery-2">
+<div class="gallery gallery-video gallery-1">
 
 <p>
 	<video playsinline="playsinline" muted>
@@ -91,72 +75,23 @@ date: 2017-02-01 12:00:00
 	<img src="/media/lavozdormida/hodo&marie-lavozdormida-05.jpg" alt="La voz dormida">
 </p>
 
-<p>
-	<video playsinline="playsinline" muted>
-			<source src="/media/lavozdormida/hodo&marie-lavozdormida-06.mp4" type="video/mp4">
-			<source src="/media/lavozdormida/hodo&marie-lavozdormida-06.webm" type="video/webm">
-	</video>
-	<img src="/media/lavozdormida/hodo&marie-lavozdormida-06.jpg" alt="La voz dormida">
-</p>
-
 
 </div>
 
 
-<!-- This is a 2x VIDEO gallery -->
-<!-- Always add a linebreak between images -->
-<!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video gallery-2">
+<div class="gallery gallery-2">
 
-<p>
-	<video playsinline="playsinline" muted>
-			<source src="/media/lavozdormida/hodo&marie-lavozdormida-07.mp4" type="video/mp4">
-			<source src="/media/lavozdormida/hodo&marie-lavozdormida-07.webm" type="video/webm">
-	</video>
-	<img src="/media/lavozdormida/hodo&marie-lavozdormida-07.jpg" alt="La voz dormida">
-</p>
+![La Voz Dormida](/media/lavozdormida/hodo&marie-lavozdormida-08.jpg)
 
-<p>
-	<video playsinline="playsinline" muted>
-			<source src="/media/lavozdormida/hodo&marie-lavozdormida-08.mp4" type="video/mp4">
-			<source src="/media/lavozdormida/hodo&marie-lavozdormida-08.webm" type="video/webm">
-	</video>
-	<img src="/media/lavozdormida/hodo&marie-lavozdormida-08.jpg" alt="La voz dormida">
-</p>
-
+![La Voz Dormida](/media/lavozdormida/hodo&marie-lavozdormida-10.jpg)
 
 </div>
 
 
-<!-- This is a 2x VIDEO gallery -->
+<!-- This is a 1x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video gallery-2">
-
-<p>
-	<video playsinline="playsinline" muted>
-			<source src="/media/lavozdormida/hodo&marie-lavozdormida-09.mp4" type="video/mp4">
-			<source src="/media/lavozdormida/hodo&marie-lavozdormida-09.webm" type="video/webm">
-	</video>
-	<img src="/media/lavozdormida/hodo&marie-lavozdormida-09.jpg" alt="La voz dormida">
-</p>
-
-<p>
-	<video playsinline="playsinline" muted>
-			<source src="/media/lavozdormida/hodo&marie-lavozdormida-10.mp4" type="video/mp4">
-			<source src="/media/lavozdormida/hodo&marie-lavozdormida-10.webm" type="video/webm">
-	</video>
-	<img src="/media/lavozdormida/hodo&marie-lavozdormida-10.jpg" alt="La voz dormida">
-</p>
-
-
-</div>
-
-
-<!-- This is a 2x VIDEO gallery -->
-<!-- Always add a linebreak between images -->
-<!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video gallery-2">
+<div class="gallery gallery-video gallery-1">
 
 <p>
 	<video playsinline="playsinline" muted>
@@ -166,6 +101,14 @@ date: 2017-02-01 12:00:00
 	<img src="/media/lavozdormida/hodo&marie-lavozdormida-11.jpg" alt="La voz dormida">
 </p>
 
+</div>
+
+
+<!-- This is a 1x VIDEO gallery -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
+<div class="gallery gallery-video gallery-1">
+
 <p>
 	<video playsinline="playsinline" muted>
 			<source src="/media/lavozdormida/hodo&marie-lavozdormida-12.mp4" type="video/mp4">
@@ -174,34 +117,16 @@ date: 2017-02-01 12:00:00
 	<img src="/media/lavozdormida/hodo&marie-lavozdormida-12.jpg" alt="La voz dormida">
 </p>
 
-
 </div>
 
 
-<!-- This is a 2x VIDEO gallery -->
-<!-- Always add a linebreak between images -->
-<!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video gallery-2">
+<div class="gallery gallery-2">
 
-<p>
-	<video playsinline="playsinline" muted>
-			<source src="/media/lavozdormida/hodo&marie-lavozdormida-13.mp4" type="video/mp4">
-			<source src="/media/lavozdormida/hodo&marie-lavozdormida-13.webm" type="video/webm">
-	</video>
-	<img src="/media/lavozdormida/hodo&marie-lavozdormida-13.jpg" alt="La voz dormida">
-</p>
+![La Voz Dormida](/media/lavozdormida/hodo&marie-lavozdormida-13.jpg)
 
-<p>
-	<video playsinline="playsinline" muted>
-			<source src="/media/lavozdormida/hodo&marie-lavozdormida-14.mp4" type="video/mp4">
-			<source src="/media/lavozdormida/hodo&marie-lavozdormida-14.webm" type="video/webm">
-	</video>
-	<img src="/media/lavozdormida/hodo&marie-lavozdormida-14.jpg" alt="La voz dormida">
-</p>
-
+![La Voz Dormida](/media/lavozdormida/hodo&marie-lavozdormida-14.jpg)
 
 </div>
-
 
 <!-- Sample credits secion -->
 
