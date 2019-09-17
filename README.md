@@ -38,24 +38,16 @@ $ hexo new post 'Name of the project'
 
 ## How to deploy
 
-Push to the 'deploy' branch of this project. 
+Hexo is configured to make deployments to the production server.
 
-The process is run by Bitbucket Pipelines. See 'bitbucket-pipelines.yml' for more details.
-
-How:
+To deploy:
 
 ``` bash
-$ npm run-script deploy
+$ npm run deploy
 ```
 
-Or:
+It will generate the site and upload to the server via FTP.
 
-``` bash
-$ hexo-deploy.sh
-```
+Follow the instructions on the 'deploy' section of the HEXO 'config.yml' file.
 
-Or:
-
-``` bash
-$ git push origin refs/heads/master:refs/heads/deploy
-```
+You'll need to create a 'config.deploy.yml' file with the FTP credentials. Start with the 'config.deploy.sample.yml'

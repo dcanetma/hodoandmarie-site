@@ -1,16 +1,18 @@
 # custom
 sandbox
 credentials.txt
-themes/sorry
-themes/landscape
 
 # Environrment variables
+_config.deploy.yml
+_multiconfig.yml
 .env
 
 # asset pipeline
 /node_modules
 
 # Static site generation
+themes/sorry
+themes/landscape
 db.json
 *.log
 public/
