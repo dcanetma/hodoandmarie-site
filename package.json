@@ -17,7 +17,7 @@
     "start": "hexo server",
     "deploy": "hexo deploy --config _config.yml,_config.deploy.yml",
     "predeploy": "hexo clean",
-    "postdeploy": "rm _multiconfig.yml",
+    "postdeploy": "rm _multiconfig.yml"
   },
   "dependencies": {
     "hexo": "^3.9.0",
