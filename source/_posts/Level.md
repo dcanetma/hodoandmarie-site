@@ -42,13 +42,13 @@ date: 2020-09-01 12:00:00
 	<img src="/media/level/hodo&marie-level-01.jpg" alt="Level Airlines">
 </p>
 
-p>
+<p>
 	<video playsinline="playsinline" muted>
 			<source src="/media/level/hodo&marie-level-02.mp4" type="video/mp4">
 			<source src="/media/level/hodo&marie-level-02.webm" type="video/webm">
 	</video>
 	<img src="/media/level/hodo&marie-level-02.jpg" alt="Level Airlines">
-</p><
+</p>
 
 
 </div>
@@ -68,13 +68,12 @@ p>
 	<img src="/media/level/hodo&marie-level-03.jpg" alt="Level Airlines">
 </p>
 
-p>
-	<video playsinline="playsinline" muted>
+<p>	<video playsinline="playsinline" muted>
 			<source src="/media/level/hodo&marie-level-04.mp4" type="video/mp4">
 			<source src="/media/level/hodo&marie-level-04.webm" type="video/webm">
 	</video>
 	<img src="/media/level/hodo&marie-level-04.jpg" alt="Level Airlines">
-</p><
+</p>
 
 
 </div>
@@ -94,13 +93,13 @@ p>
 	<img src="/media/level/hodo&marie-level-05.jpg" alt="Level Airlines">
 </p>
 
-p>
+<p>
 	<video playsinline="playsinline" muted>
 			<source src="/media/level/hodo&marie-level-06.mp4" type="video/mp4">
 			<source src="/media/level/hodo&marie-level-06.webm" type="video/webm">
 	</video>
 	<img src="/media/level/hodo&marie-level-06.jpg" alt="Level Airlines">
-</p><
+</p>
 
 
 </div>
@@ -120,13 +119,13 @@ p>
 	<img src="/media/level/hodo&marie-level-07.jpg" alt="Level Airlines">
 </p>
 
-p>
+<p>
 	<video playsinline="playsinline" muted>
 			<source src="/media/level/hodo&marie-level-08.mp4" type="video/mp4">
 			<source src="/media/level/hodo&marie-level-08.webm" type="video/webm">
 	</video>
 	<img src="/media/level/hodo&marie-level-08.jpg" alt="Level Airlines">
-</p><
+</p>
 
 
 </div>
@@ -146,13 +145,13 @@ p>
 	<img src="/media/level/hodo&marie-level-09.jpg" alt="Level Airlines">
 </p>
 
-p>
+<p>
 	<video playsinline="playsinline" muted>
 			<source src="/media/level/hodo&marie-level-10.mp4" type="video/mp4">
 			<source src="/media/level/hodo&marie-level-10.webm" type="video/webm">
 	</video>
 	<img src="/media/level/hodo&marie-level-10.jpg" alt="Level Airlines">
-</p><
+</p>
 
 
 </div>
