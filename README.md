@@ -6,7 +6,7 @@ The website for Hodo&Marie Studio.
 
 ## Getting started
 
-``` bash
+```bash
 
 # Installing the Hexo CLI
 npm install -g hexo-cli
@@ -21,18 +21,17 @@ npm install
 
 Once installed you can:
 
+1. Start the local server:
 
-1. Run server:
-
-``` bash
-$ hexo server
+```bash
+$ npm start
 ```
 
 Visit http://localhost:4000/ to watch the site.
 
 2. Create posts like this:
 
-``` bash
+```bash
 $ hexo new post 'Name of the project'
 ```
 
@@ -42,7 +41,7 @@ Hexo is configured to make deployments to the production server.
 
 To deploy:
 
-``` bash
+```bash
 $ npm run deploy
 ```
 
