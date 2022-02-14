@@ -27,133 +27,103 @@ date: 2020-09-01 12:00:00
 
 
 ---
-
-
 <!-- This is a 2x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-video gallery-2">
-
-<p>
-	<video playsinline="playsinline" muted>
+	<p>
+		<video playsinline="playsinline" muted>
 			<source src="/media/level/hodo&marie-level-01.mp4" type="video/mp4">
 			<source src="/media/level/hodo&marie-level-01.webm" type="video/webm">
-	</video>
-	<img src="/media/level/hodo&marie-level-01.png" alt="Level Airlines">
-</p>
-
-<p>
-	<video playsinline="playsinline" muted>
+		</video>
+		<img src="/media/level/hodo&marie-level-01.png" alt="Level Airlines">
+	</p>
+	<p>
+		<video playsinline="playsinline" muted>
 			<source src="/media/level/hodo&marie-level-02.mp4" type="video/mp4">
 			<source src="/media/level/hodo&marie-level-02.webm" type="video/webm">
-	</video>
-	<img src="/media/level/hodo&marie-level-02.png" alt="Level Airlines">
-</p>
-
-
+		</video>
+		<img src="/media/level/hodo&marie-level-02.png" alt="Level Airlines">
+	</p>
 </div>
-
-
 
 <!-- This is a 2x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-video gallery-2">
-
-<p>
-	<video playsinline="playsinline" muted>
+	<p>
+		<video playsinline="playsinline" muted>
 			<source src="/media/level/hodo&marie-level-03.mp4" type="video/mp4">
 			<source src="/media/level/hodo&marie-level-03.webm" type="video/webm">
-	</video>
-	<img src="/media/level/hodo&marie-level-03.png" alt="Level Airlines">
-</p>
-
-<p>	<video playsinline="playsinline" muted>
+		</video>
+		<img src="/media/level/hodo&marie-level-03.png" alt="Level Airlines">
+	</p>
+	<p> <video playsinline="playsinline" muted>
 			<source src="/media/level/hodo&marie-level-04.mp4" type="video/mp4">
 			<source src="/media/level/hodo&marie-level-04.webm" type="video/webm">
-	</video>
-	<img src="/media/level/hodo&marie-level-04.png" alt="Level Airlines">
-</p>
-
-
+		</video>
+		<img src="/media/level/hodo&marie-level-04.png" alt="Level Airlines">
+	</p>
 </div>
-
-
 
 <!-- This is a 2x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-video gallery-2">
-
-<p>
-	<video playsinline="playsinline" muted>
+	<p>
+		<video playsinline="playsinline" muted>
 			<source src="/media/level/hodo&marie-level-05.mp4" type="video/mp4">
 			<source src="/media/level/hodo&marie-level-05.webm" type="video/webm">
-	</video>
-	<img src="/media/level/hodo&marie-level-05.png" alt="Level Airlines">
-</p>
-
-<p>
-	<video playsinline="playsinline" muted>
+		</video>
+		<img src="/media/level/hodo&marie-level-05.png" alt="Level Airlines">
+	</p>
+	<p>
+		<video playsinline="playsinline" muted>
 			<source src="/media/level/hodo&marie-level-06.mp4" type="video/mp4">
 			<source src="/media/level/hodo&marie-level-06.webm" type="video/webm">
-	</video>
-	<img src="/media/level/hodo&marie-level-06.png" alt="Level Airlines">
-</p>
-
-
+		</video>
+		<img src="/media/level/hodo&marie-level-06.png" alt="Level Airlines">
+	</p>
 </div>
-
-
 
 <!-- This is a 2x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-video gallery-2">
-
-<p>
-	<video playsinline="playsinline" muted>
+	<p>
+		<video playsinline="playsinline" muted>
 			<source src="/media/level/hodo&marie-level-07.mp4" type="video/mp4">
 			<source src="/media/level/hodo&marie-level-07.webm" type="video/webm">
-	</video>
-	<img src="/media/level/hodo&marie-level-07.png" alt="Level Airlines">
-</p>
-
-<p>
-	<video playsinline="playsinline" muted>
+		</video>
+		<img src="/media/level/hodo&marie-level-07.png" alt="Level Airlines">
+	</p>
+	<p>
+		<video playsinline="playsinline" muted>
 			<source src="/media/level/hodo&marie-level-08.mp4" type="video/mp4">
 			<source src="/media/level/hodo&marie-level-08.webm" type="video/webm">
-	</video>
-	<img src="/media/level/hodo&marie-level-08.png" alt="Level Airlines">
-</p>
-
-
+		</video>
+		<img src="/media/level/hodo&marie-level-08.png" alt="Level Airlines">
+	</p>
 </div>
-
-
 
 <!-- This is a 2x VIDEO gallery -->
 <!-- Always add a linebreak between images -->
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-video gallery-2">
-
-<p>
-	<video playsinline="playsinline" muted>
+	<p>
+		<video playsinline="playsinline" muted>
 			<source src="/media/level/hodo&marie-level-09.mp4" type="video/mp4">
 			<source src="/media/level/hodo&marie-level-09.webm" type="video/webm">
-	</video>
-	<img src="/media/level/hodo&marie-level-09.png" alt="Level Airlines">
-</p>
-
-<p>
-	<video playsinline="playsinline" muted>
+		</video>
+		<img src="/media/level/hodo&marie-level-09.png" alt="Level Airlines">
+	</p>
+	<p>
+		<video playsinline="playsinline" muted>
 			<source src="/media/level/hodo&marie-level-10.mp4" type="video/mp4">
 			<source src="/media/level/hodo&marie-level-10.webm" type="video/webm">
-	</video>
-	<img src="/media/level/hodo&marie-level-10.png" alt="Level Airlines">
-</p>
-
-
+		</video>
+		<img src="/media/level/hodo&marie-level-10.png" alt="Level Airlines">
+	</p>
 </div>
 
 
