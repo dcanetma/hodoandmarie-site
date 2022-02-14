@@ -49,4 +49,4 @@ It will generate the site and upload to the server via FTP.
 
 Follow the instructions on the 'deploy' section of the HEXO 'config.yml' file.
 
-You'll need to create a 'config.deploy.yml' file with the FTP credentials. Start with the 'config.deploy.sample.yml'
+You'll need to create a '_config.deploy.yml' file with the FTP credentials. Start with the 'config.deploy.sample.yml'
