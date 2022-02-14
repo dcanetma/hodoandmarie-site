@@ -23,15 +23,15 @@ jobs:
       # 02. Set up node to version 14.
       - uses: actions/setup-node@v1
         with:
-          node-version: 14
+          node-version: 12
 
       # 03. Install dependencies.
       - name: Install dependencies
-        run: node install
+        run: npm install
 
       # 04. Build the website
-      - name: Built the website using Hexo
-        run: node run build
+      - name: Build the website using Hexo
+        run: npm run build
 
       # 04. Deploy the website using FTP
       - name: Upload ftp
