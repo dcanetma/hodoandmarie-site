@@ -5,6 +5,7 @@
 name: Build and publish website (FTP)
 
 on:
+  workflow_dispatch:
   push:
     # It will publish changes on the 'deploy' branch, only.
     branches:
