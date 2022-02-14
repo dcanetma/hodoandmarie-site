@@ -34,12 +34,21 @@ jobs:
         run: npm run build
 
       # 04. Deploy the website using FTP
-      - name: Upload ftp
-        uses: sebastianpopp/ftp-action@releases/v2
+      #- name: Upload ftp
+      #  uses: sebastianpopp/ftp-action@releases/v2
+      #  with:
+      #    host: ${{ secrets.FTP_SERVER }}
+      #    user: ${{ secrets.FTP_USERNAME }}
+      #    password: ${{ secrets.FTP_PASSWORD }}
+      #    localDir: "public"
+      #    remoteDir: ${{ secrets.FTP_REMOTE }}
+      #    options: "--delete --asci"
+
+      - name: Upload ftp using ftp-sync
+        uses: socram8888/ftp-hash-sync@v1
         with:
-          host: ${{ secrets.FTP_SERVER }}
-          user: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          localDir: "public"
-          remoteDir: ${{ secrets.FTP_REMOTE }}
-          options: "--delete --asci"
+            host: ${{ secrets.FTP_SERVER }}
+            username: ${{ secrets.FTP_USERNAME }}
+            source: "public"
+            password: ${{ secrets.FTP_PASSWORD }}
+            destination: ${{ secrets.FTP_REMOTE }}
