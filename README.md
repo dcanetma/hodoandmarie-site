@@ -4,6 +4,13 @@
 
 The website for Hodo&Marie Studio.
 
+## Dependencies
+
+You will need:
+
+1. to install node and git on your computer.
+2. a valid GitHub user with access to this repository: https://github.com/dcanetma/hodoandmarie-site/
+
 ## Getting started
 
 ```bash
@@ -12,7 +19,7 @@ The website for Hodo&Marie Studio.
 npm install -g hexo-cli
 
 # Clone repo
-$ git clone https://XXXX.git
+$ git clone https://github.com/dcanetma/hodoandmarie-site
 $ cd site
 
 # install dependencies
@@ -37,16 +44,15 @@ $ hexo new post 'Name of the project'
 
 ## How to deploy
 
-Hexo is configured to make deployments to the production server.
+There are two methods: automatic or manual.
 
-To deploy:
+Both of them, use the GitHub actions pipeline.
 
-```bash
-$ npm run deploy
-```
+### Automatic method
 
-It will generate the site and upload to the server via FTP.
+1. Merge changes from master to deploy
 
-Follow the instructions on the 'deploy' section of the HEXO 'config.yml' file.
+### Manual method
 
-You'll need to create a '_config.deploy.yml' file with the FTP credentials. Start with the 'config.deploy.sample.yml'
+1. Go to GitHub actions and Select the ["Build and publish..." job](https://github.com/dcanetma/hodoandmarie-site/actions/workflows/cy.yml) 
+2. Run workflow on the desired branch. 

@@ -14,18 +14,13 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "server": "hexo server",
-    "start": "hexo server",
-    "deploy": "hexo deploy --config _config.yml,_config.deploy.yml",
-    "predeploy": "hexo clean",
-    "postdeploy": "rm _multiconfig.yml"
+    "start": "hexo server"
   },
   "dependencies": {
     "hexo": "^4.0.0",
     "hexo-asset-pipeline": "^1.8.0",
     "hexo-auto-canonical": "0.1.1",
     "hexo-browsersync": "^0.3.0",
-    "hexo-deployer-ftpsync": "^0.1.1",
-    "hexo-deployer-sftp": "^0.4.1",
     "hexo-generator-feed": "^1.2.2",
     "hexo-generator-index": "^1.0.0",
     "hexo-generator-seo-friendly-sitemap": "^0.2.1",
