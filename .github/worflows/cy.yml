@@ -1,0 +1,44 @@
+# cy.yml
+# This workflow builds the website using Hexo 4.2.1
+# and publishes to the web hosting using FTP.
+
+name: Build and publish website (FTP)
+
+on:
+  push:
+    # It will publish changes on the 'deploy' branch, only.
+    branches:
+      - deploy
+      - fix-deploy
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # 01. Checkout the repo.
+      - name: Checkout repo
+        uses: actions/checkout@v1
+
+      # 02. Set up node to version 14.
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      # 03. Install dependencies.
+      - name: Install dependencies
+        run: node install
+
+      # 04. Build the website
+      - name: Built the website using Hexo
+        run: node run build
+
+      # 04. Deploy the website using FTP
+      - name: Upload ftp
+        uses: sebastianpopp/ftp-action@releases/v2
+        with:
+          host: ${{ secrets.FTP_SERVER }}
+          user: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          localDir: "public"
+          remoteDir: ${{ secrets.FTP_REMOTE }}
+          options: "--delete --asci"
