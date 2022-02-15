@@ -2,22 +2,22 @@
 
 The source code for Hodo&Marie Studio website built with [Hexo](https://hexo.io/).
 
-> url: https://hodoandmarie.com
-> Feb-2022
+- Url: https://hodoandmarie.com
+- Updated by: feb/2022
 
 ## Before you begin
 
 This project requires that you install these next dependencies on your computer:
 
-1. to [install git](https://github.com/git-guides/install-git) on your computer.
-2. to [install node](https://nodejs.org/en/) on your computer.
-3. [a valid GitHub user](https://github.com/) with access to the project repository: [github.com/dcanetma/hodoandmarie-site/](https://github.com/dcanetma/hodoandmarie-site/).
-4. [Connect your computer with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
+1. [install git](https://github.com/git-guides/install-git) on your computer.
+2. [install node](https://nodejs.org/en/) on your computer.
+3. have [a valid GitHub user](https://github.com/) with access to the project repository: [github.com/dcanetma/hodoandmarie-site/](https://github.com/dcanetma/hodoandmarie-site/).
+4. [Connect your computer with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) to GitHub.
 5. if you don't have a prefered IDE, we recommend you to install [Visual Studio Code](https://code.visualstudio.com/).
 
 ## Downloading the project
 
-First step, will be to download the code of the project on your computer. You will need to do this only, once.
+First step, will be to download the code of the project on your computer. 
 
 1. Open a Terminal window.
 2. Execute these next commands below:
@@ -34,9 +34,11 @@ $ git clone https://github.com/dcanetma/hodoandmarie-site
 $ cd hodoandmarie-site
 ```
 
+> **Important**: You only need to execute the above commands once.
+
 ## Managing the website on your computer
 
-Once you've donwloaded the project, you are ready to start managing its contents.
+Once you have donwloaded the project, you are ready to start managing the website contents.
 
 1. Open a Terminal window.
 2. Execute these next commands below:
@@ -50,7 +52,6 @@ npm install
 
 # 3. Run the website on your computer
 npm start
-
 ```
 
 3. Visit http://localhost:4000/ to watch the site.
@@ -78,17 +79,15 @@ hexo new post 'Name of the project'
 
 ## Publish the website to the hosting provider
 
-Whenever you want to publish the website to your hostin providers, there are two methods available: 
+This project uses [GitHub Actions](https://github.com/features/actions) to publish the website to the internet.
+
+The logic of the publishing procedure to the hosting server is store on this [GitHub Actions workflow file](.github/workflows/cy.yml).
+
+Whenever you want to publish the website to your hosting provider, there are two methods available: 
 - [Automatic publishing method](#automatic-publishing-method)
 - [Manual publishing method](#manual-publishing-method)
 
-
-
-This [GitHub Actions workflow](.github/workflows/cy.yml) contains the logic of the FTP publishing process to the hosting servder.
-
-This process uses the [FTP credentials stored on the secrets project settings](https://github.com/dcanetma/hodoandmarie-site/settings/secrets/actions) at GitHub.
-
-> **Important**: You will need to update these settings whenever you need to change the hosting provider or the FTP user and password.
+Both methods use the [FTP credentials stored on the secrets project settings](https://github.com/dcanetma/hodoandmarie-site/settings/secrets/actions) at GitHub.
 
 ### Automatic publishing method
 
@@ -106,6 +105,8 @@ This process uses the [FTP credentials stored on the secrets project settings](h
 5. Visit the website at [www.hodoandmarie.com](http://www.hodoandmarie.com).
 
 ### Setting up FTP credentials
+
+**Important**: You will need to update these settings whenever you need to change the hosting provider or the FTP user and password.
 
 You can manage the the [FTP credentials stored on the secrets project settings](https://github.com/dcanetma/hodoandmarie-site/settings/secrets/actions) at GitHub Actions.
 
