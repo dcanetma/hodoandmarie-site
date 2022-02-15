@@ -1,26 +1,26 @@
-title: The Peace Treaty Initiative
+title: Inclusive Narratives Practice Group
 
 subTitle: Institute for Integrated Transitions
 
 client: Institute for Integrated Transitions
 year: 2020
 intro: >
-  Filling a critical gap in the existing laws of war – which mainly regulate how to fight – the Peace Treaty Initiative aims to facilitate global consideration of a purpose-built international legal framework to incentivise warring parties to choose the pathway of negotiation, in order to prevent armed conflicts in the first place and to end them once underway.
+  The IFIT Inclusive Narratives Practice Group is the world’s first dedicated advisory platform on the need to construct and promote inclusive social and political narratives as part of any negotiation, dialogue or transition process taking place in a fragile and conflict-affected society.
 
-bgColor: '#12345a'
-textColor: '#ffffff'
+bgColor: '#bedffe'
+textColor: '#000000'
 
 tags:
   - Explainer video
 
-vimeoId: 588247491
+vimeoId: 588282086
 
 thumbnailUrl:
-  - media/treaty/hodo&marie-treaty-thumbnail.mp4
-  - media/treaty/hodo&marie-treaty-thumbnail.webm
-  - media/treaty/hodo&marie-treaty-thumbnail.jpg
+  - media/narrative/hodo&marie-narrative-thumbnail.mp4
+  - media/narrative/hodo&marie-narrative-thumbnail.webm
+  - media/narrative/hodo&marie-narrative-thumbnail.png
 
-imageUrl: media/treaty/hodo&marie-treaty-header.jpg
+imageUrl: media/narrative/hodo&marie-narrative-header.jpg
 
 date: 2021-09-01 12:00:00
 
@@ -32,22 +32,10 @@ date: 2021-09-01 12:00:00
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-video gallery-2">
 	<p>
-		<img src="/media/treaty/hodo&marie-treaty-01.jpg" alt="treaty">
+		<img src="/media/narrative/hodo&marie-narrative-01.png" alt="narrative">
 	</p>
 	<p>
-		<img src="/media/treaty/hodo&marie-treaty-02.jpg" alt="treaty">
-	</p>
-</div>
-
-<!-- This is a 2x VIDEO gallery -->
-<!-- Always add a linebreak between images -->
-<!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video gallery-2">
-	<p>
-		<img src="/media/treaty/hodo&marie-treaty-03.jpg" alt="treaty">
-	</p>
-	<p>
-		<img src="/media/treaty/hodo&marie-treaty-04.jpg" alt="treaty">
+		<img src="/media/narrative/hodo&marie-narrative-02.png" alt="narrative">
 	</p>
 </div>
 
@@ -56,22 +44,10 @@ date: 2021-09-01 12:00:00
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-video gallery-2">
 	<p>
-		<img src="/media/treaty/hodo&marie-treaty-05.jpg" alt="treaty">
+		<img src="/media/narrative/hodo&marie-narrative-03.png" alt="narrative">
 	</p>
 	<p>
-		<img src="/media/treaty/hodo&marie-treaty-06.jpg" alt="treaty">
-	</p>
-</div>
-
-<!-- This is a 2x VIDEO gallery -->
-<!-- Always add a linebreak between images -->
-<!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video gallery-2">
-	<p>
-		<img src="/media/treaty/hodo&marie-treaty-07.jpg" alt="treaty">
-	</p>
-	<p>
-		<img src="/media/treaty/hodo&marie-treaty-08.jpg" alt="treaty">
+		<img src="/media/narrative/hodo&marie-narrative-04.png" alt="narrative">
 	</p>
 </div>
 
@@ -80,22 +56,10 @@ date: 2021-09-01 12:00:00
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-video gallery-2">
 	<p>
-		<img src="/media/treaty/hodo&marie-treaty-09.jpg" alt="treaty">
+		<img src="/media/narrative/hodo&marie-narrative-05.png" alt="narrative">
 	</p>
 	<p>
-		<img src="/media/treaty/hodo&marie-treaty-10.jpg" alt="treaty">
-	</p>
-</div>
-
-<!-- This is a 2x VIDEO gallery -->
-<!-- Always add a linebreak between images -->
-<!-- It needs two images between paragraph tags -->
-<div class="gallery gallery-video gallery-2">
-	<p>
-		<img src="/media/treaty/hodo&marie-treaty-11.jpg" alt="treaty">
-	</p>
-	<p>
-		<img src="/media/treaty/hodo&marie-treaty-12.jpg" alt="treaty">
+		<img src="/media/narrative/hodo&marie-narrative-06.png" alt="narrative">
 	</p>
 </div>
 
@@ -104,10 +68,46 @@ date: 2021-09-01 12:00:00
 <!-- It needs two images between paragraph tags -->
 <div class="gallery gallery-video gallery-2">
 	<p>
-		<img src="/media/treaty/hodo&marie-treaty-13.jpg" alt="treaty">
+		<img src="/media/narrative/hodo&marie-narrative-07.png" alt="narrative">
 	</p>
 	<p>
-		<img src="/media/treaty/hodo&marie-treaty-14.jpg" alt="treaty">
+		<img src="/media/narrative/hodo&marie-narrative-08.png" alt="narrative">
+	</p>
+</div>
+
+<!-- This is a 2x VIDEO gallery -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
+<div class="gallery gallery-video gallery-2">
+	<p>
+		<img src="/media/narrative/hodo&marie-narrative-09.png" alt="narrative">
+	</p>
+	<p>
+		<img src="/media/narrative/hodo&marie-narrative-10.png" alt="narrative">
+	</p>
+</div>
+
+<!-- This is a 2x VIDEO gallery -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
+<div class="gallery gallery-video gallery-2">
+	<p>
+		<img src="/media/narrative/hodo&marie-narrative-11.png" alt="narrative">
+	</p>
+	<p>
+		<img src="/media/narrative/hodo&marie-narrative-12.png" alt="narrative">
+	</p>
+</div>
+
+<!-- This is a 2x VIDEO gallery -->
+<!-- Always add a linebreak between images -->
+<!-- It needs two images between paragraph tags -->
+<div class="gallery gallery-video gallery-2">
+	<p>
+		<img src="/media/narrative/hodo&marie-narrative-13.png" alt="narrative">
+	</p>
+	<p>
+		<img src="/media/narrative/hodo&marie-narrative-14.png" alt="narrative">
 	</p>
 </div>
 
