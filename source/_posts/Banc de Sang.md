@@ -13,7 +13,7 @@ textColor: '#000000'
 tags:
   - Educational video
 
-vimeoId: 
+vimeoId: 677711450
 
 thumbnailUrl:
   - media/bancdesang/hodo&marie-bancdesang-thumbnail.mp4
@@ -195,8 +195,8 @@ date: 2021-09-01 12:00:00
   
 <br>
 
-* Script and content curators: Pavel Olivera & Desirée Campoy
+* Doctors and content curators: Pavel Olivera & Desirée Campoy
 * Creative and Art direction: hodo&marie
-* Storyboard and Illustration: Marie
+* Script, Storyboard and Illustration: Marie
 * Motion graphics: Hodo
-* Voice over: <a href="http://www.http://thebritishvoiceoverwoman.com/" target="_blank">Sarah Davison</a> (English) & <a href="http://www.evalluch.cat" target="_blank">Eva Lluch</a> (Spanish & Catalan) 
+* Voice over: <a href="http://thebritishvoiceoverwoman.com/" target="_blank">Sarah Davison</a> (English) & <a href="http://www.evalluch.cat" target="_blank">Eva Lluch</a> (Spanish & Catalan) 
