@@ -14,7 +14,7 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "prepublish": "hexo clean",
-    "publish": "git checkout deploy && git merge origin/main --ff-only && git push && git checkout main",
+    "publish": "git checkout deploy && git merge origin/master --ff-only && git push && git checkout master",
     "server": "hexo server",
     "start": "hexo server"
   },
