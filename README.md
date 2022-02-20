@@ -12,6 +12,7 @@ This project contains the source code, contents and publications scripts for Hod
     - [Managing data files: navigation links](#managing-data-files-navigation-links)
     - [Managing data files: Social links](#managing-data-files-social-links)
     - [Create a new project entries](#create-a-new-project-entries)
+    - [Compose the project contents with code snippets](#compose-the-project-contents-with-code-snippets)
 - [Download and Uploading changes to GitHub using git](#download-and-uploading-changes-to-github-using-git)
 - [Publish the website to the hosting provider](#publish-the-website-to-the-hosting-provider)
     - [Automatic publishing method](#automatic-publishing-method)
@@ -106,6 +107,14 @@ hexo new post 'Name of the project'
 
 2. Edit the new file the `source/_posts` folder with your favourite IDE.
 3. Check that the new page works fine.
+
+### Compose the project contents with code snippets
+
+In order to make things easier to deal with the content on HTML, there is a collection of examples to help you.
+
+These code examples are store on the `source/_snippets/` folder.
+
+[Visit the README file for more information](source/_snippets/README.md).
 
 ## Download and Uploading changes to GitHub using git
 

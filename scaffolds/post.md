@@ -31,6 +31,9 @@ tags:
 # 'Vimeo Id video'
 # Set this value in case you want to feature a header video on the
 # project page. You can take it from the Vimeo video url.
+# In case, you don't want to publish a Video on Vimeo, but render the video template
+# use the '1' identificator for vimeoIDd.
+
 vimeoId: '334092219'
 
 # 'Square image for the project grid'
@@ -119,7 +122,6 @@ Welcome back to [Hexo](https://hexo.io/)! This is your very first post. Check [d
 ![Alt text](http://placekitten.com/700/700 )
 
 </div>
-
 
 
 <!-- This is a 3x VIDEO gallery sample -->
