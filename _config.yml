@@ -5,12 +5,12 @@
 # Site
 title: hodo&marie
 subtitle: Subtitle
-description: 'We are a design studio with focus on illustration and motion graphics.<br>Nice to meet you!
-<br>We would love to tell your story.'
+description: >
+    'We are a design studio with focus on illustration and motion graphics.<br>Nice to meet you!
+    <br>We would love to tell your story.'
 keywords:
 author: facts&fictions
 language: en
-timezone:  
 
 # Theme config
 theme_config:
@@ -102,8 +102,7 @@ include:
   - ".htaccess"
   - "media/**/*"
 
-exclude:
-
+# exclude:
 
 # Asset pipeline
 # @see: https://github.com/hexojs/hexo-asset-pipeline
