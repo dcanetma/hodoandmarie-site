@@ -2,17 +2,19 @@
   "name": "hodoandmarie-site",
   "description": "Website for Hodo & Marie Studio",
   "author": "facts & fictions <daniel@factsandfictions.net>",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "hexo": {
     "version": "4.2.1"
   },
   "repository": {
     "type": "git",
-    "url": "git://git@bitbucket.org:factsandfictions/hodoandmarie-site.git"
+    "url": "git://git@github.org:dcanetma/hodoandmarie-site.git"
   },
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
+    "prepublish": "hexo clean",
+    "publish": "git checkout deploy && git merge origin/main --ff-only && git push && git checkout main",
     "server": "hexo server",
     "start": "hexo server"
   },
