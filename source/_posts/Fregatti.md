@@ -5,6 +5,8 @@ subTitle: Bistro&Bar
 client: Fregatti
 year: 2016
 
+vimeoId: 0
+
 intro: >
   A new colourful identity based on the maritime flag signals for the Helsinki based Fregatti Bistro&Bar.
 
