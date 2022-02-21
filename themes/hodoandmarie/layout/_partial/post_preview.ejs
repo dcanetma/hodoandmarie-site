@@ -12,12 +12,14 @@
   <div id="post-<%= i %>" class="post-preview <%- post.vimeoId ? 'post-preview-video' : '' %> d-block col-12 col-sm-6 col-xl-4" >
     <div class="post-preview-wrapper">
       <div class="post-preview-media">
-        <% if (post.vimeoId > 0){ %>          
+        <% if (post.vimeoId > 1){ %>          
           <video muted="muted" preload="preload" cover="<%= url_for(post.thumbnailUrl[2]) %>">
             <source src="<%= url_for(post.thumbnailUrl[0]) %>" type="video/mp4">
             <source src="<%= url_for(post.thumbnailUrl[1]) %>" type="video/webm">              
           </video>
           <a href="<%- url_for(post.path) %>" title="<%= post.title %>"><img src="<%= url_for(post.thumbnailUrl[2]) %>" class="img-fluid" alt="<%= post.title %>"></a>
+        <% } else if (page.vimeoId = 1) { %>
+          <a href="<%- url_for(post.path) %>" title="<%= post.title %>"><img src="<%= url_for(post.thumbnailUrl) %>" class="img-fluid" alt="<%= post.title %>"></a>
         <% } else {%>
           <a href="<%- url_for(post.path) %>" title="<%= post.title %>"><img src="<%= url_for(post.thumbnailUrl) %>" class="img-fluid" alt="<%= post.title %>"></a>
         <% } %> 
