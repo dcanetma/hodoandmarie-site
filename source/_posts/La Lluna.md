@@ -20,6 +20,7 @@ imageUrl: media/lallunaloungebar/hodo&marie-lallunaloungebar-header.jpg
 
 date: 2018-06-01 12:00:00
 
+vimeoId: 0
 
 
 ---
