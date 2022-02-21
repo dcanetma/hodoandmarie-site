@@ -9,7 +9,7 @@
     </style>
   <% } %> 
   <!-- Post: preview -->
-  <div id="post-<%= i %>" class="post-preview <%- post.vimeoId ? 'post-preview-video' : '' %> d-block col-12 col-sm-6 col-xl-4" >
+  <div id="post-<%= i %>" class="post-preview <%- post.vimeoId > 1 ? 'post-preview-video' : '' %> d-block col-12 col-sm-6 col-xl-4" >
     <div class="post-preview-wrapper">
       <div class="post-preview-media">
         <% if (post.vimeoId > 1){ %>          
