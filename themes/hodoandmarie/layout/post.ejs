@@ -25,7 +25,7 @@
   </style>
 <% } %> 
 
-<section id="<%= page.layout %>" class="post post-full <%- page.vimeoId ? 'post-full-video' : 'post-full-no-video' %> container-fluid mt-1 mt-lg-2" >
+<section id="<%= page.layout %>" class="post post-full <%- page.vimeoId > 1 ? 'post-full-video' : 'post-full-no-video' %> container-fluid mt-1 mt-lg-2" >
 	<!-- Post header -->
   <header class="row">  
 		<div class="col-12 inner">
