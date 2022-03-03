@@ -2,11 +2,15 @@
     "recommendations": [
         "redhat.vscode-yaml",
         "eamodio.gitlens",
+        "dbaeumer.vscode-eslint",
         "yzhang.markdown-all-in-one",
         "yzane.markdown-pdf",
         "shd101wyy.markdown-preview-enhanced",
         "bierner.markdown-preview-github-styles",
         "esbenp.prettier-vscode",
+        "ms-vsliveshare.vsliveshare",
+        "ms-vsliveshare.vsliveshare-audio",
+        "ms-vsliveshare.vsliveshare-pack",
         "fantasy.vscode-hexo-utils"
     ]
 }
