@@ -17,9 +17,9 @@ tags:
   - Promotional Video
 
 thumbnailUrl: 
-media/ciutatjardiserveis/hodo&marie-ciutatjardiserveis-thumbnail.mp4
-media/ciutatjardiserveis/hodo&marie-ciutatjardiserveis-thumbnail.webm
-media/ciutatjardiserveis/hodo&marie-ciutatjardiserveis-thumbnail.jpg
+  - media/ciutatjardiserveis/hodo&marie-ciutatjardiserveis-thumbnail.mp4
+  - media/ciutatjardiserveis/hodo&marie-ciutatjardiserveis-thumbnail.webm
+  - media/ciutatjardiserveis/hodo&marie-ciutatjardiserveis-thumbnail.jpg
 
 imageUrl: media/ciutatjardiserveis/hodo&marie-ciutatjardiserveis-header.jpg
 
