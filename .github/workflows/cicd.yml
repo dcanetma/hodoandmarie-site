@@ -1,16 +1,20 @@
-# cy.yml
+# cicd.yml
 # This workflow builds the website using Hexo 4.2.1
 # and publishes to the web hosting using FTP.
 
 name: Build and publish website (FTP)
 
+# Run this workflow when pushing to the 'deploy' branch or on demand. 
+# It also executes every morning at 6:30 so we're the first to know if the build is failing.
+# The scheduled job never publishes anything to the server.
 on:
+  schedule:
+    - cron: '30 6 * * *'
   workflow_dispatch:
   push:
     # It will publish changes on the 'deploy' branch, only.
     branches:
       - deploy
-      - fix-deploy
 
 jobs:
   build:
@@ -34,18 +38,9 @@ jobs:
         run: npm run build
 
       # 04. Deploy the website using FTP
-      #- name: Upload ftp
-      #  uses: sebastianpopp/ftp-action@releases/v2
-      #  with:
-      #    host: ${{ secrets.FTP_SERVER }}
-      #    user: ${{ secrets.FTP_USERNAME }}
-      #    password: ${{ secrets.FTP_PASSWORD }}
-      #    localDir: "public"
-      #    remoteDir: ${{ secrets.FTP_REMOTE }}
-      #    options: "--delete --asci"
-
       - name: Upload ftp using ftp-sync
         uses: socram8888/ftp-hash-sync@v1
+        if: ${{ github.event_name != 'schedule' }}
         with:
             host: ${{ secrets.FTP_SERVER }}
             username: ${{ secrets.FTP_USERNAME }}

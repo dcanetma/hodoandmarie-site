@@ -12,7 +12,7 @@
 				border-color: <%= page.textColor %>;
 				color: <%= page.textColor %>;
 			}
-			section.post-full a.btn:hover {
+		section.post-full a.btn:hover {
 				<% if (page.textColor!='white' && page.textColor!='#fff' && page.textColor!='#ffffff'){ %>
 					color: white;
 				<% } else { %>
@@ -25,11 +25,11 @@
   </style>
 <% } %> 
 
-<section id="<%= page.layout %>" class="post post-full <%- page.vimeoId ? 'post-full-video' : 'post-full-no-video' %> container-fluid mt-1 mt-lg-2" >
+<section id="<%= page.layout %>" class="post post-full <%- page.vimeoId > 1 ? 'post-full-video' : 'post-full-no-video' %> container-fluid mt-1 mt-lg-2" >
 	<!-- Post header -->
   <header class="row">  
 		<div class="col-12 inner">
-			 <% if (page.vimeoId){ %>	
+			 <% if (page.vimeoId > 1){ %>	
 				 <img src="<%= url_for(page.imageUrl) %>" alt="<%= page.title %>"  class="header embed-thumbnail img-fluid">  
 				 <div class="embed-responsive embed-responsive-16by9">
 					 	<iframe id="video" class="header embed-responsive-item" 
@@ -41,6 +41,8 @@
 					 		</p>
 					 	</iframe>
 					</div>
+			 <% } else if (page.vimeoId = 1) { %>
+				<img src="<%= url_for(page.imageUrl) %>" alt="<%= page.title %>"  class="header img-fluid">  
 			 <% } else { %>	
 				 <img src="<%= url_for(page.imageUrl) %>" alt="<%= page.title %>"  class="header img-fluid">  
 				 <!-- We show this image on mobile and desktop only -->
@@ -58,7 +60,7 @@
 			  <% if (page.intro){ %>
 				  	<%- markdown(page.intro) %>
 			  <% } %>
-			  <% if (page.vimeoId){ %>
+			  <% if (page.vimeoId > 1){ %>
 			  	<!-- Hide  on screens smaller than lg -->
 				  <a href="#" class="btn-play btn d-none d-lg-inline-block" title="Play the video">Play video</a>
 			  <% } %>			  
