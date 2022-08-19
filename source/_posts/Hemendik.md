@@ -86,5 +86,5 @@ vimeoId: 0
 
 * Creative direction: Hemendik
 * Art Direction: Mito
-* Illustrartions: Marie
+* Illustrations: Marie
 
