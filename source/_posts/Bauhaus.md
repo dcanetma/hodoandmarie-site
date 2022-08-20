@@ -49,14 +49,6 @@ date: 2021-03-01 12:00:00
 </div>
 
 
-<div class="gallery gallery-2">
-
-![bauhaus](/media/bauhaus/hodo&marie-bauhaus-03.png)
-
-![bauhaus](/media/bauhaus/hodo&marie-bauhaus-04.png)
-
-</div>
-
 
 <div class="gallery gallery-2">
 
