@@ -1,6 +1,6 @@
-title: La Ferme Elizaldia
+title: Local producers
 
-subTitle: Illustrations
+subTitle: La Ferme Elizaldia
 
 client: La Ferme Elizaldia
 year: 2021

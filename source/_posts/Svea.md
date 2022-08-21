@@ -1,6 +1,6 @@
-title: Svea Solar
+title: Technical Details
 
-subTitle: Illustrations
+subTitle: Svea Solar
 
 client: Svea Solar
 year: 2021

@@ -1,6 +1,6 @@
-title: Hemendik
+title: Basque objects
 
-subTitle: Book Illustrations
+subTitle: Hemendik
 
 client: Hemendik
 year: 2020
