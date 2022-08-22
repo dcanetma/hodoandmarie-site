@@ -18,7 +18,7 @@ thumbnailUrl: media/sveasolar/hodo&marie-sveasolar-thumbnail.png
 
 imageUrl: media/sveasolar/hodo&marie-sveasolar-header.png
 
-date: 2021-07-01 12:00:00
+date: 2021-03-01 12:00:00
 
 vimeoId: 0
 

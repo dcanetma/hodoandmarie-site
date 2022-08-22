@@ -23,7 +23,7 @@ thumbnailUrl:
 
 imageUrl: media/bauhaus/hodo&marie-bauhaus-header.jpg
 
-date: 2021-03-01 12:00:00
+date: 2021-08-02 12:00:00
 
 
 

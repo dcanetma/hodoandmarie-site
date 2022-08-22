@@ -23,7 +23,7 @@ thumbnailUrl:
 
 imageUrl: media/36daysoftype2020/hodo&marie-36daysoftype2020-header.jpg
 
-date: 2021-03-01 12:00:00
+date: 2021-09-01 12:00:00
 
 
 

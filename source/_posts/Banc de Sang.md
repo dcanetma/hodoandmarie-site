@@ -22,7 +22,7 @@ thumbnailUrl:
 
 imageUrl: media/bancdesang/hodo&marie-bancdesang-header.png
 
-date: 2021-09-01 12:00:00
+date: 2021-08-01 12:00:00
 
 
 
