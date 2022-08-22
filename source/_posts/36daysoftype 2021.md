@@ -14,7 +14,7 @@ tags:
   - Illustration
   - Motion
 
-vimeoId: 407921300
+vimeoId: 741879381
 
 thumbnailUrl:
   - media/36daysoftype2021/hodo&marie-36daysoftype2021-thumbnail.mp4
@@ -26,6 +26,7 @@ imageUrl: media/36daysoftype2021/hodo&marie-36daysoftype2021-header.jpg
 date: 2021-03-01 12:00:00
 
 
+---
 
 <div class="gallery gallery-3">
 
