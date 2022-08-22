@@ -19,7 +19,7 @@ vimeoId: 407921300
 thumbnailUrl:
   - media/36daysoftype2020/hodo&marie-36daysoftype2020-thumbnail.mp4
   - media/36daysoftype2020/hodo&marie-36daysoftype2020-thumbnail.webm
-  - media/36daysoftype2020/hodo&marie-36daysoftype2020-thumbnail.jpg
+  - media/36daysoftype2020/hodo&marie-36daysoftype2020-thumbnail.png
 
 imageUrl: media/36daysoftype2020/hodo&marie-36daysoftype2020-header.jpg
 
