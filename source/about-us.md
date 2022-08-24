@@ -22,9 +22,7 @@ Hodei is a basque-born designer passionate about cycling and motion graphics.
 
 <br>
 
-We enjoy all the creative process, from the concept phase and the research involved. And nothing makes us happier than when the client appreciates our work together.
-
-Always interested in new challenges.  
+We enjoy all the creative process, from the concept phase and the research involved. And nothing makes us happier than when the client appreciates our work together. Always interested in new challenges.  
   
 <br>
 
