@@ -10,11 +10,15 @@ We are a design studio with focus on illustration and motion graphics.
   
 <br>  
 
-Maria is a catalan-born architect that met Hodei when studying graphic design. She always loved geometry, drawing and mountain hiking.
+We met in Barcelona wile studying Graphic design and, some years after different working experiences, we joined forces in our studio hodo&marie.
 
 <br>
 
-Hodei is a basque-born designer that fell in love with Maria when studying in Barcelona. He’s passionate about cycling and giving motion to our ideas.
+Maria is a catalan-born architect who always loved drawing, geometry and colors.
+
+<br>
+
+Hodei is a basque-born designer passionate about cycling and motion graphics.
 
 <br>
 
